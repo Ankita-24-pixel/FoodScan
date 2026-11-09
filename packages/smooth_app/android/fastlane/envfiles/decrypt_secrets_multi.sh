@@ -17,8 +17,7 @@ if [ "$KEYSTORE_FILE" = "obf_keystore.jks" ]; then
     gpg --quiet --batch --yes --decrypt --passphrase="$STORE_JKS_DECRYPTKEY" \
     --output ./obf_keystore.jks obf_keystore.jks.gpg
 else
-    # ShuddhScore and Open Products Facts use the standard keystore
+    # FoodScan and Open Products Facts use the standard keystore
     gpg --quiet --batch --yes --decrypt --passphrase="$STORE_JKS_DECRYPTKEY" \
     --output ./keystore.jks keystore.jks.gpg
 fi
-

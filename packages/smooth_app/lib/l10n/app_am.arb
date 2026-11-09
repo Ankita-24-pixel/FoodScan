@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,7 +226,7 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "ወደ ShuddhScore እንኳን በደህና መጡ",
+  "welcomeToOpenFoodFacts": "ወደ FoodScan እንኳን በደህና መጡ",
   "@welcomeToOpenFoodFacts": {},
   "whatIsOff": "ክፍት የምግብ ፋክትስ በአካባቢ ማህበረሰቦች የሚተዳደር ዓለም አቀፍ ለትርፍ ያልተቋቋመ ድርጅት ነው።",
   "@whatIsOff": {
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "የምግብ አምራች ነኝ",
   "sign_up_page_producer_hint": "ፕሮዲዩሰር/ብራንድ",
   "sign_up_page_producer_error_empty": "እባክዎ ፕሮዲዩሰር ወይም የምርት ስም ያስገቡ",
-  "sign_up_page_subscribe_checkbox": "ለ ShuddhScore ጋዜጣ መመዝገብ እፈልጋለሁ (በማንኛውም ጊዜ ከደንበኝነት ምዝገባ መውጣት ይችላሉ)",
+  "sign_up_page_subscribe_checkbox": "ለ FoodScan ጋዜጣ መመዝገብ እፈልጋለሁ (በማንኛውም ጊዜ ከደንበኝነት ምዝገባ መውጣት ይችላሉ)",
   "sign_up_page_user_name_already_used": "የተጠቃሚ ስም አስቀድሞ አለ፣ እባክዎ ሌላ የተጠቃሚ ስም ይምረጡ።",
   "sign_up_page_email_already_exists": "አስቀድሞ አለ፣ ወደ መለያው ይግቡ ወይም በሌላ ኢሜይል ይሞክሩ።",
   "sign_up_page_provide_valid_email": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያቅርቡ።",
@@ -450,7 +450,7 @@
   },
   "contribute_develop_text": "የእያንዳንዱ ክፍት የምግብ መረጃ ምርት ኮድ በጂትሆብ ላይ ይገኛል። ኮዱን (ክፍት ምንጭ ነው) እንደገና መጠቀም እና በመላው ፕላኔት ላይ ላሉ ሰዎች ሁሉ እንድናሻሽለው መርዳት ይችላሉ።",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "ጥያቄዎችን ለመጠየቅ ተመራጭ መንገድ የሆነውን የShuddhScore Slack chatroom መቀላቀል ይችላሉ።",
+  "contribute_develop_text_2": "ጥያቄዎችን ለመጠየቅ ተመራጭ መንገድ የሆነውን የFoodScan Slack chatroom መቀላቀል ይችላሉ።",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "የDEV ሁነታ?",
   "contribute_develop_dev_mode_subtitle": "የDEV ሁነታን ያግብሩ",
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "የመረጃ ቋቱ የፕሮጀክቱ ዋና አካል ነው። ለመርዳት ቀላል እና በጣም ፈጣን ነው። ለስልክዎ የሞባይል መተግበሪያን ማውረድ እና ምርቶችን ማከል ወይም ማሻሻል መጀመር ይችላሉ።\n\nበሌላ በኩል፣ የShuddhScore ድህረ ገጽ አስተዋጽዖ ለማድረግ ብዙ መንገዶችን ያቀርባል፡ ",
+  "contribute_improve_text": "የመረጃ ቋቱ የፕሮጀክቱ ዋና አካል ነው። ለመርዳት ቀላል እና በጣም ፈጣን ነው። ለስልክዎ የሞባይል መተግበሪያን ማውረድ እና ምርቶችን ማከል ወይም ማሻሻል መጀመር ይችላሉ።\n\nበሌላ በኩል፣ የFoodScan ድህረ ገጽ አስተዋጽዖ ለማድረግ ብዙ መንገዶችን ያቀርባል፡ ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "ተርጉም",
   "@contribute_translate_header": {
@@ -486,7 +486,7 @@
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "ትርጉሞች ከፕሮጀክቱ ቁልፍ ተግባራት አንዱ ናቸው",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "ክህሎቶችዎን ለ ShuddhScore ያበርክቱ። የክህሎት ቡድኑን ይቀላቀሉ!",
+  "contribute_join_skill_pool": "ክህሎቶችዎን ለ FoodScan ያበርክቱ። የክህሎት ቡድኑን ይቀላቀሉ!",
   "contribute_share_header": "ክፍት የምግብ እውነታዎችን ከጓደኞችዎ ጋር ያጋሩ",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "አዲስ ምርት አግኝተዋል!",
   "@missing_product": {},
-  "add_product_take_photos": "ይህንን ምርት ወደ ShuddhScore ለማከል የማሸጊያውን ፎቶ ያንሱ",
+  "add_product_take_photos": "ይህንን ምርት ወደ FoodScan ለማከል የማሸጊያውን ፎቶ ያንሱ",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "እባክዎን መጀመሪያ አንዳንድ ፎቶዎችን ያንሱ። ምርቱን በኋላ ላይ ሁልጊዜ ማጠናቀቅ ይችላሉ።",
   "@add_product_take_photos_descriptive": {},
@@ -861,7 +861,7 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "የፊት ፎቶን ወደ ShuddhScore በመስቀል ላይ",
+  "uploading_image_type_front": "የፊት ፎቶን ወደ FoodScan በመስቀል ላይ",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
@@ -877,7 +877,7 @@
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "ሌላ ምስል ወደ ShuddhScore በመስቀል ላይ",
+  "uploading_image_type_other": "ሌላ ምስል ወደ FoodScan በመስቀል ላይ",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "ወደ ShuddhScore እንኳን በደህና መጡ",
+  "homepage_main_card_logo_description": "ወደ FoodScan እንኳን በደህና መጡ",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**ባርኮድ ወይም\n**ምርትን ይፈልጉ*** ይቃኙ",
   "@homepage_main_card_subheading": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "ሲነቃ፣ የብልሽት ሪፖርቶች በራስ-ሰር ወደ ShuddhScore' የስህተት መከታተያ ስርዓት ይገባሉ፣ በዚህም ሳንካዎች ሊስተካከሉ እና በዚህም መተግበሪያውን ማሻሻል ይችላሉ።",
+  "crash_reporting_toggle_subtitle": "ሲነቃ፣ የብልሽት ሪፖርቶች በራስ-ሰር ወደ FoodScan' የስህተት መከታተያ ስርዓት ይገባሉ፣ በዚህም ሳንካዎች ሊስተካከሉ እና በዚህም መተግበሪያውን ማሻሻል ይችላሉ።",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "የአካባቢውን የምርት ዳታቤዝ ከ ShuddhScore የቅርብ ጊዜ መረጃ ጋር ያዘምኑ",
+  "update_local_database_sub": "የአካባቢውን የምርት ዳታቤዝ ከ FoodScan የቅርብ ጊዜ መረጃ ጋር ያዘምኑ",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4182,7 +4182,7 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "ወደ ShuddhScore እንኳን በደህና መጡ!",
+  "guide_open_food_facts_title": "ወደ FoodScan እንኳን በደህና መጡ!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "ለምን ዋጋዎች?",
-  "prices_explanation_card_line1": "** Open Prices ** በዓለም ዙሪያ ያሉ ምርቶችን የመሰብሰብ እና የመጋራት ፕሮጀክት ነው 🌍። Open Prices የሚዘጋጀው በክፍት ShuddhScore ነው።",
+  "prices_explanation_card_line1": "** Open Prices ** በዓለም ዙሪያ ያሉ ምርቶችን የመሰብሰብ እና የመጋራት ፕሮጀክት ነው 🌍። Open Prices የሚዘጋጀው በክፍት FoodScan ነው።",
   "explanation_card_learn_more_button": "ተጨማሪ ይወቁ",
   "product_page_tab_folksonomy": "ፎልክሶኖሚ",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ክፍት ShuddhScore የምግብ ምርቶች ዳታቤዝ ነው **በሁሉም ሰው የተሰራ ለሁሉም**።\nየተሻሉ የምግብ ምርጫዎችን ለማድረግ ሊጠቀሙበት ይችላሉ፣ እና **ክፍት ዳታ** እንደመሆኑ ማንኛውም ሰው ** ለማንኛውም ዓላማ እንደገና ሊጠቀምበት ይችላል**።",
+  "preferences_legal_header": "ክፍት FoodScan የምግብ ምርቶች ዳታቤዝ ነው **በሁሉም ሰው የተሰራ ለሁሉም**።\nየተሻሉ የምግብ ምርጫዎችን ለማድረግ ሊጠቀሙበት ይችላሉ፣ እና **ክፍት ዳታ** እንደመሆኑ ማንኛውም ሰው ** ለማንኛውም ዓላማ እንደገና ሊጠቀምበት ይችላል**።",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "በክፍት ShuddhScore ድህረ ገጽ ላይ",
+  "preferences_on_off_website_subtitle": "በክፍት FoodScan ድህረ ገጽ ላይ",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "መለያዬን አስተዳድር",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "ክፍት ShuddhScoreን ያግኙ",
+  "preferences_faq_discover_off_title": "ክፍት FoodScanን ያግኙ",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "ክፍት የውበት እውነታዎችን ያግኙ",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "ክፍት ShuddhScore መንግሥታዊ ያልሆነ ድርጅት",
+  "preferences_faq_off_ngo_title": "ክፍት FoodScan መንግሥታዊ ያልሆነ ድርጅት",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "ክፍት ShuddhScore ብሎግ",
+  "preferences_connect_blog_title": "ክፍት FoodScan ብሎግ",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ወደ ክፈት ShuddhScore ያከልኳቸው አዳዲስ ምርቶች",
+  "preferences_contributions_new_products_subtitle": "ወደ ክፈት FoodScan ያከልኳቸው አዳዲስ ምርቶች",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "ShuddhScore የሚረዱ ቀላል መንገዶች",
+  "preferences_page_contribute_project_subtitle": "FoodScan የሚረዱ ቀላል መንገዶች",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScore ቤተሙከራዎችን ይክፈቱ",
+  "preferences_page_open_food_facts_labs_title": "FoodScan ቤተሙከራዎችን ይክፈቱ",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "መለያ",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "ክፍት ShuddhScoreን ወደ ቋንቋዎ አምጡ",
+  "preferences_contribute_translate_header": "ክፍት FoodScanን ወደ ቋንቋዎ አምጡ",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

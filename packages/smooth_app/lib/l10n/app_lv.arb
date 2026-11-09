@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Atvērtās cenas",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Laipni lūdzam vietnē ShuddhScore",
+  "welcomeToOpenFoodFacts": "Laipni lūdzam vietnē FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "“ShuddhScore” ir globāla bezpeļņas organizācija, ko atbalsta vietējās kopienas.",
+  "whatIsOff": "“FoodScan” ir globāla bezpeļņas organizācija, ko atbalsta vietējās kopienas.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Nav servera atbildes! Varat atvērt problēmu, izmantojot šo saiti.",
   "@user_management": {},
-  "sign_in_text": "Pierakstieties savā ShuddhScore kontā, lai saglabātu savu ieguldījumu.",
+  "sign_in_text": "Pierakstieties savā FoodScan kontā, lai saglabātu savu ieguldījumu.",
   "incorrect_credentials": "Nepareizs lietotājvārds vai parole.",
   "password_lost_incorrect_credentials": "Šis e-pasts vai lietotājvārds neeksistē. Lūdzu, pārbaudiet savus akreditācijas datus.",
   "password_lost_server_unavailable": "Atvainojamies par to, ka mūsu serveros pašlaik ir palēnināšanās. Lūdzu, mēģiniet vēlreiz vēlāk.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Palīdziet uzlabot ShuddhScore savā valstī",
+  "help_improve_country": "Palīdziet uzlabot FoodScan savā valstī",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Esmu pārtikas ražotājs",
   "sign_up_page_producer_hint": "Ražotājs/zīmols",
   "sign_up_page_producer_error_empty": "Lūdzu, ievadiet ražotāja vai zīmola nosaukumu",
-  "sign_up_page_subscribe_checkbox": "Es vēlos abonēt ShuddhScore jaunumus (no abonēšanas varat atteikties jebkurā laikā).",
+  "sign_up_page_subscribe_checkbox": "Es vēlos abonēt FoodScan jaunumus (no abonēšanas varat atteikties jebkurā laikā).",
   "sign_up_page_user_name_already_used": "Lietotājvārds jau pastāv, lūdzu, izvēlieties citu lietotājvārdu.",
   "sign_up_page_email_already_exists": "jau pastāv, piesakieties kontā vai mēģiniet ar citu e-pastu.",
   "sign_up_page_provide_valid_email": "Lūdzu, norādiet derīgu e-pasta adresi.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Visu ShuddhScore produktu kods ir pieejams vietnē GitHub. Jūs varat atkārtoti izmantot kodu (tas ir atvērtā koda) un palīdzēt mums to uzlabot ikvienam uz visas planētas.",
+  "contribute_develop_text": "Visu FoodScan produktu kods ir pieejams vietnē GitHub. Jūs varat atkārtoti izmantot kodu (tas ir atvērtā koda) un palīdzēt mums to uzlabot ikvienam uz visas planētas.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Jūs varat pievienoties ShuddhScore Slack tērzētavai, kas ir vēlamais veids, kā uzdot jautājumus.",
+  "contribute_develop_text_2": "Jūs varat pievienoties FoodScan Slack tērzētavai, kas ir vēlamais veids, kā uzdot jautājumus.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Izstrādātāja režīms?",
   "contribute_develop_dev_mode_subtitle": "Aktivizējiet DEV režīmu",
   "contribute_donate_title": "Ziedot",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Ziedojiet vietnei ShuddhScore",
+  "contribute_donate_header": "Ziedojiet vietnei FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Lūdzu, ņemiet vērā, ka, izmantojot iekšējo alfa versiju, ir iespējams pilnīgs datu zudums, un lietotne jebkurā laikā var kļūt nelietojama!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Datubāze ir projekta pamatā. Tajā palīdzēt ir vienkārši un ļoti ātri. Varat lejupielādēt mobilo lietotni savam tālrunim un sākt pievienot vai uzlabot produktus.\n\nNo otras puses, ShuddhScore tīmekļa vietne piedāvā daudzus veidus, kā sniegt savu ieguldījumu: ",
+  "contribute_improve_text": "Datubāze ir projekta pamatā. Tajā palīdzēt ir vienkārši un ļoti ātri. Varat lejupielādēt mobilo lietotni savam tālrunim un sākt pievienot vai uzlabot produktus.\n\nNo otras puses, FoodScan tīmekļa vietne piedāvā daudzus veidus, kā sniegt savu ieguldījumu: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Tulkot",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "“ShuddhScore” ir globāls projekts, kurā ir iekļauti produkti no vairāk nekā 160 valstīm. “ShuddhScore” tiek tulkots desmitiem valodu, un tā saturs tiek pastāvīgi atjaunināts.",
+  "contribute_translate_text": "“FoodScan” ir globāls projekts, kurā ir iekļauti produkti no vairāk nekā 160 valstīm. “FoodScan” tiek tulkots desmitiem valodu, un tā saturs tiek pastāvīgi atjaunināts.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Tulkojumi ir viens no projekta galvenajiem uzdevumiem",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Piedalieties ShuddhScore tīmekļa vietnē, lai dalītos savās prasmēs. Pievienojieties prasmju kopienai!",
-  "contribute_share_header": "Dalieties ar ShuddhScore ar draugiem",
+  "contribute_join_skill_pool": "Piedalieties FoodScan tīmekļa vietnē, lai dalītos savās prasmēs. Pievienojieties prasmju kopienai!",
+  "contribute_share_header": "Dalieties ar FoodScan ar draugiem",
   "@contribute_share_header": {},
-  "contribute_share_content": "Vēlējos pastāstīt par lietotni ShuddhScore, ko lietoju, kas ļauj personalizētā veidā iegūt informāciju par pārtikas ietekmi uz veselību un vidi. Tā darbojas, skenējot svītrkodus uz iepakojuma. Visbeidzot, tā ir bez maksas, tai nav nepieciešama reģistrācija, un jūs pat varat palīdzēt palielināt atšifrēto produktu skaitu. Šeit ir saite, lai to lejupielādētu savā tālrunī: https://openfoodfacts.app",
+  "contribute_share_content": "Vēlējos pastāstīt par lietotni FoodScan, ko lietoju, kas ļauj personalizētā veidā iegūt informāciju par pārtikas ietekmi uz veselību un vidi. Tā darbojas, skenējot svītrkodus uz iepakojuma. Visbeidzot, tā ir bez maksas, tai nav nepieciešama reģistrācija, un jūs pat varat palīdzēt palielināt atšifrēto produktu skaitu. Šeit ir saite, lai to lejupielādētu savā tālrunī: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Pierakstieties savā ShuddhScore kontā, lai saņemtu atzinību par savu ieguldījumu.",
+  "question_sign_in_text": "Pierakstieties savā FoodScan kontā, lai saņemtu atzinību par savu ieguldījumu.",
   "question_yes_button_accessibility_value": "Atbildēt ar jā",
   "question_no_button_accessibility_value": "Atbilde ar nē",
   "question_skip_button_accessibility_value": "Izlaist šo jautājumu",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Izveidojiet savu kontu un pievienojieties ShuddhScore kopienai, lai palīdzētu veidot zināšanas par pārtiku visā pasaulē!",
+  "account_create_message": "Izveidojiet savu kontu un pievienojieties FoodScan kopienai, lai palīdzētu veidot zināšanas par pārtiku visā pasaulē!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Jūsu profils",
-  "myPreferences_profile_subtitle": "Pārvaldiet savu ShuddhScore līdzstrādnieka kontu.",
+  "myPreferences_profile_subtitle": "Pārvaldiet savu FoodScan līdzstrādnieka kontu.",
   "myPreferences_settings_title": "Lietotnes iestatījumi",
   "myPreferences_settings_subtitle": "Tumšais režīms, Valodas…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Pārtikas preferences",
   "myPreferences_food_subtitle": "Izvēlieties, kura informācija par pārtiku jums ir vissvarīgākā.",
-  "myPreferences_food_comment": "Izvēlieties, kāda informācija par pārtiku jums ir vissvarīgākā, lai klasificētu pārtiku atbilstoši savām vēlmēm, vispirms redzētu informāciju, kas jūs interesē, un saņemtu saderības kopsavilkumu. Šīs pārtikas preferences paliek jūsu ierīcē un nav saistītas ar jūsu ShuddhScore līdzstrādnieka kontu, ja jums tāds ir.",
+  "myPreferences_food_comment": "Izvēlieties, kāda informācija par pārtiku jums ir vissvarīgākā, lai klasificētu pārtiku atbilstoši savām vēlmēm, vispirms redzētu informāciju, kas jūs interesē, un saņemtu saderības kopsavilkumu. Šīs pārtikas preferences paliek jūsu ierīcē un nav saistītas ar jūsu FoodScan līdzstrādnieka kontu, ja jums tāds ir.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Jūs atradāt jaunu produktu!",
   "@missing_product": {},
-  "add_product_take_photos": "Lai pievienotu šo produktu vietnei ShuddhScore, nofotografējiet iepakojumu.",
+  "add_product_take_photos": "Lai pievienotu šo produktu vietnei FoodScan, nofotografējiet iepakojumu.",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Lūdzu, vispirms uzņemiet dažas fotogrāfijas. Produktu vienmēr varat pabeigt vēlāk.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Iegūstiet to, aizpildot pārtikas kategoriju un sastāvdaļas",
   "new_product_desc_nova_unknown": "Pārtikas pārstrādes līmenis nav zināms",
   "new_product_title_pictures": "Jauns produkts",
-  "new_product_title_pictures_details": "Lūdzu, uzņemiet tālāk norādītās fotogrāfijas, un ShuddhScore dzinējs varēs paveikt pārējo!",
+  "new_product_title_pictures_details": "Lūdzu, uzņemiet tālāk norādītās fotogrāfijas, un FoodScan dzinējs varēs paveikt pārējo!",
   "new_product_title_misc": "Un daži pamatdati…",
   "new_product_done_msg": "Paldies par jūsu ieguldījumu “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Priekšējā attēla augšupielāde vietnē ShuddhScore",
+  "uploading_image_type_front": "Priekšējā attēla augšupielāde vietnē FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Sastāvdaļu attēla augšupielāde vietnē ShuddhScore",
+  "uploading_image_type_ingredients": "Sastāvdaļu attēla augšupielāde vietnē FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Uzturvērtības attēla augšupielāde vietnē ShuddhScore",
+  "uploading_image_type_nutrition": "Uzturvērtības attēla augšupielāde vietnē FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Iepakojuma attēla augšupielāde vietnē ShuddhScore",
+  "uploading_image_type_packaging": "Iepakojuma attēla augšupielāde vietnē FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Augšupielādējot citu attēlu vietnē ShuddhScore",
+  "uploading_image_type_other": "Augšupielādējot citu attēlu vietnē FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Attēla augšupielāde vietnē ShuddhScore",
+  "uploading_image_type_generic": "Attēla augšupielāde vietnē FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Laipni lūdzam vietnē ShuddhScore",
+  "homepage_main_card_logo_description": "Laipni lūdzam vietnē FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Noskenējiet** svītrkodu vai\n**meklējiet** produktu",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Atvērto sistēmu iestatījumi pakalpojumam ShuddhScore",
+  "native_app_description": "Atvērto sistēmu iestatījumi pakalpojumam FoodScan",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Pierakstieties vai reģistrējieties, lai pievienotos ShuddhScore kopienai",
+  "user_profile_subtitle_guest": "Pierakstieties vai reģistrējieties, lai pievienotos FoodScan kopienai",
   "user_profile_title_id_email": "Atvērt pārtikas faktu pieteikšanās: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Sveiki, lūdzu, izdzēsiet manu ShuddhScore kontu: {userId}",
+  "email_body_account_deletion": "Sveiki, lūdzu, izdzēsiet manu FoodScan kontu: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Ja šī opcija ir iespējota, avāriju ziņojumi tiek automātiski iesniegti ShuddhScore kļūdu izsekošanas sistēmai, lai kļūdas varētu novērst un tādējādi uzlabot lietotni.",
+  "crash_reporting_toggle_subtitle": "Ja šī opcija ir iespējota, avāriju ziņojumi tiek automātiski iesniegti FoodScan kļūdu izsekošanas sistēmai, lai kļūdas varētu novērst un tādējādi uzlabot lietotni.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Ja kategorija **automātiskajā pabeigšanā nav pieejama**, droši pievienojiet to jebkurā gadījumā.\nTas mums palīdzēs uzlabot ShuddhScore jūsu valstī.",
+  "edit_product_form_item_categories_explanation_info2_content": "Ja kategorija **automātiskajā pabeigšanā nav pieejama**, droši pievienojiet to jebkurā gadījumā.\nTas mums palīdzēs uzlabot FoodScan jūsu valstī.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Validācijas kļūda",
   "prices_privacy_warning_title": "Brīdinājums par konfidencialitāti",
   "prices_unknown_product": "Nezināms produkts",
-  "prices_privacy_warning_main_message": "Cenas **būs publiskas** kopā ar veikalu, uz kuru tās attiecas.\n\nTas varētu ļaut personām, kuras zina jūsu ShuddhScore pseidonīmu, veikt šādas darbības:\n",
+  "prices_privacy_warning_main_message": "Cenas **būs publiskas** kopā ar veikalu, uz kuru tās attiecas.\n\nTas varētu ļaut personām, kuras zina jūsu FoodScan pseidonīmu, veikt šādas darbības:\n",
   "prices_privacy_warning_message_bullet_1": "Nosakiet, kurā rajonā jūs dzīvojat",
   "prices_privacy_warning_message_bullet_2": "Ziniet, ko pērkat",
-  "prices_privacy_warning_sub_message": "Ja tas jums rada bažas, lūdzu, nomainiet savu pseidonīmu vai izveidojiet jaunu ShuddhScore kontu un piesakieties lietotnē ar to.",
+  "prices_privacy_warning_sub_message": "Ja tas jums rada bažas, lūdzu, nomainiet savu pseidonīmu vai izveidojiet jaunu FoodScan kontu un piesakieties lietotnē ar to.",
   "i_refuse": "Es atsakos",
   "i_accept": "Es piekrītu",
   "prices_currency_change_proposal_title": "Mainīt valūtu?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Apskatiet šo produktu vietnē ShuddhScore: {url}",
+  "share_product_text": "Apskatiet šo produktu vietnē FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Apskatiet manu produktu sarakstu vietnē ShuddhScore: {url}",
+  "share_product_list_text": "Apskatiet manu produktu sarakstu vietnē FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Atjauniniet vietējo produktu datubāzi ar jaunākajiem datiem no ShuddhScore.",
+  "update_local_database_sub": "Atjauniniet vietējo produktu datubāzi ar jaunākajiem datiem no FoodScan.",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "Instalējiet Open Pet Food Facts, lai izveidotu mājdzīvnieku barības datubāzi",
   "faq_title_install_product": "Instalējiet Open Products Facts, lai izveidotu produktu datubāzi objektu kalpošanas laika pagarināšanai.",
   "faq_nutriscore_nutriscore": "Jauns Nutri-Score aprēķins: kas jauns?",
-  "contact_title_pro_page": "Plusi? Importējiet savus produktus ShuddhScore platformā",
+  "contact_title_pro_page": "Plusi? Importējiet savus produktus FoodScan platformā",
   "contact_title_pro_email": "Producenta kontaktinformācija",
   "contact_title_press_page": "Preses lapa",
   "contact_title_press_email": "Preses kontaktinformācija",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Laipni lūdzam vietnē ShuddhScore!",
+  "guide_open_food_facts_title": "Laipni lūdzam vietnē FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Kas ir Atklātie pārtikas fakti?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "“ShuddhScore” ir **sadarbības**, **bezmaksas** un **atvērta** pārtikas produktu datubāze no visas pasaules.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "“FoodScan” ir **sadarbības**, **bezmaksas** un **atvērta** pārtikas produktu datubāze no visas pasaules.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Kas ir atvērtās cenas?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "“Open Prices” ir projekts, kura mērķis ir **apkopot un kopīgot produktu cenas visā pasaulē**. Tas ir publiski pieejams datu kopums, ko var izmantot pētniecībai, analīzei un citiem mērķiem. “Open Prices” izstrādā un uztur “ShuddhScore”.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "“Open Prices” ir projekts, kura mērķis ir **apkopot un kopīgot produktu cenas visā pasaulē**. Tas ir publiski pieejams datu kopums, ko var izmantot pētniecībai, analīzei un citiem mērķiem. “Open Prices” izstrādā un uztur “FoodScan”.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Kā darbojas Atvērtās cenas?",
-  "guide_open_prices_how_paragraph1": "**Mēs izmantojam atvērtā pirmkoda cenu datu kopas pūļa resursus**. Cenas var pievienot lietotāji, izmantojot šo tīmekļa lietotni vai oficiālo ShuddhScore mobilo lietotni. Arī mazumtirgotāji vai trešo pušu lietotnes var sniegt savu ieguldījumu, izmantojot mūsu API.",
+  "guide_open_prices_how_paragraph1": "**Mēs izmantojam atvērtā pirmkoda cenu datu kopas pūļa resursus**. Cenas var pievienot lietotāji, izmantojot šo tīmekļa lietotni vai oficiālo FoodScan mobilo lietotni. Arī mazumtirgotāji vai trešo pušu lietotnes var sniegt savu ieguldījumu, izmantojot mūsu API.",
   "guide_open_prices_how_arg1_title": "Savāciet cenu zīmju fotoattēlus ejās",
   "guide_open_prices_how_arg2_title": "Savāciet čeku fotoattēlus",
-  "guide_open_prices_why_title": "Kāpēc ShuddhScore to dara?",
+  "guide_open_prices_why_title": "Kāpēc FoodScan to dara?",
   "guide_open_prices_why_paragraph1": "Informācija par cenām ir ārkārtīgi svarīga, lai izprastu pārtikas sistēmas. Tas ir galvenais faktors pārtikas izmaksu izpratnē un veselīgāka uztura veicināšanā. Sākotnējie cenu dati ir veids, kā atvieglot pētniekiem, žurnālistiem un pilsoņiem **labāku izpratni par to, kā pārtikas cenas mainās ģeogrāfiski un laikā**.",
   "guide_open_prices_why_arg1_title": "Sekojiet līdzi cenu attīstībai laika gaitā",
   "guide_open_prices_why_arg1_text": "Skatiet **cenu evolūciju**: sarukšanas inflācija, lētas inflācijas tendence, mēs varam tām izsekot kopā!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Ups!",
-  "carousel_unsupported_text": "ShuddhScore neatbalsta skenēto svītrkodu!",
+  "carousel_unsupported_text": "FoodScan neatbalsta skenēto svītrkodu!",
   "carousel_error_header": "Kļūda!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Kāpēc cenas?",
-  "prices_explanation_card_line1": "**Open Prices** ir projekts, lai apkopotu un kopīgotu produktu cenas visā pasaulē 🌍. Open Prices izstrādā un uztur ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** ir projekts, lai apkopotu un kopīgotu produktu cenas visā pasaulē 🌍. Open Prices izstrādā un uztur FoodScan.",
   "explanation_card_learn_more_button": "Uzziniet vairāk",
   "product_page_tab_folksonomy": "Folksonomija",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "“ShuddhScore” ir pārtikas produktu datubāze, **ko izveidojuši visi, ikvienam**.\nTo var izmantot, lai izdarītu labākas izvēles attiecībā uz pārtiku, un, tā kā tie ir **atvērtie dati**, ikviens tos var **atkārtoti izmantot jebkādiem mērķiem**.",
+  "preferences_legal_header": "“FoodScan” ir pārtikas produktu datubāze, **ko izveidojuši visi, ikvienam**.\nTo var izmantot, lai izdarītu labākas izvēles attiecībā uz pārtiku, un, tā kā tie ir **atvērtie dati**, ikviens tos var **atkārtoti izmantot jebkādiem mērķiem**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5189,7 +5189,7 @@
   },
   "preferences_on_off_website_subtitle": "Atvērto pārtikas faktu tīmekļa vietnē",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Pārvaldīt manu kontu",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Atklājiet atklātos faktus par pārtiku",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Atklājiet atklātus skaistumkopšanas faktus",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "NVO ShuddhScore",
+  "preferences_faq_off_ngo_title": "NVO FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Informācija",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Jauni produkti, ko pievienoju vietnei ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Jauni produkti, ko pievienoju vietnei FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Vienkārši veidi, kā palīdzēt ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Vienkārši veidi, kā palīdzēt FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Atvērtās pārtikas faktu laboratorijas",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Konts",
   "@preferences_root_account_title": {

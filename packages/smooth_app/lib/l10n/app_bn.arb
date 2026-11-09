@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "খোলা দাম",
   "sep": "",
   "@sep": {
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "তুমি একটি নতুন পণ্য খুঁজে পেয়েছ!",
   "@missing_product": {},
-  "add_product_take_photos": "এই পণ্যটি ShuddhScore-এ যোগ করতে প্যাকেজিংয়ের ছবি তুলুন।",
+  "add_product_take_photos": "এই পণ্যটি FoodScan-এ যোগ করতে প্যাকেজিংয়ের ছবি তুলুন।",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "প্রথমে কিছু ছবি তুলুন। আপনি পরে যেকোনো সময় পণ্যটি সম্পূর্ণ করতে পারেন।",
   "@add_product_take_photos_descriptive": {},
@@ -877,7 +877,7 @@
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "ShuddhScore-এ অন্য ছবি আপলোড করা হচ্ছে",
+  "uploading_image_type_other": "FoodScan-এ অন্য ছবি আপলোড করা হচ্ছে",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "ওপেন ফুড ফ্যাক্টস-এ স্বাগতম",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**বারকোড স্ক্যান করুন** অথবা\nপণ্যের জন্য **অনুসন্ধান** করুন",
   "@homepage_main_card_subheading": {
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "দাম কেন?",
-  "prices_explanation_card_line1": "**Open Prices** হল বিশ্বজুড়ে পণ্যের দাম সংগ্রহ এবং ভাগ করে নেওয়ার একটি প্রকল্প 🌍। Open Pricesস ShuddhScore দ্বারা তৈরি এবং রক্ষণাবেক্ষণ করা হয়।",
+  "prices_explanation_card_line1": "**Open Prices** হল বিশ্বজুড়ে পণ্যের দাম সংগ্রহ এবং ভাগ করে নেওয়ার একটি প্রকল্প 🌍। Open Pricesস FoodScan দ্বারা তৈরি এবং রক্ষণাবেক্ষণ করা হয়।",
   "explanation_card_learn_more_button": "আরও জানুন",
   "product_page_tab_folksonomy": "ফোকসোনোমি",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore হল একটি খাদ্য পণ্যের ডাটাবেস যা **সবার জন্য, সবার দ্বারা তৈরি**।\nআপনি এটি ব্যবহার করে আরও ভালো খাবারের পছন্দ করতে পারেন, এবং যেহেতু এটি **ওপেন ডেটা**, তাই যে কেউ **যেকোনো উদ্দেশ্যে এটি পুনরায় ব্যবহার করতে** পারে।",
+  "preferences_legal_header": "FoodScan হল একটি খাদ্য পণ্যের ডাটাবেস যা **সবার জন্য, সবার দ্বারা তৈরি**।\nআপনি এটি ব্যবহার করে আরও ভালো খাবারের পছন্দ করতে পারেন, এবং যেহেতু এটি **ওপেন ডেটা**, তাই যে কেউ **যেকোনো উদ্দেশ্যে এটি পুনরায় ব্যবহার করতে** পারে।",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "ShuddhScore ওয়েবসাইটে",
+  "preferences_on_off_website_subtitle": "FoodScan ওয়েবসাইটে",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "আমার অ্যাকাউন্ট পরিচালনা করুন",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Open Food তথ্য আবিষ্কার করুন।",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Open Beauty তথ্য আবিষ্কার করুন",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "দ্য ShuddhScore এনজিও",
+  "preferences_faq_off_ngo_title": "দ্য FoodScan এনজিও",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "তথ্য",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "ShuddhScore ব্লগ",
+  "preferences_connect_blog_title": "FoodScan ব্লগ",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ShuddhScore-এ আমার যোগ করা নতুন পণ্য",
+  "preferences_contributions_new_products_subtitle": "FoodScan-এ আমার যোগ করা নতুন পণ্য",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "ShuddhScore সাহায্য করার সহজ উপায়",
+  "preferences_page_contribute_project_subtitle": "FoodScan সাহায্য করার সহজ উপায়",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,9 +5768,9 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScore ল্যাব খুলুন",
+  "preferences_page_open_food_facts_labs_title": "FoodScan ল্যাব খুলুন",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "হিসাব",
   "@preferences_root_account_title": {

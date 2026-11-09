@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Giá mở",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Chào mừng đến với ShuddhScore",
+  "welcomeToOpenFoodFacts": "Chào mừng đến với FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore là một tổ chức phi lợi nhuận toàn cầu được hỗ trợ bởi cộng đồng địa phương.",
+  "whatIsOff": "FoodScan là một tổ chức phi lợi nhuận toàn cầu được hỗ trợ bởi cộng đồng địa phương.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Không có phản hồi từ máy chủ! Bạn có thể mở sự cố bằng liên kết sau.",
   "@user_management": {},
-  "sign_in_text": "Đăng nhập vào tài khoản ShuddhScore của bạn để lưu các đóng góp của bạn",
+  "sign_in_text": "Đăng nhập vào tài khoản FoodScan của bạn để lưu các đóng góp của bạn",
   "incorrect_credentials": "Tên đăng nhập hoặc mật khẩu không đúng.",
   "password_lost_incorrect_credentials": "Email hoặc tên người dùng này không tồn tại. Vui lòng kiểm tra thông tin đăng nhập của bạn.",
   "password_lost_server_unavailable": "Hiện tại, máy chủ của chúng tôi đang gặp sự cố chậm và chúng tôi rất xin lỗi vì điều này. Vui lòng thử lại sau.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Giúp cải thiện ShuddhScore ở quốc gia của bạn",
+  "help_improve_country": "Giúp cải thiện FoodScan ở quốc gia của bạn",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Tôi là nhà sản xuất thực phẩm",
   "sign_up_page_producer_hint": "Nhà sản xuất/thương hiệu",
   "sign_up_page_producer_error_empty": "Vui lòng nhập tên nhà sản xuất hoặc thương hiệu",
-  "sign_up_page_subscribe_checkbox": "Tôi muốn đăng ký nhận bản tin ShuddhScore (Bạn có thể hủy đăng ký bất cứ lúc nào)",
+  "sign_up_page_subscribe_checkbox": "Tôi muốn đăng ký nhận bản tin FoodScan (Bạn có thể hủy đăng ký bất cứ lúc nào)",
   "sign_up_page_user_name_already_used": "Tên người dùng đã tồn tại, vui lòng chọn tên người dùng khác.",
   "sign_up_page_email_already_exists": "đã tồn tại, đăng nhập vào tài khoản hoặc thử với một email khác.",
   "sign_up_page_provide_valid_email": "Vui lòng cung cấp một địa chỉ email hợp lệ.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Mã nguồn của mọi sản phẩm ShuddhScore đều có sẵn trên GitHub. Bạn có thể tái sử dụng mã nguồn (mã nguồn mở) và giúp chúng tôi cải thiện nó, cho tất cả mọi người trên toàn hành tinh.",
+  "contribute_develop_text": "Mã nguồn của mọi sản phẩm FoodScan đều có sẵn trên GitHub. Bạn có thể tái sử dụng mã nguồn (mã nguồn mở) và giúp chúng tôi cải thiện nó, cho tất cả mọi người trên toàn hành tinh.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Bạn có thể tham gia phòng trò chuyện Slack ShuddhScore, đây là cách tốt nhất để đặt câu hỏi.",
+  "contribute_develop_text_2": "Bạn có thể tham gia phòng trò chuyện Slack FoodScan, đây là cách tốt nhất để đặt câu hỏi.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Chế độ DEV?",
   "contribute_develop_dev_mode_subtitle": "Kích hoạt Chế độ DEV",
   "contribute_donate_title": "Ủng hộ",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Quyên góp cho ShuddhScore",
+  "contribute_donate_header": "Quyên góp cho FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Xin lưu ý rằng với phiên bản alpha nội bộ, việc mất toàn bộ dữ liệu là có thể xảy ra và ứng dụng có thể không sử dụng được bất cứ lúc nào!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Cơ sở dữ liệu là cốt lõi của dự án. Việc hỗ trợ rất dễ dàng và nhanh chóng. Bạn có thể tải xuống ứng dụng di động cho điện thoại của mình và bắt đầu thêm hoặc cải thiện sản phẩm.\n\nMặt khác, trang web ShuddhScore cung cấp nhiều cách để đóng góp: ",
+  "contribute_improve_text": "Cơ sở dữ liệu là cốt lõi của dự án. Việc hỗ trợ rất dễ dàng và nhanh chóng. Bạn có thể tải xuống ứng dụng di động cho điện thoại của mình và bắt đầu thêm hoặc cải thiện sản phẩm.\n\nMặt khác, trang web FoodScan cung cấp nhiều cách để đóng góp: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Dịch",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore là một dự án toàn cầu, bao gồm các sản phẩm từ hơn 160 quốc gia. ShuddhScore được dịch sang hàng chục ngôn ngữ, với nội dung liên tục được cập nhật.",
+  "contribute_translate_text": "FoodScan là một dự án toàn cầu, bao gồm các sản phẩm từ hơn 160 quốc gia. FoodScan được dịch sang hàng chục ngôn ngữ, với nội dung liên tục được cập nhật.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Phiên dịch là một trong những nhiệm vụ trọng tâm của dự án",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Đóng góp kỹ năng của bạn cho ShuddhScore. Hãy tham gia nhóm kỹ năng!",
+  "contribute_join_skill_pool": "Đóng góp kỹ năng của bạn cho FoodScan. Hãy tham gia nhóm kỹ năng!",
   "contribute_share_header": "Chia sẻ Thông tin Thực phẩm Mở với bạn bè của bạn",
   "@contribute_share_header": {},
-  "contribute_share_content": "Tôi muốn giới thiệu với bạn về ứng dụng tôi đang sử dụng, ShuddhScore, cho phép bạn xem thông tin về tác động của thực phẩm đến sức khỏe và môi trường theo cách cá nhân hóa. Ứng dụng hoạt động bằng cách quét mã vạch trên bao bì. Cuối cùng, ứng dụng này hoàn toàn miễn phí, không yêu cầu đăng ký, và bạn thậm chí có thể giúp tăng số lượng sản phẩm được giải mã. Đây là liên kết để tải ứng dụng về điện thoại của bạn: https://openfoodfacts.app",
+  "contribute_share_content": "Tôi muốn giới thiệu với bạn về ứng dụng tôi đang sử dụng, FoodScan, cho phép bạn xem thông tin về tác động của thực phẩm đến sức khỏe và môi trường theo cách cá nhân hóa. Ứng dụng hoạt động bằng cách quét mã vạch trên bao bì. Cuối cùng, ứng dụng này hoàn toàn miễn phí, không yêu cầu đăng ký, và bạn thậm chí có thể giúp tăng số lượng sản phẩm được giải mã. Đây là liên kết để tải ứng dụng về điện thoại của bạn: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Đăng nhập vào tài khoản ShuddhScore của bạn để nhận được tín dụng cho những đóng góp của bạn",
+  "question_sign_in_text": "Đăng nhập vào tài khoản FoodScan của bạn để nhận được tín dụng cho những đóng góp của bạn",
   "question_yes_button_accessibility_value": "Có",
   "question_no_button_accessibility_value": "Không",
   "question_skip_button_accessibility_value": "Bỏ qua câu hỏi này",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Tạo tài khoản và tham gia cộng đồng ShuddhScore để góp phần xây dựng kiến thức về thực phẩm trên toàn thế giới!",
+  "account_create_message": "Tạo tài khoản và tham gia cộng đồng FoodScan để góp phần xây dựng kiến thức về thực phẩm trên toàn thế giới!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Thông tin của bạn",
-  "myPreferences_profile_subtitle": "Quản lý tài khoản cộng tác viên ShuddhScore của bạn.",
+  "myPreferences_profile_subtitle": "Quản lý tài khoản cộng tác viên FoodScan của bạn.",
   "myPreferences_settings_title": "Cài đặt ứng dụng",
   "myPreferences_settings_subtitle": "Chế độ tối, Ngôn ngữ…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Sở thích ăn uống",
   "myPreferences_food_subtitle": "Chọn loại thông tin về thực phẩm quan trọng nhất đối với bạn.",
-  "myPreferences_food_comment": "Chọn thông tin về thực phẩm quan trọng nhất với bạn để xếp hạng thực phẩm theo sở thích, xem thông tin bạn quan tâm trước và nhận tóm tắt về khả năng tương thích. Những sở thích về thực phẩm đó sẽ được lưu trên thiết bị của bạn và không được liên kết với tài khoản cộng tác viên ShuddhScore của bạn (nếu có).",
+  "myPreferences_food_comment": "Chọn thông tin về thực phẩm quan trọng nhất với bạn để xếp hạng thực phẩm theo sở thích, xem thông tin bạn quan tâm trước và nhận tóm tắt về khả năng tương thích. Những sở thích về thực phẩm đó sẽ được lưu trên thiết bị của bạn và không được liên kết với tài khoản cộng tác viên FoodScan của bạn (nếu có).",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Bạn đã tìm thấy một sản phẩm mới!",
   "@missing_product": {},
-  "add_product_take_photos": "Chụp ảnh bao bì để thêm sản phẩm này vào ShuddhScore",
+  "add_product_take_photos": "Chụp ảnh bao bì để thêm sản phẩm này vào FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Đầu tiên xin vui lòng chụp một số hình ảnh. Bạn luôn có thể hoàn thiện thông tin sản phẩm sau đó.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Nhận nó bằng cách điền vào danh mục thực phẩm và thành phần",
   "new_product_desc_nova_unknown": "Mức độ chế biến thực phẩm không xác định",
   "new_product_title_pictures": "Hãy chụp một vài bức ảnh!",
-  "new_product_title_pictures_details": "Vui lòng chụp những bức ảnh sau và công cụ ShuddhScore sẽ tự động tính toán phần còn lại!",
+  "new_product_title_pictures_details": "Vui lòng chụp những bức ảnh sau và công cụ FoodScan sẽ tự động tính toán phần còn lại!",
   "new_product_title_misc": "Và một số dữ liệu cơ bản…",
   "new_product_done_msg": "Cảm ơn bạn đã đóng góp “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Đang tải hình ảnh mặt trước lên ShuddhScore",
+  "uploading_image_type_front": "Đang tải hình ảnh mặt trước lên FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Tải hình ảnh thành phần lên ShuddhScore",
+  "uploading_image_type_ingredients": "Tải hình ảnh thành phần lên FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Đang tải hình ảnh dinh dưỡng lên ShuddhScore",
+  "uploading_image_type_nutrition": "Đang tải hình ảnh dinh dưỡng lên FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Đang tải hình ảnh bao bì lên ShuddhScore",
+  "uploading_image_type_packaging": "Đang tải hình ảnh bao bì lên FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Tải lên hình ảnh khác lên ShuddhScore",
+  "uploading_image_type_other": "Tải lên hình ảnh khác lên FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Đang tải hình ảnh lên ShuddhScore",
+  "uploading_image_type_generic": "Đang tải hình ảnh lên FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Chào mừng đến với ShuddhScore",
+  "homepage_main_card_logo_description": "Chào mừng đến với FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Quét** mã vạch hoặc\n**tìm kiếm** sản phẩm",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Cài đặt hệ thống mở cho ShuddhScore",
+  "native_app_description": "Cài đặt hệ thống mở cho FoodScan",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Đăng nhập hoặc đăng ký để tham gia cộng đồng ShuddhScore",
+  "user_profile_subtitle_guest": "Đăng nhập hoặc đăng ký để tham gia cộng đồng FoodScan",
   "user_profile_title_id_email": "Mở thông tin đăng nhập Thực phẩm: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Xin chào, vui lòng xóa tài khoản ShuddhScore của tôi: {userId}",
+  "email_body_account_deletion": "Xin chào, vui lòng xóa tài khoản FoodScan của tôi: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Khi được bật, báo cáo sự cố sẽ tự động được gửi đến hệ thống theo dõi lỗi của ShuddhScore để sửa lỗi và cải thiện ứng dụng.",
+  "crash_reporting_toggle_subtitle": "Khi được bật, báo cáo sự cố sẽ tự động được gửi đến hệ thống theo dõi lỗi của FoodScan để sửa lỗi và cải thiện ứng dụng.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Trong trường hợp một danh mục **không có sẵn trong tính năng tự động hoàn thành**, bạn vẫn có thể thêm danh mục đó.\nĐiều này sẽ giúp chúng tôi cải thiện ShuddhScore tại quốc gia của bạn.",
+  "edit_product_form_item_categories_explanation_info2_content": "Trong trường hợp một danh mục **không có sẵn trong tính năng tự động hoàn thành**, bạn vẫn có thể thêm danh mục đó.\nĐiều này sẽ giúp chúng tôi cải thiện FoodScan tại quốc gia của bạn.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Lỗi xác thực",
   "prices_privacy_warning_title": "Cảnh báo về quyền riêng tư",
   "prices_unknown_product": "Sản phẩm không xác định",
-  "prices_privacy_warning_main_message": "Giá cả **sẽ được công khai**, cùng với cửa hàng mà chúng đề cập đến.\n\nĐiều đó có thể cho phép những người biết về bút danh ShuddhScore của bạn:\n",
+  "prices_privacy_warning_main_message": "Giá cả **sẽ được công khai**, cùng với cửa hàng mà chúng đề cập đến.\n\nĐiều đó có thể cho phép những người biết về bút danh FoodScan của bạn:\n",
   "prices_privacy_warning_message_bullet_1": "Suy ra bạn sống ở khu vực nào",
   "prices_privacy_warning_message_bullet_2": "Biết những gì bạn đang mua",
-  "prices_privacy_warning_sub_message": "Nếu bạn không thoải mái với điều đó, vui lòng đổi bút danh hoặc tạo tài khoản ShuddhScore mới và đăng nhập vào ứng dụng bằng tài khoản đó.",
+  "prices_privacy_warning_sub_message": "Nếu bạn không thoải mái với điều đó, vui lòng đổi bút danh hoặc tạo tài khoản FoodScan mới và đăng nhập vào ứng dụng bằng tài khoản đó.",
   "i_refuse": "Tôi từ chối",
   "i_accept": "Tôi chấp nhận",
   "prices_currency_change_proposal_title": "Đổi tiền tệ?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Hãy xem sản phẩm này trên ShuddhScore: {url}",
+  "share_product_text": "Hãy xem sản phẩm này trên FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Hãy xem danh sách sản phẩm của tôi trên ShuddhScore: {url}",
+  "share_product_list_text": "Hãy xem danh sách sản phẩm của tôi trên FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Cập nhật cơ sở dữ liệu sản phẩm địa phương với dữ liệu mới nhất từ ShuddhScore",
+  "update_local_database_sub": "Cập nhật cơ sở dữ liệu sản phẩm địa phương với dữ liệu mới nhất từ FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "Nhóm NOVA không xác định",
   "nutrition_facts": "Mức độ dinh dưỡng",
   "faq_title_partners": "Đối tác và Nhà tài trợ của tổ chức phi chính phủ",
-  "faq_title_vision": "Tầm nhìn, Sứ mệnh, Giá trị và Chương trình của ShuddhScore",
+  "faq_title_vision": "Tầm nhìn, Sứ mệnh, Giá trị và Chương trình của FoodScan",
   "faq_title_install_beauty": "Cài đặt Open Beauty Facts để tạo cơ sở dữ liệu mỹ phẩm",
   "faq_title_install_pet": "Cài đặt Open Pet Food Facts để tạo cơ sở dữ liệu thức ăn cho thú cưng",
   "faq_title_install_product": "Cài đặt Open Products Facts để tạo cơ sở dữ liệu sản phẩm nhằm kéo dài tuổi thọ của các đối tượng",
   "faq_nutriscore_nutriscore": "Cách tính mới của Nutri-Score: có gì mới?",
-  "contact_title_pro_page": "Ưu điểm? Nhập sản phẩm của bạn vào ShuddhScore",
+  "contact_title_pro_page": "Ưu điểm? Nhập sản phẩm của bạn vào FoodScan",
   "contact_title_pro_email": "Liên hệ nhà sản xuất",
   "contact_title_press_page": "Trang báo chí",
   "contact_title_press_email": "Liên hệ báo chí",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Chào mừng đến với ShuddhScore!",
+  "guide_open_food_facts_title": "Chào mừng đến với FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
-  "guide_open_food_facts_what_is_open_food_facts_title": "ShuddhScore là gì?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore là cơ sở dữ liệu **hợp tác**, **miễn phí** và **mở** về các sản phẩm thực phẩm từ khắp nơi trên thế giới.",
+  "guide_open_food_facts_what_is_open_food_facts_title": "FoodScan là gì?",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan là cơ sở dữ liệu **hợp tác**, **miễn phí** và **mở** về các sản phẩm thực phẩm từ khắp nơi trên thế giới.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4195,7 +4195,7 @@
   "@guide_open_food_facts_what_is_open_food_facts_paragraph2": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
-  "guide_open_food_facts_features_title": "Các tính năng của ShuddhScore",
+  "guide_open_food_facts_features_title": "Các tính năng của FoodScan",
   "guide_open_food_facts_features_arg1_title": "Nhận cảnh báo về các thành phần không mong muốn của bạn",
   "guide_open_food_facts_tips_title": "Mẹo chụp ảnh đẹp",
   "guide_open_food_facts_tips_arg1_title": "Không nên làm",
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Open Prices là gì?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices là một dự án **thu thập và chia sẻ giá sản phẩm trên toàn thế giới**. Đây là một bộ dữ liệu công khai có thể được sử dụng cho mục đích nghiên cứu, phân tích, v.v. Open Prices được phát triển và duy trì bởi ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices là một dự án **thu thập và chia sẻ giá sản phẩm trên toàn thế giới**. Đây là một bộ dữ liệu công khai có thể được sử dụng cho mục đích nghiên cứu, phân tích, v.v. Open Prices được phát triển và duy trì bởi FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Open Prices hoạt động như thế nào?",
-  "guide_open_prices_how_paragraph1": "**Chúng tôi đang huy động cộng đồng để xây dựng một bộ dữ liệu giá nguồn mở**. Người dùng có thể thêm giá thông qua ứng dụng web này hoặc qua ứng dụng di động chính thức ShuddhScore. Các nhà bán lẻ hoặc ứng dụng của bên thứ ba cũng có thể đóng góp bằng cách sử dụng API của chúng tôi.",
+  "guide_open_prices_how_paragraph1": "**Chúng tôi đang huy động cộng đồng để xây dựng một bộ dữ liệu giá nguồn mở**. Người dùng có thể thêm giá thông qua ứng dụng web này hoặc qua ứng dụng di động chính thức FoodScan. Các nhà bán lẻ hoặc ứng dụng của bên thứ ba cũng có thể đóng góp bằng cách sử dụng API của chúng tôi.",
   "guide_open_prices_how_arg1_title": "Thu thập hình ảnh các thẻ giá ở lối đi",
   "guide_open_prices_how_arg2_title": "Thu thập hình ảnh biên lai",
-  "guide_open_prices_why_title": "Tại sao ShuddhScore lại làm như vậy?",
+  "guide_open_prices_why_title": "Tại sao FoodScan lại làm như vậy?",
   "guide_open_prices_why_paragraph1": "Thông tin giá cả đóng vai trò tối quan trọng trong việc hiểu rõ hệ thống thực phẩm. Đây là yếu tố then chốt để hiểu rõ chi phí thực phẩm và thúc đẩy chế độ ăn uống lành mạnh hơn. Việc công khai dữ liệu giá là một cách giúp các nhà nghiên cứu, nhà báo và người dân **hiểu rõ hơn về sự thay đổi giá thực phẩm theo khu vực địa lý và thời gian**.",
   "guide_open_prices_why_arg1_title": "Theo dõi sự phát triển của giá theo thời gian",
   "guide_open_prices_why_arg1_text": "Xem **sự tiến hóa của giá cả**: lạm phát suy giảm, lạm phát giá rẻ, chúng ta có thể cùng theo dõi chúng!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Ồ!",
-  "carousel_unsupported_text": "Mã vạch được quét không được ShuddhScore! hỗ trợ.",
+  "carousel_unsupported_text": "Mã vạch được quét không được FoodScan! hỗ trợ.",
   "carousel_error_header": "Lỗi!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Tại sao lại có giá?",
-  "prices_explanation_card_line1": "**Open Prices** là một dự án thu thập và chia sẻ giá sản phẩm trên toàn thế giới 🌍. Open Prices được phát triển và duy trì bởi ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** là một dự án thu thập và chia sẻ giá sản phẩm trên toàn thế giới 🌍. Open Prices được phát triển và duy trì bởi FoodScan.",
   "explanation_card_learn_more_button": "Tìm hiểu thêm",
   "product_page_tab_folksonomy": "Dân gian học",
   "@product_page_tab_folksonomy": {
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "Dự án ShuddhScore",
+  "preferences_card_project": "Dự án FoodScan",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore là cơ sở dữ liệu về sản phẩm thực phẩm **do mọi người tạo ra, dành cho mọi người**.\nBạn có thể sử dụng cơ sở dữ liệu này để đưa ra những lựa chọn thực phẩm tốt hơn và vì đây là **dữ liệu mở** nên bất kỳ ai cũng có thể **tái sử dụng cho bất kỳ mục đích nào**.",
+  "preferences_legal_header": "FoodScan là cơ sở dữ liệu về sản phẩm thực phẩm **do mọi người tạo ra, dành cho mọi người**.\nBạn có thể sử dụng cơ sở dữ liệu này để đưa ra những lựa chọn thực phẩm tốt hơn và vì đây là **dữ liệu mở** nên bất kỳ ai cũng có thể **tái sử dụng cho bất kỳ mục đích nào**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Trên trang web ShuddhScore",
+  "preferences_on_off_website_subtitle": "Trên trang web FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Quản lý tài khoản của tôi",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Khám phá sự thật về thực phẩm mở",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Khám phá sự thật về vẻ đẹp mở",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "Tổ chức phi chính phủ ShuddhScore",
+  "preferences_faq_off_ngo_title": "Tổ chức phi chính phủ FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Thông tin",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Sản phẩm mới tôi đã thêm vào ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Sản phẩm mới tôi đã thêm vào FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Những cách đơn giản để giúp ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Những cách đơn giản để giúp FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Phòng thí nghiệm thông tin thực phẩm mở",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Tài khoản",
   "@preferences_root_account_title": {

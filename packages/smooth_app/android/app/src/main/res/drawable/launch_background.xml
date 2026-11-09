@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <color android:color="@color/background_splashscreen" />
+        <bitmap android:gravity="fill" android:src="@drawable/background"/>
     </item>
-
     <item>
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/shuddhscore_launcher_foreground" />
+        <bitmap android:gravity="center" android:src="@drawable/splash"/>
     </item>
-
-    <item
-        android:width="200dp"
-        android:height="80dp"
-        android:bottom="20dp">
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/logo_text" />
+    <item android:bottom="0dp">
+        <bitmap android:gravity="bottom" android:src="@drawable/branding"/>
     </item>
-
 </layer-list>

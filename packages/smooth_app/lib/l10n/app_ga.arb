@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Praghsanna Oscailte",
   "sep": "",
   "@sep": {
@@ -228,7 +228,7 @@
   "@Introduction screen": {},
   "welcomeToOpenFoodFacts": "Fáilte go dtí Fíricí Bia Oscailte",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "Is eagraíocht neamhbhrabúis dhomhanda í ShuddhScore atá faoi thiomáint ag pobail áitiúla.",
+  "whatIsOff": "Is eagraíocht neamhbhrabúis dhomhanda í FoodScan atá faoi thiomáint ag pobail áitiúla.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Gan freagra ón bhfreastalaí! B’fhéidir go n-osclóidh tú fadhb leis an nasc seo a leanas.",
   "@user_management": {},
-  "sign_in_text": "Sínigh isteach i do chuntas ShuddhScore chun do chuid ranníocaíochtaí a shábháil",
+  "sign_in_text": "Sínigh isteach i do chuntas FoodScan chun do chuid ranníocaíochtaí a shábháil",
   "incorrect_credentials": "Ainm úsáideora nó pasfhocal mícheart.",
   "password_lost_incorrect_credentials": "Níl an ríomhphost ná an t-ainm úsáideora seo ann. Seiceáil do chuid dintiúir le do thoil.",
   "password_lost_server_unavailable": "Tá moilliú ar ár bhfreastalaithe faoi láthair agus gabhaimid leithscéal as. Déan iarracht arís ar ball.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Cabhraigh le feabhas a chur ar ShuddhScore i do thír féin",
+  "help_improve_country": "Cabhraigh le feabhas a chur ar FoodScan i do thír féin",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Is léiritheoir bia mé",
   "sign_up_page_producer_hint": "Léiritheoir/branda",
   "sign_up_page_producer_error_empty": "Cuir isteach ainm táirgeora nó branda le do thoil",
-  "sign_up_page_subscribe_checkbox": "Ba mhaith liom liostáil le nuachtlitir ShuddhScore (Is féidir leat díliostáil uaidh ag am ar bith)",
+  "sign_up_page_subscribe_checkbox": "Ba mhaith liom liostáil le nuachtlitir FoodScan (Is féidir leat díliostáil uaidh ag am ar bith)",
   "sign_up_page_user_name_already_used": "Tá an t-ainm úsáideora ann cheana féin, roghnaigh ainm úsáideora eile le do thoil.",
   "sign_up_page_email_already_exists": "ann cheana féin, logáil isteach sa chuntas nó déan iarracht le ríomhphost eile.",
   "sign_up_page_provide_valid_email": "Cuir seoladh ríomhphoist bailí ar fáil.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Tá an cód do gach táirge ShuddhScore ar fáil ar GitHub. Tá fáilte romhat an cód a athúsáid (is foinse oscailte é) agus cabhrú linn é a fheabhsú, do gach duine, ar an phláinéid ar fad.",
+  "contribute_develop_text": "Tá an cód do gach táirge FoodScan ar fáil ar GitHub. Tá fáilte romhat an cód a athúsáid (is foinse oscailte é) agus cabhrú linn é a fheabhsú, do gach duine, ar an phláinéid ar fad.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Is féidir leat páirt a ghlacadh i seomra comhrá ShuddhScore Slack arb é an bealach is fearr le ceisteanna a chur.",
+  "contribute_develop_text_2": "Is féidir leat páirt a ghlacadh i seomra comhrá FoodScan Slack arb é an bealach is fearr le ceisteanna a chur.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Mód DEV?",
   "contribute_develop_dev_mode_subtitle": "Gníomhachtaigh an Mód DEV",
   "contribute_donate_title": "Donate",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Tabhair síntiús do ShuddhScore",
+  "contribute_donate_header": "Tabhair síntiús do FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Tabhair faoi deara, le do thoil, go bhfuil cailliúint iomlán sonraí indéanta leis an leagan alfa inmheánach, agus go bhféadfadh an aip a bheith neamh-inúsáidte ag am ar bith!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Is é an bunachar sonraí croílár an tionscadail. Tá sé éasca agus an-tapa cabhrú. Is féidir leat an aip shoghluaiste a íoslódáil do do ghuthán, agus tosú ag cur táirgí leis nó ag feabhsú táirgí.\n\nAr an láimh eile, cuireann suíomh Gréasáin ShuddhScore go leor bealaí ar fáil chun cur leis: ",
+  "contribute_improve_text": "Is é an bunachar sonraí croílár an tionscadail. Tá sé éasca agus an-tapa cabhrú. Is féidir leat an aip shoghluaiste a íoslódáil do do ghuthán, agus tosú ag cur táirgí leis nó ag feabhsú táirgí.\n\nAr an láimh eile, cuireann suíomh Gréasáin FoodScan go leor bealaí ar fáil chun cur leis: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Aistrigh",
   "@contribute_translate_header": {
@@ -482,11 +482,11 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "Is tionscadal domhanda é ShuddhScore, ina bhfuil táirgí ó níos mó ná 160 tír. Aistrítear ShuddhScore go mórán teangacha, agus bíonn an t-ábhar i gcónaí ag athrú.",
+  "contribute_translate_text": "Is tionscadal domhanda é FoodScan, ina bhfuil táirgí ó níos mó ná 160 tír. Aistrítear FoodScan go mórán teangacha, agus bíonn an t-ábhar i gcónaí ag athrú.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Tá aistriúcháin ar cheann de phríomhthascanna an tionscadail",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Cuir do scileanna le ShuddhScore. Bí linn na scileanna!",
+  "contribute_join_skill_pool": "Cuir do scileanna le FoodScan. Bí linn na scileanna!",
   "contribute_share_header": "Roinn Fíricí Bia Oscailte le do chairde",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Sínigh isteach i do chuntas ShuddhScore chun creidmheas a fháil as do chuid ranníocaíochtaí",
+  "question_sign_in_text": "Sínigh isteach i do chuntas FoodScan chun creidmheas a fháil as do chuid ranníocaíochtaí",
   "question_yes_button_accessibility_value": "Freagair le tá",
   "question_no_button_accessibility_value": "Freagair le níl",
   "question_skip_button_accessibility_value": "Seachain an cheist seo",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Cruthaigh do chuntas agus bí páirteach i bpobal ShuddhScore chun cabhrú le heolas bia a thógáil ar fud an domhain!",
+  "account_create_message": "Cruthaigh do chuntas agus bí páirteach i bpobal FoodScan chun cabhrú le heolas bia a thógáil ar fud an domhain!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Do Phróifíl",
-  "myPreferences_profile_subtitle": "Bainistigh do chuntas rannpháirtí ShuddhScore.",
+  "myPreferences_profile_subtitle": "Bainistigh do chuntas rannpháirtí FoodScan.",
   "myPreferences_settings_title": "Socruithe Aipe",
   "myPreferences_settings_subtitle": "Mód dorcha, Teangacha…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Roghanna Bia",
   "myPreferences_food_subtitle": "Roghnaigh cén fhaisnéis faoi bhia is tábhachtaí duit.",
-  "myPreferences_food_comment": "Roghnaigh an fhaisnéis faoi bhia is tábhachtaí duit, chun bia a rangú de réir do chuid sainroghanna, an fhaisnéis is tábhachtaí duit a fheiceáil ar dtús, agus achoimre comhoiriúnachta a fháil. Fanann na roghanna bia sin ar do ghléas, agus níl siad bainteach le do chuntas rannpháirtí ShuddhScore má tá ceann agat.",
+  "myPreferences_food_comment": "Roghnaigh an fhaisnéis faoi bhia is tábhachtaí duit, chun bia a rangú de réir do chuid sainroghanna, an fhaisnéis is tábhachtaí duit a fheiceáil ar dtús, agus achoimre comhoiriúnachta a fháil. Fanann na roghanna bia sin ar do ghléas, agus níl siad bainteach le do chuntas rannpháirtí FoodScan má tá ceann agat.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Fuair tú táirge nua!",
   "@missing_product": {},
-  "add_product_take_photos": "Glac grianghraif den phacáistiú chun an táirge seo a chur le ShuddhScore",
+  "add_product_take_photos": "Glac grianghraif den phacáistiú chun an táirge seo a chur le FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Tóg roinnt grianghraf ar dtús le do thoil. Is féidir leat an táirge a chríochnú níos déanaí i gcónaí.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Faigh é tríd an gcatagóir bia agus na comhábhair a líonadh isteach",
   "new_product_desc_nova_unknown": "Leibhéal próiseála bia anaithnid",
   "new_product_title_pictures": "Táirge nua",
-  "new_product_title_pictures_details": "Glac na grianghraif seo a leanas le do thoil agus is féidir leis an inneall ShuddhScore an chuid eile a oibriú amach!",
+  "new_product_title_pictures_details": "Glac na grianghraif seo a leanas le do thoil agus is féidir leis an inneall FoodScan an chuid eile a oibriú amach!",
   "new_product_title_misc": "Agus roinnt sonraí bunúsacha…",
   "new_product_done_msg": "Go raibh maith agat as do ranníocaíocht “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Íomhá tosaigh á uaslódáil chuig ShuddhScore",
+  "uploading_image_type_front": "Íomhá tosaigh á uaslódáil chuig FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Íomhá na gcomhábhar á uaslódáil chuig ShuddhScore",
+  "uploading_image_type_ingredients": "Íomhá na gcomhábhar á uaslódáil chuig FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Íomhá cothaithe á uaslódáil chuig ShuddhScore",
+  "uploading_image_type_nutrition": "Íomhá cothaithe á uaslódáil chuig FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Íomhá an phacáistithe á uaslódáil chuig ShuddhScore",
+  "uploading_image_type_packaging": "Íomhá an phacáistithe á uaslódáil chuig FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Íomhá eile á uaslódáil chuig ShuddhScore",
+  "uploading_image_type_other": "Íomhá eile á uaslódáil chuig FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Íomhá á huaslódáil chuig ShuddhScore",
+  "uploading_image_type_generic": "Íomhá á huaslódáil chuig FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "Fáilte go dtí Fíricí Bia Oscailte",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Scanáil** cód barra nó\n**cuardaigh** táirge",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Socruithe córais oscailte le haghaidh ShuddhScore",
+  "native_app_description": "Socruithe córais oscailte le haghaidh FoodScan",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Sínigh isteach nó cláraigh le bheith páirteach i bpobal ShuddhScore",
+  "user_profile_subtitle_guest": "Sínigh isteach nó cláraigh le bheith páirteach i bpobal FoodScan",
   "user_profile_title_id_email": "Logáil isteach Oscailte Fíricí Bia: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Haigh, scrios mo chuntas ShuddhScore le do thoil: {userId}",
+  "email_body_account_deletion": "Haigh, scrios mo chuntas FoodScan le do thoil: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Nuair a bhíonn sé cumasaithe, cuirtear tuairiscí tuairteála isteach go huathoibríoch chuig córas rianaithe earráide ShuddhScore, ionas gur féidir fabhtanna a shocrú agus an aip a fheabhsú dá bharr.",
+  "crash_reporting_toggle_subtitle": "Nuair a bhíonn sé cumasaithe, cuirtear tuairiscí tuairteála isteach go huathoibríoch chuig córas rianaithe earráide FoodScan, ionas gur féidir fabhtanna a shocrú agus an aip a fheabhsú dá bharr.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Sa chás nach bhfuil catagóir ar fáil san uath-líonadh, is féidir leat í a chur leis ar aon nós.\nCabhróidh sé seo linn ShuddhScore a fheabhsú i do thír féin.",
+  "edit_product_form_item_categories_explanation_info2_content": "Sa chás nach bhfuil catagóir ar fáil san uath-líonadh, is féidir leat í a chur leis ar aon nós.\nCabhróidh sé seo linn FoodScan a fheabhsú i do thír féin.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Earráid bailíochtaithe",
   "prices_privacy_warning_title": "Rabhadh príobháideachta",
   "prices_unknown_product": "Táirge anaithnid",
-  "prices_privacy_warning_main_message": "Beidh na praghsanna **poiblí**, mar aon leis an siopa dá dtagraíonn siad.\n\nD’fhéadfadh sé sin ligean do dhaoine a bhfuil eolas acu faoi d’ainm cleite ShuddhScore:\n",
+  "prices_privacy_warning_main_message": "Beidh na praghsanna **poiblí**, mar aon leis an siopa dá dtagraíonn siad.\n\nD’fhéadfadh sé sin ligean do dhaoine a bhfuil eolas acu faoi d’ainm cleite FoodScan:\n",
   "prices_privacy_warning_message_bullet_1": "Faigh amach cén ceantar ina gcónaíonn tú",
   "prices_privacy_warning_message_bullet_2": "Bíodh a fhios agat cad atá á cheannach agat",
-  "prices_privacy_warning_sub_message": "Mura bhfuil tú compordach leis sin, athraigh d’ainm cleite, nó cruthaigh cuntas nua ShuddhScore agus logáil isteach san aip leis.",
+  "prices_privacy_warning_sub_message": "Mura bhfuil tú compordach leis sin, athraigh d’ainm cleite, nó cruthaigh cuntas nua FoodScan agus logáil isteach san aip leis.",
   "i_refuse": "Diúltaím",
   "i_accept": "Glacaim leis",
   "prices_currency_change_proposal_title": "An t-airgeadra a athrú?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Féach ar an táirge seo ar ShuddhScore: {url}",
+  "share_product_text": "Féach ar an táirge seo ar FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Féach ar mo liosta táirgí ar ShuddhScore: {url}",
+  "share_product_list_text": "Féach ar mo liosta táirgí ar FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Nuashonraigh bunachar sonraí na dtáirgí áitiúla leis na sonraí is déanaí ó ShuddhScore",
+  "update_local_database_sub": "Nuashonraigh bunachar sonraí na dtáirgí áitiúla leis na sonraí is déanaí ó FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "Grúpa NOVA Anaithnid",
   "nutrition_facts": "Leibhéil Cothaitheach",
   "faq_title_partners": "Comhpháirtithe & Pátrúin na hEagraíochta Neamhrialtasaí",
-  "faq_title_vision": "Fís, Misean, Luachanna agus Cláir ShuddhScore",
+  "faq_title_vision": "Fís, Misean, Luachanna agus Cláir FoodScan",
   "faq_title_install_beauty": "Suiteáil Open Beauty Facts chun bunachar sonraí cosmaideach a chruthú",
   "faq_title_install_pet": "Suiteáil Open Pet Food Facts chun bunachar sonraí bia peataí a chruthú",
   "faq_title_install_product": "Suiteáil Open Products Facts chun bunachar sonraí táirgí a chruthú chun saolré réad a fhadú.",
   "faq_nutriscore_nutriscore": "Ríomh nua ar an Nutri-Score: cad atá nua?",
-  "contact_title_pro_page": "Pro? Iompórtáil do tháirgí in ShuddhScore",
+  "contact_title_pro_page": "Pro? Iompórtáil do tháirgí in FoodScan",
   "contact_title_pro_email": "Teagmháil Léiritheoir",
   "contact_title_press_page": "Leathanach Preasa",
   "contact_title_press_email": "Teagmháil Preasa",
@@ -4187,7 +4187,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Cad is Fíricí Bia Oscailte ann?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "Is bunachar sonraí **comhoibríoch**, **saor in aisce**, agus **oscailte** de tháirgí bia ó ar fud an domhain é ShuddhScore.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "Is bunachar sonraí **comhoibríoch**, **saor in aisce**, agus **oscailte** de tháirgí bia ó ar fud an domhain é FoodScan.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Cad is Praghsanna Oscailte ann?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Is tionscadal é Open Prices chun **praghsanna táirgí ar fud an domhain a bhailiú agus a roinnt**. Is tacar sonraí atá ar fáil go poiblí é agus is féidir a úsáid le haghaidh taighde, anailíse agus níos mó. Forbraíonn agus cothabhálann ShuddhScore Open Prices.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Is tionscadal é Open Prices chun **praghsanna táirgí ar fud an domhain a bhailiú agus a roinnt**. Is tacar sonraí atá ar fáil go poiblí é agus is féidir a úsáid le haghaidh taighde, anailíse agus níos mó. Forbraíonn agus cothabhálann FoodScan Open Prices.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Conas a oibríonn Praghsanna Oscailte?",
-  "guide_open_prices_how_paragraph1": "**Táimid ag foinsiú sonraí foinse oscailte de phraghsanna**. Is féidir le húsáideoirí praghsanna a chur leis tríd an aip ghréasáin seo, nó tríd an aip shoghluaiste oifigiúil ShuddhScore. Is féidir le miondíoltóirí nó aipeanna tríú páirtí cur leis chomh maith trí úsáid a bhaint as ár n-API.",
+  "guide_open_prices_how_paragraph1": "**Táimid ag foinsiú sonraí foinse oscailte de phraghsanna**. Is féidir le húsáideoirí praghsanna a chur leis tríd an aip ghréasáin seo, nó tríd an aip shoghluaiste oifigiúil FoodScan. Is féidir le miondíoltóirí nó aipeanna tríú páirtí cur leis chomh maith trí úsáid a bhaint as ár n-API.",
   "guide_open_prices_how_arg1_title": "Bailigh grianghraif de chlibeanna praghais sna haisleáin",
   "guide_open_prices_how_arg2_title": "Bailigh grianghraif de admhálacha",
-  "guide_open_prices_why_title": "Cén fáth a bhfuil ShuddhScore ag déanamh seo?",
+  "guide_open_prices_why_title": "Cén fáth a bhfuil FoodScan ag déanamh seo?",
   "guide_open_prices_why_paragraph1": "Tá faisnéis faoi phraghsanna ríthábhachtach chun córais bhia a thuiscint. Is fachtóir ríthábhachtach í chun costas bia a thuiscint agus chun aistí bia níos sláintiúla a chur chun cinn. Is bealach é sonraí praghsanna a oscailt chun é a dhéanamh níos éasca do thaighdeoirí, d’iriseoirí agus do shaoránaigh **tuiscint níos fearr a bheith acu ar an gcaoi a n-athraíonn praghsanna bia go geografach agus in am**.",
   "guide_open_prices_why_arg1_title": "Rianú a dhéanamh ar éabhlóid na bpraghsanna le himeacht ama",
   "guide_open_prices_why_arg1_text": "Féach ar **éabhlóid na bpraghsanna**: boilsciú crapadh, boilsciú saor, is féidir linn iad a rianú le chéile!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Úps!",
-  "carousel_unsupported_text": "Ní thacaíonn ShuddhScore leis an gcód barra scanta!",
+  "carousel_unsupported_text": "Ní thacaíonn FoodScan leis an gcód barra scanta!",
   "carousel_error_header": "Earráid!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Cén fáth praghsanna?",
-  "prices_explanation_card_line1": "Is tionscadal é **Open Prices** chun praghsanna táirgí ar fud an domhain a bhailiú agus a roinnt 🌍. Forbraíonn agus cothabhálann ShuddhScore Open Prices.",
+  "prices_explanation_card_line1": "Is tionscadal é **Open Prices** chun praghsanna táirgí ar fud an domhain a bhailiú agus a roinnt 🌍. Forbraíonn agus cothabhálann FoodScan Open Prices.",
   "explanation_card_learn_more_button": "Foghlaim níos mó",
   "product_page_tab_folksonomy": "Síceolaíocht tíre",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "Is bunachar sonraí táirgí bia é ShuddhScore atá **déanta ag gach duine, do gach duine**.\nIs féidir leat é a úsáid chun roghanna bia níos fearr a dhéanamh, agus toisc gur **sonraí oscailte** é, is féidir le duine ar bith **é a athúsáid chun aon chríche**.",
+  "preferences_legal_header": "Is bunachar sonraí táirgí bia é FoodScan atá **déanta ag gach duine, do gach duine**.\nIs féidir leat é a úsáid chun roghanna bia níos fearr a dhéanamh, agus toisc gur **sonraí oscailte** é, is féidir le duine ar bith **é a athúsáid chun aon chríche**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Ar shuíomh gréasáin ShuddhScore",
+  "preferences_on_off_website_subtitle": "Ar shuíomh gréasáin FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Bainistigh mo chuntas",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Faigh amach Fíricí Bia Oscailte",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Faigh amach Fíricí Áilleachta Oscailte",
   "@preferences_faq_discover_obf_title": {
@@ -5322,7 +5322,7 @@
   },
   "preferences_faq_off_ngo_title": "An Eagraíocht Neamhrialtasach Fíricí Bia Oscailte",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Eolas",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Táirgí nua a chuir mé le ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Táirgí nua a chuir mé le FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Bealaí simplí chun cabhrú le ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Bealaí simplí chun cabhrú le FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Saotharlanna Fíricí Bia Oscailte",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Cuntas",
   "@preferences_root_account_title": {

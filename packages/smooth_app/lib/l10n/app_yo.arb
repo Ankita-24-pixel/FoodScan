@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Ẹ káàbọ̀ sí ShuddhScore",
+  "welcomeToOpenFoodFacts": "Ẹ káàbọ̀ sí FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore jẹ́ àjọ tí kìí ṣe èrè lágbàáyé tí àwọn agbègbè ń ṣiṣẹ́ fún.",
+  "whatIsOff": "FoodScan jẹ́ àjọ tí kìí ṣe èrè lágbàáyé tí àwọn agbègbè ń ṣiṣẹ́ fún.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Kò sí ìdáhùn sí olupin! O le ṣí ìṣòro kan pẹ̀lú ìjápọ̀ yìí.",
   "@user_management": {},
-  "sign_in_text": "Wọlé sí àkọọ́lẹ̀ ShuddhScore rẹ láti fi àwọn àfikún rẹ pamọ́",
+  "sign_in_text": "Wọlé sí àkọọ́lẹ̀ FoodScan rẹ láti fi àwọn àfikún rẹ pamọ́",
   "incorrect_credentials": "Orúkọ tàbí ọ̀rọ̀ìpamọ́ tí kò tọ́.",
   "password_lost_incorrect_credentials": "Kò sí ìmeeli tàbí orúkọ ìforúkọsílẹ̀ yìí. Jọ̀wọ́ ṣàyẹ̀wò àwọn ìwé ẹ̀rí rẹ.",
   "password_lost_server_unavailable": "A n ni iriri idinku lori awọn olupin wa lọwọlọwọ ati pe a tọrọ aforiji fun rẹ. Jọwọ gbiyanju lẹẹkansi nigbamii.",
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Olùpèsè oúnjẹ ni mí",
   "sign_up_page_producer_hint": "Olùpèsè/orúkọ ọjà",
   "sign_up_page_producer_error_empty": "Jọ̀wọ́ tẹ orúkọ olùgbéjáde tàbí orúkọ ilé iṣẹ́ kan",
-  "sign_up_page_subscribe_checkbox": "Mo fẹ́ forúkọ sílẹ̀ fún ìwé ìròyìn ShuddhScore (O lè yọ ara rẹ kúrò nínú rẹ̀ nígbàkigbà)",
+  "sign_up_page_subscribe_checkbox": "Mo fẹ́ forúkọ sílẹ̀ fún ìwé ìròyìn FoodScan (O lè yọ ara rẹ kúrò nínú rẹ̀ nígbàkigbà)",
   "sign_up_page_user_name_already_used": "Orúkọ olùlò náà ti wà tẹ́lẹ̀, jọ̀wọ́ yan orúkọ olùlò mìíràn.",
   "sign_up_page_email_already_exists": "ti wa tẹlẹ, wọle si akọọlẹ naa tabi gbiyanju pẹlu imeeli miiran.",
   "sign_up_page_provide_valid_email": "Jọwọ pese adirẹsi imeeli to wulo.",
@@ -448,9 +448,9 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Kóòdù fún gbogbo ọjà ShuddhScore wà lórí GitHub. Ẹ lè tún lo kódù náà (ó jẹ́ orísun ṣíṣí sílẹ̀) kí ẹ sì ràn wá lọ́wọ́ láti mú un sunwọ̀n sí i, fún gbogbo ènìyàn, ní gbogbo ayé.",
+  "contribute_develop_text": "Kóòdù fún gbogbo ọjà FoodScan wà lórí GitHub. Ẹ lè tún lo kódù náà (ó jẹ́ orísun ṣíṣí sílẹ̀) kí ẹ sì ràn wá lọ́wọ́ láti mú un sunwọ̀n sí i, fún gbogbo ènìyàn, ní gbogbo ayé.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "O le darapọ mọ ShuddhScore Slack chatroom, eyi ti o jẹ ọna ti o fẹ lati beere awọn ibeere.",
+  "contribute_develop_text_2": "O le darapọ mọ FoodScan Slack chatroom, eyi ti o jẹ ọna ti o fẹ lati beere awọn ibeere.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Ipò DEV?",
   "contribute_develop_dev_mode_subtitle": "Mu Ipo DEV ṣiṣẹ",
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Ibi ipamọ data ni ipilẹ iṣẹ akanṣe naa. O rọrun ati ki o yara pupọ lati ṣe iranlọwọ. O le ṣe igbasilẹ app alagbeka fun foonu rẹ, ki o bẹrẹ si ṣafikun tabi mu awọn ọja dara si.\n\nNi apa keji, oju opo wẹẹbu ShuddhScore nfunni ni ọpọlọpọ awọn ọna lati ṣe alabapin: ",
+  "contribute_improve_text": "Ibi ipamọ data ni ipilẹ iṣẹ akanṣe naa. O rọrun ati ki o yara pupọ lati ṣe iranlọwọ. O le ṣe igbasilẹ app alagbeka fun foonu rẹ, ki o bẹrẹ si ṣafikun tabi mu awọn ọja dara si.\n\nNi apa keji, oju opo wẹẹbu FoodScan nfunni ni ọpọlọpọ awọn ọna lati ṣe alabapin: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Túmọ̀",
   "@contribute_translate_header": {
@@ -482,11 +482,11 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore jẹ́ iṣẹ́ àgbáyé kan, tí ó ní àwọn ọjà láti orílẹ̀-èdè tó ju 160 lọ. A ń túmọ̀ ShuddhScore sí ọ̀pọ̀lọpọ̀ èdè, pẹ̀lú àwọn akoonu tí ń yípadà nígbà gbogbo.",
+  "contribute_translate_text": "FoodScan jẹ́ iṣẹ́ àgbáyé kan, tí ó ní àwọn ọjà láti orílẹ̀-èdè tó ju 160 lọ. A ń túmọ̀ FoodScan sí ọ̀pọ̀lọpọ̀ èdè, pẹ̀lú àwọn akoonu tí ń yípadà nígbà gbogbo.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Ìtumọ̀ jẹ́ ọ̀kan lára àwọn iṣẹ́ pàtàkì nínú iṣẹ́ náà",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Ṣe àfikún àwọn ọgbọ́n rẹ sí ShuddhScore. Dára pọ̀ mọ́ àwọn ọgbọ́n náà!",
+  "contribute_join_skill_pool": "Ṣe àfikún àwọn ọgbọ́n rẹ sí FoodScan. Dára pọ̀ mọ́ àwọn ọgbọ́n náà!",
   "contribute_share_header": "Pin Awọn Otitọ Ounjẹ Ṣiṣi pẹlu awọn ọrẹ rẹ",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Wọlé sí àkọọ́lẹ̀ ShuddhScore rẹ láti gba ìyìn fún àwọn àfikún rẹ",
+  "question_sign_in_text": "Wọlé sí àkọọ́lẹ̀ FoodScan rẹ láti gba ìyìn fún àwọn àfikún rẹ",
   "question_yes_button_accessibility_value": "Dáhùn pẹ̀lú bẹ́ẹ̀ni",
   "question_no_button_accessibility_value": "Dáhùn pẹ̀lú rárá",
   "question_skip_button_accessibility_value": "Fo ibeere yii",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Ṣẹ̀dá àkọọ́lẹ̀ rẹ kí o sì dara pọ̀ mọ́ àwùjọ ShuddhScore láti ran ọ́ lọ́wọ́ láti kọ́ ìmọ̀ nípa oúnjẹ kárí ayé!",
+  "account_create_message": "Ṣẹ̀dá àkọọ́lẹ̀ rẹ kí o sì dara pọ̀ mọ́ àwùjọ FoodScan láti ran ọ́ lọ́wọ́ láti kọ́ ìmọ̀ nípa oúnjẹ kárí ayé!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Ìwífún Rẹ",
-  "myPreferences_profile_subtitle": "Ṣàkóso àkọọ́lẹ̀ olùkópa ShuddhScore rẹ.",
+  "myPreferences_profile_subtitle": "Ṣàkóso àkọọ́lẹ̀ olùkópa FoodScan rẹ.",
   "myPreferences_settings_title": "Àwọn Ètò Àpù",
   "myPreferences_settings_subtitle": "Ipo dudu, Awọn ede…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Àwọn Àyànfẹ́ Oúnjẹ",
   "myPreferences_food_subtitle": "Yan alaye ti o ṣe pataki julọ si ọ nipa ounjẹ.",
-  "myPreferences_food_comment": "Yan alaye ti o ṣe pataki julọ fun ọ, lati le ṣe ipo ounjẹ ni ibamu si awọn ayanfẹ rẹ, wo alaye ti o nifẹ si akọkọ, ki o si gba akopọ ibamu. Awọn ayanfẹ ounjẹ wọnyẹn wa lori ẹrọ rẹ, wọn ko si ni nkan ṣe pẹlu akọọlẹ olufunni ShuddhScore rẹ ti o ba ni ọkan.",
+  "myPreferences_food_comment": "Yan alaye ti o ṣe pataki julọ fun ọ, lati le ṣe ipo ounjẹ ni ibamu si awọn ayanfẹ rẹ, wo alaye ti o nifẹ si akọkọ, ki o si gba akopọ ibamu. Awọn ayanfẹ ounjẹ wọnyẹn wa lori ẹrọ rẹ, wọn ko si ni nkan ṣe pẹlu akọọlẹ olufunni FoodScan rẹ ti o ba ni ọkan.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "O ti ri ọja tuntun kan!",
   "@missing_product": {},
-  "add_product_take_photos": "Ya awọn fọto ti apoti naa lati fi ọja yii kun si ShuddhScore",
+  "add_product_take_photos": "Ya awọn fọto ti apoti naa lati fi ọja yii kun si FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Jọ̀wọ́, ya àwọn fọ́tò díẹ̀ ní àkọ́kọ́. O lè parí ọjà náà nígbà míì.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Gba nipa kikún ẹka ounjẹ ati awọn eroja",
   "new_product_desc_nova_unknown": "A ko mọ ipele ṣiṣe ounjẹ",
   "new_product_title_pictures": "Ọjà tuntun",
-  "new_product_title_pictures_details": "Jọ̀wọ́ ya àwọn fọ́tò wọ̀nyí kí ẹ̀rọ ShuddhScore lè mọ ìyókù!",
+  "new_product_title_pictures_details": "Jọ̀wọ́ ya àwọn fọ́tò wọ̀nyí kí ẹ̀rọ FoodScan lè mọ ìyókù!",
   "new_product_title_misc": "Ati diẹ ninu awọn data ipilẹ…",
   "new_product_done_msg": "O ṣeun fun ilowosi rẹ “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Gbigbe aworan iwaju si ShuddhScore",
+  "uploading_image_type_front": "Gbigbe aworan iwaju si FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Àwòrán àwọn èròjà tí a gbé sórí ìkànnì ShuddhScore",
+  "uploading_image_type_ingredients": "Àwòrán àwọn èròjà tí a gbé sórí ìkànnì FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Gbigbe aworan ounjẹ si ShuddhScore",
+  "uploading_image_type_nutrition": "Gbigbe aworan ounjẹ si FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Gbigbe aworan apoti si ShuddhScore",
+  "uploading_image_type_packaging": "Gbigbe aworan apoti si FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Gbigbe aworan miiran si ShuddhScore",
+  "uploading_image_type_other": "Gbigbe aworan miiran si FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Gbigbe aworan si ShuddhScore",
+  "uploading_image_type_generic": "Gbigbe aworan si FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Ẹ káàbọ̀ sí ShuddhScore",
+  "homepage_main_card_logo_description": "Ẹ káàbọ̀ sí FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Ṣe àyẹ̀wò** àmì ìdámọ̀ràn tàbí\n**wá** fún ọjà kan",
   "@homepage_main_card_subheading": {
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Wọlé tàbí forúkọ sílẹ̀ láti dara pọ̀ mọ́ àwùjọ ShuddhScore",
+  "user_profile_subtitle_guest": "Wọlé tàbí forúkọ sílẹ̀ láti dara pọ̀ mọ́ àwùjọ FoodScan",
   "user_profile_title_id_email": "Ṣíṣí Àwọn Ìròyìn Oúnjẹ Wọlé: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Ẹ n lẹ o, ẹ jọ̀wọ́ ẹ pa àkọọ́lẹ̀ ShuddhScore mi rẹ́: {userId}",
+  "email_body_account_deletion": "Ẹ n lẹ o, ẹ jọ̀wọ́ ẹ pa àkọọ́lẹ̀ FoodScan mi rẹ́: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Nígbà tí a bá ti ṣiṣẹ́, a máa fi àwọn ìròyìn ìjákulẹ̀ ránṣẹ́ sí ètò ìtọ́pinpin àṣìṣe ShuddhScore láìfọwọ́sí, kí a lè ṣàtúnṣe àwọn àṣìṣe kí a sì lè mú àpù náà sunwọ̀n síi.",
+  "crash_reporting_toggle_subtitle": "Nígbà tí a bá ti ṣiṣẹ́, a máa fi àwọn ìròyìn ìjákulẹ̀ ránṣẹ́ sí ètò ìtọ́pinpin àṣìṣe FoodScan láìfọwọ́sí, kí a lè ṣàtúnṣe àwọn àṣìṣe kí a sì lè mú àpù náà sunwọ̀n síi.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Tí ẹ̀ka kan kò bá sí ní ìparí aládàáṣe**, má ṣe lọ́ tìkọ̀ láti fi kún un.\nÈyí yóò ràn wá lọ́wọ́ láti mú kí àwọn ohun tí a ń pè ní ShuddhScore sunwọ̀n síi ní orílẹ̀-èdè rẹ.",
+  "edit_product_form_item_categories_explanation_info2_content": "Tí ẹ̀ka kan kò bá sí ní ìparí aládàáṣe**, má ṣe lọ́ tìkọ̀ láti fi kún un.\nÈyí yóò ràn wá lọ́wọ́ láti mú kí àwọn ohun tí a ń pè ní FoodScan sunwọ̀n síi ní orílẹ̀-èdè rẹ.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Àṣìṣe ìfìdí múlẹ̀",
   "prices_privacy_warning_title": "Ìkìlọ̀ ìpamọ́",
   "prices_unknown_product": "Ọjà tí a kò mọ̀",
-  "prices_privacy_warning_main_message": "Iye owo **yoo han gbangba**, pelu ile itaja ti won n pe.\n\nIyẹn le gba awọn eniyan ti o mọ nipa orukọ apeso ShuddhScore rẹ laaye lati:\n",
+  "prices_privacy_warning_main_message": "Iye owo **yoo han gbangba**, pelu ile itaja ti won n pe.\n\nIyẹn le gba awọn eniyan ti o mọ nipa orukọ apeso FoodScan rẹ laaye lati:\n",
   "prices_privacy_warning_message_bullet_1": "Mọ agbègbè tí o ń gbé",
   "prices_privacy_warning_message_bullet_2": "Mọ ohun tí o ń rà",
-  "prices_privacy_warning_sub_message": "Tí èyí bá ń bí ọ nínú, jọ̀wọ́ yí orúkọ àpèlé rẹ padà, tàbí kí o ṣẹ̀dá àkọọ́lẹ̀ ShuddhScore tuntun kí o sì wọlé sínú àpù náà pẹ̀lú rẹ̀.",
+  "prices_privacy_warning_sub_message": "Tí èyí bá ń bí ọ nínú, jọ̀wọ́ yí orúkọ àpèlé rẹ padà, tàbí kí o ṣẹ̀dá àkọọ́lẹ̀ FoodScan tuntun kí o sì wọlé sínú àpù náà pẹ̀lú rẹ̀.",
   "i_refuse": "Mo kọ̀",
   "i_accept": "Mo gba",
   "prices_currency_change_proposal_title": "Ṣé o lè yí owó rẹ padà?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Wo ọjà yìí lórí ShuddhScore: {url}",
+  "share_product_text": "Wo ọjà yìí lórí FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Wo àkójọ àwọn ọjà mi lórí ShuddhScore: {url}",
+  "share_product_list_text": "Wo àkójọ àwọn ọjà mi lórí FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Ṣe àtúnṣe ibi ìpamọ́ ọjà àdúgbò pẹ̀lú ìwífún tuntun láti ShuddhScore",
+  "update_local_database_sub": "Ṣe àtúnṣe ibi ìpamọ́ ọjà àdúgbò pẹ̀lú ìwífún tuntun láti FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Ẹ kú àbọ̀ sí ShuddhScore!",
+  "guide_open_food_facts_title": "Ẹ kú àbọ̀ sí FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Kí ni Àwọn Ìròyìn Oúnjẹ Ìṣípayá?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore jẹ́ ibi ìkópamọ́ àwọn ọjà oúnjẹ láti gbogbo àgbáyé tí a lè fọwọ́sowọ́pọ̀, tí ó jẹ́ ọ̀fẹ́**, tí ó sì jẹ́ **ọ̀fẹ́**.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan jẹ́ ibi ìkópamọ́ àwọn ọjà oúnjẹ láti gbogbo àgbáyé tí a lè fọwọ́sowọ́pọ̀, tí ó jẹ́ ọ̀fẹ́**, tí ó sì jẹ́ **ọ̀fẹ́**.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Kí ni Àwọn Iye Owó Ṣíṣí?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices jẹ́ iṣẹ́ akanṣe láti **kójọ àti pín iye owó ọjà káàkiri àgbáyé**. Ó jẹ́ ìwádìí tí gbogbo ènìyàn lè lò fún ìwádìí, ìtúpalẹ̀, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. ShuddhScore ló ṣe àgbékalẹ̀ àti tọ́jú Open Prices.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices jẹ́ iṣẹ́ akanṣe láti **kójọ àti pín iye owó ọjà káàkiri àgbáyé**. Ó jẹ́ ìwádìí tí gbogbo ènìyàn lè lò fún ìwádìí, ìtúpalẹ̀, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. FoodScan ló ṣe àgbékalẹ̀ àti tọ́jú Open Prices.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Báwo ni Àwọn Iye Owó Ṣíṣí ṣe ń ṣiṣẹ́?",
-  "guide_open_prices_how_paragraph1": "**A n pese data orisun ṣiṣi ti awọn idiyele**. Awọn olumulo le ṣafikun awọn idiyele nipasẹ ohun elo wẹẹbu yii, tabi nipasẹ ohun elo alagbeka ShuddhScore osise. Awọn oniṣowo tabi awọn ohun elo ẹni-kẹta le ṣe alabapin pẹlu nipa lilo API wa.",
+  "guide_open_prices_how_paragraph1": "**A n pese data orisun ṣiṣi ti awọn idiyele**. Awọn olumulo le ṣafikun awọn idiyele nipasẹ ohun elo wẹẹbu yii, tabi nipasẹ ohun elo alagbeka FoodScan osise. Awọn oniṣowo tabi awọn ohun elo ẹni-kẹta le ṣe alabapin pẹlu nipa lilo API wa.",
   "guide_open_prices_how_arg1_title": "Gba àwọn fọ́tò àwọn àmì owó ní àwọn ibi ìtajà",
   "guide_open_prices_how_arg2_title": "Gba awọn fọto ti awọn iwe-ẹri isanwo",
-  "guide_open_prices_why_title": "Kí ló dé tí ShuddhScore fi ń ṣe èyí?",
+  "guide_open_prices_why_title": "Kí ló dé tí FoodScan fi ń ṣe èyí?",
   "guide_open_prices_why_paragraph1": "Ìwífún nípa iye owó ṣe pàtàkì gan-an láti lóye ètò oúnjẹ. Ó jẹ́ kókó pàtàkì nínú òye iye owó oúnjẹ àti láti gbé oúnjẹ tó dára lárugẹ. Ṣíṣí ìwífún nípa iye owó jẹ́ ọ̀nà láti mú kí ó rọrùn fún àwọn olùwádìí, àwọn oníròyìn, àti àwọn ará ìlú láti **ní òye tó dára jù nípa bí iye owó oúnjẹ ṣe yàtọ̀ síra ní agbègbè àti ní àkókò**.",
   "guide_open_prices_why_arg1_title": "Tọpinpin idagbasoke ti awọn idiyele lori akoko",
   "guide_open_prices_why_arg1_text": "Wo **ilọsiwaju ti awọn idiyele**: idinku iṣu, idinku iṣu, a le tọpinpin wọn papọ!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Óò!",
-  "carousel_unsupported_text": "ShuddhScore kò ṣe atilẹyin fun koodu barcode ti a ṣe ayẹwo!",
+  "carousel_unsupported_text": "FoodScan kò ṣe atilẹyin fun koodu barcode ti a ṣe ayẹwo!",
   "carousel_error_header": "Àṣìṣe!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "The ShuddhScore ise agbese",
+  "preferences_card_project": "The FoodScan ise agbese",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5189,7 +5189,7 @@
   },
   "preferences_on_off_website_subtitle": "Lori oju opo wẹẹbu Awọn Otitọ Ounjẹ Ṣii",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Ṣakoso akọọlẹ mi",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Iwari ShuddhScore",
+  "preferences_faq_discover_off_title": "Iwari FoodScan",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Ṣawari Awọn Otitọ Ẹwa Ṣiṣii",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "The ShuddhScore NGO",
+  "preferences_faq_off_ngo_title": "The FoodScan NGO",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Awọn ShuddhScore bulọọgi",
+  "preferences_connect_blog_title": "Awọn FoodScan bulọọgi",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Ṣii Food Facts Labs",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Àkọọ́lẹ̀",
   "@preferences_root_account_title": {

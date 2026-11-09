@@ -5,7 +5,7 @@ docs_dir: doc
 repo_url: https://github.com/openfoodfacts/smooth-app
 edit_uri: blob/develop/docs/
 
-site_name: ShuddhScore mobile app
+site_name: FoodScan mobile app
 site_dir: gh_pages
 
 theme:
@@ -13,7 +13,7 @@ theme:
   palette:
     primary: beige
     text: black
-  logo: assets/app/shuddhscore_logo.png
+  logo: packages/smooth_app/assets/app/foodscan_logo.png
   features:
     - content.action.edit
 markdown_extensions:

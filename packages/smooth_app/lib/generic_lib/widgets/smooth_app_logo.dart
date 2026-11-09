@@ -62,10 +62,7 @@ class SmoothAppLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox.square(
       dimension: 128,
-      child: Image.asset(
-        'assets/app/shuddhscore_logo.png',
-        fit: BoxFit.contain,
-      ),
+      child: Image.asset('assets/app/foodscan_logo.png', fit: BoxFit.contain),
     );
   }
 }

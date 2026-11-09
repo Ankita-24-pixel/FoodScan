@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "კეთილი იყოს თქვენი მობრძანება ShuddhScore-ში",
+  "welcomeToOpenFoodFacts": "კეთილი იყოს თქვენი მობრძანება FoodScan-ში",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore არის გლობალური არაკომერციული ორგანიზაცია, რომელსაც ადგილობრივი თემები აფინანსებენ.",
+  "whatIsOff": "FoodScan არის გლობალური არაკომერციული ორგანიზაცია, რომელსაც ადგილობრივი თემები აფინანსებენ.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "სერვერის პასუხი არ არის! შესაძლოა, პრობლემა შემდეგი ბმულით გახსნათ.",
   "@user_management": {},
-  "sign_in_text": "შედით თქვენს ShuddhScore ანგარიშზე თქვენი წვლილის შესანახად",
+  "sign_in_text": "შედით თქვენს FoodScan ანგარიშზე თქვენი წვლილის შესანახად",
   "incorrect_credentials": "არასწორი მომხმარებლის სახელი ან პაროლი.",
   "password_lost_incorrect_credentials": "ეს ელ. ფოსტა ან მომხმარებლის სახელი არ არსებობს. გთხოვთ, შეამოწმოთ თქვენი ავტორიზაციის მონაცემები.",
   "password_lost_server_unavailable": "ამჟამად ჩვენს სერვერებზე შენელებაა და ბოდიშს გიხდით ამის გამო. გთხოვთ, სცადოთ მოგვიანებით.",
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "მე საკვების მწარმოებელი ვარ",
   "sign_up_page_producer_hint": "მწარმოებელი/ბრენდი",
   "sign_up_page_producer_error_empty": "გთხოვთ, შეიყვანოთ მწარმოებელი ან ბრენდის სახელი",
-  "sign_up_page_subscribe_checkbox": "მსურს გამოვიწერო ShuddhScore-ის საინფორმაციო ბიულეტენი (შეგიძლიათ ნებისმიერ დროს გააუქმოთ გამოწერა)",
+  "sign_up_page_subscribe_checkbox": "მსურს გამოვიწერო FoodScan-ის საინფორმაციო ბიულეტენი (შეგიძლიათ ნებისმიერ დროს გააუქმოთ გამოწერა)",
   "sign_up_page_user_name_already_used": "მომხმარებლის სახელი უკვე არსებობს, გთხოვთ, აირჩიოთ სხვა მომხმარებლის სახელი.",
   "sign_up_page_email_already_exists": "უკვე არსებობს, შედით ანგარიშზე ან სცადეთ სხვა ელ. ფოსტით.",
   "sign_up_page_provide_valid_email": "გთხოვთ, მიუთითოთ მოქმედი ელექტრონული ფოსტის მისამართი.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "ყველა ShuddhScore პროდუქტის კოდი ხელმისაწვდომია GitHub-ზე. თქვენ შეგიძლიათ ხელახლა გამოიყენოთ კოდი (ეს ღია კოდია) და დაგვეხმაროთ მის გაუმჯობესებაში ყველასთვის, მთელი პლანეტის მასშტაბით.",
+  "contribute_develop_text": "ყველა FoodScan პროდუქტის კოდი ხელმისაწვდომია GitHub-ზე. თქვენ შეგიძლიათ ხელახლა გამოიყენოთ კოდი (ეს ღია კოდია) და დაგვეხმაროთ მის გაუმჯობესებაში ყველასთვის, მთელი პლანეტის მასშტაბით.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "შეგიძლიათ შეუერთდეთ ShuddhScore Slack-ის ჩატ ოთახს, რომელიც კითხვების დასმის სასურველი გზაა.",
+  "contribute_develop_text_2": "შეგიძლიათ შეუერთდეთ FoodScan Slack-ის ჩატ ოთახს, რომელიც კითხვების დასმის სასურველი გზაა.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "DEV რეჟიმი?",
   "contribute_develop_dev_mode_subtitle": "გააქტიურეთ DEV რეჟიმი",
   "contribute_donate_title": "Donate",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "შემოწირულობა ShuddhScore-ისთვის",
+  "contribute_donate_header": "შემოწირულობა FoodScan-ისთვის",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "გთხოვთ, გაითვალისწინოთ, რომ შიდა ალფა ვერსიით შესაძლებელია მონაცემების სრული დაკარგვა და აპლიკაცია ნებისმიერ დროს გამოუსადეგარი გახდეს!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "მონაცემთა ბაზა პროექტის ბირთვს წარმოადგენს. მისი დახმარებით დახმარება ძალიან მარტივი და სწრაფია. შეგიძლიათ ჩამოტვირთოთ მობილური აპლიკაცია თქვენი ტელეფონისთვის და დაიწყოთ პროდუქტების დამატება ან გაუმჯობესება.\n\nმეორეს მხრივ, ShuddhScore-ის ვებსაიტი წვლილის შეტანის მრავალ გზას გთავაზობთ: ",
+  "contribute_improve_text": "მონაცემთა ბაზა პროექტის ბირთვს წარმოადგენს. მისი დახმარებით დახმარება ძალიან მარტივი და სწრაფია. შეგიძლიათ ჩამოტვირთოთ მობილური აპლიკაცია თქვენი ტელეფონისთვის და დაიწყოთ პროდუქტების დამატება ან გაუმჯობესება.\n\nმეორეს მხრივ, FoodScan-ის ვებსაიტი წვლილის შეტანის მრავალ გზას გთავაზობთ: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "თარგმნა",
   "@contribute_translate_header": {
@@ -482,11 +482,11 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore გლობალური პროექტია, რომელიც 160-ზე მეტი ქვეყნის პროდუქტებს შეიცავს. ShuddhScore ათობით ენაზეა ნათარგმნი და მუდმივად ცვალებადი შინაარსი აქვს.",
+  "contribute_translate_text": "FoodScan გლობალური პროექტია, რომელიც 160-ზე მეტი ქვეყნის პროდუქტებს შეიცავს. FoodScan ათობით ენაზეა ნათარგმნი და მუდმივად ცვალებადი შინაარსი აქვს.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "თარგმანები პროექტის ერთ-ერთი მთავარი ამოცანაა",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "შეიტანეთ თქვენი უნარები ShuddhScore-ში. შემოუერთდით უნარების ჯგუფს!",
+  "contribute_join_skill_pool": "შეიტანეთ თქვენი უნარები FoodScan-ში. შემოუერთდით უნარების ჯგუფს!",
   "contribute_share_header": "გაუზიარეთ ღია კვების ფაქტები თქვენს მეგობრებს",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "შედით თქვენს ShuddhScore ანგარიშზე, რათა მიიღოთ თქვენი წვლილის კრედიტი",
+  "question_sign_in_text": "შედით თქვენს FoodScan ანგარიშზე, რათა მიიღოთ თქვენი წვლილის კრედიტი",
   "question_yes_button_accessibility_value": "უპასუხეთ კი-თი",
   "question_no_button_accessibility_value": "პასუხი არა-თი",
   "question_skip_button_accessibility_value": "გამოტოვეთ ეს კითხვა",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "შექმენით თქვენი ანგარიში და შემოუერთდით ShuddhScore-ის საზოგადოებას, რათა დაეხმაროთ საკვების შესახებ ცოდნის გაღრმავებას მთელ მსოფლიოში!",
+  "account_create_message": "შექმენით თქვენი ანგარიში და შემოუერთდით FoodScan-ის საზოგადოებას, რათა დაეხმაროთ საკვების შესახებ ცოდნის გაღრმავებას მთელ მსოფლიოში!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "თქვენი პროფილი",
-  "myPreferences_profile_subtitle": "მართეთ თქვენი ShuddhScore-ის კონტრიბუტორის ანგარიში.",
+  "myPreferences_profile_subtitle": "მართეთ თქვენი FoodScan-ის კონტრიბუტორის ანგარიში.",
   "myPreferences_settings_title": "აპლიკაციის პარამეტრები",
   "myPreferences_settings_subtitle": "ბნელი რეჟიმი, ენები…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "საკვების პრეფერენციები",
   "myPreferences_food_subtitle": "აირჩიეთ, საკვებთან დაკავშირებული რომელი ინფორმაციაა თქვენთვის ყველაზე მნიშვნელოვანი.",
-  "myPreferences_food_comment": "აირჩიეთ თქვენთვის ყველაზე მნიშვნელოვანი ინფორმაცია საკვებთან დაკავშირებით, რათა დაახარისხოთ საკვები თქვენი პრეფერენციების მიხედვით, პირველ რიგში ნახოთ თქვენთვის საინტერესო ინფორმაცია და მიიღოთ თავსებადობის შეჯამება. ეს საკვების პრეფერენციები თქვენს მოწყობილობაზე რჩება და არ არის დაკავშირებული თქვენს ShuddhScore-ის კონტრიბუტორის ანგარიშთან, თუ ასეთი გაქვთ.",
+  "myPreferences_food_comment": "აირჩიეთ თქვენთვის ყველაზე მნიშვნელოვანი ინფორმაცია საკვებთან დაკავშირებით, რათა დაახარისხოთ საკვები თქვენი პრეფერენციების მიხედვით, პირველ რიგში ნახოთ თქვენთვის საინტერესო ინფორმაცია და მიიღოთ თავსებადობის შეჯამება. ეს საკვების პრეფერენციები თქვენს მოწყობილობაზე რჩება და არ არის დაკავშირებული თქვენს FoodScan-ის კონტრიბუტორის ანგარიშთან, თუ ასეთი გაქვთ.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "თქვენ ახალი პროდუქტი იპოვეთ!",
   "@missing_product": {},
-  "add_product_take_photos": "ამ პროდუქტის ShuddhScore-ში დასამატებლად გადაუღეთ ფოტოები შეფუთვას",
+  "add_product_take_photos": "ამ პროდუქტის FoodScan-ში დასამატებლად გადაუღეთ ფოტოები შეფუთვას",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "გთხოვთ, ჯერ რამდენიმე ფოტო გადაიღოთ. პროდუქტის დასრულება ყოველთვის შეგიძლიათ მოგვიანებით.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "მიიღეთ ის საკვების კატეგორიისა და ინგრედიენტების შევსებით",
   "new_product_desc_nova_unknown": "საკვების გადამუშავების დონე უცნობია",
   "new_product_title_pictures": "ახალი პროდუქტი",
-  "new_product_title_pictures_details": "გთხოვთ, გადაიღოთ შემდეგი ფოტოები და ShuddhScore-ის სისტემა დანარჩენს თავად დაადგენს!",
+  "new_product_title_pictures_details": "გთხოვთ, გადაიღოთ შემდეგი ფოტოები და FoodScan-ის სისტემა დანარჩენს თავად დაადგენს!",
   "new_product_title_misc": "და რამდენიმე ძირითადი მონაცემი…",
   "new_product_done_msg": "გმადლობთ თქვენი წვლილისთვის „{username}“!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "წინა სურათი იტვირთება ShuddhScore-ზე",
+  "uploading_image_type_front": "წინა სურათი იტვირთება FoodScan-ზე",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "ინგრედიენტების სურათი იტვირთება ShuddhScore-ზე",
+  "uploading_image_type_ingredients": "ინგრედიენტების სურათი იტვირთება FoodScan-ზე",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "კვებითი ღირებულების სურათი იტვირთება ShuddhScore-ზე",
+  "uploading_image_type_nutrition": "კვებითი ღირებულების სურათი იტვირთება FoodScan-ზე",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "შეფუთვის სურათი იტვირთება ShuddhScore-ზე",
+  "uploading_image_type_packaging": "შეფუთვის სურათი იტვირთება FoodScan-ზე",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "სხვა სურათის ატვირთვა ShuddhScore-ზე",
+  "uploading_image_type_other": "სხვა სურათის ატვირთვა FoodScan-ზე",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "სურათი იტვირთება ShuddhScore-ზე",
+  "uploading_image_type_generic": "სურათი იტვირთება FoodScan-ზე",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "კეთილი იყოს თქვენი მობრძანება ShuddhScore-ში",
+  "homepage_main_card_logo_description": "კეთილი იყოს თქვენი მობრძანება FoodScan-ში",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**შტრიხკოდის სკანირება** ან\n**პროდუქტის ძიება**",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "ღია სისტემების პარამეტრები ShuddhScore-ისთვის",
+  "native_app_description": "ღია სისტემების პარამეტრები FoodScan-ისთვის",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "გაიარეთ ავტორიზაცია ან დარეგისტრირდით, რათა შეუერთდეთ ShuddhScore-ის საზოგადოებას",
+  "user_profile_subtitle_guest": "გაიარეთ ავტორიზაცია ან დარეგისტრირდით, რათა შეუერთდეთ FoodScan-ის საზოგადოებას",
   "user_profile_title_id_email": "გახსენით საკვების ფაქტები შესვლა: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "გამარჯობა, გთხოვთ, წაშალოთ ჩემი ShuddhScore ანგარიში: {userId}",
+  "email_body_account_deletion": "გამარჯობა, გთხოვთ, წაშალოთ ჩემი FoodScan ანგარიში: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "ჩართვის შემთხვევაში, ავარიის შესახებ ანგარიშები ავტომატურად იგზავნება ShuddhScore-ის შეცდომების თვალთვალის სისტემაში, რათა შეცდომები გამოსწორდეს და ამით აპლიკაცია გაუმჯობესდეს.",
+  "crash_reporting_toggle_subtitle": "ჩართვის შემთხვევაში, ავარიის შესახებ ანგარიშები ავტომატურად იგზავნება FoodScan-ის შეცდომების თვალთვალის სისტემაში, რათა შეცდომები გამოსწორდეს და ამით აპლიკაცია გაუმჯობესდეს.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2732,7 +2732,7 @@
   "prices_privacy_warning_main_message": "ფასები **საჯარო იქნება**, მათ მიერ მითითებული მაღაზიის ჩათვლით.\n\nამან შესაძლოა საშუალება მისცეს ადამიანებს, რომლებმაც იციან თქვენი ფსევდონიმი „ღია საკვების ფაქტები“, რომ:\n",
   "prices_privacy_warning_message_bullet_1": "დაასკვენი რომელ რაიონში ცხოვრობ",
   "prices_privacy_warning_message_bullet_2": "იცოდეთ რას ყიდულობთ",
-  "prices_privacy_warning_sub_message": "თუ ეს თქვენთვის პრობლემას წარმოადგენს, გთხოვთ, შეცვალოთ თქვენი ფსევდონიმი ან შექმნათ ახალი ShuddhScore ანგარიში და ამით შეხვიდეთ აპლიკაციაში.",
+  "prices_privacy_warning_sub_message": "თუ ეს თქვენთვის პრობლემას წარმოადგენს, გთხოვთ, შეცვალოთ თქვენი ფსევდონიმი ან შექმნათ ახალი FoodScan ანგარიში და ამით შეხვიდეთ აპლიკაციაში.",
   "i_refuse": "მე უარს ვამბობ",
   "i_accept": "ვეთანხმები",
   "prices_currency_change_proposal_title": "ვალუტის შეცვლა?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "გადახედეთ ამ პროდუქტს ShuddhScore-ზე: {url}",
+  "share_product_text": "გადახედეთ ამ პროდუქტს FoodScan-ზე: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "გადახედეთ ჩემს პროდუქტების სიას ShuddhScore-ზე: {url}",
+  "share_product_list_text": "გადახედეთ ჩემს პროდუქტების სიას FoodScan-ზე: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "განაახლეთ ადგილობრივი პროდუქტების მონაცემთა ბაზა ShuddhScore-ის უახლესი მონაცემებით",
+  "update_local_database_sub": "განაახლეთ ადგილობრივი პროდუქტების მონაცემთა ბაზა FoodScan-ის უახლესი მონაცემებით",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "დააინსტალირეთ Open Pet Food Facts შინაური ცხოველების საკვების მონაცემთა ბაზის შესაქმნელად",
   "faq_title_install_product": "დააინსტალირეთ Open Products Facts, რათა შექმნათ პროდუქტების მონაცემთა ბაზა ობიექტების სიცოცხლის გასახანგრძლივებლად.",
   "faq_nutriscore_nutriscore": "Nutri-Score-ის ახალი გაანგარიშება: რა არის ახალი?",
-  "contact_title_pro_page": "დადებითი? იმპორტირეთ თქვენი პროდუქტები ShuddhScore-ში.",
+  "contact_title_pro_page": "დადებითი? იმპორტირეთ თქვენი პროდუქტები FoodScan-ში.",
   "contact_title_pro_email": "პროდიუსერის საკონტაქტო ინფორმაცია",
   "contact_title_press_page": "პრეს გვერდი",
   "contact_title_press_email": "პრესის საკონტაქტო პირი",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "კეთილი იყოს თქვენი მობრძანება ShuddhScore-ში!",
+  "guide_open_food_facts_title": "კეთილი იყოს თქვენი მობრძანება FoodScan-ში!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "რა არის ღია საკვების ფაქტები?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore არის **თანამშრომლობითი**, **უფასო** და **ღია** მონაცემთა ბაზა მთელი მსოფლიოს საკვები პროდუქტების შესახებ.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan არის **თანამშრომლობითი**, **უფასო** და **ღია** მონაცემთა ბაზა მთელი მსოფლიოს საკვები პროდუქტების შესახებ.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "რა არის ღია ფასები?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices არის პროექტი, რომელიც **შეაგროვებს და აზიარებს პროდუქტების ფასებს მთელ მსოფლიოში**. ეს არის საჯაროდ ხელმისაწვდომი მონაცემთა ნაკრები, რომლის გამოყენებაც შესაძლებელია კვლევის, ანალიზისა და სხვა მიზნებისთვის. Open Prices შემუშავებული და მხარდაჭერილია ShuddhScore-ის მიერ.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices არის პროექტი, რომელიც **შეაგროვებს და აზიარებს პროდუქტების ფასებს მთელ მსოფლიოში**. ეს არის საჯაროდ ხელმისაწვდომი მონაცემთა ნაკრები, რომლის გამოყენებაც შესაძლებელია კვლევის, ანალიზისა და სხვა მიზნებისთვის. Open Prices შემუშავებული და მხარდაჭერილია FoodScan-ის მიერ.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "როგორ მუშაობს ღია ფასები?",
-  "guide_open_prices_how_paragraph1": "**ჩვენ ვახორციელებთ ფასების ღია წყაროდან მონაცემთა ნაკრების შეგროვებას**. მომხმარებლებს შეუძლიათ ფასების დამატება ამ ვებ აპლიკაციის ან ოფიციალური ShuddhScore მობილური აპლიკაციის საშუალებით. ჩვენი API-ს გამოყენებით, საცალო ვაჭრობის წარმომადგენლებს ან მესამე მხარის აპლიკაციებსაც შეუძლიათ წვლილის შეტანა.",
+  "guide_open_prices_how_paragraph1": "**ჩვენ ვახორციელებთ ფასების ღია წყაროდან მონაცემთა ნაკრების შეგროვებას**. მომხმარებლებს შეუძლიათ ფასების დამატება ამ ვებ აპლიკაციის ან ოფიციალური FoodScan მობილური აპლიკაციის საშუალებით. ჩვენი API-ს გამოყენებით, საცალო ვაჭრობის წარმომადგენლებს ან მესამე მხარის აპლიკაციებსაც შეუძლიათ წვლილის შეტანა.",
   "guide_open_prices_how_arg1_title": "შეაგროვეთ ფასების ეტიკეტების ფოტოები დერეფნებში",
   "guide_open_prices_how_arg2_title": "შეაგროვეთ ქვითრების ფოტოები",
-  "guide_open_prices_why_title": "რატომ აკეთებს ამას ShuddhScore?",
+  "guide_open_prices_why_title": "რატომ აკეთებს ამას FoodScan?",
   "guide_open_prices_why_paragraph1": "ფასების შესახებ ინფორმაცია უმნიშვნელოვანესია კვების სისტემების გასაგებად. ეს საკვების ღირებულების გასაგებად და ჯანსაღი კვების ხელშეწყობის მთავარი ფაქტორია. ფასების შესახებ მონაცემების გახსნა მკვლევარებისთვის, ჟურნალისტებისა და მოქალაქეებისთვის გაუადვილებს **უკეთესად გაიგონ, თუ როგორ იცვლება საკვების ფასები გეოგრაფიულად და დროში**.",
   "guide_open_prices_why_arg1_title": "ფასების ევოლუციის თვალყურის დევნება დროთა განმავლობაში",
   "guide_open_prices_why_arg1_text": "ნახეთ **ფასების ევოლუცია**: შემცირებული ინფლაცია, იაფფასიანი ინფლაცია, ჩვენ შეგვიძლია მათი ერთად თვალყურის დევნება!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "უი!",
-  "carousel_unsupported_text": "სკანირებული შტრიხკოდი არ არის მხარდაჭერილი ShuddhScore-ის მიერ!",
+  "carousel_unsupported_text": "სკანირებული შტრიხკოდი არ არის მხარდაჭერილი FoodScan-ის მიერ!",
   "carousel_error_header": "შეცდომა!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "რატომ ფასები?",
-  "prices_explanation_card_line1": "**Open Prices** არის პროექტი, რომელიც აგროვებს და აზიარებს მსოფლიოს მასშტაბით პროდუქტების ფასებს 🌍. Open Prices შემუშავებული და მხარდაჭერილია ShuddhScore-ის მიერ.",
+  "prices_explanation_card_line1": "**Open Prices** არის პროექტი, რომელიც აგროვებს და აზიარებს მსოფლიოს მასშტაბით პროდუქტების ფასებს 🌍. Open Prices შემუშავებული და მხარდაჭერილია FoodScan-ის მიერ.",
   "explanation_card_learn_more_button": "შეიტყვეთ მეტი",
   "product_page_tab_folksonomy": "ფოლკსონომია",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore არის საკვები პროდუქტების მონაცემთა ბაზა, **შექმნილი ყველასთვის და ყველასთვის**.\nმისი გამოყენება შეგიძლიათ საკვების უკეთესი არჩევანის გასაკეთებლად და რადგან ეს **ღია მონაცემებია**, ნებისმიერს შეუძლია **მისი ხელახლა გამოყენება ნებისმიერი მიზნით**.",
+  "preferences_legal_header": "FoodScan არის საკვები პროდუქტების მონაცემთა ბაზა, **შექმნილი ყველასთვის და ყველასთვის**.\nმისი გამოყენება შეგიძლიათ საკვების უკეთესი არჩევანის გასაკეთებლად და რადგან ეს **ღია მონაცემებია**, ნებისმიერს შეუძლია **მისი ხელახლა გამოყენება ნებისმიერი მიზნით**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "ShuddhScoreს ვებსაიტზე",
+  "preferences_on_off_website_subtitle": "FoodScanს ვებსაიტზე",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "ჩემი ანგარიშის მართვა",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "აღმოაჩინეთ ღია კვების ფაქტები",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "აღმოაჩინეთ ღია სილამაზის ფაქტები",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "არასამთავრობო ორგანიზაცია „ShuddhScore“",
+  "preferences_faq_off_ngo_title": "არასამთავრობო ორგანიზაცია „FoodScan“",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ახალი პროდუქტები, რომლებიც დავამატე ShuddhScore-ში",
+  "preferences_contributions_new_products_subtitle": "ახალი პროდუქტები, რომლებიც დავამატე FoodScan-ში",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "მარტივი გზები, რათა დავეხმაროთ ShuddhScore-ს",
+  "preferences_page_contribute_project_subtitle": "მარტივი გზები, რათა დავეხმაროთ FoodScan-ს",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScoreს ლაბორატორიები",
+  "preferences_page_open_food_facts_labs_title": "FoodScanს ლაბორატორიები",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "ანგარიში",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "თქვენს ენაზე გადმოიტანეთ ShuddhScore",
+  "preferences_contribute_translate_header": "თქვენს ენაზე გადმოიტანეთ FoodScan",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

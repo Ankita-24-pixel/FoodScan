@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Harga Terbuka",
   "sep": "",
   "@sep": {
@@ -228,7 +228,7 @@
   "@Introduction screen": {},
   "welcomeToOpenFoodFacts": "Selamat datang ke Fakta Makanan Terbuka",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore ialah sebuah pertubuhan bukan berasaskan keuntungan global yang dikuasakan oleh komuniti tempatan.",
+  "whatIsOff": "FoodScan ialah sebuah pertubuhan bukan berasaskan keuntungan global yang dikuasakan oleh komuniti tempatan.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Saya seorang pengeluar makanan",
   "sign_up_page_producer_hint": "Pengeluar/jenama",
   "sign_up_page_producer_error_empty": "Sila masukkan pengeluar atau nama jenama",
-  "sign_up_page_subscribe_checkbox": "Saya ingin melanggan surat berita ShuddhScore (Anda boleh berhenti melanggannya pada bila-bila masa)",
+  "sign_up_page_subscribe_checkbox": "Saya ingin melanggan surat berita FoodScan (Anda boleh berhenti melanggannya pada bila-bila masa)",
   "sign_up_page_user_name_already_used": "Nama pengguna sudah wujud, sila pilih nama pengguna lain.",
   "sign_up_page_email_already_exists": "sudah wujud, log masuk ke akaun atau cuba dengan e-mel lain.",
   "sign_up_page_provide_valid_email": "Sila berikan alamat e-mel yang sah.",
@@ -448,9 +448,9 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Kod untuk setiap produk ShuddhScore tersedia di GitHub. Anda dialu-alukan untuk menggunakan semula kod ini (ia adalah sumber terbuka) dan membantu kami menambah baiknya, untuk semua orang, di seluruh planet ini.",
+  "contribute_develop_text": "Kod untuk setiap produk FoodScan tersedia di GitHub. Anda dialu-alukan untuk menggunakan semula kod ini (ia adalah sumber terbuka) dan membantu kami menambah baiknya, untuk semua orang, di seluruh planet ini.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Anda boleh menyertai bilik sembang ShuddhScore Slack yang merupakan cara pilihan untuk bertanya soalan.",
+  "contribute_develop_text_2": "Anda boleh menyertai bilik sembang FoodScan Slack yang merupakan cara pilihan untuk bertanya soalan.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Mod DEV?",
   "contribute_develop_dev_mode_subtitle": "Aktifkan Mod DEV",
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Pangkalan data merupakan teras projek ini. Ia mudah dan cepat untuk membantu. Anda boleh memuat turun aplikasi mudah alih untuk telefon anda dan mula menambah atau menambah baik produk.\n\nSebaliknya, laman web ShuddhScore menawarkan pelbagai cara untuk menyumbang: ",
+  "contribute_improve_text": "Pangkalan data merupakan teras projek ini. Ia mudah dan cepat untuk membantu. Anda boleh memuat turun aplikasi mudah alih untuk telefon anda dan mula menambah atau menambah baik produk.\n\nSebaliknya, laman web FoodScan menawarkan pelbagai cara untuk menyumbang: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Terjemahkan",
   "@contribute_translate_header": {
@@ -482,11 +482,11 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore merupakan projek global yang mengandungi produk dari lebih 160 buah negara. ShuddhScore diterjemahkan ke dalam berpuluh-puluh bahasa, dengan kandungan yang sentiasa berubah.",
+  "contribute_translate_text": "FoodScan merupakan projek global yang mengandungi produk dari lebih 160 buah negara. FoodScan diterjemahkan ke dalam berpuluh-puluh bahasa, dengan kandungan yang sentiasa berubah.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Terjemahan adalah satu daripada tugas utama projek",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Sumbang kemahiran anda kepada ShuddhScore. Sertai kumpulan kemahiran!",
+  "contribute_join_skill_pool": "Sumbang kemahiran anda kepada FoodScan. Sertai kumpulan kemahiran!",
   "contribute_share_header": "Kongsikan Fakta Makanan Terbuka dengan rakan-rakan anda",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Anda telah menemui produk baharu!",
   "@missing_product": {},
-  "add_product_take_photos": "Ambil gambar pembungkusan untuk menambah produk ini ke ShuddhScore",
+  "add_product_take_photos": "Ambil gambar pembungkusan untuk menambah produk ini ke FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Sila ambil beberapa gambar dahulu. Anda boleh menyiapkan produk ini pada masa akan datang.",
   "@add_product_take_photos_descriptive": {},
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Memuat naik imej hadapan ke ShuddhScore",
+  "uploading_image_type_front": "Memuat naik imej hadapan ke FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Memuat naik imej ramuan ke ShuddhScore",
+  "uploading_image_type_ingredients": "Memuat naik imej ramuan ke FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Memuat naik imej nutrisi ke ShuddhScore",
+  "uploading_image_type_nutrition": "Memuat naik imej nutrisi ke FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Memuat naik imej pembungkusan ke ShuddhScore",
+  "uploading_image_type_packaging": "Memuat naik imej pembungkusan ke FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Memuat naik imej lain ke ShuddhScore",
+  "uploading_image_type_other": "Memuat naik imej lain ke FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Memuat naik imej ke ShuddhScore",
+  "uploading_image_type_generic": "Memuat naik imej ke FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "Selamat datang ke Fakta Makanan Terbuka",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Imbas** kod bar atau\n**cari** produk",
   "@homepage_main_card_subheading": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Apabila diaktifkan, laporan ranap sistem akan dihantar secara automatik ke sistem penjejakan ralat ShuddhScore supaya pepijat dapat dibaiki dan seterusnya menambah baik aplikasi.",
+  "crash_reporting_toggle_subtitle": "Apabila diaktifkan, laporan ranap sistem akan dihantar secara automatik ke sistem penjejakan ralat FoodScan supaya pepijat dapat dibaiki dan seterusnya menambah baik aplikasi.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Ralat pengesahan",
   "prices_privacy_warning_title": "Amaran privasi",
   "prices_unknown_product": "Produk tidak diketahui",
-  "prices_privacy_warning_main_message": "Harga **akan diumumkan**, bersama-sama dengan kedai yang dirujuk.\n\nItu mungkin membolehkan orang yang mengetahui tentang nama samaran ShuddhScore anda untuk:\n",
+  "prices_privacy_warning_main_message": "Harga **akan diumumkan**, bersama-sama dengan kedai yang dirujuk.\n\nItu mungkin membolehkan orang yang mengetahui tentang nama samaran FoodScan anda untuk:\n",
   "prices_privacy_warning_message_bullet_1": "Buat kesimpulan di kawasan mana anda tinggal",
   "prices_privacy_warning_message_bullet_2": "Ketahui apa yang anda beli",
-  "prices_privacy_warning_sub_message": "Jika anda tidak selesa dengan itu, sila tukar nama samaran anda atau buat akaun ShuddhScore baharu dan log masuk ke aplikasi dengannya.",
+  "prices_privacy_warning_sub_message": "Jika anda tidak selesa dengan itu, sila tukar nama samaran anda atau buat akaun FoodScan baharu dan log masuk ke aplikasi dengannya.",
   "i_refuse": "Saya menolak",
   "i_accept": "Saya terima",
   "prices_currency_change_proposal_title": "Tukar mata wang?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Lihat produk ini di ShuddhScore: {url}",
+  "share_product_text": "Lihat produk ini di FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Lihat senarai produk saya di ShuddhScore: {url}",
+  "share_product_list_text": "Lihat senarai produk saya di FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Kemas kini pangkalan data produk tempatan dengan data terkini daripada ShuddhScore",
+  "update_local_database_sub": "Kemas kini pangkalan data produk tempatan dengan data terkini daripada FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4187,7 +4187,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Apakah Fakta Makanan Terbuka?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore ialah pangkalan data **kolaboratif**, **percuma** dan **terbuka** yang mengandungi produk makanan dari seluruh dunia.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan ialah pangkalan data **kolaboratif**, **percuma** dan **terbuka** yang mengandungi produk makanan dari seluruh dunia.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Apakah Harga Terbuka?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices ialah projek untuk **mengumpul dan berkongsi harga produk di seluruh dunia**. Ia merupakan set data yang tersedia secara umum yang boleh digunakan untuk penyelidikan, analisis dan banyak lagi. Open Prices dibangunkan dan diselenggara oleh ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices ialah projek untuk **mengumpul dan berkongsi harga produk di seluruh dunia**. Ia merupakan set data yang tersedia secara umum yang boleh digunakan untuk penyelidikan, analisis dan banyak lagi. Open Prices dibangunkan dan diselenggara oleh FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Bagaimanakah Harga Terbuka berfungsi?",
-  "guide_open_prices_how_paragraph1": "**Kami sedang mengumpul dataset harga sumber terbuka**. Harga boleh ditambah oleh pengguna melalui aplikasi web ini atau melalui aplikasi mudah alih rasmi ShuddhScore. Peruncit atau aplikasi pihak ketiga juga boleh menyumbang dengan menggunakan API kami.",
+  "guide_open_prices_how_paragraph1": "**Kami sedang mengumpul dataset harga sumber terbuka**. Harga boleh ditambah oleh pengguna melalui aplikasi web ini atau melalui aplikasi mudah alih rasmi FoodScan. Peruncit atau aplikasi pihak ketiga juga boleh menyumbang dengan menggunakan API kami.",
   "guide_open_prices_how_arg1_title": "Kumpulkan gambar tanda harga di lorong",
   "guide_open_prices_how_arg2_title": "Kumpulkan gambar resit",
-  "guide_open_prices_why_title": "Mengapakah ShuddhScore melakukan ini?",
+  "guide_open_prices_why_title": "Mengapakah FoodScan melakukan ini?",
   "guide_open_prices_why_paragraph1": "Maklumat harga adalah sangat penting untuk memahami sistem makanan. Ia merupakan faktor utama dalam memahami kos makanan dan untuk menggalakkan diet yang lebih sihat. Data harga pembukaan merupakan cara untuk memudahkan penyelidik, wartawan dan rakyat untuk **mempunyai pemahaman yang lebih baik tentang bagaimana harga makanan berubah mengikut geografi dan masa**.",
   "guide_open_prices_why_arg1_title": "Jejaki evolusi harga dari semasa ke semasa",
   "guide_open_prices_why_arg1_text": "Lihat **evolusi harga**: pengecutan inflasi, inflasi murah, kita boleh menjejakinya bersama-sama!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Aduh!",
-  "carousel_unsupported_text": "Kod bar yang diimbas tidak disokong oleh ShuddhScore!",
+  "carousel_unsupported_text": "Kod bar yang diimbas tidak disokong oleh FoodScan!",
   "carousel_error_header": "Ralat!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Kenapa harga?",
-  "prices_explanation_card_line1": "**Open Prices** ialah projek mengumpul dan berkongsi harga produk di seluruh dunia 🌍. Open Prices dibangunkan dan diselenggara oleh ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** ialah projek mengumpul dan berkongsi harga produk di seluruh dunia 🌍. Open Prices dibangunkan dan diselenggara oleh FoodScan.",
   "explanation_card_learn_more_button": "Ketahui lebih lanjut",
   "product_page_tab_folksonomy": "Folksonomi",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore ialah pangkalan data produk makanan **dibuat oleh semua orang, untuk semua orang**.\nAnda boleh menggunakannya untuk membuat pilihan makanan yang lebih baik, dan kerana ia adalah **data terbuka**, sesiapa sahaja boleh **menggunakannya semula untuk sebarang tujuan**.",
+  "preferences_legal_header": "FoodScan ialah pangkalan data produk makanan **dibuat oleh semua orang, untuk semua orang**.\nAnda boleh menggunakannya untuk membuat pilihan makanan yang lebih baik, dan kerana ia adalah **data terbuka**, sesiapa sahaja boleh **menggunakannya semula untuk sebarang tujuan**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Di laman web ShuddhScore",
+  "preferences_on_off_website_subtitle": "Di laman web FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Urus akaun saya",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Temui ShuddhScore",
+  "preferences_faq_discover_off_title": "Temui FoodScan",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Temui Fakta Kecantikan Terbuka",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "NGO ShuddhScore",
+  "preferences_faq_off_ngo_title": "NGO FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Blog ShuddhScore",
+  "preferences_connect_blog_title": "Blog FoodScan",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Produk baharu yang saya tambahkan pada ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Produk baharu yang saya tambahkan pada FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Cara mudah untuk membantu ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Cara mudah untuk membantu FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "Makmal ShuddhScore",
+  "preferences_page_open_food_facts_labs_title": "Makmal FoodScan",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Akaun",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "Bawa ShuddhScore kepada bahasa anda",
+  "preferences_contribute_translate_header": "Bawa FoodScan kepada bahasa anda",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

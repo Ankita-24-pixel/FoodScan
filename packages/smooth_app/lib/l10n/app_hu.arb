@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Üdvözli az ShuddhScore",
+  "welcomeToOpenFoodFacts": "Üdvözli az FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "Az ShuddhScore egy helyi közösségek által működtetett globális nonprofit szervezet.",
+  "whatIsOff": "Az FoodScan egy helyi közösségek által működtetett globális nonprofit szervezet.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Segítsen az ShuddhScore fejlesztésében az Ön országában",
+  "help_improve_country": "Segítsen az FoodScan fejlesztésében az Ön országában",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Élelmiszergyártó vagyok",
   "sign_up_page_producer_hint": "Gyártó/márka",
   "sign_up_page_producer_error_empty": "Adjon meg egy gyártói vagy márkanevet",
-  "sign_up_page_subscribe_checkbox": "Szeretnék feliratkozni az ShuddhScore hírlevélre (bármikor leiratkozhat róla)",
+  "sign_up_page_subscribe_checkbox": "Szeretnék feliratkozni az FoodScan hírlevélre (bármikor leiratkozhat róla)",
   "sign_up_page_user_name_already_used": "A felhasználónév már létezik. Válasszon másik felhasználónevet.",
   "sign_up_page_email_already_exists": "már létezik, jelentkezzen be a fiókba, vagy próbálja meg másik e-mail címmel.",
   "sign_up_page_provide_valid_email": "Valódi email címet adjon meg.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Minden ShuddhScore projekt forráskódja elérhető a GitHubon. Szívesen látjuk, ha újrafelhasználja a kódot (nyílt forráskódú), segít nekünk fejleszteni, mindenki számára, az egész bolygón.",
+  "contribute_develop_text": "Minden FoodScan projekt forráskódja elérhető a GitHubon. Szívesen látjuk, ha újrafelhasználja a kódot (nyílt forráskódú), segít nekünk fejleszteni, mindenki számára, az egész bolygón.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Csatlakozhat az ShuddhScore Slack csevegőszobához, amely a kérdések feltevésének kedvelt módja.",
+  "contribute_develop_text_2": "Csatlakozhat az FoodScan Slack csevegőszobához, amely a kérdések feltevésének kedvelt módja.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Fejlesztői mód?",
   "contribute_develop_dev_mode_subtitle": "Fejlesztői mód aktiválása",
   "contribute_donate_title": "Adományozás",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Adományozzon az ShuddhScore számára",
+  "contribute_donate_header": "Adományozzon az FoodScan számára",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Vegye figyelembe, hogy a belső alfa verzióval a teljes adatvesztés is előfordulhat, és az alkalmazás bármikor használhatatlanná válhat!",
   "@contribute_enroll_alpha_warning": {},
@@ -486,10 +486,10 @@
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "A fordítás a projekt egyik legfontosabb feladatai közé tartozik",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Járuljon hozzá készségeivel az ShuddhScorehez. Csatlakozzon a képességtárhoz!",
+  "contribute_join_skill_pool": "Járuljon hozzá készségeivel az FoodScanhez. Csatlakozzon a képességtárhoz!",
   "contribute_share_header": "Ossza meg barátaival az OpenFoodFacts-et",
   "@contribute_share_header": {},
-  "contribute_share_content": "Szerettem volna, ha tudsz az általam használt ShuddhScore nevű alkalmazásról, amely lehetővé teszi, hogy személyre szabott módon megismerd az ételek egészségügyi és környezeti hatásait. A csomagoláson található vonalkódok beolvasásával működik. Nem utolsó sorban ingyenes, nem igényel regisztrációt, és még segíthetsz is növelni a benne lévő termékek számát. Erről a linkről töltheted le a telefonodra: https://openfoodfacts.app",
+  "contribute_share_content": "Szerettem volna, ha tudsz az általam használt FoodScan nevű alkalmazásról, amely lehetővé teszi, hogy személyre szabott módon megismerd az ételek egészségügyi és környezeti hatásait. A csomagoláson található vonalkódok beolvasásával működik. Nem utolsó sorban ingyenes, nem igényel regisztrációt, és még segíthetsz is növelni a benne lévő termékek számát. Erről a linkről töltheted le a telefonodra: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -542,7 +542,7 @@
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Élelmiszer-preferenciák",
   "myPreferences_food_subtitle": "Válassza ki, hogy mely élelmiszerekkel kapcsolatos információk a legfontosabbak az Ön számára.",
-  "myPreferences_food_comment": "Válassza ki, hogy az élelmiszerekkel kapcsolatban mely információk a legfontosabbak az Ön számára, hogy az élelmiszereket a preferenciái szerint rangsorolja, az Ön számára fontos információkat lássa elsőként, és kapjon egy megfelelőségi összefoglalót. Ezek az élelmiszer-preferenciák az Ön készülékén maradnak, és nem kapcsolódnak az ShuddhScore közreműködői fiókjához, ha rendelkezik ilyennel.",
+  "myPreferences_food_comment": "Válassza ki, hogy az élelmiszerekkel kapcsolatban mely információk a legfontosabbak az Ön számára, hogy az élelmiszereket a preferenciái szerint rangsorolja, az Ön számára fontos információkat lássa elsőként, és kapjon egy megfelelőségi összefoglalót. Ezek az élelmiszer-preferenciák az Ön készülékén maradnak, és nem kapcsolódnak az FoodScan közreműködői fiókjához, ha rendelkezik ilyennel.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Szemből készült kép feltöltése ShuddhScorere",
+  "uploading_image_type_front": "Szemből készült kép feltöltése FoodScanre",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Összetevők képének feltöltése ShuddhScorere",
+  "uploading_image_type_ingredients": "Összetevők képének feltöltése FoodScanre",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Tápérték kép feltöltése ShuddhScorere",
+  "uploading_image_type_nutrition": "Tápérték kép feltöltése FoodScanre",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Csomagolás képének feltöltése ShuddhScorere",
+  "uploading_image_type_packaging": "Csomagolás képének feltöltése FoodScanre",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "További kép feltöltése ShuddhScorere",
+  "uploading_image_type_other": "További kép feltöltése FoodScanre",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Kép feltöltése ShuddhScorere",
+  "uploading_image_type_generic": "Kép feltöltése FoodScanre",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Üdvözli az ShuddhScore",
+  "homepage_main_card_logo_description": "Üdvözli az FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Olvasson le** egy vonalkódot vagy\n**keressen** rá egy termékre",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "A rendszer ShuddhScorere vonatkozó beállításainak megnyitása",
+  "native_app_description": "A rendszer FoodScanre vonatkozó beállításainak megnyitása",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Jelentkezzen be vagy regisztráljon, és csatlakozzon az ShuddhScore közösséghez",
+  "user_profile_subtitle_guest": "Jelentkezzen be vagy regisztráljon, és csatlakozzon az FoodScan közösséghez",
   "user_profile_title_id_email": "Open Food Facts bejelentkezés: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Üdvözlöm, kérem, törölje ShuddhScore fiókomat: {userId}",
+  "email_body_account_deletion": "Üdvözlöm, kérem, törölje FoodScan fiókomat: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Ha engedélyezve van, a rendszer automatikusan elküldi az összeomlási jelentéseket az ShuddhScore hibakövető rendszerébe, így a hibák kijavíthatók, és ezáltal fejlődik az alkalmazás.",
+  "crash_reporting_toggle_subtitle": "Ha engedélyezve van, a rendszer automatikusan elküldi az összeomlási jelentéseket az FoodScan hibakövető rendszerébe, így a hibák kijavíthatók, és ezáltal fejlődik az alkalmazás.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1634,7 +1634,7 @@
   "@send_anonymous_toggle_title": {
     "description": "Title for the Send anonymous data toggle"
   },
-  "send_anonymous_data_toggle_subtitle": "Ha engedélyezve van, az alkalmazás használatával kapcsolatban néhány névtelen információt elküldünk az ShuddhScore szerverekre, hogy megértsük, hogyan és mennyi funkciót használ, azok fejlesztése céljából.",
+  "send_anonymous_data_toggle_subtitle": "Ha engedélyezve van, az alkalmazás használatával kapcsolatban néhány névtelen információt elküldünk az FoodScan szerverekre, hogy megértsük, hogyan és mennyi funkciót használ, azok fejlesztése céljából.",
   "@send_anonymous_toggle_subtitle": {
     "description": "SubTitle for the Send anonymous data toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Ha egy kategóriát **nem kínál fel az automatikus kiegészítés**, nyugodtan adja hozzá.\nEz segít nekünk az ShuddhScore fejlesztésében az Ön országában.",
+  "edit_product_form_item_categories_explanation_info2_content": "Ha egy kategóriát **nem kínál fel az automatikus kiegészítés**, nyugodtan adja hozzá.\nEz segít nekünk az FoodScan fejlesztésében az Ön országában.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Érvényesítési hiba",
   "prices_privacy_warning_title": "Adatvédelmi figyelmeztetés",
   "prices_unknown_product": "Ismeretlen termék",
-  "prices_privacy_warning_main_message": "Az árak **nyilvánosak lesznek** a hivatkozott üzlettel együtt.\n\nEz lehetővé teheti azoknak, akik ismerik az ön ShuddhScore felhasználónevét, hogy:\n",
+  "prices_privacy_warning_main_message": "Az árak **nyilvánosak lesznek** a hivatkozott üzlettel együtt.\n\nEz lehetővé teheti azoknak, akik ismerik az ön FoodScan felhasználónevét, hogy:\n",
   "prices_privacy_warning_message_bullet_1": "Megállapítsák, ön merre felé él",
   "prices_privacy_warning_message_bullet_2": "Megtudják, hogy mit vásárol",
-  "prices_privacy_warning_sub_message": "Ha ez nyugtalanítja, változtassa meg felhasználónevét, vagy hozzon létre egy új ShuddhScore fiókot, és jelentkezzen be vele az alkalmazásba.",
+  "prices_privacy_warning_sub_message": "Ha ez nyugtalanítja, változtassa meg felhasználónevét, vagy hozzon létre egy új FoodScan fiókot, és jelentkezzen be vele az alkalmazásba.",
   "i_refuse": "Elutasítom",
   "i_accept": "Elfogadom",
   "prices_currency_change_proposal_title": "Módosítja a pénznemet?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Nézd meg ezt a terméket az ShuddhScore oldalán: {url}",
+  "share_product_text": "Nézd meg ezt a terméket az FoodScan oldalán: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Nézd meg a terméklistámat az ShuddhScore oldalán: {url}",
+  "share_product_list_text": "Nézd meg a terméklistámat az FoodScan oldalán: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Frissítse a helyi termékadatbázist az ShuddhScore legfrissebb adataival",
+  "update_local_database_sub": "Frissítse a helyi termékadatbázist az FoodScan legfrissebb adataival",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "Ismeretlen NOVA-csoport",
   "nutrition_facts": "Tápanyagszintek",
   "faq_title_partners": "A civil szervezet partnerei és támogatói",
-  "faq_title_vision": "ShuddhScore vízió, küldetés, értékek és programok",
+  "faq_title_vision": "FoodScan vízió, küldetés, értékek és programok",
   "faq_title_install_beauty": "Telepítse az Open Beauty Facts alkalmazást kozmetikai adatbázis létrehozásához",
   "faq_title_install_pet": "Telepítse az Open Pet Food Facts alkalmazást állateledel adatbázis létrehozásához",
   "faq_title_install_product": "Telepítse az Open Products Facts alkalmazást termékadatbázis létrehozásához, az objektumok élettartamának meghosszabbítása érdekében",
   "faq_nutriscore_nutriscore": "Új Nutri-Score számítási módszer: mi az újdonság?",
-  "contact_title_pro_page": "Gyártó? Importálja termékeit ShuddhScorebe",
+  "contact_title_pro_page": "Gyártó? Importálja termékeit FoodScanbe",
   "contact_title_pro_email": "Gyártói kapcsolat",
   "contact_title_press_page": "Sajtóoldal",
   "contact_title_press_email": "Sajtókapcsolat",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Üdvözli az ShuddhScore!",
+  "guide_open_food_facts_title": "Üdvözli az FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
-  "guide_open_food_facts_what_is_open_food_facts_title": "Mi az az ShuddhScore?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "Az ShuddhScore egy **együttműködésen alapuló**, **ingyenes** és **nyílt** adatbázis, amely a világ minden tájáról származó élelmiszertermékeket tartalmaz.",
+  "guide_open_food_facts_what_is_open_food_facts_title": "Mi az az FoodScan?",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "Az FoodScan egy **együttműködésen alapuló**, **ingyenes** és **nyílt** adatbázis, amely a világ minden tájáról származó élelmiszertermékeket tartalmaz.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4195,7 +4195,7 @@
   "@guide_open_food_facts_what_is_open_food_facts_paragraph2": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
-  "guide_open_food_facts_features_title": "Az ShuddhScore jellemzői",
+  "guide_open_food_facts_features_title": "Az FoodScan jellemzői",
   "guide_open_food_facts_features_arg1_title": "Kérjen értesítést a nem kívánt összetevőkről",
   "guide_open_food_facts_tips_title": "Tippek remek fotók készítéséhez",
   "guide_open_food_facts_tips_arg1_title": "Kerülendők",
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Mi az az Open Prices?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Az Open Prices egy olyan projekt, amelynek célja a **világ minden tájáról származó termékek árainak gyűjtése és megosztása**. Ez egy nyilvánosan elérhető adathalmaz, amely kutatásra, elemzésre és egyebekre felhasználható. Az Open Prices-t az ShuddhScore fejleszti és tartja karban.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Az Open Prices egy olyan projekt, amelynek célja a **világ minden tájáról származó termékek árainak gyűjtése és megosztása**. Ez egy nyilvánosan elérhető adathalmaz, amely kutatásra, elemzésre és egyebekre felhasználható. Az Open Prices-t az FoodScan fejleszti és tartja karban.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Hogyan működnek az Open Prices?",
-  "guide_open_prices_how_paragraph1": "**Nyílt forráskódú közösségi áradatbázist gyűjtünk**. Az árakat a felhasználók ezen a webes alkalmazáson vagy a hivatalos ShuddhScore mobilalkalmazáson keresztül adhatják meg. Kiskereskedők vagy harmadik féltől származó alkalmazások is hozzájárulhatnak az API-nk használatával.",
+  "guide_open_prices_how_paragraph1": "**Nyílt forráskódú közösségi áradatbázist gyűjtünk**. Az árakat a felhasználók ezen a webes alkalmazáson vagy a hivatalos FoodScan mobilalkalmazáson keresztül adhatják meg. Kiskereskedők vagy harmadik féltől származó alkalmazások is hozzájárulhatnak az API-nk használatával.",
   "guide_open_prices_how_arg1_title": "Gyűjtsön fotókat az árcédulákról a polcokon",
   "guide_open_prices_how_arg2_title": "Gyűjtse össze a nyugták fotóit",
-  "guide_open_prices_why_title": "Miért csinálja ezt az ShuddhScore?",
+  "guide_open_prices_why_title": "Miért csinálja ezt az FoodScan?",
   "guide_open_prices_why_paragraph1": "Az árinformációk kiemelkedően fontosak az élelmiszerrendszerek megértéséhez. Kulcsfontosságú tényezők az élelmiszerek költségeinek megértésében és az egészségesebb étrend előmozdításában. Az áradatok megnyitása megkönnyíti a kutatók, újságírók és polgárok számára, hogy **jobban megértsék az élelmiszerárak földrajzi és időbeli változását**.",
   "guide_open_prices_why_arg1_title": "Az árak időbeli alakulásának nyomon követése",
   "guide_open_prices_why_arg1_text": "Nézze meg az **árak alakulását**: zsugorodási infláció, olcsósítási infláció, együtt nyomon követhetjük őket!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Hoppá!",
-  "carousel_unsupported_text": "A leolvasott vonalkódot az ShuddhScore nem támogatja!",
+  "carousel_unsupported_text": "A leolvasott vonalkódot az FoodScan nem támogatja!",
   "carousel_error_header": "Hiba!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Miért az árak?",
-  "prices_explanation_card_line1": "Az **Open Prices** egy olyan projekt, amelynek célja a világ minden tájáról származó termékek árainak összegyűjtése és megosztása 🌍. Az Open Prices-t az ShuddhScore fejleszti és tartja karban.",
+  "prices_explanation_card_line1": "Az **Open Prices** egy olyan projekt, amelynek célja a világ minden tájáról származó termékek árainak összegyűjtése és megosztása 🌍. Az Open Prices-t az FoodScan fejleszti és tartja karban.",
   "explanation_card_learn_more_button": "További információk",
   "product_page_tab_folksonomy": "Folksonomia",
   "@product_page_tab_folksonomy": {
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "Az ShuddhScore projekt",
+  "preferences_card_project": "Az FoodScan projekt",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "Az ShuddhScore élelmiszeripari termékek adatbázisa, amelyet **mindenki készít, mindenki számára**. Használhatja jobb ételválasztásra, és mivel **nyílt adatról** van szó, bárki **bármilyen célra felhasználhatja**.",
+  "preferences_legal_header": "Az FoodScan élelmiszeripari termékek adatbázisa, amelyet **mindenki készít, mindenki számára**. Használhatja jobb ételválasztásra, és mivel **nyílt adatról** van szó, bárki **bármilyen célra felhasználhatja**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Az ShuddhScore weboldalán",
+  "preferences_on_off_website_subtitle": "Az FoodScan weboldalán",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Fiókom kezelése",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Fedezze fel az ShuddhScoreet",
+  "preferences_faq_discover_off_title": "Fedezze fel az FoodScanet",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Fedezze fel a nyílt szépségápolási tényeket",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "Az ShuddhScore nem kormányzati szervezet",
+  "preferences_faq_off_ngo_title": "Az FoodScan nem kormányzati szervezet",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Információ",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Az ShuddhScore blog",
+  "preferences_connect_blog_title": "Az FoodScan blog",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Új termékek, amiket hozzáadtam az ShuddhScore oldalhoz",
+  "preferences_contributions_new_products_subtitle": "Új termékek, amiket hozzáadtam az FoodScan oldalhoz",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Az ShuddhScore segítésének egyszerű módjai",
+  "preferences_page_contribute_project_subtitle": "Az FoodScan segítésének egyszerű módjai",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScore Labs",
+  "preferences_page_open_food_facts_labs_title": "FoodScan Labs",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Fiók",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "Segítsen az ShuddhScore lefordításában",
+  "preferences_contribute_translate_header": "Segítsen az FoodScan lefordításában",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

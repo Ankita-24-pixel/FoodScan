@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Prisiau Agored",
   "sep": "",
   "@sep": {
@@ -228,7 +228,7 @@
   "@Introduction screen": {},
   "welcomeToOpenFoodFacts": "Croeso i Ffeithiau Bwyd Agored",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "Mae ShuddhScore yn sefydliad di-elw byd-eang sy'n cael ei bweru gan gymunedau lleol.",
+  "whatIsOff": "Mae FoodScan yn sefydliad di-elw byd-eang sy'n cael ei bweru gan gymunedau lleol.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -448,9 +448,9 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Mae'r cod ar gyfer pob cynnyrch ShuddhScore ar gael ar GitHub. Mae croeso i chi ailddefnyddio'r cod (mae'n ffynhonnell agored) a'n helpu ni i'w wella, i bawb, ar y blaned gyfan.",
+  "contribute_develop_text": "Mae'r cod ar gyfer pob cynnyrch FoodScan ar gael ar GitHub. Mae croeso i chi ailddefnyddio'r cod (mae'n ffynhonnell agored) a'n helpu ni i'w wella, i bawb, ar y blaned gyfan.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Gallwch ymuno ag ystafell sgwrsio ShuddhScore Slack sef y ffordd orau o ofyn cwestiynau.",
+  "contribute_develop_text_2": "Gallwch ymuno ag ystafell sgwrsio FoodScan Slack sef y ffordd orau o ofyn cwestiynau.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Modd DEV?",
   "contribute_develop_dev_mode_subtitle": "Actifadu'r Modd DEV",
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Y gronfa ddata yw craidd y prosiect. Mae'n hawdd ac yn gyflym iawn i helpu. Gallwch lawrlwytho'r ap symudol ar gyfer eich ffôn, a dechrau ychwanegu neu wella cynhyrchion.\n\nAr y llaw arall, mae gwefan ShuddhScore yn cynnig llawer o ffyrdd i gyfrannu: ",
+  "contribute_improve_text": "Y gronfa ddata yw craidd y prosiect. Mae'n hawdd ac yn gyflym iawn i helpu. Gallwch lawrlwytho'r ap symudol ar gyfer eich ffôn, a dechrau ychwanegu neu wella cynhyrchion.\n\nAr y llaw arall, mae gwefan FoodScan yn cynnig llawer o ffyrdd i gyfrannu: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Cyfieithu",
   "@contribute_translate_header": {
@@ -486,7 +486,7 @@
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Mae cyfieithiadau yn un o brif dasgau'r prosiect",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Cyfrannwch eich sgiliau i ShuddhScore. Ymunwch â'r gronfa sgiliau!",
+  "contribute_join_skill_pool": "Cyfrannwch eich sgiliau i FoodScan. Ymunwch â'r gronfa sgiliau!",
   "contribute_share_header": "Rhannwch Ffeithiau Bwyd Agored gyda'ch ffrindiau",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Eich Proffil",
-  "myPreferences_profile_subtitle": "Rheoli eich cyfrif cyfrannwr ShuddhScore.",
+  "myPreferences_profile_subtitle": "Rheoli eich cyfrif cyfrannwr FoodScan.",
   "myPreferences_settings_title": "Gosodiadau Ap",
   "myPreferences_settings_subtitle": "Modd tywyll, Ieithoedd…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Dewisiadau Bwyd",
   "myPreferences_food_subtitle": "Dewiswch pa wybodaeth am fwyd sydd bwysicaf i chi.",
-  "myPreferences_food_comment": "Dewiswch pa wybodaeth am fwyd sydd bwysicaf i chi, er mwyn rhestru bwyd yn ôl eich dewisiadau, gweld y wybodaeth sy'n bwysig i chi yn gyntaf, a chael crynodeb cydnawsedd. Mae'r dewisiadau bwyd hynny'n aros ar eich dyfais, ac nid ydynt yn gysylltiedig â'ch cyfrif cyfrannwr ShuddhScore os oes gennych un.",
+  "myPreferences_food_comment": "Dewiswch pa wybodaeth am fwyd sydd bwysicaf i chi, er mwyn rhestru bwyd yn ôl eich dewisiadau, gweld y wybodaeth sy'n bwysig i chi yn gyntaf, a chael crynodeb cydnawsedd. Mae'r dewisiadau bwyd hynny'n aros ar eich dyfais, ac nid ydynt yn gysylltiedig â'ch cyfrif cyfrannwr FoodScan os oes gennych un.",
   "myPreferences_beauty_title": "Dewisiadau ar gyfer colur",
   "myPreferences_beauty_subtitle": "Dewiswch pa wybodaeth am gynhyrchion colur sydd bwysicaf i chi.",
   "myPreferences_product_title": "Dewisiadau ar gyfer cynhyrchion eraill",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Rydych chi wedi dod o hyd i gynnyrch newydd!",
   "@missing_product": {},
-  "add_product_take_photos": "Tynnwch luniau o'r pecynnu i ychwanegu'r cynnyrch hwn at ShuddhScore",
+  "add_product_take_photos": "Tynnwch luniau o'r pecynnu i ychwanegu'r cynnyrch hwn at FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Tynnwch rai lluniau yn gyntaf. Gallwch chi bob amser gwblhau'r cynnyrch yn ddiweddarach.",
   "@add_product_take_photos_descriptive": {},
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Uwchlwytho delwedd flaen i ShuddhScore",
+  "uploading_image_type_front": "Uwchlwytho delwedd flaen i FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Uwchlwytho delwedd o gynhwysion i ShuddhScore",
+  "uploading_image_type_ingredients": "Uwchlwytho delwedd o gynhwysion i FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Uwchlwytho delwedd maeth i ShuddhScore",
+  "uploading_image_type_nutrition": "Uwchlwytho delwedd maeth i FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Uwchlwytho delwedd pecynnu i ShuddhScore",
+  "uploading_image_type_packaging": "Uwchlwytho delwedd pecynnu i FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Lanlwytho delwedd arall i ShuddhScore",
+  "uploading_image_type_other": "Lanlwytho delwedd arall i FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Lanlwytho delwedd i ShuddhScore",
+  "uploading_image_type_generic": "Lanlwytho delwedd i FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "Croeso i Ffeithiau Bwyd Agored",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Sganiwch** god bar neu\n**chwiliwch** am gynnyrch",
   "@homepage_main_card_subheading": {
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Helo, os gwelwch yn dda dileu fy nghyfrif ShuddhScore: {userId}",
+  "email_body_account_deletion": "Helo, os gwelwch yn dda dileu fy nghyfrif FoodScan: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Pan gânt eu galluogi, cyflwynir adroddiadau damweiniau yn awtomatig i system olrhain gwallau ShuddhScore, fel y gellir trwsio bygiau a thrwy hynny wella'r ap.",
+  "crash_reporting_toggle_subtitle": "Pan gânt eu galluogi, cyflwynir adroddiadau damweiniau yn awtomatig i system olrhain gwallau FoodScan, fel y gellir trwsio bygiau a thrwy hynny wella'r ap.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Gwall dilysu",
   "prices_privacy_warning_title": "Rhybudd preifatrwydd",
   "prices_unknown_product": "Cynnyrch anhysbys",
-  "prices_privacy_warning_main_message": "Bydd prisiau **yn gyhoeddus**, ynghyd â'r siop y maent yn cyfeirio ati.\n\nGallai hynny ganiatáu i bobl sy'n gwybod am eich ffugenw ShuddhScore:\n",
+  "prices_privacy_warning_main_message": "Bydd prisiau **yn gyhoeddus**, ynghyd â'r siop y maent yn cyfeirio ati.\n\nGallai hynny ganiatáu i bobl sy'n gwybod am eich ffugenw FoodScan:\n",
   "prices_privacy_warning_message_bullet_1": "Casglwch ym mha ardal rydych chi'n byw",
   "prices_privacy_warning_message_bullet_2": "Gwybod beth rydych chi'n ei brynu",
-  "prices_privacy_warning_sub_message": "Os ydych chi'n anesmwyth gyda hynny, newidiwch eich ffugenw, neu crëwch gyfrif ShuddhScore newydd a mewngofnodwch i'r ap ag ef.",
+  "prices_privacy_warning_sub_message": "Os ydych chi'n anesmwyth gyda hynny, newidiwch eich ffugenw, neu crëwch gyfrif FoodScan newydd a mewngofnodwch i'r ap ag ef.",
   "i_refuse": "Rwy'n gwrthod",
   "i_accept": "Rwy'n derbyn",
   "prices_currency_change_proposal_title": "Newid yr arian cyfred?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Cymerwch olwg ar y cynnyrch hwn ar ShuddhScore: {url}",
+  "share_product_text": "Cymerwch olwg ar y cynnyrch hwn ar FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Cymerwch olwg ar fy rhestr o gynhyrchion ar ShuddhScore: {url}",
+  "share_product_list_text": "Cymerwch olwg ar fy rhestr o gynhyrchion ar FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Diweddaru'r gronfa ddata cynnyrch lleol gyda'r data diweddaraf o ShuddhScore",
+  "update_local_database_sub": "Diweddaru'r gronfa ddata cynnyrch lleol gyda'r data diweddaraf o FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "Gosodwch Open Pet Food Facts i greu cronfa ddata bwyd anifeiliaid anwes",
   "faq_title_install_product": "Gosodwch Open Products Facts i greu cronfa ddata cynhyrchion i ymestyn oes gwrthrychau",
   "faq_nutriscore_nutriscore": "Cyfrifiad newydd o'r Nutri-Score: beth sy'n newydd?",
-  "contact_title_pro_page": "Pro? Mewnforiwch eich cynhyrchion yn ShuddhScore",
+  "contact_title_pro_page": "Pro? Mewnforiwch eich cynhyrchion yn FoodScan",
   "contact_title_pro_email": "Cyswllt Cynhyrchydd",
   "contact_title_press_page": "Tudalen y Wasg",
   "contact_title_press_email": "Cyswllt y Wasg",
@@ -4187,7 +4187,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Beth yw Ffeithiau Bwyd Agored?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "Mae ShuddhScore yn gronfa ddata **gydweithredol**, **am ddim**, ac **agored** o gynhyrchion bwyd o bob cwr o'r byd.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "Mae FoodScan yn gronfa ddata **gydweithredol**, **am ddim**, ac **agored** o gynhyrchion bwyd o bob cwr o'r byd.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Beth yw Prisiau Agored?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Mae Open Prices yn brosiect i **gasglu a rhannu prisiau cynhyrchion ledled y byd**. Mae'n set ddata sydd ar gael i'r cyhoedd y gellir ei defnyddio ar gyfer ymchwil, dadansoddi a mwy. Mae Open Prices yn cael ei ddatblygu a'i gynnal gan ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Mae Open Prices yn brosiect i **gasglu a rhannu prisiau cynhyrchion ledled y byd**. Mae'n set ddata sydd ar gael i'r cyhoedd y gellir ei defnyddio ar gyfer ymchwil, dadansoddi a mwy. Mae Open Prices yn cael ei ddatblygu a'i gynnal gan FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Sut mae Prisiau Agored yn gweithio?",
-  "guide_open_prices_how_paragraph1": "Rydym yn casglu set ddata ffynhonnell agored o brisiau drwy'r torfol. Gall defnyddwyr ychwanegu prisiau drwy'r ap gwe hwn, neu drwy'r ap symudol swyddogol ShuddhScore. Gall manwerthwyr neu apiau trydydd parti gyfrannu hefyd drwy ddefnyddio ein API.",
+  "guide_open_prices_how_paragraph1": "Rydym yn casglu set ddata ffynhonnell agored o brisiau drwy'r torfol. Gall defnyddwyr ychwanegu prisiau drwy'r ap gwe hwn, neu drwy'r ap symudol swyddogol FoodScan. Gall manwerthwyr neu apiau trydydd parti gyfrannu hefyd drwy ddefnyddio ein API.",
   "guide_open_prices_how_arg1_title": "Casglwch luniau o dagiau pris mewn eiliau",
   "guide_open_prices_how_arg2_title": "Casglwch luniau o dderbynebau",
-  "guide_open_prices_why_title": "Pam mae ShuddhScore yn gwneud hyn?",
+  "guide_open_prices_why_title": "Pam mae FoodScan yn gwneud hyn?",
   "guide_open_prices_why_paragraph1": "Mae gwybodaeth am brisiau o'r pwys mwyaf i ddeall systemau bwyd. Mae'n ffactor allweddol wrth ddeall cost bwyd ac i hyrwyddo dietau iachach. Mae agor data prisiau yn ffordd o'i gwneud hi'n haws i ymchwilwyr, newyddiadurwyr a dinasyddion **gael gwell dealltwriaeth o sut mae prisiau bwyd yn amrywio'n ddaearyddol ac mewn amser**.",
   "guide_open_prices_why_arg1_title": "Dilynwch esblygiad prisiau dros amser",
   "guide_open_prices_why_arg1_text": "Gweler **esblygiad prisiau**: chwyddiant crebachu, chwyddiant rhad, gallwn eu holrhain gyda'n gilydd!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Oops!",
-  "carousel_unsupported_text": "Nid yw'r cod bar a sganiwyd yn cael ei gefnogi gan ShuddhScore!",
+  "carousel_unsupported_text": "Nid yw'r cod bar a sganiwyd yn cael ei gefnogi gan FoodScan!",
   "carousel_error_header": "Gwall!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Pam prisiau?",
-  "prices_explanation_card_line1": "Mae **Open Prices** yn brosiect i gasglu a rhannu prisiau cynhyrchion ledled y byd 🌍. Mae Open Prices yn cael ei ddatblygu a'i gynnal gan ShuddhScore.",
+  "prices_explanation_card_line1": "Mae **Open Prices** yn brosiect i gasglu a rhannu prisiau cynhyrchion ledled y byd 🌍. Mae Open Prices yn cael ei ddatblygu a'i gynnal gan FoodScan.",
   "explanation_card_learn_more_button": "Dysgu mwy",
   "product_page_tab_folksonomy": "Gweriniaeth",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "Cronfa ddata cynhyrchion bwyd yw ShuddhScore **a grëwyd gan bawb, i bawb**.\nGallwch ei defnyddio i wneud dewisiadau bwyd gwell, ac oherwydd ei fod yn **ddata agored**, gall unrhyw un **ei ailddefnyddio at unrhyw ddiben**.",
+  "preferences_legal_header": "Cronfa ddata cynhyrchion bwyd yw FoodScan **a grëwyd gan bawb, i bawb**.\nGallwch ei defnyddio i wneud dewisiadau bwyd gwell, ac oherwydd ei fod yn **ddata agored**, gall unrhyw un **ei ailddefnyddio at unrhyw ddiben**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Ar wefan ShuddhScore",
+  "preferences_on_off_website_subtitle": "Ar wefan FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Rheoli fy nghyfrif",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Darganfyddwch ShuddhScore",
+  "preferences_faq_discover_off_title": "Darganfyddwch FoodScan",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Darganfyddwch Ffeithiau Harddwch Agored",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "Y NGO ShuddhScore",
+  "preferences_faq_off_ngo_title": "Y NGO FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Blog ShuddhScore",
+  "preferences_connect_blog_title": "Blog FoodScan",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Cynhyrchion newydd a ychwanegais at ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Cynhyrchion newydd a ychwanegais at FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Ffyrdd syml o helpu ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Ffyrdd syml o helpu FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "Labordai ShuddhScore",
+  "preferences_page_open_food_facts_labs_title": "Labordai FoodScan",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Cyfrif",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "Dewch â ShuddhScore i'ch iaith",
+  "preferences_contribute_translate_header": "Dewch â FoodScan i'ch iaith",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

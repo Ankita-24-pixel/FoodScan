@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "org.openfoodfacts" "\0"
-            VALUE "FileDescription", "ShuddhScore" "\0"
+            VALUE "FileDescription", "FoodScan" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "ShuddhScore" "\0"
+            VALUE "InternalName", "FoodScan" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 org.openfoodfacts. All rights reserved." "\0"
             VALUE "OriginalFilename", "app.exe" "\0"
-            VALUE "ProductName", "ShuddhScore" "\0"
+            VALUE "ProductName", "FoodScan" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

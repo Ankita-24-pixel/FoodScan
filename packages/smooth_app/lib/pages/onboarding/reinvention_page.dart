@@ -89,7 +89,7 @@ class _OnboardingWelcomePageContent extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ),
-          const Expanded(flex: 37, child: _ShuddhScoreLogo()),
+          const Expanded(flex: 37, child: _FoodScanLogo()),
           Expanded(
             flex: 45,
             child: FractionallySizedBox(
@@ -130,13 +130,13 @@ class _OnboardingWelcomePageContent extends StatelessWidget {
   }
 }
 
-class _ShuddhScoreLogo extends StatelessWidget {
-  const _ShuddhScoreLogo();
+class _FoodScanLogo extends StatelessWidget {
+  const _FoodScanLogo();
 
   @override
   Widget build(BuildContext context) => Center(
     child: Image.asset(
-      'assets/app/shuddhscore_logo.png',
+      'assets/app/foodscan_logo.png',
       width: 220,
       fit: BoxFit.contain,
     ),

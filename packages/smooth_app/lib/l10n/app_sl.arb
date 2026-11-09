@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Odpri cene",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Dobrodošli v ShuddhScore",
+  "welcomeToOpenFoodFacts": "Dobrodošli v FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore je globalna neprofitna organizacija, ki jo poganjajo lokalne skupnosti.",
+  "whatIsOff": "FoodScan je globalna neprofitna organizacija, ki jo poganjajo lokalne skupnosti.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Strežnik se ne odziva! Naslednjo povezavo lahko odprete z zahtevo.",
   "@user_management": {},
-  "sign_in_text": "Prijavite se v svoj račun ShuddhScore, da shranite svoje prispevke.",
+  "sign_in_text": "Prijavite se v svoj račun FoodScan, da shranite svoje prispevke.",
   "incorrect_credentials": "Napačno uporabniško ime ali geslo.",
   "password_lost_incorrect_credentials": "Ta e-poštni naslov ali uporabniško ime ne obstaja. Preverite svoje poverilnice.",
   "password_lost_server_unavailable": "Trenutno prihaja do upočasnitev delovanja naših strežnikov in se za to opravičujemo. Poskusite znova pozneje.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Pomagajte izboljšati ShuddhScore v vaši državi",
+  "help_improve_country": "Pomagajte izboljšati FoodScan v vaši državi",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Sem proizvajalec hrane",
   "sign_up_page_producer_hint": "Proizvajalec/blagovna Znamka",
   "sign_up_page_producer_error_empty": "Prosimo vnesite proizvajalca ali blagovno znamko",
-  "sign_up_page_subscribe_checkbox": "Želim se naročiti na novice ShuddhScore (Od njih se lahko kadar koli odjavite)",
+  "sign_up_page_subscribe_checkbox": "Želim se naročiti na novice FoodScan (Od njih se lahko kadar koli odjavite)",
   "sign_up_page_user_name_already_used": "Uporabniško ime že obstaja, izberite drugo uporabniško ime.",
   "sign_up_page_email_already_exists": "že obstaja, prijavite se v račun ali poskusite z drugim e-poštnim naslovom.",
   "sign_up_page_provide_valid_email": "Prosimo, navedite veljaven e-poštni naslov.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Koda za vsak izdelek ShuddhScore je na voljo na GitHubu. Kodo lahko ponovno uporabite (je odprtokodna) in nam pomagate izboljšati jo za vse na planetu.",
+  "contribute_develop_text": "Koda za vsak izdelek FoodScan je na voljo na GitHubu. Kodo lahko ponovno uporabite (je odprtokodna) in nam pomagate izboljšati jo za vse na planetu.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Lahko se pridružite klepetalnici ShuddhScore Slack, kar je najprimernejši način za postavljanje vprašanj.",
+  "contribute_develop_text_2": "Lahko se pridružite klepetalnici FoodScan Slack, kar je najprimernejši način za postavljanje vprašanj.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Razvojni način?",
   "contribute_develop_dev_mode_subtitle": "Aktivirajte način DEV",
   "contribute_donate_title": "Prispevaj",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Donirajte ShuddhScore",
+  "contribute_donate_header": "Donirajte FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Prosimo, upoštevajte, da je z interno alfa različico možna popolna izguba podatkov in da aplikacija lahko kadar koli postane neuporabna!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Podatkovna baza je jedro projekta. Pomagati je enostavno in zelo hitro. Prenesete lahko mobilno aplikacijo za svoj telefon in začnete dodajati ali izboljševati izdelke.\n\nPo drugi strani pa spletna stran ShuddhScore ponuja veliko načinov za prispevanje: ",
+  "contribute_improve_text": "Podatkovna baza je jedro projekta. Pomagati je enostavno in zelo hitro. Prenesete lahko mobilno aplikacijo za svoj telefon in začnete dodajati ali izboljševati izdelke.\n\nPo drugi strani pa spletna stran FoodScan ponuja veliko načinov za prispevanje: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Prevedi",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore je globalni projekt, ki združuje izdelke iz več kot 160 držav. ShuddhScore je preveden v številne jezike, njegova vsebina pa se nenehno razvija.",
+  "contribute_translate_text": "FoodScan je globalni projekt, ki združuje izdelke iz več kot 160 držav. FoodScan je preveden v številne jezike, njegova vsebina pa se nenehno razvija.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Prevodi so ena ključnih nalog projekta",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Prispevajte svoje znanje k ShuddhScore. Pridružite se skupini znanj in spretnosti!",
+  "contribute_join_skill_pool": "Prispevajte svoje znanje k FoodScan. Pridružite se skupini znanj in spretnosti!",
   "contribute_share_header": "Delite odprta dejstva o hrani s prijatelji",
   "@contribute_share_header": {},
-  "contribute_share_content": "Želel sem vas obvestiti o aplikaciji, ki jo uporabljam, ShuddhScore. S to aplikacijo lahko na personaliziran način pridobite informacije o vplivu vaše hrane na zdravje in okolje. Deluje tako, da skenira črtne kode na embalaži. Nenazadnje je brezplačna, ne zahteva registracije in lahko celo pomagate povečati število dešifriranih izdelkov. Tukaj je povezava za prenos na vaš telefon: https://openfoodfacts.app",
+  "contribute_share_content": "Želel sem vas obvestiti o aplikaciji, ki jo uporabljam, FoodScan. S to aplikacijo lahko na personaliziran način pridobite informacije o vplivu vaše hrane na zdravje in okolje. Deluje tako, da skenira črtne kode na embalaži. Nenazadnje je brezplačna, ne zahteva registracije in lahko celo pomagate povečati število dešifriranih izdelkov. Tukaj je povezava za prenos na vaš telefon: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Prijavite se v svoj račun ShuddhScore, da prejmete zasluge za svoje prispevke.",
+  "question_sign_in_text": "Prijavite se v svoj račun FoodScan, da prejmete zasluge za svoje prispevke.",
   "question_yes_button_accessibility_value": "Odgovorite z da",
   "question_no_button_accessibility_value": "Odgovori z ne",
   "question_skip_button_accessibility_value": "Preskoči to vprašanje",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Ustvarite svoj račun in se pridružite skupnosti ShuddhScore, da bi pomagali graditi znanje o hrani po vsem svetu!",
+  "account_create_message": "Ustvarite svoj račun in se pridružite skupnosti FoodScan, da bi pomagali graditi znanje o hrani po vsem svetu!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Vaš profil",
-  "myPreferences_profile_subtitle": "Upravljajte svoj račun za sodelavce na ShuddhScore.",
+  "myPreferences_profile_subtitle": "Upravljajte svoj račun za sodelavce na FoodScan.",
   "myPreferences_settings_title": "Nastavitve aplikacije",
   "myPreferences_settings_subtitle": "Temni način, Jeziki…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Najljubša hrana",
   "myPreferences_food_subtitle": "Izberite katere informacije o hrani so vam najbolj pomembne.",
-  "myPreferences_food_comment": "Izberite, katere informacije o hrani so vam najpomembnejše, da boste hrano razvrstili glede na svoje preference, si ogledali informacije, ki vas najprej zanimajo, in dobili povzetek združljivosti. Te preference glede hrane ostanejo v vaši napravi in niso povezane z vašim računom za sodelavce ShuddhScore, če ga imate.",
+  "myPreferences_food_comment": "Izberite, katere informacije o hrani so vam najpomembnejše, da boste hrano razvrstili glede na svoje preference, si ogledali informacije, ki vas najprej zanimajo, in dobili povzetek združljivosti. Te preference glede hrane ostanejo v vaši napravi in niso povezane z vašim računom za sodelavce FoodScan, če ga imate.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Našli ste nov izdelek!",
   "@missing_product": {},
-  "add_product_take_photos": "Fotografirajte embalažo, da dodate ta izdelek na ShuddhScore",
+  "add_product_take_photos": "Fotografirajte embalažo, da dodate ta izdelek na FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Najprej posnemite nekaj fotografij. Izdelek lahko vedno dokončate pozneje.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Pridobite ga tako, da izpolnite kategorijo živil in sestavine",
   "new_product_desc_nova_unknown": "Neznana stopnja predelave hrane",
   "new_product_title_pictures": "Nov izdelek",
-  "new_product_title_pictures_details": "Prosim, posnemite naslednje fotografije, iskalnik ShuddhScore pa bo izračunal ostalo!",
+  "new_product_title_pictures_details": "Prosim, posnemite naslednje fotografije, iskalnik FoodScan pa bo izračunal ostalo!",
   "new_product_title_misc": "In nekaj osnovnih podatkov…",
   "new_product_done_msg": "Hvala za vaš prispevek “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Nalaganje sprednje slike na ShuddhScore",
+  "uploading_image_type_front": "Nalaganje sprednje slike na FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Nalaganje slike sestavin v ShuddhScore",
+  "uploading_image_type_ingredients": "Nalaganje slike sestavin v FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Nalaganje slike o hranilni vrednosti v ShuddhScore",
+  "uploading_image_type_nutrition": "Nalaganje slike o hranilni vrednosti v FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Nalaganje slike embalaže na ShuddhScore",
+  "uploading_image_type_packaging": "Nalaganje slike embalaže na FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Nalaganje druge slike na ShuddhScore",
+  "uploading_image_type_other": "Nalaganje druge slike na FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Nalaganje slike na ShuddhScore",
+  "uploading_image_type_generic": "Nalaganje slike na FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Dobrodošli na ShuddhScore",
+  "homepage_main_card_logo_description": "Dobrodošli na FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Skenirajte** črtno kodo ali\n**poiščite** izdelek",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Nastavitve odprtih sistemov za ShuddhScore",
+  "native_app_description": "Nastavitve odprtih sistemov za FoodScan",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,8 +1562,8 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Prijavite se ali registrirajte, da se pridružite skupnosti ShuddhScore",
-  "user_profile_title_id_email": "Prijava v ShuddhScore: {email}",
+  "user_profile_subtitle_guest": "Prijavite se ali registrirajte, da se pridružite skupnosti FoodScan",
+  "user_profile_title_id_email": "Prijava v FoodScan: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
     "placeholders": {
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Živjo, prosim, izbrišite moj račun ShuddhScore: {userId}",
+  "email_body_account_deletion": "Živjo, prosim, izbrišite moj račun FoodScan: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Ko je omogočeno, se poročila o zrušitvah samodejno pošljejo v sistem za sledenje napak ShuddhScore, tako da je mogoče odpraviti napake in s tem izboljšati aplikacijo.",
+  "crash_reporting_toggle_subtitle": "Ko je omogočeno, se poročila o zrušitvah samodejno pošljejo v sistem za sledenje napak FoodScan, tako da je mogoče odpraviti napake in s tem izboljšati aplikacijo.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Če kategorija **ni na voljo v samodejnem dokončevanju**, jo lahko vseeno dodate.\nTo nam bo pomagalo izboljšati ShuddhScore v vaši državi.",
+  "edit_product_form_item_categories_explanation_info2_content": "Če kategorija **ni na voljo v samodejnem dokončevanju**, jo lahko vseeno dodate.\nTo nam bo pomagalo izboljšati FoodScan v vaši državi.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Napaka pri preverjanju",
   "prices_privacy_warning_title": "Opozorilo o zasebnosti",
   "prices_unknown_product": "Neznan izdelek",
-  "prices_privacy_warning_main_message": "Cene **bodo javne**, skupaj z imenom trgovine, na katero se nanašajo.\n\nTo bi lahko ljudem, ki poznajo vaš psevdonim ShuddhScore, omogočilo:\n",
+  "prices_privacy_warning_main_message": "Cene **bodo javne**, skupaj z imenom trgovine, na katero se nanašajo.\n\nTo bi lahko ljudem, ki poznajo vaš psevdonim FoodScan, omogočilo:\n",
   "prices_privacy_warning_message_bullet_1": "Ugotovi, na katerem območju živiš",
   "prices_privacy_warning_message_bullet_2": "Vedite, kaj kupujete",
-  "prices_privacy_warning_sub_message": "Če vam to ne ustreza, spremenite svoj psevdonim ali ustvarite nov račun ShuddhScore in se z njim prijavite v aplikacijo.",
+  "prices_privacy_warning_sub_message": "Če vam to ne ustreza, spremenite svoj psevdonim ali ustvarite nov račun FoodScan in se z njim prijavite v aplikacijo.",
   "i_refuse": "Zavračam",
   "i_accept": "Sprejemam",
   "prices_currency_change_proposal_title": "Spremeniti valuto?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Oglejte si ta izdelek na ShuddhScore: {url}",
+  "share_product_text": "Oglejte si ta izdelek na FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Oglejte si moj seznam izdelkov na ShuddhScore: {url}",
+  "share_product_list_text": "Oglejte si moj seznam izdelkov na FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Posodobite lokalno podatkovno bazo izdelkov z najnovejšimi podatki iz ShuddhScore",
+  "update_local_database_sub": "Posodobite lokalno podatkovno bazo izdelkov z najnovejšimi podatki iz FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "Namestite Open Pet Food Facts, da ustvarite bazo podatkov o hrani za hišne ljubljenčke",
   "faq_title_install_product": "Namestite Open Products Facts, da ustvarite podatkovno zbirko izdelkov in podaljšate življenjsko dobo predmetov.",
   "faq_nutriscore_nutriscore": "Nov izračun Nutri-Score: kaj je novega?",
-  "contact_title_pro_page": "Profesionalec? Uvozite svoje izdelke v ShuddhScore",
+  "contact_title_pro_page": "Profesionalec? Uvozite svoje izdelke v FoodScan",
   "contact_title_pro_email": "Kontakt producenta",
   "contact_title_press_page": "Stran za medije",
   "contact_title_press_email": "Kontakt za medije",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Dobrodošli na ShuddhScore!",
+  "guide_open_food_facts_title": "Dobrodošli na FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Kaj so odprta dejstva o hrani?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore je **sodelovalna**, **brezplačna** in **odprta** baza podatkov o živilih z vsega sveta.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan je **sodelovalna**, **brezplačna** in **odprta** baza podatkov o živilih z vsega sveta.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Kaj so odprte cene?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices je projekt za **zbiranje in deljenje cen izdelkov po vsem svetu**. Gre za javno dostopen nabor podatkov, ki ga je mogoče uporabiti za raziskave, analize in drugo. Open Prices razvija in vzdržuje ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices je projekt za **zbiranje in deljenje cen izdelkov po vsem svetu**. Gre za javno dostopen nabor podatkov, ki ga je mogoče uporabiti za raziskave, analize in drugo. Open Prices razvija in vzdržuje FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Kako delujejo odprte cene?",
-  "guide_open_prices_how_paragraph1": "**Zbiramo odprtokodne podatke o cenah prek množičnega financiranja.** Cene lahko uporabniki dodajo prek te spletne aplikacije ali prek uradne mobilne aplikacije ShuddhScore. Prispevajo lahko tudi trgovci na drobno ali aplikacije tretjih oseb z uporabo našega API-ja.",
+  "guide_open_prices_how_paragraph1": "**Zbiramo odprtokodne podatke o cenah prek množičnega financiranja.** Cene lahko uporabniki dodajo prek te spletne aplikacije ali prek uradne mobilne aplikacije FoodScan. Prispevajo lahko tudi trgovci na drobno ali aplikacije tretjih oseb z uporabo našega API-ja.",
   "guide_open_prices_how_arg1_title": "Zbirajte fotografije cenovnih etiket v hodnikih",
   "guide_open_prices_how_arg2_title": "Zberite fotografije računov",
-  "guide_open_prices_why_title": "Zakaj ShuddhScore to počne?",
+  "guide_open_prices_why_title": "Zakaj FoodScan to počne?",
   "guide_open_prices_why_paragraph1": "Informacije o cenah so izjemnega pomena za razumevanje prehranskih sistemov. So ključni dejavnik za razumevanje stroškov hrane in spodbujanje bolj zdrave prehrane. Podatki o odpiralnih cenah so način, da raziskovalcem, novinarjem in državljanom olajšajo **boljše razumevanje geografskih in časovnih sprememb cen hrane**.",
   "guide_open_prices_why_arg1_title": "Spremljajte razvoj cen skozi čas",
   "guide_open_prices_why_arg1_text": "Poglejte si **evolucijo cen**: krčenje inflacije, poceni inflacija, lahko ju spremljamo skupaj!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Ups!",
-  "carousel_unsupported_text": "Skenirane črtne kode ShuddhScore ne podpira!",
+  "carousel_unsupported_text": "Skenirane črtne kode FoodScan ne podpira!",
   "carousel_error_header": "Napaka!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Zakaj cene?",
-  "prices_explanation_card_line1": "**Open Prices** je projekt za zbiranje in deljenje cen izdelkov po vsem svetu 🌍. Open Prices razvija in vzdržuje ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** je projekt za zbiranje in deljenje cen izdelkov po vsem svetu 🌍. Open Prices razvija in vzdržuje FoodScan.",
   "explanation_card_learn_more_button": "Več o tem",
   "product_page_tab_folksonomy": "Folksonomija",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore je podatkovna zbirka živil, **ki so jo ustvarili vsi za vsakogar**.\nUporabite jo lahko za boljše izbire hrane, in ker gre za **odprte podatke**, jo lahko kdorkoli **ponovno uporabi za kateri koli namen**.",
+  "preferences_legal_header": "FoodScan je podatkovna zbirka živil, **ki so jo ustvarili vsi za vsakogar**.\nUporabite jo lahko za boljše izbire hrane, in ker gre za **odprte podatke**, jo lahko kdorkoli **ponovno uporabi za kateri koli namen**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Na spletni strani ShuddhScore",
+  "preferences_on_off_website_subtitle": "Na spletni strani FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Upravljaj moj račun",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Odkrijte dejstva o odprti hrani",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Odkrijte odprta dejstva o lepoti",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "Nevladna organizacija ShuddhScore",
+  "preferences_faq_off_ngo_title": "Nevladna organizacija FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Informacije",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Blog ShuddhScore",
+  "preferences_connect_blog_title": "Blog FoodScan",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Novi izdelki, ki sem jih dodal na ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Novi izdelki, ki sem jih dodal na FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Preprosti načini za pomoč ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Preprosti načini za pomoč FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Odprti laboratoriji za dejstva o hrani",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Račun",
   "@preferences_root_account_title": {

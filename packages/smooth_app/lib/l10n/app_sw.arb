@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Bei Zilizofunguliwa",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Karibu kwa ShuddhScore",
+  "welcomeToOpenFoodFacts": "Karibu kwa FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore ni shirika lisilo la faida la kimataifa linaloendeshwa na jumuiya za wenyeji.",
+  "whatIsOff": "FoodScan ni shirika lisilo la faida la kimataifa linaloendeshwa na jumuiya za wenyeji.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Hakuna jibu la seva! Unaweza kufungua suala kwa kiungo kifuatacho.",
   "@user_management": {},
-  "sign_in_text": "Ingia katika akaunti yako ya ShuddhScore ili kuhifadhi michango yako",
+  "sign_in_text": "Ingia katika akaunti yako ya FoodScan ili kuhifadhi michango yako",
   "incorrect_credentials": "Jina la mtumiaji au nenosiri si sahihi.",
   "password_lost_incorrect_credentials": "Barua pepe hii au jina la mtumiaji halipo. Tafadhali angalia stakabadhi zako.",
   "password_lost_server_unavailable": "Kwa sasa tunakumbwa na kushuka kwa kasi kwa seva zetu na tunaomba radhi kwa hilo. Tafadhali jaribu tena baadaye.",
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Mimi ni mzalishaji wa chakula",
   "sign_up_page_producer_hint": "Mtayarishaji/chapa",
   "sign_up_page_producer_error_empty": "Tafadhali weka mzalishaji au jina la biashara",
-  "sign_up_page_subscribe_checkbox": "Ningependa kujiandikisha kwa jarida la ShuddhScore (Unaweza kujiondoa kutoka kwalo wakati wowote)",
+  "sign_up_page_subscribe_checkbox": "Ningependa kujiandikisha kwa jarida la FoodScan (Unaweza kujiondoa kutoka kwalo wakati wowote)",
   "sign_up_page_user_name_already_used": "Jina la mtumiaji tayari lipo, tafadhali chagua jina lingine la mtumiaji.",
   "sign_up_page_email_already_exists": "tayari ipo, ingia kwenye akaunti au jaribu na barua pepe nyingine.",
   "sign_up_page_provide_valid_email": "Tafadhali toa barua pepe halali.",
@@ -448,9 +448,9 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Nambari ya kila bidhaa ya ShuddhScore inapatikana kwenye GitHub. Unakaribishwa kutumia tena msimbo (ni chanzo huria) na utusaidie kuuboresha, kwa kila mtu, kwenye sayari yote.",
+  "contribute_develop_text": "Nambari ya kila bidhaa ya FoodScan inapatikana kwenye GitHub. Unakaribishwa kutumia tena msimbo (ni chanzo huria) na utusaidie kuuboresha, kwa kila mtu, kwenye sayari yote.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Unaweza kujiunga na mazungumzo ya ShuddhScore Slack ambayo ndiyo njia inayopendelewa ya kuuliza maswali.",
+  "contribute_develop_text_2": "Unaweza kujiunga na mazungumzo ya FoodScan Slack ambayo ndiyo njia inayopendelewa ya kuuliza maswali.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Hali ya DEV?",
   "contribute_develop_dev_mode_subtitle": "Washa Hali ya DEV",
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Hifadhidata ndio msingi wa mradi. Ni rahisi na haraka sana kusaidia. Unaweza kupakua programu ya simu kwa simu yako, na kuanza kuongeza au kuboresha bidhaa.\n\nKwa upande mwingine, tovuti ya ShuddhScore inatoa njia nyingi za kuchangia: ",
+  "contribute_improve_text": "Hifadhidata ndio msingi wa mradi. Ni rahisi na haraka sana kusaidia. Unaweza kupakua programu ya simu kwa simu yako, na kuanza kuongeza au kuboresha bidhaa.\n\nKwa upande mwingine, tovuti ya FoodScan inatoa njia nyingi za kuchangia: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Tafsiri",
   "@contribute_translate_header": {
@@ -482,7 +482,7 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore ni mradi wa kimataifa, unaojumuisha bidhaa kutoka zaidi ya nchi 160. Ukweli wa Chakula cha Open hutafsiriwa katika lugha kadhaa, na maudhui yanayobadilika kila mara.",
+  "contribute_translate_text": "FoodScan ni mradi wa kimataifa, unaojumuisha bidhaa kutoka zaidi ya nchi 160. Ukweli wa Chakula cha Open hutafsiriwa katika lugha kadhaa, na maudhui yanayobadilika kila mara.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Tafsiri ni moja wapo ya kazi kuu za mradi",
   "@contribute_translate_text_2": {},
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Ingia katika akaunti yako ya ShuddhScore ili upate mkopo kwa michango yako",
+  "question_sign_in_text": "Ingia katika akaunti yako ya FoodScan ili upate mkopo kwa michango yako",
   "question_yes_button_accessibility_value": "Jibu na ndiyo",
   "question_no_button_accessibility_value": "Jibu kwa hapana",
   "question_skip_button_accessibility_value": "Ruka swali hili",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Fungua akaunti yako na ujiunge na jumuiya ya ShuddhScore ili kusaidia kujenga ujuzi wa chakula duniani kote!",
+  "account_create_message": "Fungua akaunti yako na ujiunge na jumuiya ya FoodScan ili kusaidia kujenga ujuzi wa chakula duniani kote!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,7 +536,7 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Wasifu wako",
-  "myPreferences_profile_subtitle": "Dhibiti akaunti yako ya mchangiaji wa ShuddhScore.",
+  "myPreferences_profile_subtitle": "Dhibiti akaunti yako ya mchangiaji wa FoodScan.",
   "myPreferences_settings_title": "Mipangilio ya Programu",
   "myPreferences_settings_subtitle": "Hali nyeusi, Lugha…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Ipate kwa kujaza kategoria ya chakula na viungo",
   "new_product_desc_nova_unknown": "Kiwango cha usindikaji wa chakula hakijulikani",
   "new_product_title_pictures": "Bidhaa mpya",
-  "new_product_title_pictures_details": "Tafadhali piga picha zifuatazo na injini ya ShuddhScore inaweza kusuluhisha zingine!",
+  "new_product_title_pictures_details": "Tafadhali piga picha zifuatazo na injini ya FoodScan inaweza kusuluhisha zingine!",
   "new_product_title_misc": "Na baadhi ya data msingi…",
   "new_product_done_msg": "Asante kwa mchango wako “{username}”!",
   "@new_product_done_msg": {
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Karibu kwa ShuddhScore",
+  "homepage_main_card_logo_description": "Karibu kwa FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Changanua** msimbo pau au\n**tafuta** bidhaa",
   "@homepage_main_card_subheading": {
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Ingia au ujisajili ili ujiunge na jumuiya ya ShuddhScore",
+  "user_profile_subtitle_guest": "Ingia au ujisajili ili ujiunge na jumuiya ya FoodScan",
   "user_profile_title_id_email": "Fungua kuingia kwa Ukweli wa Chakula: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Hujambo, tafadhali futa akaunti yangu ya ShuddhScore: {userId}",
+  "email_body_account_deletion": "Hujambo, tafadhali futa akaunti yangu ya FoodScan: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Ikiwashwa, ripoti za kuacha kufanya kazi huwasilishwa kiotomatiki kwenye mfumo wa kufuatilia makosa ya ShuddhScore, ili hitilafu ziweze kurekebishwa na hivyo kuboresha programu.",
+  "crash_reporting_toggle_subtitle": "Ikiwashwa, ripoti za kuacha kufanya kazi huwasilishwa kiotomatiki kwenye mfumo wa kufuatilia makosa ya FoodScan, ili hitilafu ziweze kurekebishwa na hivyo kuboresha programu.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Hitilafu ya uthibitishaji",
   "prices_privacy_warning_title": "Onyo la faragha",
   "prices_unknown_product": "Bidhaa isiyojulikana",
-  "prices_privacy_warning_main_message": "Bei **zitakuwa za umma**, pamoja na duka wanalorejelea.\n\nHuenda hilo likaruhusu watu wanaojua kuhusu jina lako bandia la ShuddhScore:\n",
+  "prices_privacy_warning_main_message": "Bei **zitakuwa za umma**, pamoja na duka wanalorejelea.\n\nHuenda hilo likaruhusu watu wanaojua kuhusu jina lako bandia la FoodScan:\n",
   "prices_privacy_warning_message_bullet_1": "Eleza ni eneo gani unaishi",
   "prices_privacy_warning_message_bullet_2": "Jua unachonunua",
-  "prices_privacy_warning_sub_message": "Ikiwa huna wasiwasi na hilo, tafadhali badilisha jina lako bandia, au ufungue akaunti mpya ya ShuddhScore na uingie kwenye programu nayo.",
+  "prices_privacy_warning_sub_message": "Ikiwa huna wasiwasi na hilo, tafadhali badilisha jina lako bandia, au ufungue akaunti mpya ya FoodScan na uingie kwenye programu nayo.",
   "i_refuse": "nakataa",
   "i_accept": "Nakubali",
   "prices_currency_change_proposal_title": "Ungependa kubadilisha sarafu?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Tazama bidhaa hii kwenye ShuddhScore: {url}",
+  "share_product_text": "Tazama bidhaa hii kwenye FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Tazama orodha yangu ya bidhaa kwenye ShuddhScore: {url}",
+  "share_product_list_text": "Tazama orodha yangu ya bidhaa kwenye FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -4187,7 +4187,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Ukweli wa Chakula cha Open ni nini?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore ni **hifadhi data shirikishi**, **bila malipo**, na **wazi** ya bidhaa za chakula kutoka duniani kote.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan ni **hifadhi data shirikishi**, **bila malipo**, na **wazi** ya bidhaa za chakula kutoka duniani kote.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Bei Zilizofunguliwa ni nini?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Fungua Bei ni mradi wa **kukusanya na kushiriki bei za bidhaa kote ulimwenguni**. Ni mkusanyiko wa data unaopatikana kwa umma ambao unaweza kutumika kwa utafiti, uchanganuzi na zaidi. Bei Huzi hutengenezwa na kudumishwa na ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Fungua Bei ni mradi wa **kukusanya na kushiriki bei za bidhaa kote ulimwenguni**. Ni mkusanyiko wa data unaopatikana kwa umma ambao unaweza kutumika kwa utafiti, uchanganuzi na zaidi. Bei Huzi hutengenezwa na kudumishwa na FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Je, Bei za Open hufanya kazi vipi?",
-  "guide_open_prices_how_paragraph1": "**Tunatafuta mkusanyiko wa data wa chanzo huria wa bei**. Bei zinaweza kuongezwa na watumiaji kupitia programu hii ya wavuti, au kupitia programu rasmi ya ShuddhScore ya simu ya mkononi. Wauzaji wa reja reja au programu za wahusika wengine wanaweza kuchangia pia kwa kutumia API yetu.",
+  "guide_open_prices_how_paragraph1": "**Tunatafuta mkusanyiko wa data wa chanzo huria wa bei**. Bei zinaweza kuongezwa na watumiaji kupitia programu hii ya wavuti, au kupitia programu rasmi ya FoodScan ya simu ya mkononi. Wauzaji wa reja reja au programu za wahusika wengine wanaweza kuchangia pia kwa kutumia API yetu.",
   "guide_open_prices_how_arg1_title": "Kusanya picha za lebo za bei kwenye njia",
   "guide_open_prices_how_arg2_title": "Kusanya picha za risiti",
-  "guide_open_prices_why_title": "Kwa nini ShuddhScore inafanya hivi?",
+  "guide_open_prices_why_title": "Kwa nini FoodScan inafanya hivi?",
   "guide_open_prices_why_paragraph1": "Taarifa za bei ni muhimu sana kuelewa mifumo ya chakula. Ni jambo muhimu katika kuelewa gharama ya chakula na kukuza lishe bora. Kufungua data ya bei ni njia ya kurahisisha watafiti, wanahabari, na wananchi **kuwa na ufahamu bora wa jinsi bei za vyakula zinavyotofautiana kijiografia na kwa wakati**.",
   "guide_open_prices_why_arg1_title": "Fuatilia mabadiliko ya bei kwa wakati",
   "guide_open_prices_why_arg1_text": "Angalia **mabadiliko ya bei**: kushuka kwa bei, bei nafuu, tunaweza kuzifuatilia pamoja!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Lo!",
-  "carousel_unsupported_text": "Msimbopau uliochanganuliwa hautumiki kwa ShuddhScore!",
+  "carousel_unsupported_text": "Msimbopau uliochanganuliwa hautumiki kwa FoodScan!",
   "carousel_error_header": "Hitilafu!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Kwa nini bei?",
-  "prices_explanation_card_line1": "**Bei Huria** ni mradi wa kukusanya na kushiriki bei za bidhaa kote ulimwenguni 🌍. Bei Huzi hutengenezwa na kudumishwa na ShuddhScore.",
+  "prices_explanation_card_line1": "**Bei Huria** ni mradi wa kukusanya na kushiriki bei za bidhaa kote ulimwenguni 🌍. Bei Huzi hutengenezwa na kudumishwa na FoodScan.",
   "explanation_card_learn_more_button": "Jifunze zaidi",
   "product_page_tab_folksonomy": "Folksonomia",
   "@product_page_tab_folksonomy": {
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "Mradi wa ShuddhScore",
+  "preferences_card_project": "Mradi wa FoodScan",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Kwenye tovuti ya ShuddhScore",
+  "preferences_on_off_website_subtitle": "Kwenye tovuti ya FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Dhibiti akaunti yangu",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Gundua Ukweli wa Chakula cha Wazi",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Gundua Ukweli Wazi wa Urembo",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "NGO ya ShuddhScore",
+  "preferences_faq_off_ngo_title": "NGO ya FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Blogu ya ShuddhScore",
+  "preferences_connect_blog_title": "Blogu ya FoodScan",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Bidhaa mpya nilizoongeza kwenye ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Bidhaa mpya nilizoongeza kwenye FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Fungua Maabara ya Ukweli wa Chakula",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Akaunti",
   "@preferences_root_account_title": {

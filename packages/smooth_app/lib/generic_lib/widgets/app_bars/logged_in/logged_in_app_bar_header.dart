@@ -106,7 +106,7 @@ class UserProfilePicture extends StatelessWidget {
             padding: const EdgeInsetsDirectional.all(SMALL_SPACE),
             child: Center(
               child: Image.asset(
-                'assets/app/shuddhscore_logo.png',
+                'assets/app/foodscan_logo.png',
                 fit: BoxFit.cover,
               ),
             ),

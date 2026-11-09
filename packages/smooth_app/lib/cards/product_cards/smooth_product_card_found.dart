@@ -9,6 +9,7 @@ import 'package:smooth_app/data_models/preferences/user_preferences.dart';
 import 'package:smooth_app/data_models/product_preferences.dart';
 import 'package:smooth_app/generic_lib/design_constants.dart';
 import 'package:smooth_app/generic_lib/svg_icon_chip.dart';
+import 'package:smooth_app/generic_lib/widgets/nutrition_badge_row.dart';
 import 'package:smooth_app/generic_lib/widgets/picture_not_found.dart';
 import 'package:smooth_app/helpers/product_cards_helper.dart';
 import 'package:smooth_app/helpers/product_compatibility_helper.dart';
@@ -17,6 +18,7 @@ import 'package:smooth_app/l10n/app_localizations.dart';
 import 'package:smooth_app/pages/family/family_product_card.dart';
 import 'package:smooth_app/pages/navigator/app_navigator.dart';
 import 'package:smooth_app/pages/product/product_type_extensions.dart';
+import 'package:smooth_app/services/nutrition_badge_evaluator.dart';
 import 'package:smooth_app/themes/smooth_theme_colors.dart';
 import 'package:vector_graphics/vector_graphics.dart';
 
@@ -234,8 +236,27 @@ class _SmoothProductItemPicture extends StatelessWidget {
   }
 }
 
-class _SmoothProductItemScores extends StatelessWidget {
+class _SmoothProductItemScores extends StatefulWidget {
   const _SmoothProductItemScores();
+
+  @override
+  State<_SmoothProductItemScores> createState() =>
+      _SmoothProductItemScoresState();
+}
+
+class _SmoothProductItemScoresState extends State<_SmoothProductItemScores> {
+  Product? _evaluatedProduct;
+  List<NutritionBadge> _nutritionBadges = const <NutritionBadge>[];
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final Product product = context.read<Product>();
+    if (!identical(_evaluatedProduct, product)) {
+      _evaluatedProduct = product;
+      _nutritionBadges = const NutritionBadgeEvaluator().evaluate(product);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -243,10 +264,10 @@ class _SmoothProductItemScores extends StatelessWidget {
       padding: const EdgeInsetsDirectional.symmetric(
         vertical: VERY_SMALL_SPACE,
       ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        spacing: BALANCED_SPACE,
-        children: _getWidgets(context),
+      child: NutritionBadgeRow(
+        badges: _nutritionBadges,
+        product: context.watch<Product>(),
+        leading: _getWidgets(context),
       ),
     );
   }

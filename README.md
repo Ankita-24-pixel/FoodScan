@@ -1,4 +1,6 @@
-## ShuddhScore: A Comprehensive Food Quality Assessment Mobile App for Android and iOS
+## FoodScan: A Comprehensive Food Quality Assessment Mobile App for Android and iOS
+
+![FoodScan logo](packages/smooth_app/assets/app/foodscan_logo.png)
 
 ![GitHub language count](https://img.shields.io/github/languages/count/Ankita-24-pixel/ShuddhScore_01)
 ![GitHub top language](https://img.shields.io/github/languages/top/Ankita-24-pixel/ShuddhScore_01)
@@ -7,8 +9,8 @@
 
 ## Presentation
 
-- ShuddhScore is a comprehensive mobile application designed to help users assess food quality and purity through an intuitive user experience and sleek user interface. It is a <b>Flutter application</b>.
-- ShuddhScore aims to empower users with knowledge about food products, enabling them to make informed decisions about their food purchases and consumption.
+- FoodScan is a comprehensive mobile application designed to help users assess food quality and purity through an intuitive user experience and sleek user interface. It is a <b>Flutter application</b>.
+- FoodScan aims to empower users with knowledge about food products, enabling them to make informed decisions about their food purchases and consumption.
 
 ### Stable version
 
@@ -24,7 +26,7 @@
 
 <img alt="app showcase" height='175' src="https://user-images.githubusercontent.com/1689815/168430524-3adc923a-1ce3-4233-9af5-02e9d49a76ca.png">
 
-- ShuddhScore is built as a modular Flutter application with reusable components and plugins.
+- FoodScan is built as a modular Flutter application with reusable components and plugins.
 - The app supports desktop platforms (Linux, macOS, and Windows), but **only for development**.
 
 ## Weekly meetings
@@ -42,7 +44,7 @@
 
 ## 🎨 Design & User interface
 
-- ShuddhScore prioritizes thoughtful design for every feature before implementation, ensuring a consistent and user-friendly interface.
+- FoodScan prioritizes thoughtful design for every feature before implementation, ensuring a consistent and user-friendly interface.
 - We maintain high standards for visual design and user experience.
 - Are you a designer? [Join the design team](https://github.com/Ankita-24-pixel/ShuddhScore_01)
 
@@ -103,9 +105,9 @@ In order to run the application, make sure you are in the `packages/smooth_app` 
 
 <br>
 
-<details><summary><h3>About ShuddhScore</h3></summary>
+<details><summary><h3>About FoodScan</h3></summary>
 
-ShuddhScore is a community-driven project aimed at helping users make informed food choices through comprehensive quality assessment. The project is built with contributions from developers, designers, and food science enthusiasts.
+FoodScan is a community-driven project aimed at helping users make informed food choices through comprehensive quality assessment. The project is built with contributions from developers, designers, and food science enthusiasts.
 
 </details>
 <br>

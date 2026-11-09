@@ -146,7 +146,7 @@ class ConnectRoot extends PreferencesRoot {
           appLocalizations: appLocalizations,
           body: emailBody,
           subject:
-              '${appLocalizations.help_with_openfoodfacts} (Feedback on the ShuddhScore app)',
+              '${appLocalizations.help_with_openfoodfacts} (Feedback on the FoodScan app)',
         );
       },
     );
@@ -260,7 +260,7 @@ class ConnectRoot extends PreferencesRoot {
       appLocalizations: appLocalizations,
       body: emailBody,
       subject:
-          '${appLocalizations.help_with_openfoodfacts} (Help with ShuddhScore)',
+          '${appLocalizations.help_with_openfoodfacts} (Help with FoodScan)',
       attachmentPaths: includeLogs == true ? Logs.logFilesPaths : null,
     );
   };
@@ -340,4 +340,3 @@ class ConnectRoot extends PreferencesRoot {
     return buffer.toString();
   }
 }
-

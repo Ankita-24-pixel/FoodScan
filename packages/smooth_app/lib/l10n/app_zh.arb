@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -228,7 +228,7 @@
   "@Introduction screen": {},
   "welcomeToOpenFoodFacts": "歡迎來到 Open Food Facts",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore 是一個由當地社區支持的全球性非營利組織。",
+  "whatIsOff": "FoodScan 是一個由當地社區支持的全球性非營利組織。",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "伺服器無響應！您可以透過以下連結提交問題。",
   "@user_management": {},
-  "sign_in_text": "登入您的 ShuddhScore 帳戶以保存您的貢獻",
+  "sign_in_text": "登入您的 FoodScan 帳戶以保存您的貢獻",
   "incorrect_credentials": "使用者名稱或密碼錯誤。",
   "password_lost_incorrect_credentials": "此郵箱或使用者名稱不存在。請檢查您的憑證。",
   "password_lost_server_unavailable": "我們的伺服器目前速度較慢，對此我們深表歉意。請稍後再試。",
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "我是食品生產商",
   "sign_up_page_producer_hint": "生產商/品牌",
   "sign_up_page_producer_error_empty": "請輸入生產商或品牌名稱",
-  "sign_up_page_subscribe_checkbox": "我想訂閱 ShuddhScore 的新聞簡報（您可以隨時取消訂閱）。",
+  "sign_up_page_subscribe_checkbox": "我想訂閱 FoodScan 的新聞簡報（您可以隨時取消訂閱）。",
   "sign_up_page_user_name_already_used": "這個使用者名稱已存在，請改用其他名稱。",
   "sign_up_page_email_already_exists": "已經存在，請直接登入、或改用其他電子郵件。",
   "sign_up_page_provide_valid_email": "請提供有效的電子郵件地址。",
@@ -448,9 +448,9 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "所有 ShuddhScore 產品的程式碼都可以在 GitHub 上找到。歡迎您重複使用這些程式碼（它是開源的），並幫助我們改進它，造福全球所有人。",
+  "contribute_develop_text": "所有 FoodScan 產品的程式碼都可以在 GitHub 上找到。歡迎您重複使用這些程式碼（它是開源的），並幫助我們改進它，造福全球所有人。",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "您可以加入 ShuddhScore Slack 聊天室，這是提問的首選方式。",
+  "contribute_develop_text_2": "您可以加入 FoodScan Slack 聊天室，這是提問的首選方式。",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "開發模式？",
   "contribute_develop_dev_mode_subtitle": "起用開發模式",
@@ -482,7 +482,7 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore是一個全球性項目，收錄了來自160多個國家的產品資訊。 ShuddhScore已被翻譯成數十種語言，內容也不斷更新。",
+  "contribute_translate_text": "FoodScan是一個全球性項目，收錄了來自160多個國家的產品資訊。 FoodScan已被翻譯成數十種語言，內容也不斷更新。",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "翻譯是專案的關鍵任務之一",
   "@contribute_translate_text_2": {},
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "登入您的 ShuddhScore 帳戶，即可獲得您的貢獻積分",
+  "question_sign_in_text": "登入您的 FoodScan 帳戶，即可獲得您的貢獻積分",
   "question_yes_button_accessibility_value": "回答是",
   "question_no_button_accessibility_value": "回答不是",
   "question_skip_button_accessibility_value": "跳過此問題",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "建立您的帳戶並加入 ShuddhScore 社區，幫助建立世界各地的食品知識！",
+  "account_create_message": "建立您的帳戶並加入 FoodScan 社區，幫助建立世界各地的食品知識！",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -542,7 +542,7 @@
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "食品偏好選項",
   "myPreferences_food_subtitle": "選擇對您最至關重要的食物資訊",
-  "myPreferences_food_comment": "選擇您最關心的食物信息，以便根據您的偏好對食物進行排名，優先查看您關注的信息，並獲得兼容性摘要。這些食物偏好設定將保留在您的裝置上，並且不會與您的 ShuddhScore 貢獻者帳戶關聯（如果您有的話）。",
+  "myPreferences_food_comment": "選擇您最關心的食物信息，以便根據您的偏好對食物進行排名，優先查看您關注的信息，並獲得兼容性摘要。這些食物偏好設定將保留在您的裝置上，並且不會與您的 FoodScan 貢獻者帳戶關聯（如果您有的話）。",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "填寫食品類別和食材即可取得。",
   "new_product_desc_nova_unknown": "食品加工程度未知",
   "new_product_title_pictures": "新產品",
-  "new_product_title_pictures_details": "請拍攝以下照片，ShuddhScore 引擎可以處理剩下的部分！",
+  "new_product_title_pictures_details": "請拍攝以下照片，FoodScan 引擎可以處理剩下的部分！",
   "new_product_title_misc": "以及一些基本資料…",
   "new_product_done_msg": "「{username}」，感謝您的貢獻！",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "上傳正面圖片至 ShuddhScore",
+  "uploading_image_type_front": "上傳正面圖片至 FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "將食材圖片上傳至 ShuddhScore",
+  "uploading_image_type_ingredients": "將食材圖片上傳至 FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "將營養成分圖片上傳至 ShuddhScore",
+  "uploading_image_type_nutrition": "將營養成分圖片上傳至 FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "將包裝圖片上傳至 ShuddhScore",
+  "uploading_image_type_packaging": "將包裝圖片上傳至 FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "上傳其他圖片至 ShuddhScore",
+  "uploading_image_type_other": "上傳其他圖片至 FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "上傳圖片至 ShuddhScore",
+  "uploading_image_type_generic": "上傳圖片至 FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "歡迎來到開放食品事實網站",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "掃描條碼或\n搜尋產品",
   "@homepage_main_card_subheading": {
@@ -1563,7 +1563,7 @@
     "description": "When the user is not connected"
   },
   "user_profile_subtitle_guest": "登入或註冊加入開放食品事實社區",
-  "user_profile_title_id_email": "ShuddhScore login: {email}",
+  "user_profile_title_id_email": "FoodScan login: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
     "placeholders": {
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "您好，請刪除我的 ShuddhScore 帳號： {userId}",
+  "email_body_account_deletion": "您好，請刪除我的 FoodScan 帳號： {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "啟用此功能後，崩潰報告將自動提交到 ShuddhScore 的錯誤追蹤系統，以便修復錯誤並改進應用程式。",
+  "crash_reporting_toggle_subtitle": "啟用此功能後，崩潰報告將自動提交到 FoodScan 的錯誤追蹤系統，以便修復錯誤並改進應用程式。",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1634,7 +1634,7 @@
   "@send_anonymous_toggle_title": {
     "description": "Title for the Send anonymous data toggle"
   },
-  "send_anonymous_data_toggle_subtitle": "啟用此功能後，我們將向 ShuddhScore 伺服器發送關於功能使用情況的完全匿名訊息，以便我們了解功能的使用方式並加以改進。否則，我們將發送 ID 為 0 的訊息。",
+  "send_anonymous_data_toggle_subtitle": "啟用此功能後，我們將向 FoodScan 伺服器發送關於功能使用情況的完全匿名訊息，以便我們了解功能的使用方式並加以改進。否則，我們將發送 ID 為 0 的訊息。",
   "@send_anonymous_toggle_subtitle": {
     "description": "SubTitle for the Send anonymous data toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "如果某個類別**在自動補全功能中不可用**，請隨意新增。\n這將有助於我們改善您所在國家/地區的 ShuddhScore 服務。",
+  "edit_product_form_item_categories_explanation_info2_content": "如果某個類別**在自動補全功能中不可用**，請隨意新增。\n這將有助於我們改善您所在國家/地區的 FoodScan 服務。",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "驗證錯誤",
   "prices_privacy_warning_title": "隱私警告",
   "prices_unknown_product": "不明產品",
-  "prices_privacy_warning_main_message": "價格**將會公開**，同時也會註明對應的商店。\n\n這可能會讓那些知道您「ShuddhScore」筆名的人：\n",
+  "prices_privacy_warning_main_message": "價格**將會公開**，同時也會註明對應的商店。\n\n這可能會讓那些知道您「FoodScan」筆名的人：\n",
   "prices_privacy_warning_message_bullet_1": "推論你居住在哪個地區",
   "prices_privacy_warning_message_bullet_2": "了解你買的是什麼",
-  "prices_privacy_warning_sub_message": "如果您對此感到不安，請更改您的化名，或建立一個新的 ShuddhScore 帳戶並使用該帳戶登入應用程式。",
+  "prices_privacy_warning_sub_message": "如果您對此感到不安，請更改您的化名，或建立一個新的 FoodScan 帳戶並使用該帳戶登入應用程式。",
   "i_refuse": "我拒絕",
   "i_accept": "我接受",
   "prices_currency_change_proposal_title": "更改貨幣？",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "請在 ShuddhScore 上查看此產品： {url}",
+  "share_product_text": "請在 FoodScan 上查看此產品： {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "請查看我在 ShuddhScore 上的產品清單： {url}",
+  "share_product_list_text": "請查看我在 FoodScan 上的產品清單： {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "使用來自 ShuddhScore 的最新資料更新本機產品資料庫。",
+  "update_local_database_sub": "使用來自 FoodScan 的最新資料更新本機產品資料庫。",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "安裝 Open Pet Food Facts 以建立寵物食品資料庫",
   "faq_title_install_product": "安裝 Open Products Facts 以建立產品資料庫，從而延長產品的使用壽命。",
   "faq_nutriscore_nutriscore": "營養評分的新計算方法：有哪些新內容？",
-  "contact_title_pro_page": "專業版？將您的產品導入 ShuddhScore",
+  "contact_title_pro_page": "專業版？將您的產品導入 FoodScan",
   "contact_title_pro_email": "製片人聯絡方式",
   "contact_title_press_page": "頁面",
   "contact_title_press_email": "媒體聯絡人",
@@ -4187,7 +4187,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "什麼是開放食品資訊？",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore 是一個**協作式**、**免費**、**開放**的全球食品資料庫。",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan 是一個**協作式**、**免費**、**開放**的全球食品資料庫。",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "什麼是公開價格？",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices 是一個旨在收集和分享全球產品價格的專案。它是一個公開可用的資料集，可用於研究、分析等用途。 Open Prices 由 ShuddhScore 開發和維護。",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices 是一個旨在收集和分享全球產品價格的專案。它是一個公開可用的資料集，可用於研究、分析等用途。 Open Prices 由 FoodScan 開發和維護。",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "公開價格是如何運作的？",
-  "guide_open_prices_how_paragraph1": "我們正在眾包一個開源的價格資料集。使用者可以透過此網頁應用程式或官方的 ShuddhScore 行動應用程式添加價格資訊。零售商或第三方應用程式也可以透過我們的 API 貢獻數據。",
+  "guide_open_prices_how_paragraph1": "我們正在眾包一個開源的價格資料集。使用者可以透過此網頁應用程式或官方的 FoodScan 行動應用程式添加價格資訊。零售商或第三方應用程式也可以透過我們的 API 貢獻數據。",
   "guide_open_prices_how_arg1_title": "收集過道中的價格標籤照片",
   "guide_open_prices_how_arg2_title": "收集收據照片。",
-  "guide_open_prices_why_title": "ShuddhScore為什麼要這樣做？",
+  "guide_open_prices_why_title": "FoodScan為什麼要這樣做？",
   "guide_open_prices_why_paragraph1": "價格資訊對於理解食品體系至關重要。它是了解食品成本和促進健康飲食的關鍵因素。公開價格數據能夠幫助研究人員、記者和公眾更輕鬆地了解食品價格在不同地區和時間上的變化。",
   "guide_open_prices_why_arg1_title": "追蹤價格隨時間的變化",
   "guide_open_prices_why_arg1_text": "看看價格的**演變**：縮水式通膨、廉價式通膨，我們可以一起追蹤它們！",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "哎呀！",
-  "carousel_unsupported_text": "ShuddhScore 不支援掃描的條碼！",
+  "carousel_unsupported_text": "FoodScan 不支援掃描的條碼！",
   "carousel_error_header": "錯誤！",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "為什麼是價格？",
-  "prices_explanation_card_line1": "**Open Prices** 是一個收集和分享全球產品價格的項目🌍。 Open Prices 由 ShuddhScore 開發和維護。",
+  "prices_explanation_card_line1": "**Open Prices** 是一個收集和分享全球產品價格的項目🌍。 Open Prices 由 FoodScan 開發和維護。",
   "explanation_card_learn_more_button": "瞭解更多",
   "product_page_tab_folksonomy": "民間經濟學",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore 是一個食品產品資料庫，**由每個人創建，為每個人服務**。\n您可以使用它來做出更好的食物選擇，而且由於它是**開放資料**，任何人都可以**將其重新用於任何目的**。",
+  "preferences_legal_header": "FoodScan 是一個食品產品資料庫，**由每個人創建，為每個人服務**。\n您可以使用它來做出更好的食物選擇，而且由於它是**開放資料**，任何人都可以**將其重新用於任何目的**。",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5189,7 +5189,7 @@
   },
   "preferences_on_off_website_subtitle": "在開放食品事實網站上",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "管理我的帳戶",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "發現開放食品事實",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "探索開放美容真相",
   "@preferences_faq_discover_obf_title": {
@@ -5322,7 +5322,7 @@
   },
   "preferences_faq_off_ngo_title": "開放食品事實非政府組織",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "資訊",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "我添加到 ShuddhScore 的新產品",
+  "preferences_contributions_new_products_subtitle": "我添加到 FoodScan 的新產品",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5770,13 +5770,13 @@
   },
   "preferences_page_open_food_facts_labs_title": "開放食品事實實驗室",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "帳戶",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "將 ShuddhScore 引入您的語言",
+  "preferences_contribute_translate_header": "將 FoodScan 引入您的語言",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

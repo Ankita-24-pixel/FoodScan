@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:smooth_app/generic_lib/design_constants.dart';
 import 'package:smooth_app/generic_lib/widgets/smooth_card.dart';
 import 'package:smooth_app/l10n/app_localizations.dart';
@@ -13,7 +12,6 @@ import 'package:smooth_app/resources/app_icons.dart' as icons;
 import 'package:smooth_app/themes/smooth_theme_colors.dart';
 import 'package:smooth_app/themes/theme_provider.dart';
 import 'package:smooth_app/widgets/text/text_highlighter.dart';
-import 'package:vector_graphics/vector_graphics.dart';
 
 class LegalInformationRoot extends PreferencesRoot {
   const LegalInformationRoot({required super.title});
@@ -130,7 +128,7 @@ class _LegalInformationHeader extends StatelessWidget {
                   vertical: MEDIUM_SPACE,
                 ),
                 child: Image.asset(
-                  'assets/app/shuddhscore_logo.png',
+                  'assets/app/foodscan_logo.png',
                   fit: BoxFit.contain,
                 ),
               ),

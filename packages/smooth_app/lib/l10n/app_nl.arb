@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Welkom bij ShuddhScore",
+  "welcomeToOpenFoodFacts": "Welkom bij FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore is een wereldwijde non-profitorganisatie die wordt ondersteund door lokale gemeenschappen.",
+  "whatIsOff": "FoodScan is een wereldwijde non-profitorganisatie die wordt ondersteund door lokale gemeenschappen.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Geen serverreactie! U kunt een probleem rapporteren via de volgende link.",
   "@user_management": {},
-  "sign_in_text": "Log in op je ShuddhScore account om je bijdragen op te slaan",
+  "sign_in_text": "Log in op je FoodScan account om je bijdragen op te slaan",
   "incorrect_credentials": "Onjuiste gebruikersnaam of wachtwoord.",
   "password_lost_incorrect_credentials": "Dit e-mailadres of deze gebruikersnaam bestaat niet. Controleer uw inloggegevens.",
   "password_lost_server_unavailable": "We ondervinden momenteel vertragingen op onze servers en bieden hiervoor onze excuses aan. Probeer het later opnieuw.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Help ShuddhScore in uw land te verbeteren",
+  "help_improve_country": "Help FoodScan in uw land te verbeteren",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -352,7 +352,7 @@
   "sign_up_page_confirm_password_hint": "Bevestig wachtwoord",
   "sign_up_page_confirm_password_error_empty": "Bevestig a.u.b. het nieuwe wachtwoord",
   "sign_up_page_confirm_password_error_invalid": "De wachtwoorden komen niet overeen",
-  "sign_up_page_agree_text": "Ik ga akkoord met de ShuddhScore",
+  "sign_up_page_agree_text": "Ik ga akkoord met de FoodScan",
   "@sign_up_page_agree_text": {
     "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Ik ben een voedselproducent",
   "sign_up_page_producer_hint": "Producent/merk",
   "sign_up_page_producer_error_empty": "Voer een producent of een merknaam in",
-  "sign_up_page_subscribe_checkbox": "Ik wil me graag inschrijven voor de nieuwsbrief van ShuddhScore (u kunt zich op elk moment afmelden)",
+  "sign_up_page_subscribe_checkbox": "Ik wil me graag inschrijven voor de nieuwsbrief van FoodScan (u kunt zich op elk moment afmelden)",
   "sign_up_page_user_name_already_used": "De gebruikersnaam bestaat al, kies een andere gebruikersnaam.",
   "sign_up_page_email_already_exists": "bestaat al, log in op het account of probeer het met een ander e-mailadres.",
   "sign_up_page_provide_valid_email": "Voer een geldig e-mailadres in alsjeblieft.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "De code voor elk ShuddhScore-product is beschikbaar op GitHub. Je bent van harte welkom om de code te hergebruiken (hij is open source) en ons te helpen deze te verbeteren, voor iedereen, op de hele planeet.",
+  "contribute_develop_text": "De code voor elk FoodScan-product is beschikbaar op GitHub. Je bent van harte welkom om de code te hergebruiken (hij is open source) en ons te helpen deze te verbeteren, voor iedereen, op de hele planeet.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "U kunt deelnemen aan de ShuddhScore Slack-chatroom, wat de beste manier is om vragen te stellen.",
+  "contribute_develop_text_2": "U kunt deelnemen aan de FoodScan Slack-chatroom, wat de beste manier is om vragen te stellen.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "DEV-modus?",
   "contribute_develop_dev_mode_subtitle": "Activeer de DEV-modus",
   "contribute_donate_title": "Doneer",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Doneer aan ShuddhScore",
+  "contribute_donate_header": "Doneer aan FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Houd er rekening mee dat met de interne alfaversie volledig gegevensverlies mogelijk is en dat de app op elk moment onbruikbaar kan worden!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "De database is het hart van het project. Je kan ons makkelijk en heel snel helpen: door de app voor je telefoon te downloaden en te beginnen met het toevoegen of verbeteren van producten.\n\nDe ShuddhScore-website biedt vele andere manieren om bij te dragen: ",
+  "contribute_improve_text": "De database is het hart van het project. Je kan ons makkelijk en heel snel helpen: door de app voor je telefoon te downloaden en te beginnen met het toevoegen of verbeteren van producten.\n\nDe FoodScan-website biedt vele andere manieren om bij te dragen: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Vertalen",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore is een wereldwijd project met producten uit meer dan 160 landen. ShuddhScore is in tientallen talen vertaald, met voortdurend wijzigende inhoud.",
+  "contribute_translate_text": "FoodScan is een wereldwijd project met producten uit meer dan 160 landen. FoodScan is in tientallen talen vertaald, met voortdurend wijzigende inhoud.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Vertalingen zijn een van de belangrijkste taken van het project",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Draag uw vaardigheden bij aan ShuddhScore. Sluit je aan bij de vaardighedenpool!",
-  "contribute_share_header": "Deel ShuddhScore met je vrienden",
+  "contribute_join_skill_pool": "Draag uw vaardigheden bij aan FoodScan. Sluit je aan bij de vaardighedenpool!",
+  "contribute_share_header": "Deel FoodScan met je vrienden",
   "@contribute_share_header": {},
-  "contribute_share_content": "Ik wilde jullie graag vertellen over de app die ik gebruik, ShuddhScore. Met deze app kun je op een persoonlijke manier de gezondheids- en milieueffecten van je eten bekijken. Het werkt door de barcodes op de verpakking te scannen. Bovendien is de app gratis, hoef je je niet te registreren en kun je zelfs helpen om het aantal producten dat ontcijferd wordt te vergroten. Hier is de link om de app voor je telefoon te downloaden: https://openfoodfacts.app",
+  "contribute_share_content": "Ik wilde jullie graag vertellen over de app die ik gebruik, FoodScan. Met deze app kun je op een persoonlijke manier de gezondheids- en milieueffecten van je eten bekijken. Het werkt door de barcodes op de verpakking te scannen. Bovendien is de app gratis, hoef je je niet te registreren en kun je zelfs helpen om het aantal producten dat ontcijferd wordt te vergroten. Hier is de link om de app voor je telefoon te downloaden: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Log in op uw ShuddhScore-account om krediet te krijgen voor uw bijdragen",
+  "question_sign_in_text": "Log in op uw FoodScan-account om krediet te krijgen voor uw bijdragen",
   "question_yes_button_accessibility_value": "Antwoord met ja",
   "question_no_button_accessibility_value": "Antwoord met nee",
   "question_skip_button_accessibility_value": "Sla deze vraag over",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Maak uw account aan en sluit u aan bij de ShuddhScore-community om voedselkennis over de hele wereld op te bouwen!",
+  "account_create_message": "Maak uw account aan en sluit u aan bij de FoodScan-community om voedselkennis over de hele wereld op te bouwen!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Uw profiel",
-  "myPreferences_profile_subtitle": "Beheer uw ShuddhScore-bijdragersaccount.",
+  "myPreferences_profile_subtitle": "Beheer uw FoodScan-bijdragersaccount.",
   "myPreferences_settings_title": "App-instellingen",
   "myPreferences_settings_subtitle": "Donkere modus, Talen…",
   "myPreferences_not_configured_yet": "Je hebt nog geen voorkeuren ingesteld.",
   "myPreferences_food_title": "Voedselvoorkeuren",
   "myPreferences_food_subtitle": "Kies welke informatie over voedsel voor u het belangrijkst is.",
-  "myPreferences_food_comment": "Kies welke informatie over voedsel voor u het belangrijkst is, om voedsel te rangschikken volgens uw voorkeuren, bekijk eerst de informatie die u belangrijk vindt en ontvang een compatibiliteitsoverzicht. Die voedselvoorkeuren blijven op uw apparaat staan en zijn niet gekoppeld aan uw ShuddhScore-bijdragersaccount, als je er een hebt.",
+  "myPreferences_food_comment": "Kies welke informatie over voedsel voor u het belangrijkst is, om voedsel te rangschikken volgens uw voorkeuren, bekijk eerst de informatie die u belangrijk vindt en ontvang een compatibiliteitsoverzicht. Die voedselvoorkeuren blijven op uw apparaat staan en zijn niet gekoppeld aan uw FoodScan-bijdragersaccount, als je er een hebt.",
   "myPreferences_beauty_title": "Voorkeuren voor cosmetica",
   "myPreferences_beauty_subtitle": "Kies welke informatie over cosmetische producten voor jou het belangrijkst is.",
   "myPreferences_product_title": "Voorkeuren voor andere producten",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Je hebt een nieuw product gevonden!",
   "@missing_product": {},
-  "add_product_take_photos": "Maak foto's van de verpakking om dit product toe te voegen aan ShuddhScore",
+  "add_product_take_photos": "Maak foto's van de verpakking om dit product toe te voegen aan FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Gelieve eerst wat foto's te maken. Je kunt het product altijd op een later tijdstip voltooien.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Krijg het door het invullen van de voedselcategorie en ingrediënten",
   "new_product_desc_nova_unknown": "Voedselverwerkingsniveau onbekend",
   "new_product_title_pictures": "Nieuw product",
-  "new_product_title_pictures_details": "Maak de volgende foto's en de ShuddhScore-engine kan de rest doen!",
+  "new_product_title_pictures_details": "Maak de volgende foto's en de FoodScan-engine kan de rest doen!",
   "new_product_title_misc": "En enkele basisgegevens…",
   "new_product_done_msg": "Bedankt voor uw bijdrage “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Afbeelding van de voorkant uploaden naar ShuddhScore",
+  "uploading_image_type_front": "Afbeelding van de voorkant uploaden naar FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Afbeelding van ingrediënten uploaden naar ShuddhScore",
+  "uploading_image_type_ingredients": "Afbeelding van ingrediënten uploaden naar FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Voedingswaardenafbeelding uploaden naar ShuddhScore",
+  "uploading_image_type_nutrition": "Voedingswaardenafbeelding uploaden naar FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Verpakkingsafbeelding uploaden naar ShuddhScore",
+  "uploading_image_type_packaging": "Verpakkingsafbeelding uploaden naar FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Andere afbeelding uploaden naar ShuddhScore",
+  "uploading_image_type_other": "Andere afbeelding uploaden naar FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Afbeelding uploaden naar ShuddhScore",
+  "uploading_image_type_generic": "Afbeelding uploaden naar FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Welkom bij ShuddhScore",
+  "homepage_main_card_logo_description": "Welkom bij FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Scan** een streepjescode of\n**zoek** naar een product",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Open systeeminstellingen voor ShuddhScore",
+  "native_app_description": "Open systeeminstellingen voor FoodScan",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,8 +1562,8 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Log in of meld je aan om lid te worden van de ShuddhScore gemeenschap",
-  "user_profile_title_id_email": "ShuddhScore login: {email}",
+  "user_profile_subtitle_guest": "Log in of meld je aan om lid te worden van de FoodScan gemeenschap",
+  "user_profile_title_id_email": "FoodScan login: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
     "placeholders": {
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Hallo, verwijder mijn ShuddhScore-account: {userId}",
+  "email_body_account_deletion": "Hallo, verwijder mijn FoodScan-account: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Indien ingeschakeld, worden crashrapporten automatisch verzonden naar het foutenopvolgsysteem van ShuddhScore, zodat bugs kunnen worden verholpen en zo de app kan worden verbeterd.",
+  "crash_reporting_toggle_subtitle": "Indien ingeschakeld, worden crashrapporten automatisch verzonden naar het foutenopvolgsysteem van FoodScan, zodat bugs kunnen worden verholpen en zo de app kan worden verbeterd.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1634,7 +1634,7 @@
   "@send_anonymous_toggle_title": {
     "description": "Title for the Send anonymous data toggle"
   },
-  "send_anonymous_data_toggle_subtitle": "Wanneer ingeschakeld, wordt strikt anonieme informatie over het gebruik van functies naar de ShuddhScore-servers verzonden, zodat we kunnen begrijpen hoe functies worden gebruikt om ze te verbeteren. Anders wordt een 0-id verzonden.",
+  "send_anonymous_data_toggle_subtitle": "Wanneer ingeschakeld, wordt strikt anonieme informatie over het gebruik van functies naar de FoodScan-servers verzonden, zodat we kunnen begrijpen hoe functies worden gebruikt om ze te verbeteren. Anders wordt een 0-id verzonden.",
   "@send_anonymous_toggle_subtitle": {
     "description": "SubTitle for the Send anonymous data toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Mocht een categorie **niet beschikbaar zijn in automatisch aanvullen**, dan kunt u deze gerust toch toevoegen.\nHiermee helpt u ons ShuddhScore in uw land te verbeteren.",
+  "edit_product_form_item_categories_explanation_info2_content": "Mocht een categorie **niet beschikbaar zijn in automatisch aanvullen**, dan kunt u deze gerust toch toevoegen.\nHiermee helpt u ons FoodScan in uw land te verbeteren.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Validatiefout",
   "prices_privacy_warning_title": "Privacywaarschuwing",
   "prices_unknown_product": "Onbekend product",
-  "prices_privacy_warning_main_message": "Prijzen **zullen openbaar zijn**, samen met de winkel waarnaar ze verwijzen.\n\nHierdoor kunnen mensen die op de hoogte zijn van uw ShuddhScore-pseudoniem:\n",
+  "prices_privacy_warning_main_message": "Prijzen **zullen openbaar zijn**, samen met de winkel waarnaar ze verwijzen.\n\nHierdoor kunnen mensen die op de hoogte zijn van uw FoodScan-pseudoniem:\n",
   "prices_privacy_warning_message_bullet_1": "Bepaal in welk gebied u woont",
   "prices_privacy_warning_message_bullet_2": "Weet wat je koopt",
-  "prices_privacy_warning_sub_message": "Als u zich hier niet prettig bij voelt, kunt u uw pseudoniem wijzigen of een nieuw ShuddhScore-account aanmaken en daarmee inloggen op de app.",
+  "prices_privacy_warning_sub_message": "Als u zich hier niet prettig bij voelt, kunt u uw pseudoniem wijzigen of een nieuw FoodScan-account aanmaken en daarmee inloggen op de app.",
   "i_refuse": "Ik weiger",
   "i_accept": "Ik ga akkoord",
   "prices_currency_change_proposal_title": "De valuta wijzigen?",
@@ -2953,7 +2953,7 @@
   "@edit_product_action_confirm": {
     "description": "Product edition - FAB actions - confirm"
   },
-  "signup_page_terms_of_use_line1": "Ik ga akkoord met de ShuddhScore ",
+  "signup_page_terms_of_use_line1": "Ik ga akkoord met de FoodScan ",
   "@signup_page_terms_of_use_line1": {
     "description": "User consent for terms of use (line 1)"
   },
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Bekijk dit product op ShuddhScore: {url}",
+  "share_product_text": "Bekijk dit product op FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Bekijk mijn lijst met producten op ShuddhScore: {url}",
+  "share_product_list_text": "Bekijk mijn lijst met producten op FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Update de lokale productdatabase met de nieuwste gegevens van ShuddhScore",
+  "update_local_database_sub": "Update de lokale productdatabase met de nieuwste gegevens van FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "Onbekende NOVA Groep",
   "nutrition_facts": "Voedingswaarden",
   "faq_title_partners": "Partners & begunstigers van de NGO",
-  "faq_title_vision": "De ShuddhScore Visie, Missie, Waarden en Programma's",
+  "faq_title_vision": "De FoodScan Visie, Missie, Waarden en Programma's",
   "faq_title_install_beauty": "Installeer Open Beauty Facts om een cosmetische database te maken",
   "faq_title_install_pet": "Installeer Open Pet Food Facts om een dierenvoedingsdatabase te maken",
   "faq_title_install_product": "Installeer Open Products Facts om een productendatabase te creëren om de levensduur van objecten te verlengen",
   "faq_nutriscore_nutriscore": "Nieuwe berekening van de Nutri-Score: wat is er nieuw?",
-  "contact_title_pro_page": "Pro? Importeer uw producten in ShuddhScore",
+  "contact_title_pro_page": "Pro? Importeer uw producten in FoodScan",
   "contact_title_pro_email": "Producentcontact",
   "contact_title_press_page": "Perspagina",
   "contact_title_press_email": "Perscontact",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Welkom bij ShuddhScore!",
+  "guide_open_food_facts_title": "Welkom bij FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
-  "guide_open_food_facts_what_is_open_food_facts_title": "Wat is ShuddhScore?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore is een **collaboratieve**, **gratis** en **open** database met voedingsmiddelen uit de hele wereld.",
+  "guide_open_food_facts_what_is_open_food_facts_title": "Wat is FoodScan?",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan is een **collaboratieve**, **gratis** en **open** database met voedingsmiddelen uit de hele wereld.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4195,7 +4195,7 @@
   "@guide_open_food_facts_what_is_open_food_facts_paragraph2": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
-  "guide_open_food_facts_features_title": "Kenmerken van ShuddhScore",
+  "guide_open_food_facts_features_title": "Kenmerken van FoodScan",
   "guide_open_food_facts_features_arg1_title": "Ontvang meldingen voor uw ongewenste ingrediënten",
   "guide_open_food_facts_tips_title": "Tips voor het maken van geweldige foto's",
   "guide_open_food_facts_tips_arg1_title": "Wat je niet moet doen",
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Wat is Open Prices?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices is een project om **prijzen van producten over de hele wereld te verzamelen en te delen**. Het is een openbaar beschikbare dataset die kan worden gebruikt voor onderzoek, analyse en meer. Open Prices wordt ontwikkeld en onderhouden door ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices is een project om **prijzen van producten over de hele wereld te verzamelen en te delen**. Het is een openbaar beschikbare dataset die kan worden gebruikt voor onderzoek, analyse en meer. Open Prices wordt ontwikkeld en onderhouden door FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Hoe werkt Open Prices?",
-  "guide_open_prices_how_paragraph1": "**We zijn bezig met het crowdsourcen van een open-source dataset met prijzen**. Prijzen kunnen door gebruikers worden toegevoegd via deze webapp of via de officiële mobiele app van ShuddhScore. Detailhandelaren of apps van derden kunnen ook bijdragen door gebruik te maken van onze API.",
+  "guide_open_prices_how_paragraph1": "**We zijn bezig met het crowdsourcen van een open-source dataset met prijzen**. Prijzen kunnen door gebruikers worden toegevoegd via deze webapp of via de officiële mobiele app van FoodScan. Detailhandelaren of apps van derden kunnen ook bijdragen door gebruik te maken van onze API.",
   "guide_open_prices_how_arg1_title": "Verzamel foto's van prijskaartjes in gangpaden",
   "guide_open_prices_how_arg2_title": "Verzamel foto's van bonnetjes",
-  "guide_open_prices_why_title": "Waarom doet ShuddhScore dit?",
+  "guide_open_prices_why_title": "Waarom doet FoodScan dit?",
   "guide_open_prices_why_paragraph1": "Prijsinformatie is van cruciaal belang om voedselsystemen te begrijpen. Het is een belangrijke factor om inzicht te krijgen in de kosten van voedsel en om gezondere voedingspatronen te bevorderen. Het openbaar maken van prijsgegevens is een manier om het voor onderzoekers, journalisten en burgers gemakkelijker te maken om **een beter inzicht te krijgen in hoe voedselprijzen geografisch en in de tijd variëren**.",
   "guide_open_prices_why_arg1_title": "Volg de evolutie van de prijzen in de loop van de tijd",
   "guide_open_prices_why_arg1_text": "Bekijk de **evolutie van de prijzen**: shrinkflation, cheapflation, we kunnen ze samen volgen!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Oeps!",
-  "carousel_unsupported_text": "De gescande streepjescode wordt niet ondersteund door ShuddhScore!",
+  "carousel_unsupported_text": "De gescande streepjescode wordt niet ondersteund door FoodScan!",
   "carousel_error_header": "Fout!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Waarom prijzen?",
-  "prices_explanation_card_line1": "**Open Prices** is een project om prijzen van producten over de hele wereld te verzamelen en te delen 🌍. Open Prices wordt ontwikkeld en onderhouden door ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** is een project om prijzen van producten over de hele wereld te verzamelen en te delen 🌍. Open Prices wordt ontwikkeld en onderhouden door FoodScan.",
   "explanation_card_learn_more_button": "Meer informatie",
   "product_page_tab_folksonomy": "Folksonomy",
   "@product_page_tab_folksonomy": {
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "Het ShuddhScore-project",
+  "preferences_card_project": "Het FoodScan-project",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore is een database met voedingsmiddelen **gemaakt door iedereen, voor iedereen**. Je kunt deze gebruiken om betere voedingskeuzes te maken, en omdat het **open data** is, kan iedereen **deze voor elk doel hergebruiken**.",
+  "preferences_legal_header": "FoodScan is een database met voedingsmiddelen **gemaakt door iedereen, voor iedereen**. Je kunt deze gebruiken om betere voedingskeuzes te maken, en omdat het **open data** is, kan iedereen **deze voor elk doel hergebruiken**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Op de website van ShuddhScore",
+  "preferences_on_off_website_subtitle": "Op de website van FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Mijn account beheren",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Ontdek ShuddhScore",
+  "preferences_faq_discover_off_title": "Ontdek FoodScan",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Ontdek Open Beauty Facts",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "De NGO ShuddhScore",
+  "preferences_faq_off_ngo_title": "De NGO FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Informatie",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "De ShuddhScore-blog",
+  "preferences_connect_blog_title": "De FoodScan-blog",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Nieuwe producten die ik heb toegevoegd aan ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Nieuwe producten die ik heb toegevoegd aan FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Eenvoudige manieren om ShuddhScore te helpen",
+  "preferences_page_contribute_project_subtitle": "Eenvoudige manieren om FoodScan te helpen",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScore Labs",
+  "preferences_page_open_food_facts_labs_title": "FoodScan Labs",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Account",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "Vertaal ShuddhScore in uw taal",
+  "preferences_contribute_translate_header": "Vertaal FoodScan in uw taal",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

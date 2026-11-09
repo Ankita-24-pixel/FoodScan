@@ -142,7 +142,7 @@ class HomePageAppLogo extends StatelessWidget {
               child: SizedBox(
                 width: imageWidth * progress.progress2(1.0, 1.0),
                 child: Image.asset(
-                  'assets/app/shuddhscore_logo.png',
+                  'assets/app/foodscan_logo.png',
                   fit: BoxFit.contain,
                   alignment: AlignmentDirectional.centerStart,
                 ),

@@ -1,35 +1,33 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="auto">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
+    <uses-permission
+        android:name="android.permission.CAMERA"/>
     <!-- Some dependencies may request this permission, which is not used in our app -->
     <uses-permission
         android:name="android.permission.RECORD_AUDIO"
-        tools:node="remove" />
-
+        tools:node="remove"/>
     <queries>
         <intent>
-            <action android:name="android.intent.action.SENDTO" />
-            <data android:scheme="mailto" />
+            <action
+                android:name="android.intent.action.SENDTO"/>
+            <data
+                android:scheme="mailto"/>
         </intent>
     </queries>
-
     <application
-        android:label="ShuddhScore"
+        android:label="@string/app_name"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:hasFragileUserData="true"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_scheme"
         tools:targetApi="q">
-
         <property
             android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
-            android:value="true" />
-
+            android:value="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -38,7 +36,6 @@
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize"
             android:enableOnBackInvokedCallback="false">
             <!-- Specifies an Android theme to apply to this Activity as soon as
@@ -47,1520 +44,1515 @@
                  to determine the Window background behind the Flutter UI. -->
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
-                android:resource="@style/NormalTheme" />
+                android:resource="@style/NormalTheme"/>
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
             <!-- Enable deep links in the app -->
             <meta-data
                 android:name="flutter_deeplinking_enabled"
-                android:value="true" />
-            <intent-filter android:autoVerify="true">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
+                android:value="true"/>
+            <intent-filter
+                android:autoVerify="true">
+                <action
+                    android:name="android.intent.action.VIEW"/>
+                <category
+                    android:name="android.intent.category.DEFAULT"/>
+                <category
+                    android:name="android.intent.category.BROWSABLE"/>
                 <!-- Prices -->
                 <data
                     android:scheme="http"
-                    android:host="prices.openfoodfacts.org" />
+                    android:host="prices.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="prices.openfoodfacts.net" />
-
+                    android:host="prices.openfoodfacts.net"/>
                 <!-- OpenFoodFacts.org -->
                 <data
                     android:scheme="http"
-                    android:host="ae.openfoodfacts.org" />
+                    android:host="ae.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ar.openfoodfacts.org" />
+                    android:host="ar.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at-en.openfoodfacts.org" />
+                    android:host="at-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at.openfoodfacts.org" />
+                    android:host="at.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="au.openfoodfacts.org" />
+                    android:host="au.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-de.openfoodfacts.org" />
+                    android:host="be-de.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-en.openfoodfacts.org" />
+                    android:host="be-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-fr.openfoodfacts.org" />
+                    android:host="be-fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be.openfoodfacts.org" />
+                    android:host="be.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="bg.openfoodfacts.org" />
+                    android:host="bg.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="br.openfoodfacts.org" />
+                    android:host="br.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca-fr.openfoodfacts.org" />
+                    android:host="ca-fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca.openfoodfacts.org" />
+                    android:host="ca.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-en.openfoodfacts.org" />
+                    android:host="ch-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-fr.openfoodfacts.org" />
+                    android:host="ch-fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-it.openfoodfacts.org" />
+                    android:host="ch-it.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch.openfoodfacts.org" />
+                    android:host="ch.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cl.openfoodfacts.org" />
+                    android:host="cl.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn-en.openfoodfacts.org" />
+                    android:host="cn-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn.openfoodfacts.org" />
+                    android:host="cn.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="co.openfoodfacts.org" />
+                    android:host="co.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cz.openfoodfacts.org" />
+                    android:host="cz.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de-en.openfoodfacts.org" />
+                    android:host="de-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de.openfoodfacts.org" />
+                    android:host="de.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dk.openfoodfacts.org" />
+                    android:host="dk.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz-fr.openfoodfacts.org" />
+                    android:host="dz-fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz.openfoodfacts.org" />
+                    android:host="dz.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="en.openfoodfacts.org" />
+                    android:host="en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-ca.openfoodfacts.org" />
+                    android:host="es-ca.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-en.openfoodfacts.org" />
+                    android:host="es-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-eu.openfoodfacts.org" />
+                    android:host="es-eu.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-gl.openfoodfacts.org" />
+                    android:host="es-gl.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es.openfoodfacts.org" />
+                    android:host="es.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fi.openfoodfacts.org" />
+                    android:host="fi.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-en.openfoodfacts.org" />
+                    android:host="fr-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-es.openfoodfacts.org" />
+                    android:host="fr-es.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr.openfoodfacts.org" />
+                    android:host="fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gf.openfoodfacts.org" />
+                    android:host="gf.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gp.openfoodfacts.org" />
+                    android:host="gp.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gr.openfoodfacts.org" />
+                    android:host="gr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk.openfoodfacts.org" />
+                    android:host="hk.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk-zh.openfoodfacts.org" />
+                    android:host="hk-zh.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hu.openfoodfacts.org" />
+                    android:host="hu.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="id.openfoodfacts.org" />
+                    android:host="id.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ie.openfoodfacts.org" />
+                    android:host="ie.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="il.openfoodfacts.org" />
+                    android:host="il.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="in.openfoodfacts.org" />
+                    android:host="in.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ir.openfoodfacts.org" />
+                    android:host="ir.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="it.openfoodfacts.org" />
+                    android:host="it.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="jp.openfoodfacts.org" />
+                    android:host="jp.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ke.openfoodfacts.org" />
+                    android:host="ke.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="kh.openfoodfacts.org" />
+                    android:host="kh.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="lu.openfoodfacts.org" />
+                    android:host="lu.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma-fr.openfoodfacts.org" />
+                    android:host="ma-fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma.openfoodfacts.org" />
+                    android:host="ma.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mq.openfoodfacts.org" />
+                    android:host="mq.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mx.openfoodfacts.org" />
+                    android:host="mx.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl-en.openfoodfacts.org" />
+                    android:host="nl-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl.openfoodfacts.org" />
+                    android:host="nl.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="no.openfoodfacts.org" />
+                    android:host="no.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nz.openfoodfacts.org" />
+                    android:host="nz.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pe.openfoodfacts.org" />
+                    android:host="pe.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pf.openfoodfacts.org" />
+                    android:host="pf.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ph.openfoodfacts.org" />
+                    android:host="ph.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl-en.openfoodfacts.org" />
+                    android:host="pl-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl.openfoodfacts.org" />
+                    android:host="pl.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="openfoodfacts.org" />
+                    android:host="openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt-en.openfoodfacts.org" />
+                    android:host="pt-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt.openfoodfacts.org" />
+                    android:host="pt.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="re.openfoodfacts.org" />
+                    android:host="re.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ro.openfoodfacts.org" />
+                    android:host="ro.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru-en.openfoodfacts.org" />
+                    android:host="ru-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru.openfoodfacts.org" />
+                    android:host="ru.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sa.openfoodfacts.org" />
+                    android:host="sa.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="se.openfoodfacts.org" />
+                    android:host="se.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg.openfoodfacts.org" />
+                    android:host="sg.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg-zh.openfoodfacts.org" />
+                    android:host="sg-zh.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sk.openfoodfacts.org" />
+                    android:host="sk.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="th.openfoodfacts.org" />
+                    android:host="th.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn-en.openfoodfacts.org" />
+                    android:host="tn-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn.openfoodfacts.org" />
+                    android:host="tn.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tr.openfoodfacts.org" />
+                    android:host="tr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tw.openfoodfacts.org" />
+                    android:host="tw.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="uk.openfoodfacts.org" />
+                    android:host="uk.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us-es.openfoodfacts.org" />
+                    android:host="us-es.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us.openfoodfacts.org" />
+                    android:host="us.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-de.openfoodfacts.org" />
+                    android:host="world-de.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-en.openfoodfacts.org" />
+                    android:host="world-en.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-es.openfoodfacts.org" />
+                    android:host="world-es.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-fr.openfoodfacts.org" />
+                    android:host="world-fr.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-it.openfoodfacts.org" />
+                    android:host="world-it.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world.openfoodfacts.org" />
+                    android:host="world.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-pt.openfoodfacts.org" />
+                    android:host="world-pt.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-ru.openfoodfacts.org" />
+                    android:host="world-ru.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-zh.openfoodfacts.org" />
+                    android:host="world-zh.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="www.openfoodfacts.org" />
+                    android:host="www.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="za.openfoodfacts.org" />
+                    android:host="za.openfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="zh.openfoodfacts.org" />
-
+                    android:host="zh.openfoodfacts.org"/>
                 <!-- OpenFoodFacts.net -->
                 <data
                     android:scheme="http"
-                    android:host="ae.openfoodfacts.net" />
+                    android:host="ae.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ar.openfoodfacts.net" />
+                    android:host="ar.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="at-en.openfoodfacts.net" />
+                    android:host="at-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="at.openfoodfacts.net" />
+                    android:host="at.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="au.openfoodfacts.net" />
+                    android:host="au.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="be-de.openfoodfacts.net" />
+                    android:host="be-de.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="be-en.openfoodfacts.net" />
+                    android:host="be-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="be-fr.openfoodfacts.net" />
+                    android:host="be-fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="be.openfoodfacts.net" />
+                    android:host="be.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="bg.openfoodfacts.net" />
+                    android:host="bg.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="br.openfoodfacts.net" />
+                    android:host="br.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ca-fr.openfoodfacts.net" />
+                    android:host="ca-fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ca.openfoodfacts.net" />
+                    android:host="ca.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-en.openfoodfacts.net" />
+                    android:host="ch-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-fr.openfoodfacts.net" />
+                    android:host="ch-fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-it.openfoodfacts.net" />
+                    android:host="ch-it.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ch.openfoodfacts.net" />
+                    android:host="ch.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="cl.openfoodfacts.net" />
+                    android:host="cl.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="cn-en.openfoodfacts.net" />
+                    android:host="cn-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="cn.openfoodfacts.net" />
+                    android:host="cn.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="co.openfoodfacts.net" />
+                    android:host="co.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="cz.openfoodfacts.net" />
+                    android:host="cz.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="de-en.openfoodfacts.net" />
+                    android:host="de-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="de.openfoodfacts.net" />
+                    android:host="de.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="dk.openfoodfacts.net" />
+                    android:host="dk.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="dz-fr.openfoodfacts.net" />
+                    android:host="dz-fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="dz.openfoodfacts.net" />
+                    android:host="dz.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="en.openfoodfacts.net" />
+                    android:host="en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="es-ca.openfoodfacts.net" />
+                    android:host="es-ca.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="es-en.openfoodfacts.net" />
+                    android:host="es-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="es-eu.openfoodfacts.net" />
+                    android:host="es-eu.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="es-gl.openfoodfacts.net" />
+                    android:host="es-gl.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="es.openfoodfacts.net" />
+                    android:host="es.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="fi.openfoodfacts.net" />
+                    android:host="fi.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-en.openfoodfacts.net" />
+                    android:host="fr-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-es.openfoodfacts.net" />
+                    android:host="fr-es.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="fr.openfoodfacts.net" />
+                    android:host="fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="gf.openfoodfacts.net" />
+                    android:host="gf.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="gp.openfoodfacts.net" />
+                    android:host="gp.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="gr.openfoodfacts.net" />
+                    android:host="gr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="hk.openfoodfacts.net" />
+                    android:host="hk.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="hk-zh.openfoodfacts.net" />
+                    android:host="hk-zh.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="hu.openfoodfacts.net" />
+                    android:host="hu.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="id.openfoodfacts.net" />
+                    android:host="id.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ie.openfoodfacts.net" />
+                    android:host="ie.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="il.openfoodfacts.net" />
+                    android:host="il.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="in.openfoodfacts.net" />
+                    android:host="in.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ir.openfoodfacts.net" />
+                    android:host="ir.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="it.openfoodfacts.net" />
+                    android:host="it.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="jp.openfoodfacts.net" />
+                    android:host="jp.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ke.openfoodfacts.net" />
+                    android:host="ke.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="kh.openfoodfacts.net" />
+                    android:host="kh.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="lu.openfoodfacts.net" />
+                    android:host="lu.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ma-fr.openfoodfacts.net" />
+                    android:host="ma-fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ma.openfoodfacts.net" />
+                    android:host="ma.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="mq.openfoodfacts.net" />
+                    android:host="mq.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="mx.openfoodfacts.net" />
+                    android:host="mx.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="nl-en.openfoodfacts.net" />
+                    android:host="nl-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="nl.openfoodfacts.net" />
+                    android:host="nl.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="no.openfoodfacts.net" />
+                    android:host="no.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="nz.openfoodfacts.net" />
+                    android:host="nz.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="pe.openfoodfacts.net" />
+                    android:host="pe.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="pf.openfoodfacts.net" />
+                    android:host="pf.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ph.openfoodfacts.net" />
+                    android:host="ph.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="pl-en.openfoodfacts.net" />
+                    android:host="pl-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="pl.openfoodfacts.net" />
+                    android:host="pl.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="openfoodfacts.net" />
+                    android:host="openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="pt-en.openfoodfacts.net" />
+                    android:host="pt-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="pt.openfoodfacts.net" />
+                    android:host="pt.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="re.openfoodfacts.net" />
+                    android:host="re.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ro.openfoodfacts.net" />
+                    android:host="ro.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ru-en.openfoodfacts.net" />
+                    android:host="ru-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="ru.openfoodfacts.net" />
+                    android:host="ru.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="sa.openfoodfacts.net" />
+                    android:host="sa.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="se.openfoodfacts.net" />
+                    android:host="se.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="sg.openfoodfacts.net" />
+                    android:host="sg.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="sg-zh.openfoodfacts.net" />
+                    android:host="sg-zh.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="sk.openfoodfacts.net" />
+                    android:host="sk.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="th.openfoodfacts.net" />
+                    android:host="th.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="tn-en.openfoodfacts.net" />
+                    android:host="tn-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="tn.openfoodfacts.net" />
+                    android:host="tn.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="tr.openfoodfacts.net" />
+                    android:host="tr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="tw.openfoodfacts.net" />
+                    android:host="tw.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="uk.openfoodfacts.net" />
+                    android:host="uk.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="us-es.openfoodfacts.net" />
+                    android:host="us-es.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="us.openfoodfacts.net" />
+                    android:host="us.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-de.openfoodfacts.net" />
+                    android:host="world-de.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-en.openfoodfacts.net" />
+                    android:host="world-en.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-es.openfoodfacts.net" />
+                    android:host="world-es.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-fr.openfoodfacts.net" />
+                    android:host="world-fr.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-it.openfoodfacts.net" />
+                    android:host="world-it.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world.openfoodfacts.net" />
+                    android:host="world.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-pt.openfoodfacts.net" />
+                    android:host="world-pt.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-ru.openfoodfacts.net" />
+                    android:host="world-ru.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="world-zh.openfoodfacts.net" />
+                    android:host="world-zh.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="www.openfoodfacts.net" />
+                    android:host="www.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="za.openfoodfacts.net" />
+                    android:host="za.openfoodfacts.net"/>
                 <data
                     android:scheme="http"
-                    android:host="zh.openfoodfacts.net" />
-
+                    android:host="zh.openfoodfacts.net"/>
                 <!-- OpenBeautyFacts -->
                 <data
                     android:scheme="http"
-                    android:host="ae.openbeautyfacts.org" />
+                    android:host="ae.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ar.openbeautyfacts.org" />
+                    android:host="ar.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at-en.openbeautyfacts.org" />
+                    android:host="at-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at.openbeautyfacts.org" />
+                    android:host="at.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="au.openbeautyfacts.org" />
+                    android:host="au.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-de.openbeautyfacts.org" />
+                    android:host="be-de.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-en.openbeautyfacts.org" />
+                    android:host="be-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-fr.openbeautyfacts.org" />
+                    android:host="be-fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be.openbeautyfacts.org" />
+                    android:host="be.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="bg.openbeautyfacts.org" />
+                    android:host="bg.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="br.openbeautyfacts.org" />
+                    android:host="br.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca-fr.openbeautyfacts.org" />
+                    android:host="ca-fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca.openbeautyfacts.org" />
+                    android:host="ca.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-en.openbeautyfacts.org" />
+                    android:host="ch-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-fr.openbeautyfacts.org" />
+                    android:host="ch-fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-it.openbeautyfacts.org" />
+                    android:host="ch-it.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch.openbeautyfacts.org" />
+                    android:host="ch.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cl.openbeautyfacts.org" />
+                    android:host="cl.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn-en.openbeautyfacts.org" />
+                    android:host="cn-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn.openbeautyfacts.org" />
+                    android:host="cn.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="co.openbeautyfacts.org" />
+                    android:host="co.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cz.openbeautyfacts.org" />
+                    android:host="cz.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de-en.openbeautyfacts.org" />
+                    android:host="de-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de.openbeautyfacts.org" />
+                    android:host="de.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dk.openbeautyfacts.org" />
+                    android:host="dk.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz-fr.openbeautyfacts.org" />
+                    android:host="dz-fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz.openbeautyfacts.org" />
+                    android:host="dz.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="en.openbeautyfacts.org" />
+                    android:host="en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-ca.openbeautyfacts.org" />
+                    android:host="es-ca.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-en.openbeautyfacts.org" />
+                    android:host="es-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-eu.openbeautyfacts.org" />
+                    android:host="es-eu.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-gl.openbeautyfacts.org" />
+                    android:host="es-gl.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es.openbeautyfacts.org" />
+                    android:host="es.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fi.openbeautyfacts.org" />
+                    android:host="fi.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-en.openbeautyfacts.org" />
+                    android:host="fr-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-es.openbeautyfacts.org" />
+                    android:host="fr-es.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr.openbeautyfacts.org" />
+                    android:host="fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gf.openbeautyfacts.org" />
+                    android:host="gf.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gp.openbeautyfacts.org" />
+                    android:host="gp.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gr.openbeautyfacts.org" />
+                    android:host="gr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk.openbeautyfacts.org" />
+                    android:host="hk.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk-zh.openbeautyfacts.org" />
+                    android:host="hk-zh.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hu.openbeautyfacts.org" />
+                    android:host="hu.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="id.openbeautyfacts.org" />
+                    android:host="id.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ie.openbeautyfacts.org" />
+                    android:host="ie.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="il.openbeautyfacts.org" />
+                    android:host="il.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="in.openbeautyfacts.org" />
+                    android:host="in.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ir.openbeautyfacts.org" />
+                    android:host="ir.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="it.openbeautyfacts.org" />
+                    android:host="it.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="jp.openbeautyfacts.org" />
+                    android:host="jp.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ke.openbeautyfacts.org" />
+                    android:host="ke.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="kh.openbeautyfacts.org" />
+                    android:host="kh.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="lu.openbeautyfacts.org" />
+                    android:host="lu.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma-fr.openbeautyfacts.org" />
+                    android:host="ma-fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma.openbeautyfacts.org" />
+                    android:host="ma.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mq.openbeautyfacts.org" />
+                    android:host="mq.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mx.openbeautyfacts.org" />
+                    android:host="mx.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl-en.openbeautyfacts.org" />
+                    android:host="nl-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl.openbeautyfacts.org" />
+                    android:host="nl.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="no.openbeautyfacts.org" />
+                    android:host="no.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nz.openbeautyfacts.org" />
+                    android:host="nz.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pe.openbeautyfacts.org" />
+                    android:host="pe.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pf.openbeautyfacts.org" />
+                    android:host="pf.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ph.openbeautyfacts.org" />
+                    android:host="ph.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl-en.openbeautyfacts.org" />
+                    android:host="pl-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl.openbeautyfacts.org" />
+                    android:host="pl.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="openbeautyfacts.org" />
+                    android:host="openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt-en.openbeautyfacts.org" />
+                    android:host="pt-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt.openbeautyfacts.org" />
+                    android:host="pt.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="re.openbeautyfacts.org" />
+                    android:host="re.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ro.openbeautyfacts.org" />
+                    android:host="ro.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru-en.openbeautyfacts.org" />
+                    android:host="ru-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru.openbeautyfacts.org" />
+                    android:host="ru.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sa.openbeautyfacts.org" />
+                    android:host="sa.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="se.openbeautyfacts.org" />
+                    android:host="se.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg.openbeautyfacts.org" />
+                    android:host="sg.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg-zh.openbeautyfacts.org" />
+                    android:host="sg-zh.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sk.openbeautyfacts.org" />
+                    android:host="sk.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="th.openbeautyfacts.org" />
+                    android:host="th.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn-en.openbeautyfacts.org" />
+                    android:host="tn-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn.openbeautyfacts.org" />
+                    android:host="tn.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tr.openbeautyfacts.org" />
+                    android:host="tr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tw.openbeautyfacts.org" />
+                    android:host="tw.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="uk.openbeautyfacts.org" />
+                    android:host="uk.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us-es.openbeautyfacts.org" />
+                    android:host="us-es.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us.openbeautyfacts.org" />
+                    android:host="us.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-de.openbeautyfacts.org" />
+                    android:host="world-de.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-en.openbeautyfacts.org" />
+                    android:host="world-en.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-es.openbeautyfacts.org" />
+                    android:host="world-es.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-fr.openbeautyfacts.org" />
+                    android:host="world-fr.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-it.openbeautyfacts.org" />
+                    android:host="world-it.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world.openbeautyfacts.org" />
+                    android:host="world.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-pt.openbeautyfacts.org" />
+                    android:host="world-pt.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-ru.openbeautyfacts.org" />
+                    android:host="world-ru.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-zh.openbeautyfacts.org" />
+                    android:host="world-zh.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="www.openbeautyfacts.org" />
+                    android:host="www.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="za.openbeautyfacts.org" />
+                    android:host="za.openbeautyfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="zh.openbeautyfacts.org" />
-
+                    android:host="zh.openbeautyfacts.org"/>
                 <!-- Open Products Facts -->
                 <data
                     android:scheme="http"
-                    android:host="ae.openproductsfacts.org" />
+                    android:host="ae.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ar.openproductsfacts.org" />
+                    android:host="ar.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at-en.openproductsfacts.org" />
+                    android:host="at-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at.openproductsfacts.org" />
+                    android:host="at.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="au.openproductsfacts.org" />
+                    android:host="au.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-de.openproductsfacts.org" />
+                    android:host="be-de.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-en.openproductsfacts.org" />
+                    android:host="be-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-fr.openproductsfacts.org" />
+                    android:host="be-fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be.openproductsfacts.org" />
+                    android:host="be.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="bg.openproductsfacts.org" />
+                    android:host="bg.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="br.openproductsfacts.org" />
+                    android:host="br.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca-fr.openproductsfacts.org" />
+                    android:host="ca-fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca.openproductsfacts.org" />
+                    android:host="ca.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-en.openproductsfacts.org" />
+                    android:host="ch-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-fr.openproductsfacts.org" />
+                    android:host="ch-fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-it.openproductsfacts.org" />
+                    android:host="ch-it.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch.openproductsfacts.org" />
+                    android:host="ch.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cl.openproductsfacts.org" />
+                    android:host="cl.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn-en.openproductsfacts.org" />
+                    android:host="cn-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn.openproductsfacts.org" />
+                    android:host="cn.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="co.openproductsfacts.org" />
+                    android:host="co.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cz.openproductsfacts.org" />
+                    android:host="cz.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de-en.openproductsfacts.org" />
+                    android:host="de-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de.openproductsfacts.org" />
+                    android:host="de.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dk.openproductsfacts.org" />
+                    android:host="dk.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz-fr.openproductsfacts.org" />
+                    android:host="dz-fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz.openproductsfacts.org" />
+                    android:host="dz.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="en.openproductsfacts.org" />
+                    android:host="en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-ca.openproductsfacts.org" />
+                    android:host="es-ca.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-en.openproductsfacts.org" />
+                    android:host="es-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-eu.openproductsfacts.org" />
+                    android:host="es-eu.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-gl.openproductsfacts.org" />
+                    android:host="es-gl.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es.openproductsfacts.org" />
+                    android:host="es.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fi.openproductsfacts.org" />
+                    android:host="fi.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-en.openproductsfacts.org" />
+                    android:host="fr-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-es.openproductsfacts.org" />
+                    android:host="fr-es.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr.openproductsfacts.org" />
+                    android:host="fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gf.openproductsfacts.org" />
+                    android:host="gf.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gp.openproductsfacts.org" />
+                    android:host="gp.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gr.openproductsfacts.org" />
+                    android:host="gr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk.openproductsfacts.org" />
+                    android:host="hk.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk-zh.openproductsfacts.org" />
+                    android:host="hk-zh.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hu.openproductsfacts.org" />
+                    android:host="hu.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="id.openproductsfacts.org" />
+                    android:host="id.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ie.openproductsfacts.org" />
+                    android:host="ie.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="il.openproductsfacts.org" />
+                    android:host="il.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="in.openproductsfacts.org" />
+                    android:host="in.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ir.openproductsfacts.org" />
+                    android:host="ir.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="it.openproductsfacts.org" />
+                    android:host="it.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="jp.openproductsfacts.org" />
+                    android:host="jp.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ke.openproductsfacts.org" />
+                    android:host="ke.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="kh.openproductsfacts.org" />
+                    android:host="kh.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="lu.openproductsfacts.org" />
+                    android:host="lu.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma-fr.openproductsfacts.org" />
+                    android:host="ma-fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma.openproductsfacts.org" />
+                    android:host="ma.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mq.openproductsfacts.org" />
+                    android:host="mq.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mx.openproductsfacts.org" />
+                    android:host="mx.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl-en.openproductsfacts.org" />
+                    android:host="nl-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl.openproductsfacts.org" />
+                    android:host="nl.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="no.openproductsfacts.org" />
+                    android:host="no.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nz.openproductsfacts.org" />
+                    android:host="nz.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pe.openproductsfacts.org" />
+                    android:host="pe.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pf.openproductsfacts.org" />
+                    android:host="pf.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ph.openproductsfacts.org" />
+                    android:host="ph.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl-en.openproductsfacts.org" />
+                    android:host="pl-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl.openproductsfacts.org" />
+                    android:host="pl.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="openproductsfacts.org" />
+                    android:host="openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt-en.openproductsfacts.org" />
+                    android:host="pt-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt.openproductsfacts.org" />
+                    android:host="pt.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="re.openproductsfacts.org" />
+                    android:host="re.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ro.openproductsfacts.org" />
+                    android:host="ro.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru-en.openproductsfacts.org" />
+                    android:host="ru-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru.openproductsfacts.org" />
+                    android:host="ru.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sa.openproductsfacts.org" />
+                    android:host="sa.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="se.openproductsfacts.org" />
+                    android:host="se.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg.openproductsfacts.org" />
+                    android:host="sg.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg-zh.openproductsfacts.org" />
+                    android:host="sg-zh.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sk.openproductsfacts.org" />
+                    android:host="sk.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="th.openproductsfacts.org" />
+                    android:host="th.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn-en.openproductsfacts.org" />
+                    android:host="tn-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn.openproductsfacts.org" />
+                    android:host="tn.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tr.openproductsfacts.org" />
+                    android:host="tr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tw.openproductsfacts.org" />
+                    android:host="tw.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="uk.openproductsfacts.org" />
+                    android:host="uk.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us-es.openproductsfacts.org" />
+                    android:host="us-es.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us.openproductsfacts.org" />
+                    android:host="us.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-de.openproductsfacts.org" />
+                    android:host="world-de.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-en.openproductsfacts.org" />
+                    android:host="world-en.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-es.openproductsfacts.org" />
+                    android:host="world-es.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-fr.openproductsfacts.org" />
+                    android:host="world-fr.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-it.openproductsfacts.org" />
+                    android:host="world-it.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world.openproductsfacts.org" />
+                    android:host="world.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-pt.openproductsfacts.org" />
+                    android:host="world-pt.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-ru.openproductsfacts.org" />
+                    android:host="world-ru.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-zh.openproductsfacts.org" />
+                    android:host="world-zh.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="www.openproductsfacts.org" />
+                    android:host="www.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="za.openproductsfacts.org" />
+                    android:host="za.openproductsfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="zh.openproductsfacts.org" />
-
+                    android:host="zh.openproductsfacts.org"/>
                 <!-- Open Pet Food Facts-->
                 <data
                     android:scheme="http"
-                    android:host="ae.openpetfoodfacts.org" />
+                    android:host="ae.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ar.openpetfoodfacts.org" />
+                    android:host="ar.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at-en.openpetfoodfacts.org" />
+                    android:host="at-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="at.openpetfoodfacts.org" />
+                    android:host="at.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="au.openpetfoodfacts.org" />
+                    android:host="au.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-de.openpetfoodfacts.org" />
+                    android:host="be-de.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-en.openpetfoodfacts.org" />
+                    android:host="be-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be-fr.openpetfoodfacts.org" />
+                    android:host="be-fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="be.openpetfoodfacts.org" />
+                    android:host="be.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="bg.openpetfoodfacts.org" />
+                    android:host="bg.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="br.openpetfoodfacts.org" />
+                    android:host="br.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca-fr.openpetfoodfacts.org" />
+                    android:host="ca-fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ca.openpetfoodfacts.org" />
+                    android:host="ca.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-en.openpetfoodfacts.org" />
+                    android:host="ch-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-fr.openpetfoodfacts.org" />
+                    android:host="ch-fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch-it.openpetfoodfacts.org" />
+                    android:host="ch-it.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ch.openpetfoodfacts.org" />
+                    android:host="ch.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cl.openpetfoodfacts.org" />
+                    android:host="cl.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn-en.openpetfoodfacts.org" />
+                    android:host="cn-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cn.openpetfoodfacts.org" />
+                    android:host="cn.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="co.openpetfoodfacts.org" />
+                    android:host="co.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="cz.openpetfoodfacts.org" />
+                    android:host="cz.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de-en.openpetfoodfacts.org" />
+                    android:host="de-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="de.openpetfoodfacts.org" />
+                    android:host="de.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dk.openpetfoodfacts.org" />
+                    android:host="dk.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz-fr.openpetfoodfacts.org" />
+                    android:host="dz-fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="dz.openpetfoodfacts.org" />
+                    android:host="dz.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="en.openpetfoodfacts.org" />
+                    android:host="en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-ca.openpetfoodfacts.org" />
+                    android:host="es-ca.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-en.openpetfoodfacts.org" />
+                    android:host="es-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-eu.openpetfoodfacts.org" />
+                    android:host="es-eu.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es-gl.openpetfoodfacts.org" />
+                    android:host="es-gl.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="es.openpetfoodfacts.org" />
+                    android:host="es.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fi.openpetfoodfacts.org" />
+                    android:host="fi.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-en.openpetfoodfacts.org" />
+                    android:host="fr-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr-es.openpetfoodfacts.org" />
+                    android:host="fr-es.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="fr.openpetfoodfacts.org" />
+                    android:host="fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gf.openpetfoodfacts.org" />
+                    android:host="gf.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gp.openpetfoodfacts.org" />
+                    android:host="gp.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="gr.openpetfoodfacts.org" />
+                    android:host="gr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk.openpetfoodfacts.org" />
+                    android:host="hk.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hk-zh.openpetfoodfacts.org" />
+                    android:host="hk-zh.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="hu.openpetfoodfacts.org" />
+                    android:host="hu.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="id.openpetfoodfacts.org" />
+                    android:host="id.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ie.openpetfoodfacts.org" />
+                    android:host="ie.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="il.openpetfoodfacts.org" />
+                    android:host="il.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="in.openpetfoodfacts.org" />
+                    android:host="in.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ir.openpetfoodfacts.org" />
+                    android:host="ir.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="it.openpetfoodfacts.org" />
+                    android:host="it.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="jp.openpetfoodfacts.org" />
+                    android:host="jp.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ke.openpetfoodfacts.org" />
+                    android:host="ke.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="kh.openpetfoodfacts.org" />
+                    android:host="kh.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="lu.openpetfoodfacts.org" />
+                    android:host="lu.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma-fr.openpetfoodfacts.org" />
+                    android:host="ma-fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ma.openpetfoodfacts.org" />
+                    android:host="ma.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mq.openpetfoodfacts.org" />
+                    android:host="mq.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="mx.openpetfoodfacts.org" />
+                    android:host="mx.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl-en.openpetfoodfacts.org" />
+                    android:host="nl-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nl.openpetfoodfacts.org" />
+                    android:host="nl.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="no.openpetfoodfacts.org" />
+                    android:host="no.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="nz.openpetfoodfacts.org" />
+                    android:host="nz.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pe.openpetfoodfacts.org" />
+                    android:host="pe.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pf.openpetfoodfacts.org" />
+                    android:host="pf.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ph.openpetfoodfacts.org" />
+                    android:host="ph.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl-en.openpetfoodfacts.org" />
+                    android:host="pl-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pl.openpetfoodfacts.org" />
+                    android:host="pl.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="openpetfoodfacts.org" />
+                    android:host="openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt-en.openpetfoodfacts.org" />
+                    android:host="pt-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="pt.openpetfoodfacts.org" />
+                    android:host="pt.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="re.openpetfoodfacts.org" />
+                    android:host="re.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ro.openpetfoodfacts.org" />
+                    android:host="ro.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru-en.openpetfoodfacts.org" />
+                    android:host="ru-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="ru.openpetfoodfacts.org" />
+                    android:host="ru.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sa.openpetfoodfacts.org" />
+                    android:host="sa.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="se.openpetfoodfacts.org" />
+                    android:host="se.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg.openpetfoodfacts.org" />
+                    android:host="sg.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sg-zh.openpetfoodfacts.org" />
+                    android:host="sg-zh.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="sk.openpetfoodfacts.org" />
+                    android:host="sk.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="th.openpetfoodfacts.org" />
+                    android:host="th.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn-en.openpetfoodfacts.org" />
+                    android:host="tn-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tn.openpetfoodfacts.org" />
+                    android:host="tn.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tr.openpetfoodfacts.org" />
+                    android:host="tr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="tw.openpetfoodfacts.org" />
+                    android:host="tw.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="uk.openpetfoodfacts.org" />
+                    android:host="uk.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us-es.openpetfoodfacts.org" />
+                    android:host="us-es.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="us.openpetfoodfacts.org" />
+                    android:host="us.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-de.openpetfoodfacts.org" />
+                    android:host="world-de.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-en.openpetfoodfacts.org" />
+                    android:host="world-en.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-es.openpetfoodfacts.org" />
+                    android:host="world-es.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-fr.openpetfoodfacts.org" />
+                    android:host="world-fr.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-it.openpetfoodfacts.org" />
+                    android:host="world-it.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world.openpetfoodfacts.org" />
+                    android:host="world.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-pt.openpetfoodfacts.org" />
+                    android:host="world-pt.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-ru.openpetfoodfacts.org" />
+                    android:host="world-ru.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="world-zh.openpetfoodfacts.org" />
+                    android:host="world-zh.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="www.openpetfoodfacts.org" />
+                    android:host="www.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="za.openpetfoodfacts.org" />
+                    android:host="za.openpetfoodfacts.org"/>
                 <data
                     android:scheme="http"
-                    android:host="zh.openpetfoodfacts.org" />
-
+                    android:host="zh.openpetfoodfacts.org"/>
                 <!-- Use the same rules for HTTPS -->
-                <data android:scheme="https" />
+                <data
+                    android:scheme="https"/>
             </intent-filter>
         </activity>
-
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
             android:name="flutterEmbedding"
-            android:value="2" />
-
+            android:value="2"/>
         <!-- Quick tile / setting (only available on Android 24+ / Nougat) -->
         <service
             android:name=".AppMainTile"
@@ -1569,9 +1561,9 @@
             android:label="@string/app_name"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE" />
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
-
     </application>
 </manifest>

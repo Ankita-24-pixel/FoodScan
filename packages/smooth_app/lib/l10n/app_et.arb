@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Tere tulemast ShuddhScorei lehele",
+  "welcomeToOpenFoodFacts": "Tere tulemast FoodScani lehele",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore on ülemaailmne mittetulundusühing, mida toetavad kohalikud kogukonnad.",
+  "whatIsOff": "FoodScan on ülemaailmne mittetulundusühing, mida toetavad kohalikud kogukonnad.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Server ei vasta! Võid koostada veateate alljärgnevast lingist.",
   "@user_management": {},
-  "sign_in_text": "Oma panuse salvestamiseks logige sisse oma ShuddhScorei kontole",
+  "sign_in_text": "Oma panuse salvestamiseks logige sisse oma FoodScani kontole",
   "incorrect_credentials": "Vale kasutajanimi või salasõna.",
   "password_lost_incorrect_credentials": "Seda e-posti aadressi või kasutajanime pole olemas. Palun kontrolli oma sisselogimisandmeid.",
   "password_lost_server_unavailable": "Meie serverite töö on hetkel aeglasevõitu ja vabandame selle pärast. Palun proovi hiljem uuesti.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Aita oma riigis ShuddhScorei täiustada",
+  "help_improve_country": "Aita oma riigis FoodScani täiustada",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Olen toidutootja",
   "sign_up_page_producer_hint": "Tootja või kaubamärk",
   "sign_up_page_producer_error_empty": "Palun sisesta tootja või kaubamärgi nimi",
-  "sign_up_page_subscribe_checkbox": "Soovin tellida ShuddhScorei uudiskirja (saate igal ajal tellimuse tühistada)",
+  "sign_up_page_subscribe_checkbox": "Soovin tellida FoodScani uudiskirja (saate igal ajal tellimuse tühistada)",
   "sign_up_page_user_name_already_used": "See kasutajanimi on juba olemas, palun vali mõni teine.",
   "sign_up_page_email_already_exists": "juba olemas, logi kontole sisse või proovi teise e-posti aadressiga.",
   "sign_up_page_provide_valid_email": "Palun sisestage kehtiv e-posti aadress.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Kõigi ShuddhScorei toodete kood on saadaval GitHubis. Olete teretulnud koodi taaskasutama (see on avatud lähtekoodiga) ja aitama meil seda kõigi jaoks kogu planeedil paremaks muuta.",
+  "contribute_develop_text": "Kõigi FoodScani toodete kood on saadaval GitHubis. Olete teretulnud koodi taaskasutama (see on avatud lähtekoodiga) ja aitama meil seda kõigi jaoks kogu planeedil paremaks muuta.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Küsimuste esitamiseks võid liituda ShuddhScorei Slacki vestlusruumiga.",
+  "contribute_develop_text_2": "Küsimuste esitamiseks võid liituda FoodScani Slacki vestlusruumiga.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Arendajarežiim?",
   "contribute_develop_dev_mode_subtitle": "Aktiveeri DEV-režiim",
   "contribute_donate_title": "Anneta",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Anneta ShuddhScoreile",
+  "contribute_donate_header": "Anneta FoodScanile",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Palun arvestage, et sisemise alfaversiooniga on võimalik andmete täielik kadumine ja rakendus võib igal ajal kasutuskõlbmatuks muutuda!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Andmebaas on projekti tuum. Selle abistamine on lihtne ja väga kiire. Saate oma telefoni alla laadida mobiilirakenduse ja hakata tooteid lisama või täiustama.\n\nTeisest küljest pakub ShuddhScorei veebisait palju võimalusi panustamiseks: ",
+  "contribute_improve_text": "Andmebaas on projekti tuum. Selle abistamine on lihtne ja väga kiire. Saate oma telefoni alla laadida mobiilirakenduse ja hakata tooteid lisama või täiustama.\n\nTeisest küljest pakub FoodScani veebisait palju võimalusi panustamiseks: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Tõlkimine",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore on ülemaailmne projekt, mis hõlmab tooteid enam kui 160 riigist. ShuddhScore on tõlgitud kümnetesse keeltesse ja selle sisu areneb pidevalt.",
+  "contribute_translate_text": "FoodScan on ülemaailmne projekt, mis hõlmab tooteid enam kui 160 riigist. FoodScan on tõlgitud kümnetesse keeltesse ja selle sisu areneb pidevalt.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Tõlked on projekti üks põhiülesandeid",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Jaga oma oskusi ShuddhScorei lehel. Liitu oskustepagasiga!",
-  "contribute_share_header": "Jaga ShuddhScorei oma sõpradega",
+  "contribute_join_skill_pool": "Jaga oma oskusi FoodScani lehel. Liitu oskustepagasiga!",
+  "contribute_share_header": "Jaga FoodScani oma sõpradega",
   "@contribute_share_header": {},
-  "contribute_share_content": "Tahtsin sulle kirjutada rakendusest ShuddhScore, mida olen kasutanud ja mis võimaldab sul saada teavet oma toidu tervise- ja keskkonnamõjude kohta personaalsel viisil. See toimib pakendil olevate vöötkoodide skaneerimise alusel. Lisaks on ta vaba ja tasuta, ei vaja registreerimist ja saad ka iseg aidata suurendada tuvastatud toodete arvu. Siin on link selle allalaadimiseks oma telefoni: https://openfoodfacts.app",
+  "contribute_share_content": "Tahtsin sulle kirjutada rakendusest FoodScan, mida olen kasutanud ja mis võimaldab sul saada teavet oma toidu tervise- ja keskkonnamõjude kohta personaalsel viisil. See toimib pakendil olevate vöötkoodide skaneerimise alusel. Lisaks on ta vaba ja tasuta, ei vaja registreerimist ja saad ka iseg aidata suurendada tuvastatud toodete arvu. Siin on link selle allalaadimiseks oma telefoni: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Oma panuse eest tunnustuse saamiseks logige sisse oma ShuddhScorei kontole",
+  "question_sign_in_text": "Oma panuse eest tunnustuse saamiseks logige sisse oma FoodScani kontole",
   "question_yes_button_accessibility_value": "Vasta jaatavalt",
   "question_no_button_accessibility_value": "Vasta eitavalt",
   "question_skip_button_accessibility_value": "Jäta see küsimus vahele",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Loo konto ja liitu ShuddhScorei kogukonnaga, et aidata kaasa toidualaste teadmiste loomisele üle kogu maailma!",
+  "account_create_message": "Loo konto ja liitu FoodScani kogukonnaga, et aidata kaasa toidualaste teadmiste loomisele üle kogu maailma!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Teie profiil",
-  "myPreferences_profile_subtitle": "Halda oma ShuddhScorei kaastöölise kontot.",
+  "myPreferences_profile_subtitle": "Halda oma FoodScani kaastöölise kontot.",
   "myPreferences_settings_title": "Rakenduse seaded",
   "myPreferences_settings_subtitle": "Tume režiim, keeled…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Toidueelistused",
   "myPreferences_food_subtitle": "Vali, milline toidualane teave on sinu jaoks kõige olulisem.",
-  "myPreferences_food_comment": "Valige, milline toidualane teave on teie jaoks kõige olulisem, et järjestada toitu vastavalt oma eelistustele, näha esmalt teile olulist teavet ja saada ühilduvuse kokkuvõte. Need toidueelistused jäävad teie seadmesse ega ole seotud teie ShuddhScorei kaastöölise kontoga, kui teil see on.",
+  "myPreferences_food_comment": "Valige, milline toidualane teave on teie jaoks kõige olulisem, et järjestada toitu vastavalt oma eelistustele, näha esmalt teile olulist teavet ja saada ühilduvuse kokkuvõte. Need toidueelistused jäävad teie seadmesse ega ole seotud teie FoodScani kaastöölise kontoga, kui teil see on.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Oled leidnud uue toote!",
   "@missing_product": {},
-  "add_product_take_photos": "Selle toote lisamiseks ShuddhScorei tehke pakendist fotod.",
+  "add_product_take_photos": "Selle toote lisamiseks FoodScani tehke pakendist fotod.",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Palun tehke enne mõned fotod. Toote saab alati hiljem valmis teha.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Hankige see, täites toidukategooria ja koostisosad",
   "new_product_desc_nova_unknown": "Toiduainete töötlemise tase teadmata",
   "new_product_title_pictures": "Uus toode",
-  "new_product_title_pictures_details": "Palun tehke järgmised fotod ja ShuddhScorei mootor saab ülejäänu eest hoolitseda!",
+  "new_product_title_pictures_details": "Palun tehke järgmised fotod ja FoodScani mootor saab ülejäänu eest hoolitseda!",
   "new_product_title_misc": "Ja mõned põhiandmed…",
   "new_product_done_msg": "{username}, suur tänu kaastöö eest!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Esikülje pildi üleslaadimine ShuddhScorei",
+  "uploading_image_type_front": "Esikülje pildi üleslaadimine FoodScani",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Koostisosade pildi üleslaadimine ShuddhScorei",
+  "uploading_image_type_ingredients": "Koostisosade pildi üleslaadimine FoodScani",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Toitumisalase pildi üleslaadimine ShuddhScorei",
+  "uploading_image_type_nutrition": "Toitumisalase pildi üleslaadimine FoodScani",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Pakendipildi üleslaadimine ShuddhScorei",
+  "uploading_image_type_packaging": "Pakendipildi üleslaadimine FoodScani",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Teise pildi üleslaadimine ShuddhScorei",
+  "uploading_image_type_other": "Teise pildi üleslaadimine FoodScani",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Pildi üleslaadimine ShuddhScorei",
+  "uploading_image_type_generic": "Pildi üleslaadimine FoodScani",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Tere tulemast ShuddhScorei lehele",
+  "homepage_main_card_logo_description": "Tere tulemast FoodScani lehele",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Skaneeri** vöötkoodi või\n**otsi** toodet",
   "@homepage_main_card_subheading": {
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Logi sisse või registreeru, et liituda ShuddhScorei kogukonnaga",
+  "user_profile_subtitle_guest": "Logi sisse või registreeru, et liituda FoodScani kogukonnaga",
   "user_profile_title_id_email": "Avatud toidufaktide sisselogimine: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Tere, palun kustutage minu ShuddhScorei konto: {userId}",
+  "email_body_account_deletion": "Tere, palun kustutage minu FoodScani konto: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Kui see on lubatud, edastatakse krahhiaruanded automaatselt ShuddhScorei veajälgimissüsteemi, et vigu saaks parandada ja seeläbi rakendust täiustada.",
+  "crash_reporting_toggle_subtitle": "Kui see on lubatud, edastatakse krahhiaruanded automaatselt FoodScani veajälgimissüsteemi, et vigu saaks parandada ja seeläbi rakendust täiustada.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Kui kategooria **automaatselt täidetavas valikus pole saadaval**, võid selle ikkagi lisada.\nSee aitab meil sinu riigis ShuddhScorei täiustada.",
+  "edit_product_form_item_categories_explanation_info2_content": "Kui kategooria **automaatselt täidetavas valikus pole saadaval**, võid selle ikkagi lisada.\nSee aitab meil sinu riigis FoodScani täiustada.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Valideerimisviga",
   "prices_privacy_warning_title": "Privaatsushoiatus",
   "prices_unknown_product": "Tundmatu toode",
-  "prices_privacy_warning_main_message": "Hinnad **on avalikud** koos kauplusega, millele need viitavad.\n\nSee võib lubada inimestel, kes teavad teie ShuddhScorei pseudonüümi, teha järgmist:\n",
+  "prices_privacy_warning_main_message": "Hinnad **on avalikud** koos kauplusega, millele need viitavad.\n\nSee võib lubada inimestel, kes teavad teie FoodScani pseudonüümi, teha järgmist:\n",
   "prices_privacy_warning_message_bullet_1": "Tehke kindlaks, millises piirkonnas te elate",
   "prices_privacy_warning_message_bullet_2": "Tea, mida sa ostad",
-  "prices_privacy_warning_sub_message": "Kui see tekitab sinus ebamugavust, palun muuda oma pseudonüümi või loo uus ShuddhScorei konto ja logi sellega rakendusse sisse.",
+  "prices_privacy_warning_sub_message": "Kui see tekitab sinus ebamugavust, palun muuda oma pseudonüümi või loo uus FoodScani konto ja logi sellega rakendusse sisse.",
   "i_refuse": "Ma keeldun",
   "i_accept": "Ma nõustun",
   "prices_currency_change_proposal_title": "Kas vahetada valuutat?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Vaadake seda toodet ShuddhScorei lehel: {url}",
+  "share_product_text": "Vaadake seda toodet FoodScani lehel: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Vaadake minu tootenimekirja ShuddhScoreis: {url}",
+  "share_product_list_text": "Vaadake minu tootenimekirja FoodScanis: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Värskenda kohalikku tooteandmebaasi ShuddhScorei uusimate andmetega",
+  "update_local_database_sub": "Värskenda kohalikku tooteandmebaasi FoodScani uusimate andmetega",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "Lemmikloomatoitude andmebaasi loomiseks installige Open Pet Food Facts",
   "faq_title_install_product": "Objektide eluea pikendamiseks toodete andmebaasi loomiseks installige Open Products Facts",
   "faq_nutriscore_nutriscore": "Nutri-Score'i uus arvutus: mis on uut?",
-  "contact_title_pro_page": "Pluss? Impordi oma tooted ShuddhScorei",
+  "contact_title_pro_page": "Pluss? Impordi oma tooted FoodScani",
   "contact_title_pro_email": "Produtsendi kontakt",
   "contact_title_press_page": "Pressileht",
   "contact_title_press_email": "Pressikontakt",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Tere tulemast ShuddhScorei!",
+  "guide_open_food_facts_title": "Tere tulemast FoodScani!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Mis on avatud toidufaktid?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore on **koostööl põhinev**, **tasuta** ja **avatud** andmebaas toiduainetest üle kogu maailma.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan on **koostööl põhinev**, **tasuta** ja **avatud** andmebaas toiduainetest üle kogu maailma.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Mis on avatud hinnad?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices on projekt, mille eesmärk on **koguda ja jagada toodete hindu üle maailma**. See on avalikult kättesaadav andmestik, mida saab kasutada uuringuteks, analüüsiks ja muuks. Open Pricesi arendab ja haldab ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices on projekt, mille eesmärk on **koguda ja jagada toodete hindu üle maailma**. See on avalikult kättesaadav andmestik, mida saab kasutada uuringuteks, analüüsiks ja muuks. Open Pricesi arendab ja haldab FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Kuidas avatud hinnad toimivad?",
-  "guide_open_prices_how_paragraph1": "**Me kogume avatud lähtekoodiga hinnaandmestikku rahvahulga abil**. Kasutajad saavad hindu lisada selle veebirakenduse või ametliku ShuddhScorei mobiilirakenduse kaudu. Jaemüüjad või kolmandate osapoolte rakendused saavad samuti meie API abil panustada.",
+  "guide_open_prices_how_paragraph1": "**Me kogume avatud lähtekoodiga hinnaandmestikku rahvahulga abil**. Kasutajad saavad hindu lisada selle veebirakenduse või ametliku FoodScani mobiilirakenduse kaudu. Jaemüüjad või kolmandate osapoolte rakendused saavad samuti meie API abil panustada.",
   "guide_open_prices_how_arg1_title": "Koguge vahekäikudes olevate hinnasiltide fotosid",
   "guide_open_prices_how_arg2_title": "Koguge kviitungite fotosid",
-  "guide_open_prices_why_title": "Miks ShuddhScore seda teeb?",
+  "guide_open_prices_why_title": "Miks FoodScan seda teeb?",
   "guide_open_prices_why_paragraph1": "Hinnainfo on toidusüsteemide mõistmiseks ülioluline. See on võtmetegur toidu maksumuse mõistmisel ja tervislikuma toitumise edendamisel. Algsed hinnaandmed on viis, kuidas teadlastel, ajakirjanikel ja kodanikel **paremini mõista, kuidas toiduhinnad geograafiliselt ja ajas varieeruvad**.",
   "guide_open_prices_why_arg1_title": "Jälgige hindade arengut ajas",
   "guide_open_prices_why_arg1_text": "Vaadake **hindade arengut**: kahanemisinflatsioon, odavinflatsioon, saame neid koos jälgida!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Ups!",
-  "carousel_unsupported_text": "ShuddhScore ei toeta skannitud vöötkoodi!",
+  "carousel_unsupported_text": "FoodScan ei toeta skannitud vöötkoodi!",
   "carousel_error_header": "Viga!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Miks hinnad?",
-  "prices_explanation_card_line1": "**Open Prices** on projekt, mille eesmärk on koguda ja jagada toodete hindu üle maailma 🌍. Open Pricesi arendab ja haldab ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** on projekt, mille eesmärk on koguda ja jagada toodete hindu üle maailma 🌍. Open Pricesi arendab ja haldab FoodScan.",
   "explanation_card_learn_more_button": "Lisateave",
   "product_page_tab_folksonomy": "Folksonoomia",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore on toiduainete andmebaas, **mille on loonud kõik ja kõigile**.\nSaad seda kasutada paremate toiduvalikute tegemiseks ja kuna tegemist on **avatud andmetega**, saab igaüks seda **mis tahes otstarbel taaskasutada**.",
+  "preferences_legal_header": "FoodScan on toiduainete andmebaas, **mille on loonud kõik ja kõigile**.\nSaad seda kasutada paremate toiduvalikute tegemiseks ja kuna tegemist on **avatud andmetega**, saab igaüks seda **mis tahes otstarbel taaskasutada**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5189,7 +5189,7 @@
   },
   "preferences_on_off_website_subtitle": "Avatud toidufaktide veebisaidil",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Halda minu kontot",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Avastage avatud toidufaktid",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Avastage avatud ilufaktid",
   "@preferences_faq_discover_obf_title": {
@@ -5322,7 +5322,7 @@
   },
   "preferences_faq_off_ngo_title": "Avatud toidufaktide vabaühendus",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Informatsioon",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Uued tooted, mille lisasin ShuddhScorei",
+  "preferences_contributions_new_products_subtitle": "Uued tooted, mille lisasin FoodScani",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Lihtsad viisid ShuddhScorei abistamiseks",
+  "preferences_page_contribute_project_subtitle": "Lihtsad viisid FoodScani abistamiseks",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,13 +5770,13 @@
   },
   "preferences_page_open_food_facts_labs_title": "Avatud toidufaktide laborid",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Konto",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "Tõlgi ShuddhScore oma keelde",
+  "preferences_contribute_translate_header": "Tõlgi FoodScan oma keelde",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

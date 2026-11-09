@@ -351,8 +351,119 @@ abstract class AppLocalizations {
   /// No description provided for @app_name.
   ///
   /// In en, this message translates to:
-  /// **'Open Food Facts'**
+  /// **'FoodScan'**
   String get app_name;
+
+  /// No description provided for @nutrition_badge_high_sugar_label.
+  ///
+  /// In en, this message translates to:
+  /// **'High in sugar'**
+  String get nutrition_badge_high_sugar_label;
+
+  /// No description provided for @nutrition_badge_high_sodium_label.
+  ///
+  /// In en, this message translates to:
+  /// **'High in sodium'**
+  String get nutrition_badge_high_sodium_label;
+
+  /// No description provided for @nutrition_badge_high_saturated_fat_label.
+  ///
+  /// In en, this message translates to:
+  /// **'High in saturated fat'**
+  String get nutrition_badge_high_saturated_fat_label;
+
+  /// No description provided for @nutrition_badge_high_calories_label.
+  ///
+  /// In en, this message translates to:
+  /// **'High in calories'**
+  String get nutrition_badge_high_calories_label;
+
+  /// No description provided for @nutrition_badge_contains_trans_fat_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Contains trans fat'**
+  String get nutrition_badge_contains_trans_fat_label;
+
+  /// No description provided for @nutrition_badge_contains_added_sugar_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Contains added sugar'**
+  String get nutrition_badge_contains_added_sugar_label;
+
+  /// No description provided for @nutrition_badge_contains_palm_oil_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Contains palm oil'**
+  String get nutrition_badge_contains_palm_oil_label;
+
+  /// No description provided for @nutrition_badge_contains_artificial_colours_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Contains artificial colours'**
+  String get nutrition_badge_contains_artificial_colours_label;
+
+  /// No description provided for @nutrition_badge_safe_choice_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Safe choice'**
+  String get nutrition_badge_safe_choice_label;
+
+  /// No description provided for @nutrition_badge_measurement_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'{label}: {value} {unit} per 100 g'**
+  String nutrition_badge_measurement_tooltip(
+    Object label,
+    Object value,
+    Object unit,
+  );
+
+  /// No description provided for @nutrition_badge_nutrient_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Measured {value} {unit} per 100 g; the applicable cutoff is {threshold} {unit} per 100 {thresholdBasis}.'**
+  String nutrition_badge_nutrient_details(
+    Object value,
+    Object unit,
+    Object threshold,
+    Object thresholdBasis,
+  );
+
+  /// No description provided for @nutrition_badge_liquid_data_note.
+  ///
+  /// In en, this message translates to:
+  /// **'The current product data provides values per 100 g, so the liquid cutoff is compared with that available value.'**
+  String get nutrition_badge_liquid_data_note;
+
+  /// No description provided for @nutrition_badge_contains_trans_fat_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Trans fat was listed in the nutrition data or hydrogenated fat was identified in the ingredients.'**
+  String get nutrition_badge_contains_trans_fat_details;
+
+  /// No description provided for @nutrition_badge_contains_added_sugar_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Added sugar or a sugar ingredient was identified in the nutrition data or ingredients.'**
+  String get nutrition_badge_contains_added_sugar_details;
+
+  /// No description provided for @nutrition_badge_contains_palm_oil_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Palm oil, palmolein, palm fat, or palm-containing vegetable oil was identified in the ingredients.'**
+  String get nutrition_badge_contains_palm_oil_details;
+
+  /// No description provided for @nutrition_badge_contains_artificial_colours_details.
+  ///
+  /// In en, this message translates to:
+  /// **'An artificial colour or listed colour additive was identified in the ingredients.'**
+  String get nutrition_badge_contains_artificial_colours_details;
+
+  /// No description provided for @nutrition_badge_safe_choice_details.
+  ///
+  /// In en, this message translates to:
+  /// **'The available sugar, salt, and saturated-fat values are below their badge cutoffs, and no listed ingredient warnings were found.'**
+  String get nutrition_badge_safe_choice_details;
 
   /// No description provided for @open_prices.
   ///
@@ -867,7 +978,7 @@ abstract class AppLocalizations {
   /// label for a tile that is on the contribute tile
   ///
   /// In en, this message translates to:
-  /// **'Help improve ShuddhScore in your country'**
+  /// **'Help improve FoodScan in your country'**
   String get help_improve_country;
 
   /// Button label: For sign out
@@ -1359,7 +1470,7 @@ abstract class AppLocalizations {
   /// No description provided for @contribute_join_skill_pool.
   ///
   /// In en, this message translates to:
-  /// **'Contribute your skills to ShuddhScore. Join the skill pool!'**
+  /// **'Contribute your skills to FoodScan. Join the skill pool!'**
   String get contribute_join_skill_pool;
 
   /// No description provided for @contribute_share_header.
@@ -2138,7 +2249,7 @@ abstract class AppLocalizations {
   /// No description provided for @new_product_title_pictures_details.
   ///
   /// In en, this message translates to:
-  /// **'Please take the following photos and the ShuddhScore engine can work out the rest!'**
+  /// **'Please take the following photos and the FoodScan engine can work out the rest!'**
   String get new_product_title_pictures_details;
 
   /// No description provided for @new_product_title_misc.
@@ -2699,7 +2810,7 @@ abstract class AppLocalizations {
   /// **'Unknown'**
   String get product_image_details_date_unknown;
 
-  /// Description for accessibility of the ShuddhScore logo on the homepage
+  /// Description for accessibility of the FoodScan logo on the homepage
   ///
   /// In en, this message translates to:
   /// **'Welcome to Open Food Facts'**
@@ -3501,7 +3612,7 @@ abstract class AppLocalizations {
   /// User login (when it's an email)
   ///
   /// In en, this message translates to:
-  /// **'ShuddhScore login: {email}'**
+  /// **'FoodScan login: {email}'**
   String user_profile_title_id_email(String email);
 
   /// User login (when it's an id)
@@ -5462,7 +5573,7 @@ abstract class AppLocalizations {
   /// No description provided for @prices_privacy_warning_main_message.
   ///
   /// In en, this message translates to:
-  /// **'Prices **will be public**, along with the store they refer to.\n\nThat might allow people who know about your ShuddhScore pseudonym to:\n'**
+  /// **'Prices **will be public**, along with the store they refer to.\n\nThat might allow people who know about your FoodScan pseudonym to:\n'**
   String get prices_privacy_warning_main_message;
 
   /// No description provided for @prices_privacy_warning_message_bullet_1.
@@ -5480,7 +5591,7 @@ abstract class AppLocalizations {
   /// No description provided for @prices_privacy_warning_sub_message.
   ///
   /// In en, this message translates to:
-  /// **'If you are uneasy with that, please change your pseudonym, or create a new ShuddhScore account and log into the app with it.'**
+  /// **'If you are uneasy with that, please change your pseudonym, or create a new FoodScan account and log into the app with it.'**
   String get prices_privacy_warning_sub_message;
 
   /// No description provided for @i_refuse.
@@ -7481,7 +7592,7 @@ abstract class AppLocalizations {
   /// No description provided for @faq_title_vision.
   ///
   /// In en, this message translates to:
-  /// **'The ShuddhScore Vision, Mission, Values and Programs'**
+  /// **'The FoodScan Vision, Mission, Values and Programs'**
   String get faq_title_vision;
 
   /// No description provided for @faq_title_install_beauty.
@@ -7511,7 +7622,7 @@ abstract class AppLocalizations {
   /// No description provided for @contact_title_pro_page.
   ///
   /// In en, this message translates to:
-  /// **'Pro? Import your products in ShuddhScore'**
+  /// **'Pro? Import your products in FoodScan'**
   String get contact_title_pro_page;
 
   /// No description provided for @contact_title_pro_email.
@@ -8261,13 +8372,13 @@ abstract class AppLocalizations {
   /// No description provided for @guide_open_food_facts_what_is_open_food_facts_title.
   ///
   /// In en, this message translates to:
-  /// **'What is ShuddhScore?'**
+  /// **'What is FoodScan?'**
   String get guide_open_food_facts_what_is_open_food_facts_title;
 
   /// Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it.
   ///
   /// In en, this message translates to:
-  /// **'ShuddhScore is a **collaborative**, **free**, and **open** database of food products from around the world.'**
+  /// **'FoodScan is a **collaborative**, **free**, and **open** database of food products from around the world.'**
   String get guide_open_food_facts_what_is_open_food_facts_paragraph1;
 
   /// Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it.
@@ -8279,7 +8390,7 @@ abstract class AppLocalizations {
   /// No description provided for @guide_open_food_facts_features_title.
   ///
   /// In en, this message translates to:
-  /// **'Features of ShuddhScore'**
+  /// **'Features of FoodScan'**
   String get guide_open_food_facts_features_title;
 
   /// No description provided for @guide_open_food_facts_features_arg1_title.
@@ -8663,7 +8774,7 @@ abstract class AppLocalizations {
   /// Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it.
   ///
   /// In en, this message translates to:
-  /// **'Open Prices is a project to **collect and share prices of products around the world**. It\'s a publicly available dataset that can be used for research, analysis, and more. Open Prices is developed and maintained by ShuddhScore.'**
+  /// **'Open Prices is a project to **collect and share prices of products around the world**. It\'s a publicly available dataset that can be used for research, analysis, and more. Open Prices is developed and maintained by FoodScan.'**
   String get guide_open_prices_what_is_open_prices_paragraph1;
 
   /// Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it.
@@ -8681,7 +8792,7 @@ abstract class AppLocalizations {
   /// No description provided for @guide_open_prices_how_paragraph1.
   ///
   /// In en, this message translates to:
-  /// **'**We are crowdsourcing an open-source dataset of prices**. Prices can be added by users via this web app, or via the official ShuddhScore mobile app. Retailers or third-party apps can contribute as well by using our API.'**
+  /// **'**We are crowdsourcing an open-source dataset of prices**. Prices can be added by users via this web app, or via the official FoodScan mobile app. Retailers or third-party apps can contribute as well by using our API.'**
   String get guide_open_prices_how_paragraph1;
 
   /// No description provided for @guide_open_prices_how_arg1_title.
@@ -8699,7 +8810,7 @@ abstract class AppLocalizations {
   /// No description provided for @guide_open_prices_why_title.
   ///
   /// In en, this message translates to:
-  /// **'Why is ShuddhScore doing this ?'**
+  /// **'Why is FoodScan doing this ?'**
   String get guide_open_prices_why_title;
 
   /// No description provided for @guide_open_prices_why_paragraph1.
@@ -9529,7 +9640,7 @@ abstract class AppLocalizations {
   /// No description provided for @prices_explanation_card_line1.
   ///
   /// In en, this message translates to:
-  /// **'**Open Prices** is a project to collect and share prices of products around the world 🌍. Open Prices is developed and maintained by ShuddhScore.'**
+  /// **'**Open Prices** is a project to collect and share prices of products around the world 🌍. Open Prices is developed and maintained by FoodScan.'**
   String get prices_explanation_card_line1;
 
   /// No description provided for @explanation_card_learn_more_button.
@@ -9937,7 +10048,7 @@ abstract class AppLocalizations {
   /// Title for the project preferences card
   ///
   /// In en, this message translates to:
-  /// **'The ShuddhScore project'**
+  /// **'The FoodScan project'**
   String get preferences_card_project;
 
   /// Title for the contribution preferences tile
@@ -10099,7 +10210,7 @@ abstract class AppLocalizations {
   /// This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold.
   ///
   /// In en, this message translates to:
-  /// **'ShuddhScore is a food products database **made by everyone, for everyone**.\nYou can use it to make better food choices, and as it is **open data**, anyone can **re-use it for any purpose**.'**
+  /// **'FoodScan is a food products database **made by everyone, for everyone**.\nYou can use it to make better food choices, and as it is **open data**, anyone can **re-use it for any purpose**.'**
   String get preferences_legal_header;
 
   /// Title for the preferences privacy policy tile
@@ -10192,10 +10303,10 @@ abstract class AppLocalizations {
   /// **'Discover the new Nutri-Score'**
   String get tips_discover_nutriscore;
 
-  /// Subtitle for preferences tiles leading to the ShuddhScore website
+  /// Subtitle for preferences tiles leading to the FoodScan website
   ///
   /// In en, this message translates to:
-  /// **'On the ShuddhScore website'**
+  /// **'On the FoodScan website'**
   String get preferences_on_off_website_subtitle;
 
   /// Title for the preferences manage account tile
@@ -10348,10 +10459,10 @@ abstract class AppLocalizations {
   /// **'Discover the project'**
   String get preferences_faq_discover_project_title;
 
-  /// Title for discover ShuddhScore tile
+  /// Title for discover FoodScan tile
   ///
   /// In en, this message translates to:
-  /// **'Discover ShuddhScore'**
+  /// **'Discover FoodScan'**
   String get preferences_faq_discover_off_title;
 
   /// Title for discover Open Beauty Facts tile
@@ -10384,10 +10495,10 @@ abstract class AppLocalizations {
   /// **'FAQ - Frequently Asked Questions'**
   String get preferences_faq_faq_title;
 
-  /// Title for ShuddhScore NGO card
+  /// Title for FoodScan NGO card
   ///
   /// In en, this message translates to:
-  /// **'The ShuddhScore NGO'**
+  /// **'The FoodScan NGO'**
   String get preferences_faq_off_ngo_title;
 
   /// Title for information card in about app
@@ -10423,7 +10534,7 @@ abstract class AppLocalizations {
   /// Title for blog tile
   ///
   /// In en, this message translates to:
-  /// **'The ShuddhScore blog'**
+  /// **'The FoodScan blog'**
   String get preferences_connect_blog_title;
 
   /// Subtitle for blog tile
@@ -10603,7 +10714,7 @@ abstract class AppLocalizations {
   /// Subtitle for new products added subtile
   ///
   /// In en, this message translates to:
-  /// **'New products I added to ShuddhScore'**
+  /// **'New products I added to FoodScan'**
   String get preferences_contributions_new_products_subtitle;
 
   /// Title for products to be completed tile
@@ -10759,7 +10870,7 @@ abstract class AppLocalizations {
   /// Subtitle for the contribute to project navigation tile
   ///
   /// In en, this message translates to:
-  /// **'Simple ways to help ShuddhScore'**
+  /// **'Simple ways to help FoodScan'**
   String get preferences_page_contribute_project_subtitle;
 
   /// Subtitle for the FAQ navigation tile on preferences page
@@ -10912,10 +11023,10 @@ abstract class AppLocalizations {
   /// **'Development'**
   String get preferences_about_app_development_title;
 
-  /// Title for the ShuddhScore Labs navigation tile in preferences page
+  /// Title for the FoodScan Labs navigation tile in preferences page
   ///
   /// In en, this message translates to:
-  /// **'ShuddhScore Labs'**
+  /// **'FoodScan Labs'**
   String get preferences_page_open_food_facts_labs_title;
 
   /// Title for the account preferences root
@@ -10927,7 +11038,7 @@ abstract class AppLocalizations {
   /// Button label + pop up window title: Shows information about helping by translating
   ///
   /// In en, this message translates to:
-  /// **'Bring ShuddhScore to your language'**
+  /// **'Bring FoodScan to your language'**
   String get preferences_contribute_translate_header;
 
   /// No description provided for @preferences_contribute_enroll_alpha.

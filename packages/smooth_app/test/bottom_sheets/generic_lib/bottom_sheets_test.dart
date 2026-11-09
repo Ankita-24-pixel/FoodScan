@@ -27,7 +27,7 @@ void main() {
     for (final String theme in <String>['Light', 'Dark', 'AMOLED']) {
       const Map<String, String> bottomSheetTypes = <String, String>{
         'Software development': 'Software development',
-        'Translate': 'Bring ShuddhScore to your language',
+        'Translate': 'Bring FoodScan to your language',
         // 'Contributors'
         // Currently can't make real http calls from the test library and since this bottom sheets depends on an api call
         // So omitting this one for now
@@ -94,4 +94,3 @@ void main() {
     }
   });
 }
-

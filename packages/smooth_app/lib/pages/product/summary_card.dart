@@ -9,6 +9,7 @@ import 'package:smooth_app/data_models/product_preferences.dart';
 import 'package:smooth_app/data_models/up_to_date_mixin.dart';
 import 'package:smooth_app/database/local_database.dart';
 import 'package:smooth_app/generic_lib/design_constants.dart';
+import 'package:smooth_app/generic_lib/widgets/nutrition_badge_row.dart';
 import 'package:smooth_app/helpers/analytics_helper.dart';
 import 'package:smooth_app/helpers/attributes_card_helper.dart';
 import 'package:smooth_app/helpers/haptic_feedback_helper.dart';
@@ -23,6 +24,7 @@ import 'package:smooth_app/pages/product/product_field_editor.dart';
 import 'package:smooth_app/pages/product/product_incomplete_card.dart';
 import 'package:smooth_app/pages/product/summary_attribute_group.dart';
 import 'package:smooth_app/resources/app_icons.dart' as icons;
+import 'package:smooth_app/services/nutrition_badge_evaluator.dart';
 import 'package:smooth_app/themes/smooth_theme_colors.dart';
 import 'package:smooth_app/themes/theme_provider.dart';
 
@@ -100,6 +102,8 @@ class SummaryCard extends StatefulWidget {
 class _SummaryCardState extends State<SummaryCard> with UpToDateMixin {
   // For some reason, special case for "label" attributes
   final Set<String> _attributesToExcludeIfStatusIsUnknown = <String>{};
+  Product? _evaluatedProduct;
+  List<NutritionBadge> _nutritionBadges = const <NutritionBadge>[];
 
   @override
   void initState() {
@@ -117,6 +121,11 @@ class _SummaryCardState extends State<SummaryCard> with UpToDateMixin {
   Widget build(BuildContext context) {
     context.watch<LocalDatabase>();
     refreshUpToDate();
+    final Product product = upToDateProduct;
+    if (!identical(_evaluatedProduct, product)) {
+      _evaluatedProduct = product;
+      _nutritionBadges = const NutritionBadgeEvaluator().evaluate(product);
+    }
     if (widget.isFullVersion) {
       return buildProductSmoothCard(
         body: _buildSummaryCardContent(
@@ -275,6 +284,15 @@ class _SummaryCardState extends State<SummaryCard> with UpToDateMixin {
             },
           ),
         ),
+        if (widget.isFullVersion && _nutritionBadges.isNotEmpty)
+          Padding(
+            padding: padding,
+            child: NutritionBadgeRow(
+              badges: _nutritionBadges,
+              product: upToDateProduct,
+              size: 36.0,
+            ),
+          ),
         if (ProductIncompleteCard.isProductIncomplete(upToDateProduct))
           Padding(
             padding: padding,

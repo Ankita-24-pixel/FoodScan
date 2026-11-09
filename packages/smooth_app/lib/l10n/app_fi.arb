@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Tervetuloa ShuddhScoreiin",
+  "welcomeToOpenFoodFacts": "Tervetuloa FoodScaniin",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore on globaali voittoa tavoittelematon järjestö, jota tukevat paikalliset yhteisöt.",
+  "whatIsOff": "FoodScan on globaali voittoa tavoittelematon järjestö, jota tukevat paikalliset yhteisöt.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Palvelimelta ei saatu vastausta! Voit luoda ongelmailmoituksen seuraavan linkin avulla.",
   "@user_management": {},
-  "sign_in_text": "Kirjaudu ShuddhScore -tilillesi tallentaaksesi muokkauksesi",
+  "sign_in_text": "Kirjaudu FoodScan -tilillesi tallentaaksesi muokkauksesi",
   "incorrect_credentials": "Virheellinen käyttäjänimi tai salasana.",
   "password_lost_incorrect_credentials": "Tätä sähköpostiosoitetta tai käyttäjätiliä ei ole olemassa. Tarkista kirjautumistietosi.",
   "password_lost_server_unavailable": "Pahoittelut, palvelimemme  toimivat tällä hetkellä tavallista hitaammin. Yritä myöhemmin uudelleen.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Auta parantamaan ShuddhScoreia maassasi",
+  "help_improve_country": "Auta parantamaan FoodScania maassasi",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -352,7 +352,7 @@
   "sign_up_page_confirm_password_hint": "Vahvista salasana",
   "sign_up_page_confirm_password_error_empty": "Vahvistathan salasanasi",
   "sign_up_page_confirm_password_error_invalid": "Salasanat eivät täsmää",
-  "sign_up_page_agree_text": "Hyväksyn ShuddhScorein",
+  "sign_up_page_agree_text": "Hyväksyn FoodScanin",
   "@sign_up_page_agree_text": {
     "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Olen elintarvikkeiden tuottaja",
   "sign_up_page_producer_hint": "Tuottaja/tuotemerkki",
   "sign_up_page_producer_error_empty": "Syötä tuottaja tai tuotemerkki",
-  "sign_up_page_subscribe_checkbox": "Haluan tilata ShuddhScore -uutiskirjeen (Voit peruuttaa sen tilauksen milloin tahansa)",
+  "sign_up_page_subscribe_checkbox": "Haluan tilata FoodScan -uutiskirjeen (Voit peruuttaa sen tilauksen milloin tahansa)",
   "sign_up_page_user_name_already_used": "Käyttäjänimi on varattu. Valitse toinen käyttäjänimi.",
   "sign_up_page_email_already_exists": "on jo käytössä, kirjaudu tai kokeile toisella sähköpostiosoitteella.",
   "sign_up_page_provide_valid_email": "Anna käypä sähköpostiosoite.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Jokaisen ShuddhScore -tuotteen koodi on saatavilla GitHubissa. Koodia saa käyttää vapaasti (lähdekoodi on avoin) ja parannella. Parannuksista hyötyy jokainen, koko planeetta.",
+  "contribute_develop_text": "Jokaisen FoodScan -tuotteen koodi on saatavilla GitHubissa. Koodia saa käyttää vapaasti (lähdekoodi on avoin) ja parannella. Parannuksista hyötyy jokainen, koko planeetta.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Voit liittyä ShuddhScorein Slack-keskusteluryhmään, jossa voi esittää kysymyksiä.",
+  "contribute_develop_text_2": "Voit liittyä FoodScanin Slack-keskusteluryhmään, jossa voi esittää kysymyksiä.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Kehittäjätila?",
   "contribute_develop_dev_mode_subtitle": "Aktivoi kehittäjätila",
   "contribute_donate_title": "Lahjoita",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Lahjoita ShuddhScoreille",
+  "contribute_donate_header": "Lahjoita FoodScanille",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Huomaa, että sisäisellä alfaversiolla tietojen täydellinen menetys on mahdollista ja sovellus voi muuttua käyttökelvottomaksi milloin tahansa!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Tietokanta on hankkeen ydin. Voit auttaa sen ylläpidossa helposti. Lataa mobiilisovellus puhelimeesi ja aloita tuotteiden lisääminen ja parantaminen.\n\nToisaalta ShuddhScore -sivusto tarjoaa monia osallistumistapoja: ",
+  "contribute_improve_text": "Tietokanta on hankkeen ydin. Voit auttaa sen ylläpidossa helposti. Lataa mobiilisovellus puhelimeesi ja aloita tuotteiden lisääminen ja parantaminen.\n\nToisaalta FoodScan -sivusto tarjoaa monia osallistumistapoja: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Käännä",
   "@contribute_translate_header": {
@@ -486,10 +486,10 @@
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Käännökset on yksi hankkeen keskeisistä tehtävistä",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Edistä taitojasi ShuddhScoreissa. Liity osaamispooliin!",
-  "contribute_share_header": "Jaa ShuddhScore ystävillesi",
+  "contribute_join_skill_pool": "Edistä taitojasi FoodScanissa. Liity osaamispooliin!",
+  "contribute_share_header": "Jaa FoodScan ystävillesi",
   "@contribute_share_header": {},
-  "contribute_share_content": "Haluan kertoa sinulle käyttämästäni ShuddhScore -sovelluksesta, jonka avulla saat selville ruokasi terveys- ja ympäristövaikutukset. Sinun täytyy vain skannata pakkauksissa olevat viivakoodit. Sovellus on myös ilmainen, eikä siihen tarvitse rekisteröityä. Lisäksi voit auttaa lisäämään tuotteiden tietoja tietokantaan. Pääset asentamaan sovelluksen puhelimeesi painamalla tätä linkkiä: https://openfoodfacts.app",
+  "contribute_share_content": "Haluan kertoa sinulle käyttämästäni FoodScan -sovelluksesta, jonka avulla saat selville ruokasi terveys- ja ympäristövaikutukset. Sinun täytyy vain skannata pakkauksissa olevat viivakoodit. Sovellus on myös ilmainen, eikä siihen tarvitse rekisteröityä. Lisäksi voit auttaa lisäämään tuotteiden tietoja tietokantaan. Pääset asentamaan sovelluksen puhelimeesi painamalla tätä linkkiä: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Kirjaudu sisään ShuddhScore -tilillesi saadaksesi hyvitystä avustuksestasi",
+  "question_sign_in_text": "Kirjaudu sisään FoodScan -tilillesi saadaksesi hyvitystä avustuksestasi",
   "question_yes_button_accessibility_value": "Vastaa kyllä",
   "question_no_button_accessibility_value": "Vastaa ei",
   "question_skip_button_accessibility_value": "Ohita tämä kysymys",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Luo tili ja liity ShuddhScore -yhteisöön auttaaksesi rakentamaan ruokatietoa kaikkialla maailmassa!",
+  "account_create_message": "Luo tili ja liity FoodScan -yhteisöön auttaaksesi rakentamaan ruokatietoa kaikkialla maailmassa!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Profiilisi",
-  "myPreferences_profile_subtitle": "Hallinnoi ShuddhScore -avustajatiliäsi.",
+  "myPreferences_profile_subtitle": "Hallinnoi FoodScan -avustajatiliäsi.",
   "myPreferences_settings_title": "Sovellusasetukset",
   "myPreferences_settings_subtitle": "Tumma tila, Kielet…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Ruokamieltymykset",
   "myPreferences_food_subtitle": "Valitse, mikä ruoan tieto kiinnostaa eniten.",
-  "myPreferences_food_comment": "Valitse, mitkä tiedot ruoasta ovat sinulle tärkeimpiä, jotta voit luokitella ruoat mieltymystesi mukaan, nähdä sinulle tärkeät tiedot ensin ja saada yhteensopivuusyhteenveto. Nämä ruokamieltymykset pysyvät laitteessasi, eikä niitä yhdistetä ShuddhScore -avustajatiliisi, jos sinulla on sellainen.",
+  "myPreferences_food_comment": "Valitse, mitkä tiedot ruoasta ovat sinulle tärkeimpiä, jotta voit luokitella ruoat mieltymystesi mukaan, nähdä sinulle tärkeät tiedot ensin ja saada yhteensopivuusyhteenveto. Nämä ruokamieltymykset pysyvät laitteessasi, eikä niitä yhdistetä FoodScan -avustajatiliisi, jos sinulla on sellainen.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Löysit uuden tuotteen!",
   "@missing_product": {},
-  "add_product_take_photos": "Ota valokuvia pakkauksesta lisätäksesi tämä tuote ShuddhScoreiin",
+  "add_product_take_photos": "Ota valokuvia pakkauksesta lisätäksesi tämä tuote FoodScaniin",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Ota kuvia ensin. Voit viimeistellä myöhemmin.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Sinun on lisättävä tuotteelle luokka ja ainesosatiedot, jotta laskelma voidaan suorittaa",
   "new_product_desc_nova_unknown": "Ruoan jalostusaste ei tiedossa",
   "new_product_title_pictures": "Otetaan muutamia kuvia!",
-  "new_product_title_pictures_details": "Ota seuraavat kuvat, niin ShuddhScore -moottori ratkaisee loput!",
+  "new_product_title_pictures_details": "Ota seuraavat kuvat, niin FoodScan -moottori ratkaisee loput!",
   "new_product_title_misc": "Ja joitakin perustietoja…",
   "new_product_done_msg": "Kiitos lisäyksestäsi \"{username}\"!",
   "@new_product_done_msg": {
@@ -861,23 +861,23 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Ladataan etukuva ShuddhScoreiin",
+  "uploading_image_type_front": "Ladataan etukuva FoodScaniin",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Ladataan ainesosien kuvaa ShuddhScoreiin",
+  "uploading_image_type_ingredients": "Ladataan ainesosien kuvaa FoodScaniin",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Ladataan ravintosisältökuvaa ShuddhScoreiin",
+  "uploading_image_type_nutrition": "Ladataan ravintosisältökuvaa FoodScaniin",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Ladataan pakkauskuvaa ShuddhScoreiin",
+  "uploading_image_type_packaging": "Ladataan pakkauskuvaa FoodScaniin",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Ladataan muuta kuvaa ShuddhScoreiin",
+  "uploading_image_type_other": "Ladataan muuta kuvaa FoodScaniin",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Tervetuloa ShuddhScoreiin",
+  "homepage_main_card_logo_description": "Tervetuloa FoodScaniin",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Skannaa** viivakoodi tai\n**hae** tuotetta",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Avaa ShuddhScorein asetukset",
+  "native_app_description": "Avaa FoodScanin asetukset",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,8 +1562,8 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Kirjaudu sisään tai rekisteröidy liittyäksesi ShuddhScore -yhteisöön",
-  "user_profile_title_id_email": "ShuddhScore -kirjautuminen: {email}",
+  "user_profile_subtitle_guest": "Kirjaudu sisään tai rekisteröidy liittyäksesi FoodScan -yhteisöön",
+  "user_profile_title_id_email": "FoodScan -kirjautuminen: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
     "placeholders": {
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Hei, poista ShuddhScore -tilini: {userId}",
+  "email_body_account_deletion": "Hei, poista FoodScan -tilini: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Kun tämä on käytössä, virheraportit lähetetään automaattisesti ShuddhScorein virheenseurantajärjestelmään, jotta vikoja voidaan korjata ja siten parantaa sovellusta.",
+  "crash_reporting_toggle_subtitle": "Kun tämä on käytössä, virheraportit lähetetään automaattisesti FoodScanin virheenseurantajärjestelmään, jotta vikoja voidaan korjata ja siten parantaa sovellusta.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1634,7 +1634,7 @@
   "@send_anonymous_toggle_title": {
     "description": "Title for the Send anonymous data toggle"
   },
-  "send_anonymous_data_toggle_subtitle": "Kun tämä on käytössä, ShuddhScore -palvelimille lähetetään anonyymejä tietoja sovellusten käytöstä, jotta voimme ymmärtää, kuinka ja kuinka paljon ominaisuuksia käytetään niiden parantamiseksi.",
+  "send_anonymous_data_toggle_subtitle": "Kun tämä on käytössä, FoodScan -palvelimille lähetetään anonyymejä tietoja sovellusten käytöstä, jotta voimme ymmärtää, kuinka ja kuinka paljon ominaisuuksia käytetään niiden parantamiseksi.",
   "@send_anonymous_toggle_subtitle": {
     "description": "SubTitle for the Send anonymous data toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Jos jokin kategoria **ei ole saatavilla automaattisessa täydennyksessä**, voit lisätä sen silti.\nTämä auttaa meitä parantamaan ShuddhScoreia maassasi.",
+  "edit_product_form_item_categories_explanation_info2_content": "Jos jokin kategoria **ei ole saatavilla automaattisessa täydennyksessä**, voit lisätä sen silti.\nTämä auttaa meitä parantamaan FoodScania maassasi.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Tarkistusvirhe",
   "prices_privacy_warning_title": "Tietosuojavaroitus",
   "prices_unknown_product": "Tuntematon tuote",
-  "prices_privacy_warning_main_message": "Hinnat **ovat julkisia**, samoin kuin kauppa, johon ne viittaavat.\n\nTämä voi antaa ShuddhScore -nimimerkilläsi tunnetuille henkilöille mahdollisuuden:\n",
+  "prices_privacy_warning_main_message": "Hinnat **ovat julkisia**, samoin kuin kauppa, johon ne viittaavat.\n\nTämä voi antaa FoodScan -nimimerkilläsi tunnetuille henkilöille mahdollisuuden:\n",
   "prices_privacy_warning_message_bullet_1": "Päättele, millä alueella asut",
   "prices_privacy_warning_message_bullet_2": "Tiedä mitä ostat",
-  "prices_privacy_warning_sub_message": "Jos tämä on sinulle epämukavaa, vaihda salanimesi tai luo uusi ShuddhScore -tili ja kirjaudu sovellukseen sillä.",
+  "prices_privacy_warning_sub_message": "Jos tämä on sinulle epämukavaa, vaihda salanimesi tai luo uusi FoodScan -tili ja kirjaudu sovellukseen sillä.",
   "i_refuse": "Kieltäydyn",
   "i_accept": "Hyväksyn",
   "prices_currency_change_proposal_title": "Vaihtaa valuuttaa?",
@@ -2953,7 +2953,7 @@
   "@edit_product_action_confirm": {
     "description": "Product edition - FAB actions - confirm"
   },
-  "signup_page_terms_of_use_line1": "Hyväksyn ShuddhScorein",
+  "signup_page_terms_of_use_line1": "Hyväksyn FoodScanin",
   "@signup_page_terms_of_use_line1": {
     "description": "User consent for terms of use (line 1)"
   },
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Katso tämä tuote ShuddhScore -sivustolla: {url}",
+  "share_product_text": "Katso tämä tuote FoodScan -sivustolla: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Katso ShuddhScore -sivustolla oleva tuoteluetteloni: {url}",
+  "share_product_list_text": "Katso FoodScan -sivustolla oleva tuoteluetteloni: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Päivitä paikallinen tuotetietokanta ShuddhScorein uusimmilla tiedoilla",
+  "update_local_database_sub": "Päivitä paikallinen tuotetietokanta FoodScanin uusimmilla tiedoilla",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "Tuntematon NOVA Ryhmä",
   "nutrition_facts": "Ravintoaineiden Tasot",
   "faq_title_partners": "Kansalaisjärjestön yhteistyökumppanit ja suojelijat",
-  "faq_title_vision": "ShuddhScore Visio, Missio, Arvot ja Ohjelmat",
+  "faq_title_vision": "FoodScan Visio, Missio, Arvot ja Ohjelmat",
   "faq_title_install_beauty": "Luo kosmeettinen tietokanta asentamalla Open Beauty Facts",
   "faq_title_install_pet": "Luo lemmikkieläinten ruokatietokanta asentamalla Open Pet Food Facts",
   "faq_title_install_product": "Asenna Open Products Facts luodaksesi tuotetietokannan objektien käyttöiän pidentämiseksi",
   "faq_nutriscore_nutriscore": "Uusi Nutri-Score-laskukaava: mitä uutta?",
-  "contact_title_pro_page": "Pro? Tuo tuotteesi ShuddhScoreiin",
+  "contact_title_pro_page": "Pro? Tuo tuotteesi FoodScaniin",
   "contact_title_pro_email": "Tuottajan yhteystiedot",
   "contact_title_press_page": "Lehdistösivu",
   "contact_title_press_email": "Lehdistöyhteystiedot",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Tervetuloa ShuddhScore -sivustolle!",
+  "guide_open_food_facts_title": "Tervetuloa FoodScan -sivustolle!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
-  "guide_open_food_facts_what_is_open_food_facts_title": "Mitä on ShuddhScore?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore on **yhteistyöhön perustuva**, **ilmainen** ja **avoin** tietokanta elintarvikkeista ympäri maailmaa.",
+  "guide_open_food_facts_what_is_open_food_facts_title": "Mitä on FoodScan?",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan on **yhteistyöhön perustuva**, **ilmainen** ja **avoin** tietokanta elintarvikkeista ympäri maailmaa.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Mitä ovat avoimet hinnat?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices on hanke, jonka tarkoituksena on **kerätä ja jakaa tuotteiden hintoja ympäri maailmaa**. Se on julkisesti saatavilla oleva tietojoukko, jota voidaan käyttää tutkimukseen, analyysiin ja moneen muuhun tarkoitukseen. Open Pricesin kehittäjä ja ylläpitäjä on ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices on hanke, jonka tarkoituksena on **kerätä ja jakaa tuotteiden hintoja ympäri maailmaa**. Se on julkisesti saatavilla oleva tietojoukko, jota voidaan käyttää tutkimukseen, analyysiin ja moneen muuhun tarkoitukseen. Open Pricesin kehittäjä ja ylläpitäjä on FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Miten avoimet hinnat toimivat?",
-  "guide_open_prices_how_paragraph1": "**Joukkoistamme avoimen lähdekoodin hintatietoaineistoa**. Käyttäjät voivat lisätä hintoja tämän verkkosovelluksen tai virallisen ShuddhScore -mobiilisovelluksen kautta. Jälleenmyyjät tai kolmannen osapuolen sovellukset voivat myös osallistua käyttämällä API-rajapintaamme.",
+  "guide_open_prices_how_paragraph1": "**Joukkoistamme avoimen lähdekoodin hintatietoaineistoa**. Käyttäjät voivat lisätä hintoja tämän verkkosovelluksen tai virallisen FoodScan -mobiilisovelluksen kautta. Jälleenmyyjät tai kolmannen osapuolen sovellukset voivat myös osallistua käyttämällä API-rajapintaamme.",
   "guide_open_prices_how_arg1_title": "Kerää kuvia hintalapuista käytävillä",
   "guide_open_prices_how_arg2_title": "Kerää kuvia kuiteista",
-  "guide_open_prices_why_title": "Miksi ShuddhScore tekee näin?",
+  "guide_open_prices_why_title": "Miksi FoodScan tekee näin?",
   "guide_open_prices_why_paragraph1": "Hintatiedot ovat ensiarvoisen tärkeitä ruokajärjestelmien ymmärtämiseksi. Ne ovat avainasemassa ruoan kustannusten ymmärtämisessä ja terveellisempien ruokavalioiden edistämisessä. Avaushintatiedot ovat tapa helpottaa tutkijoiden, toimittajien ja kansalaisten **ymmärrystä siitä, miten ruoan hinnat vaihtelevat maantieteellisesti ja ajassa**.",
   "guide_open_prices_why_arg1_title": "Seuraa hintojen kehitystä ajan kuluessa",
   "guide_open_prices_why_arg1_text": "Katso **hintojen kehitystä**: kutistumisinflaatio, halpainflaatio, voimme seurata niitä yhdessä!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Hupsista!",
-  "carousel_unsupported_text": "ShuddhScore ei tue skannattua viivakoodia!",
+  "carousel_unsupported_text": "FoodScan ei tue skannattua viivakoodia!",
   "carousel_error_header": "Virhe!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Miksi hinnat?",
-  "prices_explanation_card_line1": "**Open Prices** on projekti, jonka tarkoituksena on kerätä ja jakaa tuotteiden hintoja ympäri maailmaa 🌍. Open Pricesin on kehittänyt ja ylläpitää ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** on projekti, jonka tarkoituksena on kerätä ja jakaa tuotteiden hintoja ympäri maailmaa 🌍. Open Pricesin on kehittänyt ja ylläpitää FoodScan.",
   "explanation_card_learn_more_button": "Lue lisää",
   "product_page_tab_folksonomy": "Avoin asiasanoitus",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore on elintarviketuotetietokanta, **jonka kaikki ovat tehneet kaikille**.\nVoit käyttää sitä parempien ruokavalintojen tekemiseen, ja koska se on **avointa dataa**, kuka tahansa voi **käyttää sitä uudelleen mihin tahansa tarkoitukseen**.",
+  "preferences_legal_header": "FoodScan on elintarviketuotetietokanta, **jonka kaikki ovat tehneet kaikille**.\nVoit käyttää sitä parempien ruokavalintojen tekemiseen, ja koska se on **avointa dataa**, kuka tahansa voi **käyttää sitä uudelleen mihin tahansa tarkoitukseen**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "ShuddhScore -verkkosivustolla",
+  "preferences_on_off_website_subtitle": "FoodScan -verkkosivustolla",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Hallinnoi tiliäni",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "Tutustu avoimiin ruokatietoihin",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Tutustu avoimiin kauneustietoihin",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "ShuddhScore -kansalaisjärjestö",
+  "preferences_faq_off_ngo_title": "FoodScan -kansalaisjärjestö",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Tietoja",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "ShuddhScore -blogi",
+  "preferences_connect_blog_title": "FoodScan -blogi",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Uusia tuotteita, jotka lisäsin ShuddhScoreiin",
+  "preferences_contributions_new_products_subtitle": "Uusia tuotteita, jotka lisäsin FoodScaniin",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Yksinkertaisia tapoja auttaa ShuddhScoreissa",
+  "preferences_page_contribute_project_subtitle": "Yksinkertaisia tapoja auttaa FoodScanissa",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Avoimet ruokatietolaboratoriot",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Tili",
   "@preferences_root_account_title": {

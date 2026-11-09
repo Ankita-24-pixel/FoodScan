@@ -48,7 +48,7 @@ class WelcomePage extends StatelessWidget {
                         children: <Widget>[
                           SizedBox(height: screenSize.height * .05),
                           Image.asset(
-                            'assets/app/shuddhscore_logo.png',
+                            'assets/app/foodscan_logo.png',
                             width: screenSize.width * .78,
                             fit: BoxFit.contain,
                           ),

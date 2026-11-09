@@ -1,13 +1,13 @@
-﻿## Debugging Steps for Background Tasks in Smooth App
+## Debugging Steps for Background Tasks in Smooth App
 
 ### 1. **Check Server Responsiveness**
-- **Is the ShuddhScore server slow or down?**
+- **Is the FoodScan server slow or down?**
   - Test server reachability: Try accessing the API or website in a browser.
   - Look for server status pages or community reports of outages.
   - If the server is slow, background tasks may timeout or fail with “Server timeout” or similar errors (see: `background_task_error_server_time_out`).
 
 ### 2. **Product Movement Between Projects**
-- **Has the product/barcode moved to a different Open Products Facts instance (e.g., from ShuddhScore to Open Beauty Facts)?**
+- **Has the product/barcode moved to a different Open Products Facts instance (e.g., from FoodScan to Open Beauty Facts)?**
   - Check which project the barcode belongs to on the web.
   - If moved, background tasks may fail or be rejected by the server.
 

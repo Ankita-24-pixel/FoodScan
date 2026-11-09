@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "Siyakwamukela ku-ShuddhScore",
+  "welcomeToOpenFoodFacts": "Siyakwamukela ku-FoodScan",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "I-ShuddhScore iyinhlangano engenzi nzuzo yomhlaba wonke eqhutshwa yimiphakathi yasendaweni.",
+  "whatIsOff": "I-FoodScan iyinhlangano engenzi nzuzo yomhlaba wonke eqhutshwa yimiphakathi yasendaweni.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Ayikho impendulo yeseva! Ungavula inkinga ngesixhumanisi esilandelayo.",
   "@user_management": {},
-  "sign_in_text": "Ngena ngemvume ku-akhawunti yakho ye-ShuddhScore ukuze ulondoloze iminikelo yakho",
+  "sign_in_text": "Ngena ngemvume ku-akhawunti yakho ye-FoodScan ukuze ulondoloze iminikelo yakho",
   "incorrect_credentials": "Igama lomsebenzisi noma iphasiwedi engalungile.",
   "password_lost_incorrect_credentials": "Le imeyili noma igama lomsebenzisi alikho. Sicela uhlole iziqinisekiso zakho.",
   "password_lost_server_unavailable": "Okwamanje sibhekene nokwehla kwezinga lokusebenza kumaseva ethu futhi siyaxolisa ngakho. Sicela uzame futhi kamuva.",
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Ngingumkhiqizi wokudla",
   "sign_up_page_producer_hint": "Umkhiqizi/umkhiqizo",
   "sign_up_page_producer_error_empty": "Sicela ufake umkhiqizi noma igama lomkhiqizo",
-  "sign_up_page_subscribe_checkbox": "Ngingathanda ukubhalisela iphephandaba le-ShuddhScore (Ungazikhipha ohlwini lwazo nganoma yisiphi isikhathi)",
+  "sign_up_page_subscribe_checkbox": "Ngingathanda ukubhalisela iphephandaba le-FoodScan (Ungazikhipha ohlwini lwazo nganoma yisiphi isikhathi)",
   "sign_up_page_user_name_already_used": "Igama lomsebenzisi selivele likhona, sicela ukhethe elinye igama lomsebenzisi.",
   "sign_up_page_email_already_exists": "isivele ikhona, ngena ngemvume ku-akhawunti noma zama ngenye i-imeyili.",
   "sign_up_page_provide_valid_email": "Sicela unikeze ikheli le-imeyili elivumelekile.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Ikhodi yayo yonke imikhiqizo ye-ShuddhScore iyatholakala ku-GitHub. Wamukelekile ukusebenzisa kabusha ikhodi (ingumthombo ovulekile) futhi usisize siyithuthukise, kuwo wonke umuntu, kuwo wonke umhlaba.",
+  "contribute_develop_text": "Ikhodi yayo yonke imikhiqizo ye-FoodScan iyatholakala ku-GitHub. Wamukelekile ukusebenzisa kabusha ikhodi (ingumthombo ovulekile) futhi usisize siyithuthukise, kuwo wonke umuntu, kuwo wonke umhlaba.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Ungajoyina igumbi lokuxoxa le-ShuddhScore Slack okuyindlela ekhethwayo yokubuza imibuzo.",
+  "contribute_develop_text_2": "Ungajoyina igumbi lokuxoxa le-FoodScan Slack okuyindlela ekhethwayo yokubuza imibuzo.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "Imodi ye-DEV?",
   "contribute_develop_dev_mode_subtitle": "Sebenzisa imodi ye-DEV",
   "contribute_donate_title": "Donate",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Nikela ku-ShuddhScore",
+  "contribute_donate_header": "Nikela ku-FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Sicela uvume ukuthi ngenguqulo ye-alpha yangaphakathi, kungenzeka ukuthi idatha ilahlekelwe ngokuphelele, futhi uhlelo lokusebenza lungase lungasebenzi nganoma yisiphi isikhathi!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Isizindalwazi siwumgogodla wephrojekthi. Kulula futhi kuyashesha ukusiza. Ungalanda uhlelo lokusebenza lweselula lwefoni yakho, bese uqala ukwengeza noma ukuthuthukisa imikhiqizo.\n\nNgakolunye uhlangothi, iwebhusayithi ye-ShuddhScore inikeza izindlela eziningi zokufaka isandla: ",
+  "contribute_improve_text": "Isizindalwazi siwumgogodla wephrojekthi. Kulula futhi kuyashesha ukusiza. Ungalanda uhlelo lokusebenza lweselula lwefoni yakho, bese uqala ukwengeza noma ukuthuthukisa imikhiqizo.\n\nNgakolunye uhlangothi, iwebhusayithi ye-FoodScan inikeza izindlela eziningi zokufaka isandla: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Humusha",
   "@contribute_translate_header": {
@@ -482,11 +482,11 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "I-ShuddhScore iwumsebenzi womhlaba wonke, oqukethe imikhiqizo evela emazweni angaphezu kuka-160. I-ShuddhScore ihunyushwa ngezilimi eziningi, ngokuqukethwe okuguquka njalo.",
+  "contribute_translate_text": "I-FoodScan iwumsebenzi womhlaba wonke, oqukethe imikhiqizo evela emazweni angaphezu kuka-160. I-FoodScan ihunyushwa ngezilimi eziningi, ngokuqukethwe okuguquka njalo.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Ukuhumusha kungenye yemisebenzi ebalulekile yalo msebenzi",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Nikela amakhono akho ku-ShuddhScore. Joyina ichibi lamakhono!",
+  "contribute_join_skill_pool": "Nikela amakhono akho ku-FoodScan. Joyina ichibi lamakhono!",
   "contribute_share_header": "Yabelana Ngamaqiniso Okudla Avulekile nabangani bakho",
   "@contribute_share_header": {},
   "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Ngena ngemvume ku-akhawunti yakho ye-ShuddhScore ukuze uthole ikhredithi ngeminikelo yakho",
+  "question_sign_in_text": "Ngena ngemvume ku-akhawunti yakho ye-FoodScan ukuze uthole ikhredithi ngeminikelo yakho",
   "question_yes_button_accessibility_value": "Phendula ngo-yebo",
   "question_no_button_accessibility_value": "Phendula ngokuthi cha",
   "question_skip_button_accessibility_value": "Yeqa lo mbuzo",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Dala i-akhawunti yakho bese ujoyina umphakathi we-ShuddhScore ukusiza ekwakheni ulwazi lokudla emhlabeni wonke!",
+  "account_create_message": "Dala i-akhawunti yakho bese ujoyina umphakathi we-FoodScan ukusiza ekwakheni ulwazi lokudla emhlabeni wonke!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Iphrofayela Yakho",
-  "myPreferences_profile_subtitle": "Phatha i-akhawunti yakho yomnikeli we-ShuddhScore.",
+  "myPreferences_profile_subtitle": "Phatha i-akhawunti yakho yomnikeli we-FoodScan.",
   "myPreferences_settings_title": "Izilungiselelo zohlelo lokusebenza",
   "myPreferences_settings_subtitle": "Imodi emnyama, Izilimi…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Izintandokazi Zokudla",
   "myPreferences_food_subtitle": "Khetha ukuthi yiluphi ulwazi mayelana nokudla olubaluleke kakhulu kuwe.",
-  "myPreferences_food_comment": "Khetha ukuthi yiluphi ulwazi mayelana nokudla olubaluleke kakhulu kuwe, ukuze uhlele ukudla ngokwezintandokazi zakho, ubone ulwazi olukhathalelayo kuqala, bese uthola isifinyezo sokuhambisana. Lezo zintandokazi zokudla zihlala kudivayisi yakho, futhi azihlotshaniswa ne-akhawunti yakho yomnikeli we-ShuddhScore uma unayo.",
+  "myPreferences_food_comment": "Khetha ukuthi yiluphi ulwazi mayelana nokudla olubaluleke kakhulu kuwe, ukuze uhlele ukudla ngokwezintandokazi zakho, ubone ulwazi olukhathalelayo kuqala, bese uthola isifinyezo sokuhambisana. Lezo zintandokazi zokudla zihlala kudivayisi yakho, futhi azihlotshaniswa ne-akhawunti yakho yomnikeli we-FoodScan uma unayo.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Uthole umkhiqizo omusha!",
   "@missing_product": {},
-  "add_product_take_photos": "Thatha izithombe zephakheji ukuze ungeze lo mkhiqizo ku-ShuddhScore",
+  "add_product_take_photos": "Thatha izithombe zephakheji ukuze ungeze lo mkhiqizo ku-FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Sicela uthathe izithombe kuqala. Ungawuqeda umkhiqizo ngokuhamba kwesikhathi.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Yithole ngokugcwalisa isigaba sokudla kanye nezithako",
   "new_product_desc_nova_unknown": "Izinga lokucubungula ukudla alaziwa",
   "new_product_title_pictures": "Umkhiqizo omusha",
-  "new_product_title_pictures_details": "Sicela uthathe izithombe ezilandelayo bese injini ye-ShuddhScore izokwazi ukuthola okunye!",
+  "new_product_title_pictures_details": "Sicela uthathe izithombe ezilandelayo bese injini ye-FoodScan izokwazi ukuthola okunye!",
   "new_product_title_misc": "Futhi idatha eyisisekelo ethile…",
   "new_product_done_msg": "Ngiyabonga ngegalelo lakho “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Kulayishwa isithombe sangaphambili ku-ShuddhScore",
+  "uploading_image_type_front": "Kulayishwa isithombe sangaphambili ku-FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Kulayishwa isithombe sezithako ku-ShuddhScore",
+  "uploading_image_type_ingredients": "Kulayishwa isithombe sezithako ku-FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Kulayishwa isithombe sokudla okunempilo ku-ShuddhScore",
+  "uploading_image_type_nutrition": "Kulayishwa isithombe sokudla okunempilo ku-FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Kulayishwa isithombe sokupakisha ku-ShuddhScore",
+  "uploading_image_type_packaging": "Kulayishwa isithombe sokupakisha ku-FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Kulayishwa esinye isithombe ku-ShuddhScore",
+  "uploading_image_type_other": "Kulayishwa esinye isithombe ku-FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Kulayishwa isithombe ku-ShuddhScore",
+  "uploading_image_type_generic": "Kulayishwa isithombe ku-FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "Siyakwamukela ku-ShuddhScore",
+  "homepage_main_card_logo_description": "Siyakwamukela ku-FoodScan",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Skena** ibhakhodi noma\n**sesha** umkhiqizo",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "Vula izilungiselelo zezinhlelo ze-ShuddhScore",
+  "native_app_description": "Vula izilungiselelo zezinhlelo ze-FoodScan",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Ngena ngemvume noma ubhalise ukuze ujoyine umphakathi we-ShuddhScore",
+  "user_profile_subtitle_guest": "Ngena ngemvume noma ubhalise ukuze ujoyine umphakathi we-FoodScan",
   "user_profile_title_id_email": "Vula i-Food Facts ungene ngemvume: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Sawubona, ngicela ususe i-akhawunti yami ye-ShuddhScore: {userId}",
+  "email_body_account_deletion": "Sawubona, ngicela ususe i-akhawunti yami ye-FoodScan: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Uma ivuliwe, imibiko yokuphahlazeka ithunyelwa ngokuzenzakalelayo ohlelweni lokulandelela amaphutha lwe-ShuddhScore, ukuze kulungiswe amaphutha ngaleyo ndlela kuthuthukiswe uhlelo lokusebenza.",
+  "crash_reporting_toggle_subtitle": "Uma ivuliwe, imibiko yokuphahlazeka ithunyelwa ngokuzenzakalelayo ohlelweni lokulandelela amaphutha lwe-FoodScan, ukuze kulungiswe amaphutha ngaleyo ndlela kuthuthukiswe uhlelo lokusebenza.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Iphutha lokuqinisekisa",
   "prices_privacy_warning_title": "Isexwayiso sobumfihlo",
   "prices_unknown_product": "Umkhiqizo ongaziwa",
-  "prices_privacy_warning_main_message": "Amanani **azoba esidlangalaleni**, kanye nesitolo ababhekisela kuso.\n\nLokho kungase kuvumele abantu abaziyo ngegama lakho elingelona iqiniso le-ShuddhScore ukuthi:\n",
+  "prices_privacy_warning_main_message": "Amanani **azoba esidlangalaleni**, kanye nesitolo ababhekisela kuso.\n\nLokho kungase kuvumele abantu abaziyo ngegama lakho elingelona iqiniso le-FoodScan ukuthi:\n",
   "prices_privacy_warning_message_bullet_1": "Khomba ukuthi uhlala kuyiphi indawo",
   "prices_privacy_warning_message_bullet_2": "Yazi ukuthi uthengani",
-  "prices_privacy_warning_sub_message": "Uma ukhathazekile ngalokho, sicela ushintshe igama lakho elingelona iqiniso, noma udale i-akhawunti entsha ye-ShuddhScore bese ungena kuhlelo lokusebenza ngayo.",
+  "prices_privacy_warning_sub_message": "Uma ukhathazekile ngalokho, sicela ushintshe igama lakho elingelona iqiniso, noma udale i-akhawunti entsha ye-FoodScan bese ungena kuhlelo lokusebenza ngayo.",
   "i_refuse": "Ngiyenqaba",
   "i_accept": "Ngiyamukela",
   "prices_currency_change_proposal_title": "Shintsha imali?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Bheka lo mkhiqizo ku-ShuddhScore: {url}",
+  "share_product_text": "Bheka lo mkhiqizo ku-FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Bheka uhlu lwami lwemikhiqizo ku-ShuddhScore: {url}",
+  "share_product_list_text": "Bheka uhlu lwami lwemikhiqizo ku-FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Buyekeza isizindalwazi semikhiqizo yasendaweni ngemininingwane yakamuva evela ku-ShuddhScore",
+  "update_local_database_sub": "Buyekeza isizindalwazi semikhiqizo yasendaweni ngemininingwane yakamuva evela ku-FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4000,7 +4000,7 @@
   "faq_title_install_pet": "Faka i-Open Pet Food Facts ukuze udale isizindalwazi sokudla kwezilwane ezifuywayo",
   "faq_title_install_product": "Faka i-Open Products Facts ukuze udale isizindalwazi semikhiqizo ukuze wandise impilo yezinto",
   "faq_nutriscore_nutriscore": "Ukubalwa okusha kwe-Nutri-Score: yini entsha?",
-  "contact_title_pro_page": "Uchwepheshe? Ngenisa imikhiqizo yakho ku-ShuddhScore",
+  "contact_title_pro_page": "Uchwepheshe? Ngenisa imikhiqizo yakho ku-FoodScan",
   "contact_title_pro_email": "Oxhumana Naye Womkhiqizi",
   "contact_title_press_page": "Ikhasi Lokucindezela",
   "contact_title_press_email": "Xhumana nabezindaba",
@@ -4182,12 +4182,12 @@
   "@guide_nova_share_link": {
     "comment": "Make sure the link exists before adding a translation"
   },
-  "guide_open_food_facts_title": "Siyakwamukela ku-ShuddhScore!",
+  "guide_open_food_facts_title": "Siyakwamukela ku-FoodScan!",
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Kuyini Amaqiniso Okudla Okuvulekile?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "I-ShuddhScore iyisizindalwazi semikhiqizo yokudla esetshenziswa ngokubambisana, ekhululekile, futhi evulekile evela emhlabeni wonke.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "I-FoodScan iyisizindalwazi semikhiqizo yokudla esetshenziswa ngokubambisana, ekhululekile, futhi evulekile evela emhlabeni wonke.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Ayini Amanani Avulekile?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "I-Open Prices iphrojekthi yokuqoqa nokwabelana ngamanani emikhiqizo emhlabeni wonke**. Isethi yedatha etholakala emphakathini engasetshenziswa ocwaningweni, ekuhlaziyeni, nokuningi. I-Open Prices ithuthukiswa futhi igcinwe yi-ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "I-Open Prices iphrojekthi yokuqoqa nokwabelana ngamanani emikhiqizo emhlabeni wonke**. Isethi yedatha etholakala emphakathini engasetshenziswa ocwaningweni, ekuhlaziyeni, nokuningi. I-Open Prices ithuthukiswa futhi igcinwe yi-FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Asebenza kanjani Amanani Avulekile?",
-  "guide_open_prices_how_paragraph1": "**Sisebenzisa idatha yamanani evulekile**. Amanani angangezwa abasebenzisi ngalolu hlelo lokusebenza lwewebhu, noma ngohlelo lokusebenza lweselula olusemthethweni lwe-ShuddhScore. Abathengisi noma izinhlelo zokusebenza zezinkampani zangaphandle nazo zinganikela ngokusebenzisa i-API yethu.",
+  "guide_open_prices_how_paragraph1": "**Sisebenzisa idatha yamanani evulekile**. Amanani angangezwa abasebenzisi ngalolu hlelo lokusebenza lwewebhu, noma ngohlelo lokusebenza lweselula olusemthethweni lwe-FoodScan. Abathengisi noma izinhlelo zokusebenza zezinkampani zangaphandle nazo zinganikela ngokusebenzisa i-API yethu.",
   "guide_open_prices_how_arg1_title": "Qoqa izithombe zamathegi entengo ezindleleni",
   "guide_open_prices_how_arg2_title": "Qoqa izithombe zamarisidi",
-  "guide_open_prices_why_title": "Kungani i-ShuddhScore yenza lokhu?",
+  "guide_open_prices_why_title": "Kungani i-FoodScan yenza lokhu?",
   "guide_open_prices_why_paragraph1": "Ulwazi lwamanani lubaluleke kakhulu ukuqonda izinhlelo zokudla. Luyisici esibalulekile ekuqondeni izindleko zokudla nokukhuthaza ukudla okunempilo. Ukuvula idatha yamanani kuyindlela yokwenza kube lula kubacwaningi, izintatheli, kanye nezakhamuzi ukuba **baqonde kangcono ukuthi amanani okudla ahluka kanjani ngokwendawo nangesikhathi**.",
   "guide_open_prices_why_arg1_title": "Landelela ukuvela kwamanani ngokuhamba kwesikhathi",
   "guide_open_prices_why_arg1_text": "Bona ukuguquka kwamanani**: ukuncipha kwentengo, ukwehla kwentengo, singakulandelela ndawonye!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Hawu!",
-  "carousel_unsupported_text": "Ibhakhodi eskeniwe ayisekelwa yi-ShuddhScore!",
+  "carousel_unsupported_text": "Ibhakhodi eskeniwe ayisekelwa yi-FoodScan!",
   "carousel_error_header": "Iphutha!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Kungani amanani?",
-  "prices_explanation_card_line1": "**Open Prices** iphrojekthi yokuqoqa nokwabelana ngezintengo zemikhiqizo emhlabeni wonke 🌍. Amanani Avuliwe athuthukiswa futhi agcinwe yi-ShuddhScore.",
+  "prices_explanation_card_line1": "**Open Prices** iphrojekthi yokuqoqa nokwabelana ngezintengo zemikhiqizo emhlabeni wonke 🌍. Amanani Avuliwe athuthukiswa futhi agcinwe yi-FoodScan.",
   "explanation_card_learn_more_button": "Funda kabanzi",
   "product_page_tab_folksonomy": "I-Folksonomy",
   "@product_page_tab_folksonomy": {
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "Iphrojekthi ye-ShuddhScore",
+  "preferences_card_project": "Iphrojekthi ye-FoodScan",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "I-ShuddhScore iyisizindalwazi semikhiqizo yokudla **eyenziwe yiwo wonke umuntu, yawo wonke umuntu**.\nUngayisebenzisa ukuze wenze ukukhetha okungcono kakhulu kokudla, futhi njengoba kuyi-**idatha evuliwe**, noma ubani angakwazi **ukuphinda ayisebenzisele noma iyiphi injongo**.",
+  "preferences_legal_header": "I-FoodScan iyisizindalwazi semikhiqizo yokudla **eyenziwe yiwo wonke umuntu, yawo wonke umuntu**.\nUngayisebenzisa ukuze wenze ukukhetha okungcono kakhulu kokudla, futhi njengoba kuyi-**idatha evuliwe**, noma ubani angakwazi **ukuphinda ayisebenzisele noma iyiphi injongo**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "Kuwebhusayithi ye-ShuddhScore",
+  "preferences_on_off_website_subtitle": "Kuwebhusayithi ye-FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Phatha i-akhawunti yami",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Zitholele ShuddhScore",
+  "preferences_faq_discover_off_title": "Zitholele FoodScan",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Thola Amaqiniso Obuhle Avulekile",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "I-ShuddhScore NGO",
+  "preferences_faq_off_ngo_title": "I-FoodScan NGO",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Ibhulogi ye-ShuddhScore",
+  "preferences_connect_blog_title": "Ibhulogi ye-FoodScan",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Imikhiqizo emisha engiyingeze ku-ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Imikhiqizo emisha engiyingeze ku-FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Izindlela ezilula zokusiza ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Izindlela ezilula zokusiza FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "Vula Amaqiniso Okudla Amalebhu",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "I-akhawunti",
   "@preferences_root_account_title": {

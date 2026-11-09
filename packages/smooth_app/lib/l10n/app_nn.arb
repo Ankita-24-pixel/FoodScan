@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Åpne priser",
   "sep": "",
   "@sep": {
@@ -228,7 +228,7 @@
   "@Introduction screen": {},
   "welcomeToOpenFoodFacts": "Velkommen til Åpne matfakta",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore er en global ideell organisasjon drevet av lokalsamfunn.",
+  "whatIsOff": "FoodScan er en global ideell organisasjon drevet av lokalsamfunn.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "Ingen serverrespons! Du kan åpne et problem med følgende lenke.",
   "@user_management": {},
-  "sign_in_text": "Logg inn på ShuddhScore-kontoen din for å lagre bidragene dine",
+  "sign_in_text": "Logg inn på FoodScan-kontoen din for å lagre bidragene dine",
   "incorrect_credentials": "Feil brukernavn eller passord.",
   "password_lost_incorrect_credentials": "Denne e-postadressen eller brukernavnet finnes ikke. Vennligst sjekk påloggingsinformasjonen din.",
   "password_lost_server_unavailable": "Vi opplever for tiden nedgang på serverne våre, og vi beklager dette. Prøv igjen senere.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "Hjelp med å forbedre ShuddhScore i landet ditt",
+  "help_improve_country": "Hjelp med å forbedre FoodScan i landet ditt",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -352,7 +352,7 @@
   "sign_up_page_confirm_password_hint": "Bekreft passord",
   "sign_up_page_confirm_password_error_empty": "Vennligst bekreft passordet",
   "sign_up_page_confirm_password_error_invalid": "Passordene samsvarer ikke",
-  "sign_up_page_agree_text": "Jeg godtar ShuddhScore",
+  "sign_up_page_agree_text": "Jeg godtar FoodScan",
   "@sign_up_page_agree_text": {
     "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "Jeg er en matprodusent",
   "sign_up_page_producer_hint": "Produsent/merke",
   "sign_up_page_producer_error_empty": "Vennligst skriv inn en produsent eller et merkenavn",
-  "sign_up_page_subscribe_checkbox": "Jeg vil gjerne abonnere på nyhetsbrevet fra ShuddhScore (du kan når som helst melde deg av)",
+  "sign_up_page_subscribe_checkbox": "Jeg vil gjerne abonnere på nyhetsbrevet fra FoodScan (du kan når som helst melde deg av)",
   "sign_up_page_user_name_already_used": "Brukernavnet finnes allerede, vennligst velg et annet brukernavn.",
   "sign_up_page_email_already_exists": "finnes allerede, logg inn på kontoen eller prøv med en annen e-postadresse.",
   "sign_up_page_provide_valid_email": "Vennligst oppgi en gyldig e-postadresse.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Koden for alle ShuddhScore-produkter er tilgjengelig på GitHub. Du er velkommen til å gjenbruke koden (den er åpen kildekode) og hjelpe oss med å forbedre den, for alle, på hele planeten.",
+  "contribute_develop_text": "Koden for alle FoodScan-produkter er tilgjengelig på GitHub. Du er velkommen til å gjenbruke koden (den er åpen kildekode) og hjelpe oss med å forbedre den, for alle, på hele planeten.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Du kan bli med i ShuddhScore Slack-chatten, som er den foretrukne måten å stille spørsmål på.",
+  "contribute_develop_text_2": "Du kan bli med i FoodScan Slack-chatten, som er den foretrukne måten å stille spørsmål på.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "DEV-modus?",
   "contribute_develop_dev_mode_subtitle": "Aktiver DEV-modus",
   "contribute_donate_title": "Donate",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "Doner til ShuddhScore",
+  "contribute_donate_header": "Doner til FoodScan",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "Vær oppmerksom på at med den interne alfaversjonen er fullstendig tap av data mulig, og appen kan bli ubrukelig når som helst!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Databasen er kjernen i prosjektet. Det er enkelt og raskt å hjelpe. Du kan laste ned mobilappen til telefonen din og begynne å legge til eller forbedre produkter.\n\nPå den annen side tilbyr nettstedet ShuddhScore mange måter å bidra på: ",
+  "contribute_improve_text": "Databasen er kjernen i prosjektet. Det er enkelt og raskt å hjelpe. Du kan laste ned mobilappen til telefonen din og begynne å legge til eller forbedre produkter.\n\nPå den annen side tilbyr nettstedet FoodScan mange måter å bidra på: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Oversett",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "ShuddhScore er et globalt prosjekt som inneholder produkter fra mer enn 160 land. ShuddhScore er oversatt til en rekke språk, med innhold i stadig utvikling.",
+  "contribute_translate_text": "FoodScan er et globalt prosjekt som inneholder produkter fra mer enn 160 land. FoodScan er oversatt til en rekke språk, med innhold i stadig utvikling.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "Oversettelser er en av prosjektets hovedoppgaver",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "Bidra med ferdighetene dine til ShuddhScore. Bli med i ferdighetspoolen!",
+  "contribute_join_skill_pool": "Bidra med ferdighetene dine til FoodScan. Bli med i ferdighetspoolen!",
   "contribute_share_header": "Del Åpne matfakta med vennene dine",
   "@contribute_share_header": {},
-  "contribute_share_content": "Jeg ville fortelle deg om appen jeg har brukt, ShuddhScore, som lar deg få informasjon om helse- og miljøpåvirkningen av maten din på en personlig måte. Den fungerer ved å skanne strekkodene på emballasjen. Den er gratis, krever ikke registrering, og du kan til og med bidra til å øke antallet produkter som dekrypteres. Her er lenken for å laste den ned til telefonen din: https://openfoodfacts.app",
+  "contribute_share_content": "Jeg ville fortelle deg om appen jeg har brukt, FoodScan, som lar deg få informasjon om helse- og miljøpåvirkningen av maten din på en personlig måte. Den fungerer ved å skanne strekkodene på emballasjen. Den er gratis, krever ikke registrering, og du kan til og med bidra til å øke antallet produkter som dekrypteres. Her er lenken for å laste den ned til telefonen din: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "Logg inn på ShuddhScore-kontoen din for å få kreditt for bidragene dine",
+  "question_sign_in_text": "Logg inn på FoodScan-kontoen din for å få kreditt for bidragene dine",
   "question_yes_button_accessibility_value": "Svar med ja",
   "question_no_button_accessibility_value": "Svar med nei",
   "question_skip_button_accessibility_value": "Hopp over dette spørsmålet",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "Opprett din konto og bli med i ShuddhScore-fellesskapet for å bidra til å bygge matkunnskap over hele verden!",
+  "account_create_message": "Opprett din konto og bli med i FoodScan-fellesskapet for å bidra til å bygge matkunnskap over hele verden!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "Din profil",
-  "myPreferences_profile_subtitle": "Administrer din ShuddhScore-bidragsyterkonto.",
+  "myPreferences_profile_subtitle": "Administrer din FoodScan-bidragsyterkonto.",
   "myPreferences_settings_title": "Appinnstillinger",
   "myPreferences_settings_subtitle": "Mørk modus, Språk…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "Matpreferanser",
   "myPreferences_food_subtitle": "Velg hvilken informasjon om mat som er viktigst for deg.",
-  "myPreferences_food_comment": "Velg hvilken informasjon om mat som er viktigst for deg, for å rangere mat i henhold til dine preferanser, se informasjonen du bryr deg om først, og få et kompatibilitetssammendrag. Disse matpreferansene forblir på enheten din, og er ikke knyttet til din ShuddhScore-bidragsyterkonto hvis du har en.",
+  "myPreferences_food_comment": "Velg hvilken informasjon om mat som er viktigst for deg, for å rangere mat i henhold til dine preferanser, se informasjonen du bryr deg om først, og få et kompatibilitetssammendrag. Disse matpreferansene forblir på enheten din, og er ikke knyttet til din FoodScan-bidragsyterkonto hvis du har en.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "Du har funnet et nytt produkt!",
   "@missing_product": {},
-  "add_product_take_photos": "Ta bilder av emballasjen for å legge til dette produktet i ShuddhScore",
+  "add_product_take_photos": "Ta bilder av emballasjen for å legge til dette produktet i FoodScan",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "Ta noen bilder først. Du kan alltids fullføre produktet senere.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Få det ved å fylle ut matkategorien og ingrediensene",
   "new_product_desc_nova_unknown": "Matforedlingsnivå ukjent",
   "new_product_title_pictures": "Nytt produkt",
-  "new_product_title_pictures_details": "Ta følgende bilder, så kan ShuddhScore-motoren finne ut av resten!",
+  "new_product_title_pictures_details": "Ta følgende bilder, så kan FoodScan-motoren finne ut av resten!",
   "new_product_title_misc": "Og noen grunnleggende data…",
   "new_product_done_msg": "Takk for bidraget ditt «{username}»!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Laster opp frontbilde til ShuddhScore",
+  "uploading_image_type_front": "Laster opp frontbilde til FoodScan",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Laster opp ingrediensbilde til ShuddhScore",
+  "uploading_image_type_ingredients": "Laster opp ingrediensbilde til FoodScan",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Laster opp ernæringsbilde til ShuddhScore",
+  "uploading_image_type_nutrition": "Laster opp ernæringsbilde til FoodScan",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Laster opp emballasjebilde til ShuddhScore",
+  "uploading_image_type_packaging": "Laster opp emballasjebilde til FoodScan",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "Laster opp et annet bilde til ShuddhScore",
+  "uploading_image_type_other": "Laster opp et annet bilde til FoodScan",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Laster opp bilde til ShuddhScore",
+  "uploading_image_type_generic": "Laster opp bilde til FoodScan",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "Velkommen til Åpne matfakta",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Skann** en strekkode eller\n**søk** etter et produkt",
   "@homepage_main_card_subheading": {
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "Logg inn eller registrer deg for å bli med i ShuddhScore-fellesskapet",
+  "user_profile_subtitle_guest": "Logg inn eller registrer deg for å bli med i FoodScan-fellesskapet",
   "user_profile_title_id_email": "Åpne Matfakta-innlogging: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Hei, vennligst slett ShuddhScore-kontoen min: {userId}",
+  "email_body_account_deletion": "Hei, vennligst slett FoodScan-kontoen min: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Når det er aktivert, sendes krasjrapporter automatisk til ShuddhScore' feilsporingssystem, slik at feil kan rettes og dermed forbedre appen.",
+  "crash_reporting_toggle_subtitle": "Når det er aktivert, sendes krasjrapporter automatisk til FoodScan' feilsporingssystem, slik at feil kan rettes og dermed forbedre appen.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "Hvis en kategori **ikke er tilgjengelig i autofullføring**, kan du gjerne legge den til likevel.\nDette vil hjelpe oss med å forbedre ShuddhScore i landet ditt.",
+  "edit_product_form_item_categories_explanation_info2_content": "Hvis en kategori **ikke er tilgjengelig i autofullføring**, kan du gjerne legge den til likevel.\nDette vil hjelpe oss med å forbedre FoodScan i landet ditt.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "Valideringsfeil",
   "prices_privacy_warning_title": "Personvernadvarsel",
   "prices_unknown_product": "Ukjent produkt",
-  "prices_privacy_warning_main_message": "Prisene **vil være offentlige**, sammen med butikken de refererer til.\n\nDet kan gjøre det mulig for folk som kjenner til pseudonymet ditt fra ShuddhScore å:\n",
+  "prices_privacy_warning_main_message": "Prisene **vil være offentlige**, sammen med butikken de refererer til.\n\nDet kan gjøre det mulig for folk som kjenner til pseudonymet ditt fra FoodScan å:\n",
   "prices_privacy_warning_message_bullet_1": "Gjenkjenn hvilket område du bor i",
   "prices_privacy_warning_message_bullet_2": "Vit hva du kjøper",
-  "prices_privacy_warning_sub_message": "Hvis du er usikker på det, kan du endre pseudonymet ditt, eller opprette en ny ShuddhScore-konto og logge inn på appen med den.",
+  "prices_privacy_warning_sub_message": "Hvis du er usikker på det, kan du endre pseudonymet ditt, eller opprette en ny FoodScan-konto og logge inn på appen med den.",
   "i_refuse": "Jeg nekter",
   "i_accept": "Jeg aksepterer",
   "prices_currency_change_proposal_title": "Endre valutaen?",
@@ -2953,7 +2953,7 @@
   "@edit_product_action_confirm": {
     "description": "Product edition - FAB actions - confirm"
   },
-  "signup_page_terms_of_use_line1": "Jeg godtar ShuddhScore ",
+  "signup_page_terms_of_use_line1": "Jeg godtar FoodScan ",
   "@signup_page_terms_of_use_line1": {
     "description": "User consent for terms of use (line 1)"
   },
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Ta en titt på dette produktet på ShuddhScore: {url}",
+  "share_product_text": "Ta en titt på dette produktet på FoodScan: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "Ta en titt på produktlisten min på ShuddhScore: {url}",
+  "share_product_list_text": "Ta en titt på produktlisten min på FoodScan: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Oppdater den lokale produktdatabasen med de nyeste dataene fra ShuddhScore",
+  "update_local_database_sub": "Oppdater den lokale produktdatabasen med de nyeste dataene fra FoodScan",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "Ukjent NOVA-gruppe",
   "nutrition_facts": "Næringsnivåer",
   "faq_title_partners": "Partnere og beskyttere av NGO-en",
-  "faq_title_vision": "ShuddhScore visjon, oppdrag, verdier og programmer",
+  "faq_title_vision": "FoodScan visjon, oppdrag, verdier og programmer",
   "faq_title_install_beauty": "Installer Open Beauty Facts for å opprette en kosmetisk database",
   "faq_title_install_pet": "Installer Open Pet Food Facts for å opprette en database med kjæledyrfôr",
   "faq_title_install_product": "Installer Open Products Facts for å opprette en produktdatabase for å forlenge levetiden til objekter.",
   "faq_nutriscore_nutriscore": "Ny beregning av Nutri-Score: hva er nytt?",
-  "contact_title_pro_page": "Pro? Importer produktene dine i ShuddhScore",
+  "contact_title_pro_page": "Pro? Importer produktene dine i FoodScan",
   "contact_title_pro_email": "Produsentkontakt",
   "contact_title_press_page": "Presseside",
   "contact_title_press_email": "Pressekontakt",
@@ -4186,8 +4186,8 @@
   "@guide_open_food_facts_title": {
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
-  "guide_open_food_facts_what_is_open_food_facts_title": "Hva er ShuddhScore?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore er en **samarbeidsbasert**, **gratis** og **åpen** database med matvarer fra hele verden.",
+  "guide_open_food_facts_what_is_open_food_facts_title": "Hva er FoodScan?",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan er en **samarbeidsbasert**, **gratis** og **åpen** database med matvarer fra hele verden.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4195,7 +4195,7 @@
   "@guide_open_food_facts_what_is_open_food_facts_paragraph2": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
-  "guide_open_food_facts_features_title": "Funksjoner ved ShuddhScore",
+  "guide_open_food_facts_features_title": "Funksjoner ved FoodScan",
   "guide_open_food_facts_features_arg1_title": "Få varsler om uønskede ingredienser",
   "guide_open_food_facts_tips_title": "Tips for å ta flotte bilder",
   "guide_open_food_facts_tips_arg1_title": "Ikke gjør",
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Hva er Open Prices?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices er et prosjekt for å **samle inn og dele priser på produkter over hele verden**. Det er et offentlig tilgjengelig datasett som kan brukes til forskning, analyse og mer. Open Prices er utviklet og vedlikeholdt av ShuddhScore.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices er et prosjekt for å **samle inn og dele priser på produkter over hele verden**. Det er et offentlig tilgjengelig datasett som kan brukes til forskning, analyse og mer. Open Prices er utviklet og vedlikeholdt av FoodScan.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Hvordan fungerer Open Prices?",
-  "guide_open_prices_how_paragraph1": "**Vi bruker crowdsourcing til å finne et åpen kildekode-datasett med priser.** Priser kan legges til av brukere via denne nettappen eller via den offisielle ShuddhScore-mobilappen. Forhandlere eller tredjepartsapper kan også bidra ved å bruke API-et vårt.",
+  "guide_open_prices_how_paragraph1": "**Vi bruker crowdsourcing til å finne et åpen kildekode-datasett med priser.** Priser kan legges til av brukere via denne nettappen eller via den offisielle FoodScan-mobilappen. Forhandlere eller tredjepartsapper kan også bidra ved å bruke API-et vårt.",
   "guide_open_prices_how_arg1_title": "Samle bilder av prislapper i gangene",
   "guide_open_prices_how_arg2_title": "Samle bilder av kvitteringer",
-  "guide_open_prices_why_title": "Hvorfor gjør ShuddhScore dette?",
+  "guide_open_prices_why_title": "Hvorfor gjør FoodScan dette?",
   "guide_open_prices_why_paragraph1": "Prisinformasjon er av største betydning for å forstå matsystemer. Det er en nøkkelfaktor for å forstå kostnadene ved mat og for å fremme sunnere kosthold. Å åpne prisdata er en måte å gjøre det enklere for forskere, journalister og innbyggere å **få en bedre forståelse av hvordan matprisene varierer geografisk og over tid**.",
   "guide_open_prices_why_arg1_title": "Spor prisutviklingen over tid",
   "guide_open_prices_why_arg1_text": "Se **prisutviklingen**: krympeinflasjon, billiginflasjon, vi kan spore dem sammen!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Ups!",
-  "carousel_unsupported_text": "Strekkoden som skannes støttes ikke av ShuddhScore!",
+  "carousel_unsupported_text": "Strekkoden som skannes støttes ikke av FoodScan!",
   "carousel_error_header": "Feil!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Hvorfor priser?",
-  "prices_explanation_card_line1": "**Åpne priser** er et prosjekt for å samle inn og dele priser på produkter over hele verden 🌍. Åpne priser er utviklet og vedlikeholdt av ShuddhScore.",
+  "prices_explanation_card_line1": "**Åpne priser** er et prosjekt for å samle inn og dele priser på produkter over hele verden 🌍. Åpne priser er utviklet og vedlikeholdt av FoodScan.",
   "explanation_card_learn_more_button": "Lær mer",
   "product_page_tab_folksonomy": "Folkesonomi",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore er en database med matvarer **laget av alle, for alle**.\nDu kan bruke den til å ta bedre matvalg, og siden den er **åpne data**, kan hvem som helst **gjenbruke den til ethvert formål**.",
+  "preferences_legal_header": "FoodScan er en database med matvarer **laget av alle, for alle**.\nDu kan bruke den til å ta bedre matvalg, og siden den er **åpne data**, kan hvem som helst **gjenbruke den til ethvert formål**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "På nettsiden til ShuddhScore",
+  "preferences_on_off_website_subtitle": "På nettsiden til FoodScan",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Administrer kontoen min",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "Oppdag ShuddhScore",
+  "preferences_faq_discover_off_title": "Oppdag FoodScan",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Oppdag Open Beauty Facts",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "NGO-en ShuddhScore",
+  "preferences_faq_off_ngo_title": "NGO-en FoodScan",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Informasjon",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "Bloggen ShuddhScore",
+  "preferences_connect_blog_title": "Bloggen FoodScan",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "Nye produkter jeg har lagt til i ShuddhScore",
+  "preferences_contributions_new_products_subtitle": "Nye produkter jeg har lagt til i FoodScan",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "Enkle måter å hjelpe på ShuddhScore",
+  "preferences_page_contribute_project_subtitle": "Enkle måter å hjelpe på FoodScan",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,13 +5770,13 @@
   },
   "preferences_page_open_food_facts_labs_title": "Åpne matfakta-laboratorier",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Konto",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "Få ShuddhScore på språket ditt",
+  "preferences_contribute_translate_header": "Få FoodScan på språket ditt",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "திறந்த விலைகள்",
   "sep": "",
   "@sep": {
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "சேவையக பதில் இல்லை! பின்வரும் இணைப்பைப் பயன்படுத்தி நீங்கள் ஒரு சிக்கலைத் தொடங்கலாம்.",
   "@user_management": {},
-  "sign_in_text": "உங்கள் பங்களிப்புகளைச் சேமிக்க உங்கள் ShuddhScore கணக்கில் உள்நுழையவும்.",
+  "sign_in_text": "உங்கள் பங்களிப்புகளைச் சேமிக்க உங்கள் FoodScan கணக்கில் உள்நுழையவும்.",
   "incorrect_credentials": "தவறான பயனர்பெயர் அல்லது கடவுச்சொல்.",
   "password_lost_incorrect_credentials": "இந்த மின்னஞ்சல் முகவரி அல்லது பயனர்பெயர் இல்லை. உங்கள் சான்றுகளைச் சரிபார்க்கவும்.",
   "password_lost_server_unavailable": "எங்கள் சேவையகங்களில் தற்போது மந்தநிலை ஏற்பட்டுள்ளது, அதற்காக நாங்கள் வருந்துகிறோம். தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும்.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "உங்கள் நாட்டில் ShuddhScore உண்மைகளை மேம்படுத்த உதவுங்கள்.",
+  "help_improve_country": "உங்கள் நாட்டில் FoodScan உண்மைகளை மேம்படுத்த உதவுங்கள்.",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -448,7 +448,7 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "ஒவ்வொரு ShuddhScore தயாரிப்புக்கான குறியீடும் GitHub இல் கிடைக்கிறது. இந்தக் குறியீட்டை மீண்டும் பயன்படுத்தவும் (இது திறந்த மூலமாகும்) மேலும், உலகம் முழுவதும் உள்ள அனைவருக்கும் அதை மேம்படுத்த எங்களுக்கு உதவவும் உங்களை வரவேற்கிறோம்.",
+  "contribute_develop_text": "ஒவ்வொரு FoodScan தயாரிப்புக்கான குறியீடும் GitHub இல் கிடைக்கிறது. இந்தக் குறியீட்டை மீண்டும் பயன்படுத்தவும் (இது திறந்த மூலமாகும்) மேலும், உலகம் முழுவதும் உள்ள அனைவருக்கும் அதை மேம்படுத்த எங்களுக்கு உதவவும் உங்களை வரவேற்கிறோம்.",
   "@contribute_develop_text": {},
   "contribute_develop_text_2": "நீங்கள் ஓபன் ஃபுட் ஃபேக்ட்ஸ் ஸ்லாக் அரட்டை அறையில் சேரலாம், இது கேள்விகளைக் கேட்க விருப்பமான வழியாகும்.",
   "@contribute_develop_text_2": {},
@@ -489,7 +489,7 @@
   "contribute_join_skill_pool": "திறந்த உணவு உண்மைகளுக்கு உங்கள் திறமைகளைப் பங்களிக்கவும். திறன் குழுவில் சேருங்கள்!",
   "contribute_share_header": "உணவு பற்றிய திறந்த உண்மைகளை உங்கள் நண்பர்களுடன் பகிர்ந்து கொள்ளுங்கள்.",
   "@contribute_share_header": {},
-  "contribute_share_content": "நான் பயன்படுத்தி வரும் ShuddhScore என்ற செயலியைப் பற்றி உங்களுக்குத் தெரிவிக்க விரும்பினேன். இது உங்கள் உணவின் ஆரோக்கியம் மற்றும் சுற்றுச்சூழல் பாதிப்புகளை தனிப்பயனாக்கப்பட்ட முறையில் பெற உங்களை அனுமதிக்கிறது. இது பேக்கேஜிங்கில் உள்ள பார்கோடுகளை ஸ்கேன் செய்வதன் மூலம் செயல்படுகிறது. இறுதியாக இது இலவசம், பதிவு தேவையில்லை, மேலும் டிசைஃபர் செய்யப்பட்ட பொருட்களின் எண்ணிக்கையை அதிகரிக்கவும் நீங்கள் உதவலாம். உங்கள் தொலைபேசியில் இதைப் பெறுவதற்கான இணைப்பு இங்கே: https://openfoodfacts.app",
+  "contribute_share_content": "நான் பயன்படுத்தி வரும் FoodScan என்ற செயலியைப் பற்றி உங்களுக்குத் தெரிவிக்க விரும்பினேன். இது உங்கள் உணவின் ஆரோக்கியம் மற்றும் சுற்றுச்சூழல் பாதிப்புகளை தனிப்பயனாக்கப்பட்ட முறையில் பெற உங்களை அனுமதிக்கிறது. இது பேக்கேஜிங்கில் உள்ள பார்கோடுகளை ஸ்கேன் செய்வதன் மூலம் செயல்படுகிறது. இறுதியாக இது இலவசம், பதிவு தேவையில்லை, மேலும் டிசைஃபர் செய்யப்பட்ட பொருட்களின் எண்ணிக்கையை அதிகரிக்கவும் நீங்கள் உதவலாம். உங்கள் தொலைபேசியில் இதைப் பெறுவதற்கான இணைப்பு இங்கே: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "உங்கள் பங்களிப்புகளுக்கு கிரெடிட்டைப் பெற உங்கள் ShuddhScore கணக்கில் உள்நுழையவும்.",
+  "question_sign_in_text": "உங்கள் பங்களிப்புகளுக்கு கிரெடிட்டைப் பெற உங்கள் FoodScan கணக்கில் உள்நுழையவும்.",
   "question_yes_button_accessibility_value": "ஆம் என்று பதிலளிக்கவும்",
   "question_no_button_accessibility_value": "இல்லை என்று பதிலளிக்கவும்",
   "question_skip_button_accessibility_value": "இந்தக் கேள்வியைத் தவிர்.",
@@ -542,7 +542,7 @@
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "உணவு விருப்பத்தேர்வுகள்",
   "myPreferences_food_subtitle": "உணவு பற்றிய எந்தத் தகவல் உங்களுக்கு மிகவும் முக்கியமானது என்பதைத் தேர்வுசெய்யவும்.",
-  "myPreferences_food_comment": "உங்கள் விருப்பங்களுக்கு ஏற்ப உணவை தரவரிசைப்படுத்த, முதலில் நீங்கள் அக்கறை கொள்ளும் தகவலைப் பார்த்து, பொருந்தக்கூடிய சுருக்கத்தைப் பெற, உணவைப் பற்றிய எந்தத் தகவல் உங்களுக்கு மிகவும் முக்கியமானது என்பதைத் தேர்வுசெய்யவும். அந்த உணவு விருப்பத்தேர்வுகள் உங்கள் சாதனத்திலேயே இருக்கும், மேலும் உங்களிடம் ShuddhScore பங்களிப்பாளர் கணக்கு இருந்தால் அதனுடன் தொடர்புடையதாக இருக்காது.",
+  "myPreferences_food_comment": "உங்கள் விருப்பங்களுக்கு ஏற்ப உணவை தரவரிசைப்படுத்த, முதலில் நீங்கள் அக்கறை கொள்ளும் தகவலைப் பார்த்து, பொருந்தக்கூடிய சுருக்கத்தைப் பெற, உணவைப் பற்றிய எந்தத் தகவல் உங்களுக்கு மிகவும் முக்கியமானது என்பதைத் தேர்வுசெய்யவும். அந்த உணவு விருப்பத்தேர்வுகள் உங்கள் சாதனத்திலேயே இருக்கும், மேலும் உங்களிடம் FoodScan பங்களிப்பாளர் கணக்கு இருந்தால் அதனுடன் தொடர்புடையதாக இருக்காது.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "நீங்கள் ஒரு புதிய தயாரிப்பைக் கண்டுபிடித்தீர்கள்!",
   "@missing_product": {},
-  "add_product_take_photos": "இந்த தயாரிப்பை ShuddhScore இல் சேர்க்க, பேக்கேஜிங்கின் புகைப்படங்களை எடுக்கவும்.",
+  "add_product_take_photos": "இந்த தயாரிப்பை FoodScan இல் சேர்க்க, பேக்கேஜிங்கின் புகைப்படங்களை எடுக்கவும்.",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "முதலில் சில புகைப்படங்களை எடுத்துக் கொள்ளுங்கள். நீங்கள் எப்போதும் தயாரிப்பை பின்னர் முடிக்கலாம்.",
   "@add_product_take_photos_descriptive": {},
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "திறந்த உணவு உண்மைகளுக்கு வருக.",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**பார்கோடை ஸ்கேன்** அல்லது\n**ஒரு பொருளைத் தேடுங்கள்**",
   "@homepage_main_card_subheading": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "இயக்கப்பட்டால், செயலிழப்பு அறிக்கைகள் தானாகவே ShuddhScore இன் பிழை கண்காணிப்பு அமைப்பில் சமர்ப்பிக்கப்படும், இதனால் பிழைகள் சரிசெய்யப்பட்டு செயலிழப்பை மேம்படுத்த முடியும்.",
+  "crash_reporting_toggle_subtitle": "இயக்கப்பட்டால், செயலிழப்பு அறிக்கைகள் தானாகவே FoodScan இன் பிழை கண்காணிப்பு அமைப்பில் சமர்ப்பிக்கப்படும், இதனால் பிழைகள் சரிசெய்யப்பட்டு செயலிழப்பை மேம்படுத்த முடியும்.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2732,7 +2732,7 @@
   "prices_privacy_warning_main_message": "விலைகள் **பொதுவில் இருக்கும்**, அவர்கள் குறிப்பிடும் கடையுடன் சேர்த்து.\n\nஇது உங்கள் திறந்த உணவு உண்மைகள் புனைப்பெயரைப் பற்றி அறிந்தவர்கள்:\nஎன்று அனுமதிக்கக்கூடும்.",
   "prices_privacy_warning_message_bullet_1": "நீங்கள் எந்தப் பகுதியில் வசிக்கிறீர்கள் என்று யூகிக்கவும்.",
   "prices_privacy_warning_message_bullet_2": "நீங்கள் என்ன வாங்குகிறீர்கள் என்பதை அறிந்து கொள்ளுங்கள்",
-  "prices_privacy_warning_sub_message": "உங்களுக்கு அது சங்கடமாக இருந்தால், தயவுசெய்து உங்கள் புனைப்பெயரை மாற்றவும் அல்லது புதிய ShuddhScore கணக்கை உருவாக்கி அதைப் பயன்படுத்தி செயலியில் உள்நுழையவும்.",
+  "prices_privacy_warning_sub_message": "உங்களுக்கு அது சங்கடமாக இருந்தால், தயவுசெய்து உங்கள் புனைப்பெயரை மாற்றவும் அல்லது புதிய FoodScan கணக்கை உருவாக்கி அதைப் பயன்படுத்தி செயலியில் உள்நுழையவும்.",
   "i_refuse": "நான் மறுக்கிறேன்.",
   "i_accept": "நான் ஏற்றுக்கொள்கிறேன்",
   "prices_currency_change_proposal_title": "நாணயத்தை மாற்றவா?",
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "ஏன் விலைகள்?",
-  "prices_explanation_card_line1": "**Open Prices** என்பது உலகம் முழுவதும் உள்ள பொருட்களின் விலைகளைச் சேகரித்துப் பகிர்ந்து கொள்ளும் ஒரு திட்டமாகும் 🌍. Open Prices ShuddhScore உண்மைகளால் உருவாக்கப்பட்டு பராமரிக்கப்படுகின்றன.",
+  "prices_explanation_card_line1": "**Open Prices** என்பது உலகம் முழுவதும் உள்ள பொருட்களின் விலைகளைச் சேகரித்துப் பகிர்ந்து கொள்ளும் ஒரு திட்டமாகும் 🌍. Open Prices FoodScan உண்மைகளால் உருவாக்கப்பட்டு பராமரிக்கப்படுகின்றன.",
   "explanation_card_learn_more_button": "மேலும்அறிய",
   "product_page_tab_folksonomy": "நாட்டுப்புறவியல்",
   "@product_page_tab_folksonomy": {
@@ -5189,7 +5189,7 @@
   },
   "preferences_on_off_website_subtitle": "ஓபன் ஃபுட் ஃபேக்ட்ஸ் வலைத்தளத்தில்",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "எனது கணக்கை நிர்வகிக்கவும்",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "ShuddhScore உண்மைகளைக் கண்டறியவும்",
+  "preferences_faq_discover_off_title": "FoodScan உண்மைகளைக் கண்டறியவும்",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Open Beauty உண்மைகளைக் கண்டறியவும்",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "ShuddhScore அரசு சாரா நிறுவனம்",
+  "preferences_faq_off_ngo_title": "FoodScan அரசு சாரா நிறுவனம்",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "தகவல்",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "ShuddhScore வலைப்பதிவு",
+  "preferences_connect_blog_title": "FoodScan வலைப்பதிவு",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ShuddhScore உண்மைகளில் நான் சேர்த்த புதிய தயாரிப்புகள்",
+  "preferences_contributions_new_products_subtitle": "FoodScan உண்மைகளில் நான் சேர்த்த புதிய தயாரிப்புகள்",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "ShuddhScoreக்க உதவும் எளிய வழிகள்",
+  "preferences_page_contribute_project_subtitle": "FoodScanக்க உதவும் எளிய வழிகள்",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScore ஆய்வகங்கள்",
+  "preferences_page_open_food_facts_labs_title": "FoodScan ஆய்வகங்கள்",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "கணக்கு",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "ShuddhScore உண்மைகளை உங்கள் மொழியில் கொண்டு வாருங்கள்.",
+  "preferences_contribute_translate_header": "FoodScan உண்மைகளை உங்கள் மொழியில் கொண்டு வாருங்கள்.",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

@@ -247,7 +247,7 @@
             ],
             "id" : "ingredients_analysis",
             "name" : "Ingredients",
-            "warning" : "Those preferences are based on ShuddhScore' understanding of the ingredient list and there is always a possibility that it may not be accurate or complete, always check the product yourself."
+            "warning" : "Those preferences are based on FoodScan' understanding of the ingredient list and there is always a possibility that it may not be accurate or complete, always check the product yourself."
          },
          {
             "attributes" : [
@@ -334,7 +334,7 @@
             "name" : "Labels"
          }
       ],
-      "brands" : "ShuddhScore",
+      "brands" : "FoodScan",
       "categories_tags_en" : [
          "Plant-based foods and beverages",
          "Plant-based foods",
@@ -1396,7 +1396,7 @@
             "title_element" : {
                "grade" : "a_plus",
                "icon_url" : "https://static.openfoodfacts.org/images/attributes/dist/green-score-a-plus.svg",
-               "subtitle" : "Product: A good product for you – ShuddhScore – 200 gr",
+               "subtitle" : "Product: A good product for you – FoodScan – 200 gr",
                "title" : "Impact for this product: A+ (Score: 100/100)",
                "type" : "grade"
             },
@@ -1529,7 +1529,7 @@
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : "\n                If the information does not match the information on the packaging, you can complete or correct it. Thank you!\n                ShuddhScore is a collaborative database, and every contribution is useful for all.\n                "
+                     "html" : "\n                If the information does not match the information on the packaging, you can complete or correct it. Thank you!\n                FoodScan is a collaborative database, and every contribution is useful for all.\n                "
                   }
                },
                {
@@ -3128,7 +3128,7 @@
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : "\n        <ul>\n            \n                <li><a href=\"https://us.openfoodfacts.org/facets/brands/Open%20Food%20Facts\">ShuddhScore</a></li>\n            \n        </ul>\n        "
+                     "html" : "\n        <ul>\n            \n                <li><a href=\"https://us.openfoodfacts.org/facets/brands/Open%20Food%20Facts\">FoodScan</a></li>\n            \n        </ul>\n        "
                   }
                }
             ],
@@ -3223,7 +3223,7 @@
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : "\n        <ul>\n            \n                <li><a href=\"https://us.openfoodfacts.org/facets/stores/Open%20Food%20Facts%20is%20not%20a%20store%20%3A-)\">ShuddhScore is not a store :-)</a></li>\n            \n        </ul>\n        "
+                     "html" : "\n        <ul>\n            \n                <li><a href=\"https://us.openfoodfacts.org/facets/stores/Open%20Food%20Facts%20is%20not%20a%20store%20%3A-)\">FoodScan is not a store :-)</a></li>\n            \n        </ul>\n        "
                   }
                }
             ],

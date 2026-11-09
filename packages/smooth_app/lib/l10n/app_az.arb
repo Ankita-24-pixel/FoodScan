@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "Open Prices",
   "sep": "",
   "@sep": {
@@ -226,9 +226,9 @@
     "description": "Looking for: BARCODE"
   },
   "@Introduction screen": {},
-  "welcomeToOpenFoodFacts": "ShuddhScore Xoş Gəlmisiniz",
+  "welcomeToOpenFoodFacts": "FoodScan Xoş Gəlmisiniz",
   "@welcomeToOpenFoodFacts": {},
-  "whatIsOff": "ShuddhScore yerli icmalar tərəfindən dəstəklənən qlobal qeyri-kommersiya təşkilatıdır.",
+  "whatIsOff": "FoodScan yerli icmalar tərəfindən dəstəklənən qlobal qeyri-kommersiya təşkilatıdır.",
   "@whatIsOff": {
     "description": "Description of Open Food Facts organization."
   },
@@ -448,9 +448,9 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "Hər bir ShuddhScore məhsulunun kodu GitHub-da mövcuddur. Koddan (açıq mənbəlidir) yenidən istifadə edə və onu bütün planetdəki hər kəs üçün təkmilləşdirməyimizə kömək edə bilərsiniz.",
+  "contribute_develop_text": "Hər bir FoodScan məhsulunun kodu GitHub-da mövcuddur. Koddan (açıq mənbəlidir) yenidən istifadə edə və onu bütün planetdəki hər kəs üçün təkmilləşdirməyimizə kömək edə bilərsiniz.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "Sual vermək üçün ən çox istifadə edilən ShuddhScore Slack söhbət otağına qoşula bilərsiniz.",
+  "contribute_develop_text_2": "Sual vermək üçün ən çox istifadə edilən FoodScan Slack söhbət otağına qoşula bilərsiniz.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "DEV Rejimi?",
   "contribute_develop_dev_mode_subtitle": "DEV rejimini aktivləşdirin",
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "Verilənlər bazası layihənin əsasını təşkil edir. Kömək etmək asandır və çox tezdir. Telefonunuz üçün mobil tətbiqi yükləyə və məhsullar əlavə etməyə və ya təkmilləşdirməyə başlaya bilərsiniz.\n\nDigər tərəfdən, ShuddhScore veb saytı töhfə vermək üçün bir çox yol təklif edir: ",
+  "contribute_improve_text": "Verilənlər bazası layihənin əsasını təşkil edir. Kömək etmək asandır və çox tezdir. Telefonunuz üçün mobil tətbiqi yükləyə və məhsullar əlavə etməyə və ya təkmilləşdirməyə başlaya bilərsiniz.\n\nDigər tərəfdən, FoodScan veb saytı töhfə vermək üçün bir çox yol təklif edir: ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "Tərcümə et",
   "@contribute_translate_header": {
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "Qida kateqoriyasını və tərkib hissələrini dolduraraq əldə edin",
   "new_product_desc_nova_unknown": "Qida emalı səviyyəsi məlum deyil",
   "new_product_title_pictures": "Yeni məhsul",
-  "new_product_title_pictures_details": "Zəhmət olmasa, aşağıdakı şəkilləri çəkin və ShuddhScore mühərriki qalanını həll edə bilər!",
+  "new_product_title_pictures_details": "Zəhmət olmasa, aşağıdakı şəkilləri çəkin və FoodScan mühərriki qalanını həll edə bilər!",
   "new_product_title_misc": "Və bəzi əsas məlumatlar…",
   "new_product_done_msg": "“{username}” töhfəniz üçün təşəkkür edirik!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "Ön şəkli ShuddhScore-a yükləyir",
+  "uploading_image_type_front": "Ön şəkli FoodScan-a yükləyir",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "Tərkib hissələrinin şəkli ShuddhScore-a yüklənir",
+  "uploading_image_type_ingredients": "Tərkib hissələrinin şəkli FoodScan-a yüklənir",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "Qidalanma şəkli ShuddhScore-a yüklənir",
+  "uploading_image_type_nutrition": "Qidalanma şəkli FoodScan-a yüklənir",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "Qablaşdırma şəkli ShuddhScore-a yüklənir",
+  "uploading_image_type_packaging": "Qablaşdırma şəkli FoodScan-a yüklənir",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "ShuddhScore-a digər şəkil yüklənir",
+  "uploading_image_type_other": "FoodScan-a digər şəkil yüklənir",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "Şəkil ShuddhScore-a yüklənir",
+  "uploading_image_type_generic": "Şəkil FoodScan-a yüklənir",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "Açıq Qida Faktlarına Xoş Gəlmisiniz",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**Barkodu skan edin** və ya\nməhsulu **axtarın**",
   "@homepage_main_card_subheading": {
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "Salam, xahiş edirəm ShuddhScore hesabımı silin: {userId}",
+  "email_body_account_deletion": "Salam, xahiş edirəm FoodScan hesabımı silin: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "Aktivləşdirildikdə, xəta hesabatları avtomatik olaraq ShuddhScore-ın xəta izləmə sisteminə göndərilir ki, xətalar düzəldilə və tətbiq təkmilləşdirilə bilsin.",
+  "crash_reporting_toggle_subtitle": "Aktivləşdirildikdə, xəta hesabatları avtomatik olaraq FoodScan-ın xəta izləmə sisteminə göndərilir ki, xətalar düzəldilə və tətbiq təkmilləşdirilə bilsin.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -2732,7 +2732,7 @@
   "prices_privacy_warning_main_message": "Qiymətlər **istinad etdikləri mağaza ilə birlikdə açıqlanacaq**.\n\nBu, Açıq Qida Faktları təxəllüsünüz haqqında məlumatı olan insanlara aşağıdakıları etməyə imkan verə bilər:\n",
   "prices_privacy_warning_message_bullet_1": "Hansı ərazidə yaşadığınızı təxmin edin",
   "prices_privacy_warning_message_bullet_2": "Nə aldığınızı bilin",
-  "prices_privacy_warning_sub_message": "Əgər bundan narahatsınızsa, xahiş edirik təxəllüsünüzü dəyişdirin və ya yeni ShuddhScore hesabı yaradın və tətbiqə daxil olun.",
+  "prices_privacy_warning_sub_message": "Əgər bundan narahatsınızsa, xahiş edirik təxəllüsünüzü dəyişdirin və ya yeni FoodScan hesabı yaradın və tətbiqə daxil olun.",
   "i_refuse": "Mən imtina edirəm",
   "i_accept": "Qəbul edirəm",
   "prices_currency_change_proposal_title": "Valyutanı dəyişmək?",
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "Bu məhsula ShuddhScore saytında nəzər yetirin: {url}",
+  "share_product_text": "Bu məhsula FoodScan saytında nəzər yetirin: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "Yerli məhsul məlumat bazasını ShuddhScore-dan ən son məlumatlarla yeniləyin",
+  "update_local_database_sub": "Yerli məhsul məlumat bazasını FoodScan-dan ən son məlumatlarla yeniləyin",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -4187,7 +4187,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_food_facts_what_is_open_food_facts_title": "Açıq Qida Faktları nədir?",
-  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "ShuddhScore dünyanın hər yerindən qida məhsullarının **əməkdaşlıq**, **pulsuz** və **açıq** verilənlər bazasıdır.",
+  "guide_open_food_facts_what_is_open_food_facts_paragraph1": "FoodScan dünyanın hər yerindən qida məhsullarının **əməkdaşlıq**, **pulsuz** və **açıq** verilənlər bazasıdır.",
   "@guide_open_food_facts_what_is_open_food_facts_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Açıq Qiymətlər nədir?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Açıq Qiymətlər, **dünya üzrə məhsulların qiymətlərini toplamaq və paylaşmaq** üçün bir layihədir. Bu, tədqiqat, təhlil və daha çox məqsəd üçün istifadə edilə bilən ictimaiyyətə açıq məlumat dəstidir. Açıq Qiymətlər ShuddhScore tərəfindən hazırlanır və saxlanılır.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Açıq Qiymətlər, **dünya üzrə məhsulların qiymətlərini toplamaq və paylaşmaq** üçün bir layihədir. Bu, tədqiqat, təhlil və daha çox məqsəd üçün istifadə edilə bilən ictimaiyyətə açıq məlumat dəstidir. Açıq Qiymətlər FoodScan tərəfindən hazırlanır və saxlanılır.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Açıq Qiymətlər necə işləyir?",
-  "guide_open_prices_how_paragraph1": "**Biz açıq mənbəli qiymətlər məlumat dəstini kütləvi mənbələrdən əldə edirik**. Qiymətlər istifadəçilər tərəfindən bu veb tətbiq və ya rəsmi ShuddhScore mobil tətbiqi vasitəsilə əlavə edilə bilər. Pərakəndə satıcılar və ya üçüncü tərəf tətbiqləri də API-mizdən istifadə edərək töhfə verə bilərlər.",
+  "guide_open_prices_how_paragraph1": "**Biz açıq mənbəli qiymətlər məlumat dəstini kütləvi mənbələrdən əldə edirik**. Qiymətlər istifadəçilər tərəfindən bu veb tətbiq və ya rəsmi FoodScan mobil tətbiqi vasitəsilə əlavə edilə bilər. Pərakəndə satıcılar və ya üçüncü tərəf tətbiqləri də API-mizdən istifadə edərək töhfə verə bilərlər.",
   "guide_open_prices_how_arg1_title": "Dəhlizlərdə qiymət etiketlərinin şəkillərini toplayın",
   "guide_open_prices_how_arg2_title": "Qəbzlərin şəkillərini toplayın",
-  "guide_open_prices_why_title": "Niyə ShuddhScore bunu edir?",
+  "guide_open_prices_why_title": "Niyə FoodScan bunu edir?",
   "guide_open_prices_why_paragraph1": "Qiymət məlumatları qida sistemlərini anlamaq üçün çox vacibdir. Bu, qidanın qiymətini anlamaqda və daha sağlam pəhrizləri təşviq etməkdə əsas amildir. Açılış qiymət məlumatları tədqiqatçılar, jurnalistlər və vətəndaşlar üçün qida qiymətlərinin coğrafi və zaman baxımından necə dəyişdiyini daha yaxşı başa düşməyi asanlaşdıran bir yoldur.",
   "guide_open_prices_why_arg1_title": "Zamanla qiymətlərin təkamülünü izləyin",
   "guide_open_prices_why_arg1_text": "Qiymətlərin **təkamülünə** baxın: kiçilmə, ucuzlaşma, onları birlikdə izləyə bilərik!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "Ups!",
-  "carousel_unsupported_text": "Skan edilmiş barkod ShuddhScore tərəfindən dəstəklənmir!",
+  "carousel_unsupported_text": "Skan edilmiş barkod FoodScan tərəfindən dəstəklənmir!",
   "carousel_error_header": "Xəta!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "Niyə qiymətlər?",
-  "prices_explanation_card_line1": "**Open Prices** bütün dünya üzrə məhsulların qiymətlərini toplamaq və paylaşmaq layihəsidir 🌍. Açıq Qiymətlər ShuddhScore tərəfindən hazırlanır və saxlanılır.",
+  "prices_explanation_card_line1": "**Open Prices** bütün dünya üzrə məhsulların qiymətlərini toplamaq və paylaşmaq layihəsidir 🌍. Açıq Qiymətlər FoodScan tərəfindən hazırlanır və saxlanılır.",
   "explanation_card_learn_more_button": "Daha çox məlumat əldə edin",
   "product_page_tab_folksonomy": "Folksonomiya",
   "@product_page_tab_folksonomy": {
@@ -5007,7 +5007,7 @@
   "@preferences_prices_subtitle": {
     "description": "Subtitle for the prices preferences title"
   },
-  "preferences_card_project": "ShuddhScore layihəsi",
+  "preferences_card_project": "FoodScan layihəsi",
   "@preferences_card_project": {
     "description": "Title for the project preferences card"
   },
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore **hər kəs tərəfindən, hamı üçün** hazırlanmış qida məhsulları məlumat bazasıdır.\nSiz ondan daha yaxşı qida seçimləri etmək üçün istifadə edə bilərsiniz və **açıq məlumat** olduğundan, hər kəs **istənilən məqsəd üçün** təkrar istifadə edə bilər.",
+  "preferences_legal_header": "FoodScan **hər kəs tərəfindən, hamı üçün** hazırlanmış qida məhsulları məlumat bazasıdır.\nSiz ondan daha yaxşı qida seçimləri etmək üçün istifadə edə bilərsiniz və **açıq məlumat** olduğundan, hər kəs **istənilən məqsəd üçün** təkrar istifadə edə bilər.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "ShuddhScore saytında",
+  "preferences_on_off_website_subtitle": "FoodScan saytında",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "Hesabımı idarə et",
   "@preferences_manage_account_title": {
@@ -5296,9 +5296,9 @@
   "@preferences_faq_discover_project_title": {
     "description": "Title for discover the project card in FAQ"
   },
-  "preferences_faq_discover_off_title": "ShuddhScore kəşf edin",
+  "preferences_faq_discover_off_title": "FoodScan kəşf edin",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "Açıq Gözəllik Faktlarını Kəşf Edin",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "ShuddhScore QHT",
+  "preferences_faq_off_ngo_title": "FoodScan QHT",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Məlumat",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "ShuddhScore bloqu",
+  "preferences_connect_blog_title": "FoodScan bloqu",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ShuddhScore-a əlavə etdiyim yeni məhsullar",
+  "preferences_contributions_new_products_subtitle": "FoodScan-a əlavə etdiyim yeni məhsullar",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "ShuddhScore na kömək etməyin sadə yolları",
+  "preferences_page_contribute_project_subtitle": "FoodScan na kömək etməyin sadə yolları",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,13 +5770,13 @@
   },
   "preferences_page_open_food_facts_labs_title": "Qida Faktları Laboratoriyalarını açın",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "Hesab",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "ShuddhScore dilinizə gətirin",
+  "preferences_contribute_translate_header": "FoodScan dilinizə gətirin",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

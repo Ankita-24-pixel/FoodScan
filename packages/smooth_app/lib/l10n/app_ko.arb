@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "공개 가격",
   "sep": "",
   "@sep": {
@@ -246,7 +246,7 @@
   },
   "server_error_open_new_issue": "서버 응답이 없습니다! 다음 링크를 통해 문제를 제기하실 수 있습니다.",
   "@user_management": {},
-  "sign_in_text": "귀하의 기여를 저장하려면 ShuddhScore 계정에 로그인하세요.",
+  "sign_in_text": "귀하의 기여를 저장하려면 FoodScan 계정에 로그인하세요.",
   "incorrect_credentials": "잘못된 사용자 이름 또는 암호입니다.",
   "password_lost_incorrect_credentials": "이 이메일 또는 사용자 이름은 존재하지 않습니다. 자격 증명을 확인하세요.",
   "password_lost_server_unavailable": "현재 서버 속도가 느려지고 있습니다. 양해 부탁드립니다. 나중에 다시 시도해 주세요.",
@@ -276,7 +276,7 @@
   "@sign_in_mandatory": {
     "description": "Error message: for some features like product edits you need to be signed in"
   },
-  "help_improve_country": "귀하의 국가에서 ShuddhScore를 개선하는 데 도움을 주세요.",
+  "help_improve_country": "귀하의 국가에서 FoodScan를 개선하는 데 도움을 주세요.",
   "@help_improve_country": {
     "description": "label for a tile that is on the contribute tile"
   },
@@ -352,7 +352,7 @@
   "sign_up_page_confirm_password_hint": "비밀번호 확인",
   "sign_up_page_confirm_password_error_empty": "비밀번호를 확인하십시오",
   "sign_up_page_confirm_password_error_invalid": "비밀번호가 일치하지 않습니다",
-  "sign_up_page_agree_text": "저는 ShuddhScore에 동의합니다.",
+  "sign_up_page_agree_text": "저는 FoodScan에 동의합니다.",
   "@sign_up_page_agree_text": {
     "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
   },
@@ -371,7 +371,7 @@
   "sign_up_page_producer_checkbox": "저는 식품 생산자입니다",
   "sign_up_page_producer_hint": "생산자/브랜드",
   "sign_up_page_producer_error_empty": "생산자 또는 브랜드 이름을 입력해주십시오",
-  "sign_up_page_subscribe_checkbox": "ShuddhScore 뉴스레터를 구독하고 싶습니다. (언제든지 구독을 취소할 수 있습니다.)",
+  "sign_up_page_subscribe_checkbox": "FoodScan 뉴스레터를 구독하고 싶습니다. (언제든지 구독을 취소할 수 있습니다.)",
   "sign_up_page_user_name_already_used": "사용자 이름이 이미 존재합니다. 다른 사용자 이름을 선택하세요.",
   "sign_up_page_email_already_exists": "이미 존재합니다. 계정에 로그인하거나 다른 이메일로 시도해 보세요.",
   "sign_up_page_provide_valid_email": "유효한 이메일 주소를 입력해 주세요.",
@@ -448,15 +448,15 @@
   "@contribute_sw_development": {
     "description": "Button label + page title: Ways to help"
   },
-  "contribute_develop_text": "모든 ShuddhScore 제품의 코드는 GitHub에서 확인할 수 있습니다. 코드를 재사용하여(오픈 소스이므로) 지구상의 모든 사람을 위해 코드를 개선하는 데 도움을 주세요.",
+  "contribute_develop_text": "모든 FoodScan 제품의 코드는 GitHub에서 확인할 수 있습니다. 코드를 재사용하여(오픈 소스이므로) 지구상의 모든 사람을 위해 코드를 개선하는 데 도움을 주세요.",
   "@contribute_develop_text": {},
-  "contribute_develop_text_2": "질문을 하는 가장 좋은 방법은 ShuddhScore Slack 채팅방에 참여하는 것입니다.",
+  "contribute_develop_text_2": "질문을 하는 가장 좋은 방법은 FoodScan Slack 채팅방에 참여하는 것입니다.",
   "@contribute_develop_text_2": {},
   "contribute_develop_dev_mode_title": "개발자 모드를 활성화할까요?",
   "contribute_develop_dev_mode_subtitle": "개발자 모드 활성화",
   "contribute_donate_title": "기부",
   "@contribute_donate_title": {},
-  "contribute_donate_header": "ShuddhScore에 기부하세요",
+  "contribute_donate_header": "FoodScan에 기부하세요",
   "@contribute_donate_header": {},
   "contribute_enroll_alpha_warning": "내부 알파 버전에서는 데이터가 완전히 손실될 가능성이 있으며, 언제든지 앱을 사용할 수 없게 될 수도 있다는 점을 양해해 주시기 바랍니다!",
   "@contribute_enroll_alpha_warning": {},
@@ -468,7 +468,7 @@
   "@contribute_improve_header": {
     "description": "Button label + page title: Ways to improve the database"
   },
-  "contribute_improve_text": "데이터베이스는 이 프로젝트의 핵심입니다. 쉽고 빠르게 도움을 드릴 수 있습니다. 휴대폰용 모바일 앱을 다운로드하여 제품을 추가하거나 개선할 수 있습니다.\n\n한편, ShuddhScore 웹사이트는 다양한 참여 방법을 제공합니다. ",
+  "contribute_improve_text": "데이터베이스는 이 프로젝트의 핵심입니다. 쉽고 빠르게 도움을 드릴 수 있습니다. 휴대폰용 모바일 앱을 다운로드하여 제품을 추가하거나 개선할 수 있습니다.\n\n한편, FoodScan 웹사이트는 다양한 참여 방법을 제공합니다. ",
   "@contribute_improve_text": {},
   "contribute_translate_header": "번역하기",
   "@contribute_translate_header": {
@@ -482,14 +482,14 @@
   "@contribute_translate_link_text": {
     "description": "Button label: Opens the Crowdin translation portal"
   },
-  "contribute_translate_text": "오픈 푸드 팩츠(ShuddhScore)는 160개국 이상의 제품을 소개하는 글로벌 프로젝트입니다. 오픈 푸드 팩츠는 수십 개 언어로 번역되며, 끊임없이 업데이트되는 콘텐츠를 제공합니다.",
+  "contribute_translate_text": "오픈 푸드 팩츠(FoodScan)는 160개국 이상의 제품을 소개하는 글로벌 프로젝트입니다. 오픈 푸드 팩츠는 수십 개 언어로 번역되며, 끊임없이 업데이트되는 콘텐츠를 제공합니다.",
   "@contribute_translate_text": {},
   "contribute_translate_text_2": "번역은 프로젝트의 핵심 작업 중 하나입니다",
   "@contribute_translate_text_2": {},
-  "contribute_join_skill_pool": "ShuddhScore에 여러분의 기술을 공유하고, 기술 풀에 참여하세요!",
-  "contribute_share_header": "친구들과 ShuddhScore를 공유하세요",
+  "contribute_join_skill_pool": "FoodScan에 여러분의 기술을 공유하고, 기술 풀에 참여하세요!",
+  "contribute_share_header": "친구들과 FoodScan를 공유하세요",
   "@contribute_share_header": {},
-  "contribute_share_content": "제가 사용하고 있는 앱, 오픈 푸드 팩츠(ShuddhScore)를 소개해 드리고자 합니다. 이 앱을 사용하면 개인 맞춤형으로 식품의 건강 및 환경 영향을 확인할 수 있습니다. 포장의 바코드를 스캔하면 작동하며, 무료이고 등록도 필요 없습니다. 심지어 해독되는 식품의 수를 늘리는 데 도움을 줄 수도 있습니다. 휴대폰으로 앱을 다운로드하려면 다음 링크를 클릭하세요: https://openfoodfacts.app",
+  "contribute_share_content": "제가 사용하고 있는 앱, 오픈 푸드 팩츠(FoodScan)를 소개해 드리고자 합니다. 이 앱을 사용하면 개인 맞춤형으로 식품의 건강 및 환경 영향을 확인할 수 있습니다. 포장의 바코드를 스캔하면 작동하며, 무료이고 등록도 필요 없습니다. 심지어 해독되는 식품의 수를 늘리는 데 도움을 줄 수도 있습니다. 휴대폰으로 앱을 다운로드하려면 다음 링크를 클릭하세요: https://openfoodfacts.app",
   "@contribute_share_content": {
     "description": "Content that will be shared, don't forget to include the URL"
   },
@@ -517,7 +517,7 @@
   "@contribute_to_get_rewards": {
     "description": "Button description shown on a product, clicking the button opens a card with unanswered product questions, users can answer these to contribute to Open Food Facts."
   },
-  "question_sign_in_text": "귀하의 기여에 대한 크레딧을 받으려면 ShuddhScore 계정에 로그인하세요.",
+  "question_sign_in_text": "귀하의 기여에 대한 크레딧을 받으려면 FoodScan 계정에 로그인하세요.",
   "question_yes_button_accessibility_value": "예라고 대답하세요",
   "question_no_button_accessibility_value": "아니오로 대답하세요",
   "question_skip_button_accessibility_value": "이 질문을 건너뛰세요",
@@ -527,7 +527,7 @@
   "@myPreferences": {
     "description": "Page title: Page where the ranking preferences can be changed"
   },
-  "account_create_message": "계정을 만들고 ShuddhScore 커뮤니티에 가입하여 전 세계의 음식 지식을 쌓는 데 도움을 주세요!",
+  "account_create_message": "계정을 만들고 FoodScan 커뮤니티에 가입하여 전 세계의 음식 지식을 쌓는 데 도움을 주세요!",
   "@account_create_message": {
     "description": "The Message to be displayed if the user does not have an account and wants to contribute"
   },
@@ -536,13 +536,13 @@
     "description": "Join which is actually Signup"
   },
   "myPreferences_profile_title": "내 프로필",
-  "myPreferences_profile_subtitle": "ShuddhScore 기고자 계정을 관리하세요.",
+  "myPreferences_profile_subtitle": "FoodScan 기고자 계정을 관리하세요.",
   "myPreferences_settings_title": "앱 설정",
   "myPreferences_settings_subtitle": "다크 모드, 언어…",
   "myPreferences_not_configured_yet": "You haven't set any preference yet.",
   "myPreferences_food_title": "식품 설정",
   "myPreferences_food_subtitle": "당신에게 가장 중요한 음식 정보를 선택하십시오.",
-  "myPreferences_food_comment": "음식에 대한 가장 중요한 정보를 선택하여 선호도에 따라 음식을 순위를 매기고, 관심 있는 정보를 먼저 확인하고, 호환성 요약을 받아보세요. 선택한 음식 선호도는 기기에 저장되며, ShuddhScore 기여자 계정이 있는 경우 해당 계정과 연결되지 않습니다.",
+  "myPreferences_food_comment": "음식에 대한 가장 중요한 정보를 선택하여 선호도에 따라 음식을 순위를 매기고, 관심 있는 정보를 먼저 확인하고, 호환성 요약을 받아보세요. 선택한 음식 선호도는 기기에 저장되며, FoodScan 기여자 계정이 있는 경우 해당 계정과 연결되지 않습니다.",
   "myPreferences_beauty_title": "Preferences for cosmetics",
   "myPreferences_beauty_subtitle": "Choose what information about cosmetics products matters most to you.",
   "myPreferences_product_title": "Preferences for other products",
@@ -700,7 +700,7 @@
   "@packaging_information_photo": {},
   "missing_product": "새 상품을 찾았습니다!",
   "@missing_product": {},
-  "add_product_take_photos": "이 제품을 ShuddhScore에 추가하려면 포장 사진을 찍으세요.",
+  "add_product_take_photos": "이 제품을 FoodScan에 추가하려면 포장 사진을 찍으세요.",
   "@add_product_take_photos": {},
   "add_product_take_photos_descriptive": "사진을 먼저 찍어주세요. 나중에 언제든지 제품을 완성할 수 있습니다.",
   "@add_product_take_photos_descriptive": {},
@@ -818,7 +818,7 @@
   "new_product_subtitle_nova": "식품 카테고리와 재료를 입력하여 받으세요",
   "new_product_desc_nova_unknown": "식품 가공 수준을 알 수 없음",
   "new_product_title_pictures": "신제품",
-  "new_product_title_pictures_details": "다음 사진을 찍어주세요. 그러면 ShuddhScore 엔진이 나머지 정보를 알아낼 수 있습니다!",
+  "new_product_title_pictures_details": "다음 사진을 찍어주세요. 그러면 FoodScan 엔진이 나머지 정보를 알아낼 수 있습니다!",
   "new_product_title_misc": "그리고 몇 가지 기본 데이터…",
   "new_product_done_msg": "귀하의 기여에 감사드립니다 “{username}”!",
   "@new_product_done_msg": {
@@ -861,27 +861,27 @@
   "@uploading_image": {
     "description": "Message when a new picture is uploading to the server"
   },
-  "uploading_image_type_front": "ShuddhScore에 전면 이미지 업로드",
+  "uploading_image_type_front": "FoodScan에 전면 이미지 업로드",
   "@uploading_image_type_front": {
     "description": "Message when a new front picture is being uploaded to the server"
   },
-  "uploading_image_type_ingredients": "ShuddhScore에 재료 이미지 업로드",
+  "uploading_image_type_ingredients": "FoodScan에 재료 이미지 업로드",
   "@uploading_image_type_ingredients": {
     "description": "Message when a new ingredients picture is being uploaded to the server"
   },
-  "uploading_image_type_nutrition": "ShuddhScore에 영양 정보 이미지 업로드",
+  "uploading_image_type_nutrition": "FoodScan에 영양 정보 이미지 업로드",
   "@uploading_image_type_nutrition": {
     "description": "Message when a new nutrition picture is being uploaded to the server"
   },
-  "uploading_image_type_packaging": "ShuddhScore에 포장 이미지 업로드",
+  "uploading_image_type_packaging": "FoodScan에 포장 이미지 업로드",
   "@uploading_image_type_packaging": {
     "description": "Message when a new packaging picture is being uploaded to the server"
   },
-  "uploading_image_type_other": "ShuddhScore에 다른 이미지 업로드",
+  "uploading_image_type_other": "FoodScan에 다른 이미지 업로드",
   "@uploading_image_type_other": {
     "description": "Message when a new other picture is being uploaded to the server"
   },
-  "uploading_image_type_generic": "ShuddhScore에 이미지 업로드",
+  "uploading_image_type_generic": "FoodScan에 이미지 업로드",
   "@uploading_image_type_generic": {
     "description": "Message when a new picture is being uploaded to the server"
   },
@@ -1090,9 +1090,9 @@
   "@product_image_details_date_unknown": {
     "description": "Text to indicate the date of the image is unknown"
   },
-  "homepage_main_card_logo_description": "ShuddhScore에 오신 것을 환영합니다",
+  "homepage_main_card_logo_description": "FoodScan에 오신 것을 환영합니다",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**바코드를 스캔**하거나\n제품을 **검색**하세요.",
   "@homepage_main_card_subheading": {
@@ -1257,7 +1257,7 @@
   "@native_app_settings": {
     "description": "Native App Settings in app settings"
   },
-  "native_app_description": "ShuddhScore에 대한 개방형 시스템 설정",
+  "native_app_description": "FoodScan에 대한 개방형 시스템 설정",
   "@native_app_description": {
     "description": "Native App description in app settings"
   },
@@ -1562,7 +1562,7 @@
   "@user_profile_title_guest": {
     "description": "When the user is not connected"
   },
-  "user_profile_subtitle_guest": "ShuddhScore 커뮤니티에 가입하려면 로그인하거나 가입하세요.",
+  "user_profile_subtitle_guest": "FoodScan 커뮤니티에 가입하려면 로그인하거나 가입하세요.",
   "user_profile_title_id_email": "오픈 푸드 팩트 로그인: {email}",
   "@user_profile_title_id_email": {
     "description": "User login (when it's an email)",
@@ -1585,7 +1585,7 @@
   "@email_subject_account_deletion": {
     "description": "Email subject for an account deletion"
   },
-  "email_body_account_deletion": "안녕하세요, 제 ShuddhScore 계정을 삭제해 주세요: {userId}",
+  "email_body_account_deletion": "안녕하세요, 제 FoodScan 계정을 삭제해 주세요: {userId}",
   "@email_body_account_deletion": {
     "description": "Email body for an account deletion",
     "placeholders": {
@@ -1626,7 +1626,7 @@
   "@crash_reporting_toggle_title": {
     "description": "Title for the Crash reporting toggle"
   },
-  "crash_reporting_toggle_subtitle": "이 기능을 활성화하면 충돌 보고서가 ShuddhScore의 오류 추적 시스템에 자동으로 제출되어 버그를 수정하고 앱을 개선할 수 있습니다.",
+  "crash_reporting_toggle_subtitle": "이 기능을 활성화하면 충돌 보고서가 FoodScan의 오류 추적 시스템에 자동으로 제출되어 버그를 수정하고 앱을 개선할 수 있습니다.",
   "@crash_reporting_toggle_subtitle": {
     "description": "SubTitle for the Crash reporting toggle"
   },
@@ -1981,7 +1981,7 @@
   "@edit_product_form_item_categories_explanation_info2_title": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
-  "edit_product_form_item_categories_explanation_info2_content": "**자동완성에서 카테고리를 사용할 수 없는 경우**, 어쨌든 추가해 주세요.\n이렇게 하면 해당 국가의 ShuddhScore를 개선하는 데 도움이 됩니다.",
+  "edit_product_form_item_categories_explanation_info2_content": "**자동완성에서 카테고리를 사용할 수 없는 경우**, 어쨌든 추가해 주세요.\n이렇게 하면 해당 국가의 FoodScan를 개선하는 데 도움이 됩니다.",
   "@edit_product_form_item_categories_explanation_info2_content": {
     "description": "Product edition - Categories - input explainer, part 2"
   },
@@ -2729,10 +2729,10 @@
   "prices_add_validation_error": "검증 오류",
   "prices_privacy_warning_title": "개인정보 보호 경고",
   "prices_unknown_product": "알 수 없는 제품",
-  "prices_privacy_warning_main_message": "가격은 **공개됩니다**. 해당 가격이 언급하는 매장도 함께 공개됩니다.\n\n이를 통해 ShuddhScore 가명을 아는 사람들이 다음을 수행할 수 있습니다.\n",
+  "prices_privacy_warning_main_message": "가격은 **공개됩니다**. 해당 가격이 언급하는 매장도 함께 공개됩니다.\n\n이를 통해 FoodScan 가명을 아는 사람들이 다음을 수행할 수 있습니다.\n",
   "prices_privacy_warning_message_bullet_1": "당신이 사는 지역을 추론해보세요",
   "prices_privacy_warning_message_bullet_2": "무엇을 사는지 알아보세요",
-  "prices_privacy_warning_sub_message": "해당 사항이 불편하시다면 가명을 변경하시거나 새로운 ShuddhScore 계정을 만들어 앱에 로그인해 주세요.",
+  "prices_privacy_warning_sub_message": "해당 사항이 불편하시다면 가명을 변경하시거나 새로운 FoodScan 계정을 만들어 앱에 로그인해 주세요.",
   "i_refuse": "나는 거부한다",
   "i_accept": "나는 받아들인다",
   "prices_currency_change_proposal_title": "통화를 변경하시겠습니까?",
@@ -2953,7 +2953,7 @@
   "@edit_product_action_confirm": {
     "description": "Product edition - FAB actions - confirm"
   },
-  "signup_page_terms_of_use_line1": "저는 ShuddhScore에 동의합니다. ",
+  "signup_page_terms_of_use_line1": "저는 FoodScan에 동의합니다. ",
   "@signup_page_terms_of_use_line1": {
     "description": "User consent for terms of use (line 1)"
   },
@@ -3329,7 +3329,7 @@
   "@share": {
     "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
   },
-  "share_product_text": "ShuddhScore에서 이 제품을 살펴보세요: {url}",
+  "share_product_text": "FoodScan에서 이 제품을 살펴보세요: {url}",
   "@share_product_text": {
     "description": "The content which is send, when sharing a 'food' product",
     "placeholders": {
@@ -3365,7 +3365,7 @@
       }
     }
   },
-  "share_product_list_text": "ShuddhScore에서 내 제품 목록을 확인하세요: {url}",
+  "share_product_list_text": "FoodScan에서 내 제품 목록을 확인하세요: {url}",
   "@share_product_list_text": {
     "description": "The content which is send, when sharing a product list",
     "placeholders": {
@@ -3877,7 +3877,7 @@
   "@update_offline_data": {
     "description": "List tile title for the update offline data page"
   },
-  "update_local_database_sub": "ShuddhScore의 최신 데이터로 로컬 제품 데이터베이스를 업데이트하세요.",
+  "update_local_database_sub": "FoodScan의 최신 데이터로 로컬 제품 데이터베이스를 업데이트하세요.",
   "@update_local_database_sub": {
     "description": "Update the local product database with the latest data from server"
   },
@@ -3995,12 +3995,12 @@
   "nova_group_unknown": "알 수 없는 NOVA 그룹",
   "nutrition_facts": "영양소 수준",
   "faq_title_partners": "NGO의 파트너 및 후원자",
-  "faq_title_vision": "ShuddhScore 비전, 사명, 가치 및 프로그램",
+  "faq_title_vision": "FoodScan 비전, 사명, 가치 및 프로그램",
   "faq_title_install_beauty": "화장품 데이터베이스를 생성하려면 Open Beauty Facts를 설치하세요.",
   "faq_title_install_pet": "반려동물 사료 데이터베이스를 생성하려면 Open Pet Food Facts를 설치하세요.",
   "faq_title_install_product": "제품 데이터베이스를 생성하여 개체 수명을 연장하려면 Open Products Facts를 설치하세요.",
   "faq_nutriscore_nutriscore": "Nutri-Score의 새로운 계산법: 새로운 점은 무엇인가요?",
-  "contact_title_pro_page": "찬성? ShuddhScore에서 제품을 가져오세요",
+  "contact_title_pro_page": "찬성? FoodScan에서 제품을 가져오세요",
   "contact_title_pro_email": "프로듀서 연락처",
   "contact_title_press_page": "보도 페이지",
   "contact_title_press_email": "언론 연락처",
@@ -4280,7 +4280,7 @@
     "description": "The title of the guide (please don't forget the use of non-breaking spaces)"
   },
   "guide_open_prices_what_is_open_prices_title": "Open Prices란 무엇인가요?",
-  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices는 **전 세계 제품 가격을 수집하고 공유하는** 프로젝트입니다. 연구, 분석 등에 활용할 수 있는 공개 데이터 세트입니다. Open Prices는 ShuddhScore에서 개발 및 관리합니다.",
+  "guide_open_prices_what_is_open_prices_paragraph1": "Open Prices는 **전 세계 제품 가격을 수집하고 공유하는** 프로젝트입니다. 연구, 분석 등에 활용할 수 있는 공개 데이터 세트입니다. Open Prices는 FoodScan에서 개발 및 관리합니다.",
   "@guide_open_prices_what_is_open_prices_paragraph1": {
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
@@ -4289,10 +4289,10 @@
     "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
   },
   "guide_open_prices_how_title": "Open Prices는 어떻게 작동하나요?",
-  "guide_open_prices_how_paragraph1": "**저희는 오픈소스 가격 데이터 세트를 크라우드소싱하고 있습니다**. 사용자는 이 웹앱이나 공식 ShuddhScore 모바일 앱을 통해 가격을 추가할 수 있습니다. 소매업체나 타사 앱도 저희 API를 사용하여 가격을 추가할 수 있습니다.",
+  "guide_open_prices_how_paragraph1": "**저희는 오픈소스 가격 데이터 세트를 크라우드소싱하고 있습니다**. 사용자는 이 웹앱이나 공식 FoodScan 모바일 앱을 통해 가격을 추가할 수 있습니다. 소매업체나 타사 앱도 저희 API를 사용하여 가격을 추가할 수 있습니다.",
   "guide_open_prices_how_arg1_title": "통로에 있는 가격표 사진을 수집하세요",
   "guide_open_prices_how_arg2_title": "영수증 사진 수집",
-  "guide_open_prices_why_title": "ShuddhScore에서 이런 일을 하는 이유는 무엇입니까?",
+  "guide_open_prices_why_title": "FoodScan에서 이런 일을 하는 이유는 무엇입니까?",
   "guide_open_prices_why_paragraph1": "가격 정보는 식량 시스템을 이해하는 데 매우 중요합니다. 식량 가격을 이해하고 더 건강한 식단을 장려하는 데 중요한 요소입니다. 가격 데이터 공개는 연구자, 언론인, 그리고 시민들이 **지역별, 시간별 식량 가격 변동을 더 잘 이해할 수 있도록** 하는 방법입니다.",
   "guide_open_prices_why_arg1_title": "시간 경과에 따른 가격 변화를 추적하세요",
   "guide_open_prices_why_arg1_text": "**가격의 변화**를 보세요: 수축 인플레이션, 저렴한 인플레이션, 우리는 함께 추적할 수 있습니다!",
@@ -4550,7 +4550,7 @@
     "description": "A label on top of the carousel card when the barcode is not supported by the app"
   },
   "carousel_unsupported_title": "앗!",
-  "carousel_unsupported_text": "스캔된 바코드는 ShuddhScore에서 지원하지 않습니다!",
+  "carousel_unsupported_text": "스캔된 바코드는 FoodScan에서 지원하지 않습니다!",
   "carousel_error_header": "오류!",
   "@carousel_error_header": {
     "description": "A label on top of the carousel card when there is an error (mainly network issues)"
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "ShuddhScore 웹사이트에서",
+  "preferences_on_off_website_subtitle": "FoodScan 웹사이트에서",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "내 계정 관리",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "공개 식품 정보를 알아보세요",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "공개된 뷰티 정보를 확인하세요",
   "@preferences_faq_discover_obf_title": {
@@ -5322,7 +5322,7 @@
   },
   "preferences_faq_off_ngo_title": "오픈 푸드 팩츠 NGO",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "정보",
   "@preferences_about_information_title": {
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ShuddhScore에 추가한 새로운 제품",
+  "preferences_contributions_new_products_subtitle": "FoodScan에 추가한 새로운 제품",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "ShuddhScore를 돕는 간단한 방법",
+  "preferences_page_contribute_project_subtitle": "FoodScan를 돕는 간단한 방법",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5770,7 +5770,7 @@
   },
   "preferences_page_open_food_facts_labs_title": "오픈 푸드 팩츠 랩스",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "계정",
   "@preferences_root_account_title": {

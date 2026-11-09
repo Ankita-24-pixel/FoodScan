@@ -1,5 +1,5 @@
 ﻿{
-  "app_name": "Open Food Facts",
+  "app_name": "FoodScan",
   "open_prices": "ధరలు తెరవండి",
   "sep": "",
   "@sep": {
@@ -1092,7 +1092,7 @@
   },
   "homepage_main_card_logo_description": "ఓపెన్ ఫుడ్ ఫ్యాక్ట్స్ కు స్వాగతం",
   "@homepage_main_card_logo_description": {
-    "description": "Description for accessibility of the ShuddhScore logo on the homepage"
+    "description": "Description for accessibility of the FoodScan logo on the homepage"
   },
   "homepage_main_card_subheading": "**బార్‌కోడ్‌ని స్కాన్ చేయండి లేదా\n**ఉత్పత్తి కోసం శోధించండి**",
   "@homepage_main_card_subheading": {
@@ -4748,7 +4748,7 @@
     "description": "Label of the prices tab on the product page"
   },
   "prices_explanation_card_title": "ధరలు ఎందుకు?",
-  "prices_explanation_card_line1": "**Open Prices** అనేది ప్రపంచవ్యాప్తంగా ఉన్న ఉత్పత్తుల ధరలను సేకరించి పంచుకునే ప్రాజెక్ట్ 🌍. Open Prices‌ను ShuddhScore అభివృద్ధి చేసి నిర్వహిస్తుంది.",
+  "prices_explanation_card_line1": "**Open Prices** అనేది ప్రపంచవ్యాప్తంగా ఉన్న ఉత్పత్తుల ధరలను సేకరించి పంచుకునే ప్రాజెక్ట్ 🌍. Open Prices‌ను FoodScan అభివృద్ధి చేసి నిర్వహిస్తుంది.",
   "explanation_card_learn_more_button": "మరింత తెలుసుకోండి",
   "product_page_tab_folksonomy": "జానపద శాస్త్రము",
   "@product_page_tab_folksonomy": {
@@ -5123,7 +5123,7 @@
   "@preferences_legal_mentions": {
     "description": "Title for the preferences legal mentions card"
   },
-  "preferences_legal_header": "ShuddhScore అనేది అందరిచే, అందరి కోసం తయారు చేయబడిన ఆహార ఉత్పత్తుల డేటాబేస్ **.\nమెరుగైన ఆహార ఎంపికలు చేయడానికి మీరు దీన్ని ఉపయోగించవచ్చు మరియు ఇది **ఓపెన్ డేటా** కాబట్టి, ఎవరైనా దీన్ని ఏ ఉద్దేశానికైనా తిరిగి ఉపయోగించవచ్చు**.",
+  "preferences_legal_header": "FoodScan అనేది అందరిచే, అందరి కోసం తయారు చేయబడిన ఆహార ఉత్పత్తుల డేటాబేస్ **.\nమెరుగైన ఆహార ఎంపికలు చేయడానికి మీరు దీన్ని ఉపయోగించవచ్చు మరియు ఇది **ఓపెన్ డేటా** కాబట్టి, ఎవరైనా దీన్ని ఏ ఉద్దేశానికైనా తిరిగి ఉపయోగించవచ్చు**.",
   "@preferences_legal_header": {
     "description": "This is the same text as the Discover banner on the website. Please keep the ** syntax to make the text bold."
   },
@@ -5187,9 +5187,9 @@
   "@tips_discover_nutriscore": {
     "description": "Title for the tips discover nutriscore header"
   },
-  "preferences_on_off_website_subtitle": "ShuddhScore వెబ్‌సైట్‌లో",
+  "preferences_on_off_website_subtitle": "FoodScan వెబ్‌సైట్‌లో",
   "@preferences_on_off_website_subtitle": {
-    "description": "Subtitle for preferences tiles leading to the ShuddhScore website"
+    "description": "Subtitle for preferences tiles leading to the FoodScan website"
   },
   "preferences_manage_account_title": "నా ఖాతాను నిర్వహించు",
   "@preferences_manage_account_title": {
@@ -5298,7 +5298,7 @@
   },
   "preferences_faq_discover_off_title": "ఓపెన్ ఫుడ్ వాస్తవాలను కనుగొనండి",
   "@preferences_faq_discover_off_title": {
-    "description": "Title for discover ShuddhScore tile"
+    "description": "Title for discover FoodScan tile"
   },
   "preferences_faq_discover_obf_title": "డిస్కవర్ ఓపెన్ బ్యూటీ వాస్తవాలు",
   "@preferences_faq_discover_obf_title": {
@@ -5320,9 +5320,9 @@
   "@preferences_faq_faq_title": {
     "description": "Title for FAQ tile"
   },
-  "preferences_faq_off_ngo_title": "ది ShuddhScore NGO",
+  "preferences_faq_off_ngo_title": "ది FoodScan NGO",
   "@preferences_faq_off_ngo_title": {
-    "description": "Title for ShuddhScore NGO card"
+    "description": "Title for FoodScan NGO card"
   },
   "preferences_about_information_title": "Information",
   "@preferences_about_information_title": {
@@ -5344,7 +5344,7 @@
   "@preferences_connect_community_calendar_subtitle": {
     "description": "Subtitle for community calendar tile"
   },
-  "preferences_connect_blog_title": "ShuddhScore బ్లాగ్",
+  "preferences_connect_blog_title": "FoodScan బ్లాగ్",
   "@preferences_connect_blog_title": {
     "description": "Title for blog tile"
   },
@@ -5464,7 +5464,7 @@
   "@preferences_contributions_products_added_title": {
     "description": "Title for new products added tile"
   },
-  "preferences_contributions_new_products_subtitle": "ShuddhScore కు నేను జోడించిన కొత్త ఉత్పత్తులు",
+  "preferences_contributions_new_products_subtitle": "FoodScan కు నేను జోడించిన కొత్త ఉత్పత్తులు",
   "@preferences_contributions_new_products_subtitle": {
     "description": "Subtitle for new products added subtile"
   },
@@ -5568,7 +5568,7 @@
   "@preferences_page_contribute_project_title": {
     "description": "Title for the contribute to project navigation tile"
   },
-  "preferences_page_contribute_project_subtitle": "సహాయపడే సులభమైన మార్గాలు ShuddhScoreవండి",
+  "preferences_page_contribute_project_subtitle": "సహాయపడే సులభమైన మార్గాలు FoodScanవండి",
   "@preferences_page_contribute_project_subtitle": {
     "description": "Subtitle for the contribute to project navigation tile"
   },
@@ -5768,15 +5768,15 @@
   "@preferences_about_app_development_title": {
     "description": "Title for the development preferences card in about app section"
   },
-  "preferences_page_open_food_facts_labs_title": "ShuddhScore ల్యాబ్స్",
+  "preferences_page_open_food_facts_labs_title": "FoodScan ల్యాబ్స్",
   "@preferences_page_open_food_facts_labs_title": {
-    "description": "Title for the ShuddhScore Labs navigation tile in preferences page"
+    "description": "Title for the FoodScan Labs navigation tile in preferences page"
   },
   "preferences_root_account_title": "ఖాతా",
   "@preferences_root_account_title": {
     "description": "Title for the account preferences root"
   },
-  "preferences_contribute_translate_header": "ShuddhScore ని మీ భాషలోకి తీసుకురండి",
+  "preferences_contribute_translate_header": "FoodScan ని మీ భాషలోకి తీసుకురండి",
   "@preferences_contribute_translate_header": {
     "description": "Button label + pop up window title: Shows information about helping by translating"
   },

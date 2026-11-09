@@ -574,7 +574,7 @@ class AppRoutes {
   static String get GUIDE_NOVA =>
       '/${_InternalAppRoutes._GUIDES}/${_InternalAppRoutes.GUIDE_NOVA_PAGE}';
 
-  // Guide for ShuddhScore
+  // Guide for FoodScan
   static String get GUIDE_OPEN_FOOD_FACTS =>
       '/${_InternalAppRoutes._GUIDES}/${_InternalAppRoutes.GUIDE_OPEN_FOOD_FACTS_PAGE}';
 

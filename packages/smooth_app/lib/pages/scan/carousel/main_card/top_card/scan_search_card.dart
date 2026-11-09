@@ -52,7 +52,7 @@ class ScanSearchCard extends StatelessWidget {
             LayoutBuilder(
               builder: (_, BoxConstraints constraints) {
                 return Image.asset(
-                  'assets/app/shuddhscore_logo.png',
+                  'assets/app/foodscan_logo.png',
                   width: math.min(311.0, constraints.maxWidth * 0.85),
                   semanticLabel:
                       localizations.homepage_main_card_logo_description,

@@ -1,5 +1,5 @@
 name: smooth_app
-description: The next generation of the ShuddhScore mobile apps.
+description: The next generation of the FoodScan mobile app.
 version: 0.0.0+734
 publish_to: "none"
 
@@ -104,8 +104,7 @@ dependencies:
     path: ../scanner/zxing
 
   openfoodfacts: 3.30.2
-  # openfoodfacts:
-  #   path: ../../../openfoodfacts-dart
+
 
 dev_dependencies:
   integration_test:
@@ -127,7 +126,7 @@ flutter_native_splash:
   color: "#FFFFFF"
   color_dark: "#333333"
   #It must be a png file and should be sized for 4x pixel density.
-  image: "assets/app/release_icon_transparent_1152x1152.png"
+  image: "assets/app/foodscan_logo.png"
 
   # The branding property allows you to specify an image used as branding in the splash screen.
   # It must be a png file. Currently, it is only supported for Android < v12 and iOS.
@@ -142,15 +141,15 @@ flutter_native_splash:
     # 640 pixels in diameter.
     # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
     # 768 pixels in diameter.
-    image: "assets/app/release_icon_transparent_70pct_1152x1152.png"
+    image: "assets/app/foodscan_logo.png"
     icon_background_color: "#FFFFFF"
     icon_background_color_dark: "#333333"
 
 # flutter_launcher_icons configuration for generating launcher icons
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/app/shuddhscore_logo.png"
+  image_path: "assets/app/foodscan_logo.png"
   remove_alpha_ios: true
 
 flutter:
@@ -179,6 +178,7 @@ flutter:
     - assets/preferences/
     - assets/product/
     - assets/icons/
+    - assets/symbols/
 
   # /!\
   # Don't use icons SVGs (in assets/fonts/icons), but add them to the font
