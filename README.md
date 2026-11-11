@@ -111,9 +111,3 @@ FoodScan is a community-driven project aimed at helping users make informed food
 
 </details>
 <br>
-
-## Contributors
-
-<a href="https://github.com/Ankita-24-pixel/ShuddhScore_01/graphs/contributors">
-  <img alt="List of contributors to this repository" src="https://contrib.rocks/image?repo=Ankita-24-pixel/ShuddhScore_01" />
-</a>
