@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -49,26 +48,27 @@ class ScanSearchCard extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            LayoutBuilder(
-              builder: (_, BoxConstraints constraints) {
-                return Image.asset(
-                  'assets/app/foodscan_logo.png',
-                  width: math.min(311.0, constraints.maxWidth * 0.85),
-                  semanticLabel:
-                      localizations.homepage_main_card_logo_description,
-                );
-              },
+            DecoratedBox(
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: lightTheme
+                    ? Colors.white.withValues(alpha: 0.8)
+                    : Colors.white.withValues(alpha: 0.08),
+              ),
+              child: Padding(
+                padding: const EdgeInsetsDirectional.all(LARGE_SPACE),
+                child: icons.Barcode.withCorners(
+                  size: 36.0,
+                  color: context
+                      .extension<SmoothColorsThemeExtension>()
+                      .primaryDark,
+                ),
+              ),
             ),
-            const SizedBox(height: VERY_SMALL_SPACE),
             TextWithBoldParts(
               text: localizations.homepage_main_card_subheading,
               textAlign: TextAlign.center,
               textStyle: const TextStyle(height: 1.6, fontSize: 15.0),
-            ),
-            const SizedBox(height: MEDIUM_SPACE),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: SMALL_SPACE),
-              child: _ScanSearchBar(),
             ),
           ],
         ),
@@ -91,23 +91,21 @@ class ScanSearchCard extends StatelessWidget {
     if (expanded) {
       return MediaQuery.sizeOf(context).height * 0.4;
     } else {
-      return (MEDIUM_SPACE * 3) +
-          (VERY_SMALL_SPACE * 3) +
-          // Logo
-          54.0 +
+      return (MEDIUM_SPACE * 2) +
+          (VERY_SMALL_SPACE * 2) +
+          // Barcode icon
+          68.0 +
           // Text
           ((2 * DefaultTextStyle.of(context).style.fontSize!) * 1.3) *
               context.textScaler() +
-          // Search bar
-          SearchFieldUIHelper.SEARCH_BAR_HEIGHT +
-          // Extra space
+          // Extra breathing room
           VERY_LARGE_SPACE;
     }
   }
 }
 
-class _ScanSearchBar extends StatelessWidget {
-  const _ScanSearchBar();
+class ScanSearchBar extends StatelessWidget {
+  const ScanSearchBar({super.key});
 
   static const String HERO_TAG = 'search_field';
 

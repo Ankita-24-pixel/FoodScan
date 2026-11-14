@@ -17,6 +17,7 @@ import 'package:smooth_app/helpers/permission_helper.dart';
 import 'package:smooth_app/l10n/app_localizations.dart';
 import 'package:smooth_app/pages/scan/camera_scan_page.dart';
 import 'package:smooth_app/pages/scan/carousel/scan_carousel.dart';
+import 'package:smooth_app/pages/scan/carousel/main_card/top_card/scan_search_card.dart';
 import 'package:smooth_app/themes/smooth_theme_colors.dart';
 import 'package:smooth_app/themes/theme_provider.dart';
 import 'package:smooth_app/widgets/smooth_scaffold.dart';
@@ -35,9 +36,6 @@ class _ScanPageState extends State<ScanPage> {
   AudioPlayer? _musicPlayer;
 
   late UserPreferences _userPreferences;
-
-  /// Percentage of the bottom part of the screen that hosts the carousel.
-  static const int _carouselHeightPct = 57;
 
   @override
   void didChangeDependencies() {
@@ -67,9 +65,45 @@ class _ScanPageState extends State<ScanPage> {
           : null,
       body: Column(
         children: <Widget>[
+          SafeArea(
+            bottom: false,
+            child: Padding(
+              padding: const EdgeInsetsDirectional.fromSTEB(
+                LARGE_SPACE,
+                SMALL_SPACE,
+                LARGE_SPACE,
+                MEDIUM_SPACE,
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Text(
+                          appLocalizations.camera_window_accessibility_label,
+                          style: Theme.of(context).textTheme.titleLarge
+                              ?.copyWith(fontWeight: FontWeight.w700),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      const SizedBox(width: SMALL_SPACE),
+                      Icon(
+                        Icons.document_scanner_outlined,
+                        color: themeExtension.primaryDark,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: SMALL_SPACE),
+                  const ScanSearchBar(),
+                ],
+              ),
+            ),
+          ),
           if (hasACamera)
             Expanded(
-              flex: 100 - _carouselHeightPct,
+              flex: 43,
               child: Consumer<PermissionListener>(
                 builder:
                     (BuildContext context, PermissionListener listener, _) {
@@ -83,7 +117,7 @@ class _ScanPageState extends State<ScanPage> {
               ),
             ),
           Expanded(
-            flex: _carouselHeightPct,
+            flex: 57,
             child: Padding(
               padding: const EdgeInsetsDirectional.only(bottom: BALANCED_SPACE),
               child: ScanPageCarousel(
