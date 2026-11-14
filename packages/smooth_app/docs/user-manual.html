@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FoodScan — Quick User Manual</title>
+<style>
+  @page { size: A4; margin: 16mm 17mm 17mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #20302b; font: 10.2pt/1.48 Arial, Helvetica, sans-serif; }
+  h1, h2, h3 { color: #176b4a; margin: 0 0 7pt; }
+  h1 { font-size: 27pt; line-height: 1.08; }
+  h2 { font-size: 17pt; border-bottom: 1.5pt solid #d5e9dd; padding-bottom: 5pt; margin-top: 2pt; }
+  h3 { font-size: 11pt; margin: 10pt 0 3pt; }
+  p { margin: 4pt 0 7pt; }
+  ul, ol { margin: 3pt 0 8pt; padding-left: 18pt; }
+  li { margin: 2pt 0; }
+  a { color: #176b4a; text-decoration: none; }
+  .page { height: 264mm; page-break-after: always; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  .kicker { text-transform: uppercase; letter-spacing: 1.5pt; font-size: 8pt; font-weight: bold; color: #54856c; margin-bottom: 9pt; }
+  .hero { background: #eff8f2; border-left: 5pt solid #258257; padding: 15pt 17pt; margin: 13pt 0; }
+  .hero p { font-size: 11pt; margin: 5pt 0 0; }
+  .tag { display: inline-block; background: #e7f2eb; color: #176b4a; border-radius: 10pt; padding: 3pt 8pt; margin: 2pt 3pt 2pt 0; font-size: 8pt; font-weight: bold; }
+  .callout { background: #fff8e6; border-left: 3pt solid #e6b341; padding: 8pt 10pt; margin: 9pt 0; }
+  .muted { color: #5d6e65; }
+  .steps { counter-reset: step; list-style: none; padding: 0; }
+  .steps li { counter-increment: step; position: relative; padding-left: 27pt; margin: 8pt 0; }
+  .steps li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 19pt; height: 19pt; line-height: 19pt; text-align: center; border-radius: 50%; background: #258257; color: white; font-weight: bold; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8pt; margin-top: 8pt; }
+  .card { border: 1pt solid #dce8e0; border-radius: 6pt; padding: 8pt 10pt; }
+  .card h3 { margin-top: 0; }
+  .footer { position: absolute; bottom: 0; left: 0; right: 0; border-top: 1pt solid #dce8e0; padding-top: 5pt; color: #738078; font-size: 8pt; display: flex; justify-content: space-between; }
+  .small { font-size: 8.5pt; }
+  @media screen { body { max-width: 210mm; margin: 12mm auto; } .page { padding: 0; margin-bottom: 12mm; } }
+</style>
+</head>
+<body>
+<section class="page">
+  <div class="kicker">FoodScan · Quick user manual</div>
+  <h1>Make more informed<br>food choices.</h1>
+  <div class="hero">
+    <strong>FoodScan helps you explore packaged products.</strong>
+    <p>Scan a barcode to find available product details, review nutrition and ingredients, and compare products using the information and quality indicators shown in the app.</p>
+  </div>
+  <p><span class="tag">Android</span><span class="tag">iPhone &amp; iPad</span><span class="tag">Open Food Facts</span></p>
+  <h2>Getting started</h2>
+  <ol class="steps">
+    <li><strong>Install and open the app.</strong> Use the official store release where available. On first launch, follow the welcome prompts and choose any requested language or region settings.</li>
+    <li><strong>Allow camera access.</strong> The camera is needed to scan a product barcode. If you decline, enable camera permission later in your device’s Settings, then return to FoodScan.</li>
+    <li><strong>Connect to the internet.</strong> Product search and current product records may need a network connection. Availability depends on the product record and service connection.</li>
+    <li><strong>Choose your preferences.</strong> Where the app offers food-quality preferences or criteria, set them to suit your needs. You can revisit these settings later.</li>
+  </ol>
+  <div class="callout"><strong>About product data:</strong> FoodScan displays information available for a product record. Some products may be missing, incomplete, outdated, or provided by contributors. Check packaging for the most current details.</div>
+  <h3>What you can explore</h3>
+  <p class="muted">The project describes product details such as nutrition, ingredients, quality indicators, comparisons, personal preferences, and consumption patterns. What appears can vary by app version, product record, and region.</p>
+  <div class="footer"><span>FoodScan · User guide</span><span>1 / 3</span></div>
+</section>
+<section class="page">
+  <div class="kicker">Everyday use</div>
+  <h2>Scan and review a product</h2>
+  <ol class="steps">
+    <li><strong>Open the barcode scanner.</strong> From the app’s main screen, select the scan action (the exact label or icon may vary by version).</li>
+    <li><strong>Frame the barcode.</strong> Hold the phone steady and position the barcode inside the scanner area. Use a well-lit, focused view; avoid glare, folds, or damaged labels.</li>
+    <li><strong>Wait for the result.</strong> When a match is found, open its product page. If scanning does not work, use the app’s search or manual entry option if available.</li>
+    <li><strong>Review the record.</strong> Check the product name and brand, ingredients, nutrition facts, allergens, and any quality or environmental indicators shown.</li>
+  </ol>
+  <div class="grid">
+    <div class="card"><h3>Nutrition &amp; ingredients</h3><p>Read the displayed values and ingredient list carefully. Serving sizes and units matter; compare like with like. Review allergen details on the package, even when the app shows an allergen warning.</p></div>
+    <div class="card"><h3>Scores &amp; indicators</h3><p>Treat scores, labels, and quality metrics as aids to understanding—not a complete judgement of whether a food is right for you. Open any explanation or methodology available in the app.</p></div>
+    <div class="card"><h3>Compare products</h3><p>When comparison is available, select products and compare the same nutrient, unit, and serving basis. Also consider ingredients, allergies, and your own priorities.</p></div>
+    <div class="card"><h3>Personalise</h3><p>Use preference settings, where available, to tailor the assessment to your criteria. A preference is not a diagnosis and does not replace professional dietary advice.</p></div>
+  </div>
+  <h3>If the product is not found or details look wrong</h3>
+  <ul>
+    <li>Check the barcode and try again with the package flat and well lit.</li>
+    <li>Search by product name or barcode if that option is available.</li>
+    <li>Check the network connection and retry. A product record may not yet exist or may be incomplete.</li>
+    <li>If the app offers a product contribution or correction flow, follow its prompts and enter information from the physical package. Do not guess missing values.</li>
+  </ul>
+  <div class="footer"><span>FoodScan · User guide</span><span>2 / 3</span></div>
+</section>
+<section class="page">
+  <div class="kicker">Help &amp; reference</div>
+  <h2>Privacy, safety &amp; troubleshooting</h2>
+  <div class="grid">
+    <div class="card"><h3>Camera or scan problems</h3><p>Confirm camera permission in device settings, clean the lens, improve lighting, and hold the barcode steady. Restart the app if the scanner remains unresponsive.</p></div>
+    <div class="card"><h3>Slow or missing results</h3><p>Check Wi-Fi or mobile data, retry later, and verify the barcode. Search may fail if a record is unavailable or the service is temporarily unreachable.</p></div>
+    <div class="card"><h3>Unexpected app behavior</h3><p>Close and reopen the app, check for an update, and restart the device. If the issue continues, report the device model, app version, and steps to reproduce—avoid sharing sensitive personal information.</p></div>
+    <div class="card"><h3>Permissions &amp; settings</h3><p>Grant only the permissions needed for features you use. You can review or revoke app permissions in your phone’s system settings.</p></div>
+  </div>
+  <h3>Use the information responsibly</h3>
+  <p>FoodScan is an informational tool, not a medical device or a substitute for a clinician, dietitian, or the product label. For allergies, medical diets, infant feeding, or other health concerns, verify details directly with the manufacturer and consult a qualified professional. Never rely on a scan alone to determine whether a product is safe for you.</p>
+  <h3>For developers: run the application</h3>
+  <p class="small">The repository specifies Flutter 3.44.8. Install FVM and the platform toolchain (Android SDK/JDK for Android; Xcode for iOS), then from the repository root:</p>
+  <p class="small"><code>fvm install 3.44.8</code><br><code>cd packages/smooth_app</code><br><code>fvm flutter pub get .</code><br><code>fvm flutter run -t lib/entrypoints/android/main_google_play.dart</code></p>
+  <p class="small">For the iOS entry point, run <code>fvm flutter run -t lib/entrypoints/ios/main_ios.dart</code> on macOS with Xcode configured. The project is modular: the main app is in <code>packages/smooth_app</code>, with scanner and app-store implementations in sibling packages. See the repository README and contribution documentation for current development instructions.</p>
+  <div class="callout small"><strong>Guide scope:</strong> This quick manual is based on the repository README and app configuration. Screen labels, available options, and product information may change between releases. Consult the current in-app help and official repository for updates.</div>
+  <p class="small muted">Project: <a href="https://github.com/Ankita-24-pixel/FoodScan">github.com/Ankita-24-pixel/FoodScan</a><br>Application source: <a href="https://github.com/Ankita-24-pixel/FoodScan/tree/main/packages/smooth_app">packages/smooth_app</a></p>
+  <div class="footer"><span>FoodScan · User guide · Print on A4 or Letter</span><span>3 / 3</span></div>
+</section>
+</body>
+</html>
