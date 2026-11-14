@@ -287,7 +287,7 @@ class _SmoothAppState extends State<SmoothApp> {
           locale: languageCode != null ? Locale(languageCode) : null,
           localizationsDelegates: AppLocalizations.localizationsDelegates,
           supportedLocales: AppLocalizations.supportedLocales,
-          debugShowCheckedModeBanner: !(kReleaseMode || _screenshots),
+          debugShowCheckedModeBanner: false,
           theme: SmoothTheme.getThemeData(
             Brightness.light,
             themeProvider,
@@ -309,6 +309,7 @@ class _SmoothAppState extends State<SmoothApp> {
 
   Widget _buildError(AsyncSnapshot<void> snapshot) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(),
       home: SmoothScaffold(
         body: Center(child: Text('Fatal Error: ${snapshot.error}')),

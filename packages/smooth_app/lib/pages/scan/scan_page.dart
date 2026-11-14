@@ -77,23 +77,13 @@ class _ScanPageState extends State<ScanPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      Expanded(
-                        child: Text(
-                          appLocalizations.camera_window_accessibility_label,
-                          style: Theme.of(context).textTheme.titleLarge
-                              ?.copyWith(fontWeight: FontWeight.w700),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                      const SizedBox(width: SMALL_SPACE),
-                      Icon(
-                        Icons.document_scanner_outlined,
-                        color: themeExtension.primaryDark,
-                      ),
-                    ],
+                  Text(
+                    appLocalizations.camera_window_accessibility_label,
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
+                    maxLines: 2,
+                    softWrap: true,
                   ),
                   const SizedBox(height: SMALL_SPACE),
                   const ScanSearchBar(),
